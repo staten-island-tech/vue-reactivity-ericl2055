@@ -1,30 +1,22 @@
 <template>
   <div class="about">
-    <button @click="authS" v-if="loggedIn">logged in</button>
-    <button v-else>logged out</button>
-    <ul>
-      <li v-for="card in cards" :key="card">{{ card }}</li>
-    </ul>
+    <Button>Button One</Button>
+    <Button>Button Two</Button>
   </div>
 </template>
 <script>
+import Button from '../components/button.vue'
 export default {
   name: 'about',
-  components: {},
+  components: {
+    Button
+  },
   data() {
     return {
-      loggedIn: true
+      selected: ''
     }
   },
-  methods: {
-    authState: function () {
-      if (this.loggedIn === false) {
-        this.loggedIn === true
-      } else {
-        this.loggedIn === false
-      }
-    }
-  }
+  methods: {}
 }
 </script>
 
