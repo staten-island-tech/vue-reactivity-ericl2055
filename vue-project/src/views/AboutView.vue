@@ -1,24 +1,7 @@
 <template>
-  <div class="about">
-    <Button>Button One</Button>
-    <Button>Button Two</Button>
-  </div>
+  <div class="about"></div>
 </template>
-<script>
-import Button from '../components/button.vue'
-export default {
-  name: 'about',
-  components: {
-    Button
-  },
-  data() {
-    return {
-      selected: ''
-    }
-  },
-  methods: {}
-}
-</script>
+<script></script>
 
 <style>
 @media (min-width: 1024px) {
