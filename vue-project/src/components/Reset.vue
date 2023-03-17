@@ -3,13 +3,12 @@
 </template>
 <script>
 export default {
-  name: 'AddButton'
+  name: 'ResetButton'
 }
 </script>
 
-<style>
+<style scoped>
 button {
   font-size: 20px;
-  color: red;
 }
 </style>
