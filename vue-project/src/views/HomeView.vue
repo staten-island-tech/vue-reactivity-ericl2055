@@ -4,9 +4,12 @@
       <ResetButton>Reset Build</ResetButton>
       <Card
         @click="addbuild"
-        title="Ryzen 5 3600"
-        image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71Cb5BoyGkL._AC_UF894,1000_QL80_.jpg"
-        description="The AMD Ryzen 5 3600 3.6 GHz Six-Core AM4 Processor is a powerful six-core processor with 12 threads, designed for socket AM4 motherboards. Built with Zen 2 architecture, the third-generation 7nm Ryzen processor offers increased performance compared to its predecessor."
+        v-for="Card in Card"
+        :key="Card.title"
+        :title="Card.title"
+        :image="Card.image"
+        :price="Card.price"
+        :description="Card.description"
       />
     </div>
   </main>
@@ -25,11 +28,76 @@ export default {
     return {
       Card: [
         {
-          title: 'Ryzen 5 3600',
-          image:
-            'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71Cb5BoyGkL._AC_UF894,1000_QL80_.jpg',
-          description:
-            'The AMD Ryzen 5 3600 3.6 GHz Six-Core AM4 Processor is a powerful six-core processor with 12 threads, designed for socket AM4 motherboards. Built with Zen 2 architecture, the third-generation 7nm Ryzen processor offers increased performance compared to its predecessor.'
+          title: 'Ryzen 5 5600X',
+          image: '',
+          price: '$154.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 5 5600',
+          image: '',
+          price: '$139.79',
+          description: ''
+        },
+        {
+          title: 'Ryzen 5 7600',
+          image: '',
+          price: '$244.44',
+          description: ''
+        },
+        {
+          title: 'Ryzen 5 7600X',
+          image: '',
+          price: '$234.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 7 5700X',
+          image: '',
+          price: '$185.99',
+          description: ''
+        },
+        {
+          title: 'Ryzen 7 7700X',
+          image: '',
+          price: '$338.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 7 7700',
+          image: '',
+          price: '$154.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 7 5800X',
+          image: '',
+          price: '$209.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 9 5900X',
+          image: '',
+          price: '$340.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 9 5950X',
+          image: '',
+          price: '$437.85',
+          description: ''
+        },
+        {
+          title: 'Ryzen 9 7950X',
+          image: '',
+          price: '$560.00',
+          description: ''
+        },
+        {
+          title: 'Ryzen 9 7900X',
+          image: '',
+          price: '$432.00',
+          description: ''
         }
       ],
       build: []

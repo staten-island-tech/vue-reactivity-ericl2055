@@ -3,6 +3,7 @@
     <button>
       <h2>{{ title }}</h2>
       <img v-bind:src="image" alt="" />
+      <h3>{{ price }}</h3>
       <h4>{{ description }}</h4>
     </button>
   </div>
@@ -14,6 +15,7 @@ export default {
   props: {
     title: String,
     image: String,
+    price: String,
     description: String
   }
 }
