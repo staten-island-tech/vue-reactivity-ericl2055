@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style>
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
 img {
   width: 225px;
 }
