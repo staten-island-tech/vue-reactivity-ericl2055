@@ -1,9 +1,9 @@
 <template>
   <main>
-    <ResetButton>Reset Build</ResetButton>
+    <ResetButton @click="build.length = 0">Reset Build</ResetButton>
     <div class="about">
       <Card
-        @click="addbuild"
+        @click="build.cpu.push(Card.title, Card.price)"
         v-for="Card in Card"
         :key="Card.title"
         :title="Card.title"
@@ -11,6 +11,7 @@
         :price="Card.price"
         :description="Card.description"
       />
+      <p>{{ build }}</p>
     </div>
   </main>
 </template>
@@ -142,12 +143,37 @@ export default {
           description: ''
         }
       ],
-      build: []
+      build: [
+        {
+          casefan: '',
+          cpu: '',
+          headphones: '',
+          motherboard: '',
+          monitor: '',
+          internalharddrive: '',
+          externalharddrive: '',
+          ups: '',
+          fancontroller: '',
+          case: '',
+          keyboard: '',
+          mouse: '',
+          wirednetworkcard: '',
+          soundcard: '',
+          videocard: '',
+          speakers: '',
+          opticaldrive: '',
+          powersupply: '',
+          thermalpaste: '',
+          memory: ''
+        }
+      ]
     }
   },
   methods: {
     addbuild: function () {
-      console.log('work')
+      if ((Card[1].charAt(0) == 'R', 'i')) {
+        this.build.cpu.push(Card.title, Card.price)
+      }
     }
   }
 }
