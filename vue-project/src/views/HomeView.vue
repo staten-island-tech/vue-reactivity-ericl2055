@@ -20,6 +20,7 @@ import ResetButton from '../components/Reset.vue'
 import Card from '../components/Card.vue'
 export default {
   name: 'about',
+  builds: localStorage.getItem('builds'),
   components: {
     ResetButton,
     Card
@@ -54,11 +55,7 @@ export default {
     }
   },
   methods: {
-    addbuild: function () {
-      if ((Card[1].charAt(0) == 'R', 'i')) {
-        this.build.cpu.push(Card.title, Card.price)
-      }
-    }
+    addbuild: function () {}
   }
 }
 </script>
