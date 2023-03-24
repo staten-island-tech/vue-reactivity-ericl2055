@@ -3,7 +3,6 @@
     <ResetButton @click="build.length = 0">Reset Build</ResetButton>
     <div class="about">
       <Card
-        @click="build.push(Card.title, Card.price)"
         v-for="Card in Card"
         :key="Card.title"
         :title="Card.title"
