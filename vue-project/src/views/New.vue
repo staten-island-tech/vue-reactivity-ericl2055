@@ -1,18 +1,9 @@
 <template>
   <div class="about">
-    <h1>stuff</h1>
-    <Card
-      v-for="Card in Card"
-      :key="Card.title"
-      :title="Card.title"
-      :image="Card.image"
-      :price="Card.price"
-      :description="Card.description"
-    />
-    <ResetButton @click="build.length = 0">Reset Build</ResetButton>
-    <p>{{ build }}</p>
+    <ResetButton>Reset Build</ResetButton>
   </div>
 </template>
+
 <script>
 import ResetButton from '../components/Reset.vue'
 import Card from '../components/Card.vue'
@@ -25,8 +16,7 @@ export default {
   },
   data() {
     return {
-      Card: [],
-      build: [
+      Card: [
         {
           casefan: '',
           cpu: '',
@@ -49,7 +39,8 @@ export default {
           thermalpaste: '',
           memory: ''
         }
-      ]
+      ],
+      build: [{}]
     }
   },
   methods: {
