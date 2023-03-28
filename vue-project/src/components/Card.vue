@@ -4,7 +4,7 @@
     <img v-bind:src="image" alt="" />
     <h3>{{ price }}</h3>
     <h4>{{ description }}</h4>
-    <button></button>
+    <button>Add To Cart</button>
   </div>
 </template>
 
