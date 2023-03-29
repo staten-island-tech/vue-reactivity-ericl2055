@@ -1,9 +1,8 @@
 <template>
   <div>
-    <h2>{{ title }}</h2>
-    <img v-bind:src="image" alt="" />
-    <h3>{{ price }}</h3>
-    <h4>{{ description }}</h4>
+    <h2>{{ brand }}</h2>
+    <h3>{{ name }}</h3>
+    <h4>{{ price }}</h4>
     <button>Add To Cart</button>
   </div>
 </template>
@@ -12,10 +11,9 @@
 export default {
   name: 'Card',
   props: {
-    title: String,
-    image: String,
-    price: String,
-    description: String
+    brand: String,
+    name: String,
+    price: String
   }
 }
 </script>
