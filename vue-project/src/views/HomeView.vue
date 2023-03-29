@@ -2,7 +2,12 @@
   <main>
     <nav>
       <RouterLink to="/new">New</RouterLink>
-      <RouterLink v-for="build in builds" :to="build.dir">{{ build.name }}</RouterLink>
+      <div class="parent">
+        <div class="child" v-for="build in builds">
+          <RouterLink onload="" to="/new" class="redirect">{{ build.name }}</RouterLink>
+        </div>
+      </div>
+      <!-- :to="build.dir" -->
     </nav>
 
     <div class="about"></div>
@@ -15,7 +20,7 @@ export default {
   components: {},
   data() {
     return {
-      builds: localStorage.getItem('builds')
+      builds: JSON.parse(localStorage.getItem('builds'))
     }
   },
   methods: {
@@ -23,3 +28,28 @@ export default {
   }
 }
 </script>
+<style>
+html,
+*,
+body {
+  font-size: 10px;
+}
+
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.parent {
+  display: flex;
+}
+
+.child {
+  display: flex;
+  color: green;
+  width: 10rem;
+}
+</style>
