@@ -1,8 +1,8 @@
 <template>
   <div id="Build">
     <ul>
-      <li>CPU {{ cpu }}</li>
-      <li>Motherboard {{}}</li>
+      <li>CPU</li>
+      <li>Motherboard</li>
       <li>Memory</li>
       <li>Storage</li>
       <li>Video Card</li>
