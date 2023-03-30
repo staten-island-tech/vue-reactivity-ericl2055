@@ -1,37 +1,43 @@
 <template>
-  <div class="about">
-    <Card
-      v-for="Card in Card"
-      :key="Card.title"
-      :brand="Card.brand"
-      :name="Card.name"
-      :price="Card.price"
-    />
+  <div class="new">
+    <div class="parts">
+      <label for="search">Search:</label>
+    <input type="text" id="search" v-model="Search"/>
+    <select v-model="Selected">
+      <option value="">Select An Item</option>
+      <option v-for="CPU in filterCPU" :value="CPU">{{ CPU.brand }} {{ CPU.model }}   ${{ CPU.price }}</option>
+    </select>
+    </div>
     <ResetButton>Reset Build</ResetButton>
   </div>
 </template>
 
 <script>
-import data from `${name}.json`
+import CPUdata from '../data/cpu.json'
 import ResetButton from '../components/Reset.vue'
-import Card from '../components/Card.vue'
 export default {
   name: 'about',
   builds: localStorage.getItem('builds'),
   components: {
-    Card,
-    ResetButton
+    ResetButton,
   },
   data() {
     return {
-      Card: [
-        {
-          brand: ,
-          name: '',
-          price: ''
-        }
-      ]
+      CPUs: CPUdata.data,
+      Search: '',
+      Selected:''
+      
     }
+  },
+  computed: {
+    filterCPU() {
+      return this.CPUs.filter(CPU => {
+        return  CPU.model.toLowerCase().includes(this.Search.toLowerCase()) && CPU.price > 0
+      })
+    }
+  },
+  mounted() {
+    this.Selected = ''
   },
   methods: {
     addbuild: function () {}
