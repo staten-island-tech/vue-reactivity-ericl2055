@@ -1,11 +1,11 @@
 <template>
   <main>
     <nav>
-      <RouterLink to="/new">New</RouterLink>
       <div class="parent">
         <div class="child" v-for="build in builds">
           <RouterLink onload="" to="/new" class="redirect">{{ build.name }}</RouterLink>
         </div>
+        <RouterLink to="/new" class="child">New</RouterLink>
       </div>
       <!-- :to="build.dir" -->
     </nav>
@@ -34,7 +34,6 @@ html,
 body {
   font-size: 10px;
 }
-
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
@@ -43,13 +42,25 @@ body {
   }
 }
 
+body {
+  padding-top: 15px;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
 .parent {
-  display: flex;
+  display: flexbox;
 }
 
 .child {
   display: flex;
   color: green;
-  width: 10rem;
+  width: 20rem;
+  border-color: grey;
+  border: 1px solid #ddd;
+  padding: 10px;
 }
 </style>
