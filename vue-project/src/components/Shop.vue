@@ -70,11 +70,10 @@ export default {
     addToBuild() {
       if (this.selectedCPU !== null) {
         this.build = this.build.filter((CPU) => {
-          return CPU.brand !== this.selectedCPU.brand
+          return CPU.brand !== this.selectedCPU.brand && this.selectedCPU.model
         })
         this.selectedCPU = Object.assign({}, this.selectedCPU)
         this.build.push(this.selectedCPU)
-        console.log(this.build[0])
       }
     }
   }
