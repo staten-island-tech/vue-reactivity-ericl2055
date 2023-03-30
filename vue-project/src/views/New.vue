@@ -1,7 +1,6 @@
 <template>
   <div class="new">
-    <CPU/>
-    <ResetButton>Reset Build</ResetButton>
+    <CPU />
   </div>
 </template>
 
@@ -12,12 +11,12 @@ export default {
   builds: localStorage.getItem('builds'),
   components: {
     CPU,
-    ResetButton,
+    ResetButton
   },
   data() {
-    return {
-    }
-  }}
+    return {}
+  }
+}
 </script>
 
 <style>
