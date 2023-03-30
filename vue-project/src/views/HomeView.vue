@@ -52,15 +52,29 @@ header {
   height: 50px;
 }
 .parent {
-  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .child {
   display: flex;
   color: green;
-  width: 20rem;
+  width: 30rem;
   border-color: grey;
   border: 1px solid #ddd;
   padding: 10px;
+  margin: 1rem;
+  height: 15rem;
+  border-radius: 2rem;
+}
+
+.child:hover {
+  /* box-shadow: 10px 100px 10px 10px black; */
+}
+.child:hover,
+.child:focus {
+  box-shadow: 0 10px 0.5em -0.4em black;
+  transform: translateY(-10px);
 }
 </style>
