@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="container">
     <header>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/" class="home">Home</RouterLink>
       </nav>
     </header>
     <RouterView class="view"/>
@@ -14,8 +14,13 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+body {
+  
+}
 .container {
   /* width: 100vw; */
+  height: 98.55vh;
+  vertical-align: top;
 }
 
 header {
@@ -27,4 +32,7 @@ header {
   width: 100%;
 }
 
+.home {
+  font-size:2rem;
+}
 </style>
