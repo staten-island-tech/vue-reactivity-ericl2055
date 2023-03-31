@@ -1,10 +1,17 @@
 <template>
   <div class="new">
-    <button @click="selectedManufacturer = ''">All</button>
-    <button @click="selectedManufacturer = 'AMD'">AMD</button>
-    <button @click="selectedManufacturer = 'Intel'">Intel</button>
-    <label for="search">Search:</label>
-    <input type="text" id="search" v-model="Search" />
+    <div class="container">
+      <button @click="selectedManufacturer = ''">All</button>
+      <button @click="selectedManufacturer = 'AMD'">AMD</button>
+      <button @click="selectedManufacturer = 'Intel'">Intel</button>
+      <label for="search">Search:</label>
+      <input type="text" id="search" v-model="Search" />
+    </div>
+    <ul>
+      <li v-for="CPU in filterCPU" :value="CPU">
+        {{ CPU.brand }} {{ CPU.model }} ${{ CPU.price }}
+      </li>
+    </ul>
     <select v-model="selectedCPU" @change="addToBuild">
       <option value="">Select A CPU</option>
       <option v-for="CPU in filterCPU" :value="CPU">
@@ -40,6 +47,7 @@ export default {
         return this.CPUs.filter((CPU) => {
           return (
             CPU.brand === this.selectedManufacturer &&
+            CPU.brand.toLowerCase().includes(this.Search.toLowerCase()) &&
             CPU.model.toLowerCase().includes(this.Search.toLowerCase()) &&
             CPU.price > 0
           )
@@ -50,7 +58,7 @@ export default {
         })
       } else if (this.Search) {
         return this.CPUs.filter((CPU) => {
-          return CPU.model.toLowerCase().includes(this.Search.toLowerCase()) && CPU.price > 0
+          return CPU.brand.toLowerCase().includes(this.Search.toLowerCase()) && CPU.price > 0
         })
       } else {
         return this.CPUs.filter((CPU) => {
@@ -102,5 +110,12 @@ export default {
   option {
     font-size: 16px;
   }
+}
+
+.new {
+  vertical-align: top;
+}
+.container {
+  display: block;
 }
 </style>

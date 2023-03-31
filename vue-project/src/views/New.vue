@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import CPU from '../components/Shop.vue'
+import CPU from '../components/CPU.vue'
 import GPU from '../components/GPU.vue'
 import ResetButton from '../components/Reset.vue'
 export default {
