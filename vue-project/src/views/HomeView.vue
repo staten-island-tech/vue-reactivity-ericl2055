@@ -14,8 +14,6 @@
       </div>
       <!-- :to="build.dir" -->
     </nav>
-
-
   </main>
 </template>
 
@@ -35,9 +33,11 @@ export default {
 </script>
 <style>
 :root {
-  --background-color: rgb(255,255,255);
-  --hover-color: rgb(0,0,0);
+  --background-color: rgb(255, 255, 255);
+  --hover-color: rgb(0, 0, 0);
   --h1-color: rgb(46, 46, 46);
+  --radial-1: rgba(50, 50, 50, 0.35);
+  --radial-2: rgba(0, 0, 0, 0);
 }
 html,
 *,
@@ -45,14 +45,13 @@ body {
   font-size: 10px;
 }
 
-
 @media (prefers-color-scheme: dark) {
-  :root{
-  --hover-color: rgb(255,255,255);
-  --h1-color: rgb(221, 221, 221);
+  :root {
+    --hover-color: rgb(255, 255, 255);
+    --h1-color: rgb(221, 221, 221);
+    --radial-1: rgba(205, 205, 205, 0.35);
   }
 }
-
 
 @media (min-width: 1024px) {
   .about {
@@ -65,7 +64,6 @@ body {
 body {
   height: 100vh;
   padding-top: 15px;
-
 }
 header {
   display: block;
@@ -107,33 +105,36 @@ h1 {
   height: 2rem;
   width: 90%;
   opacity: 0;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0) 70%);
+  background: radial-gradient(ellipse at center, var(--radial-1) 0%, rgba(0, 0, 0, 0) 70%);
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }
 
-.child:hover, .child:focus, .child:active {
+.child:hover,
+.child:focus,
+.child:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
 
-.child:hover:before, .child:focus:before, .child:active:before {
+.child:hover:before,
+.child:focus:before,
+.child:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 .name {
-  width:100%;
+  width: 100%;
   text-align: center;
   font-size: 3rem;
 }
 
 .discription {
-  width:100%;
+  width: 100%;
   text-align: center;
   font-size: 1.5rem;
 }
-
 </style>
