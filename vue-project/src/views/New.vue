@@ -1,19 +1,16 @@
 <template>
   <div class="new">
-    <CPU />
-    <GPU />
+    <Build />
   </div>
 </template>
 
 <script>
-import CPU from '../components/CPU.vue'
-import GPU from '../components/GPU.vue'
+import Build from '../components/Shop.vue'
 import ResetButton from '../components/Reset.vue'
 export default {
   builds: localStorage.getItem('builds'),
   components: {
-    CPU,
-    GPU,
+    Build,
     ResetButton
   },
   data() {
@@ -22,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
@@ -31,7 +28,6 @@ export default {
   }
   .new {
     display: flex;
-    flex-wrap: wrap;
   }
 }
 </style>
