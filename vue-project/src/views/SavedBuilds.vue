@@ -139,7 +139,15 @@ import MBdata from '../data/motherboard.json'
 import CPUdata from '../data/cpu.json'
 export default {
   name: 'Build',
-  builds: localStorage.getItem('builds'),
+  created() {
+    this.cpu = this.build.cpu
+    this.motherboard = this.build.motherboard
+    this.gpu = this.build.gpu
+    this.selectedMB = this.build.motherboard
+    this.selectedGPU = this.build.gpu
+    this.selectedCPU = this.build.cpu
+  },
+  build: localStorage.getItem('builds'),
   data() {
     return {
       build_name: '',
