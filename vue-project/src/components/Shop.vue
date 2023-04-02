@@ -41,26 +41,6 @@
       <h2>Motherboard Selection</h2>
       <div class="MBheader">
         <div>
-          <button
-            @click="selectedMBManufacturer = ''"
-            :class="{ selected: selectedMBManufacturer === '' }"
-          >
-            All
-          </button>
-          <button
-            @click="selectedMBManufacturer = 'AMD'"
-            :class="{ selected: selectedMBManufacturer === 'AMD' }"
-          >
-            AMD
-          </button>
-          <button
-            @click="selectedMBManufacturer = 'Nvidia'"
-            :class="{ selected: selectedMBManufacturer === 'Nvidia' }"
-          >
-            Nvidia
-          </button>
-        </div>
-        <div>
           <label for="search">Search:</label>
           <input type="text" id="search" v-model="MBSearch" />
         </div>
@@ -150,7 +130,6 @@ export default {
       MBSearch: '',
       GPUSearch: '',
       selectedCPUManufacturer: '',
-      selectedMBManufacturer: '',
       selectedGPUManufacturer: '',
       selectedCPU: null,
       selectedMB: null,
@@ -250,13 +229,13 @@ export default {
     },
     totalPrice: function () {
       if (this.selectedCPU !== null && this.selectedMB !== null && this.selectedGPU !== null) {
-        return this.cpu.price + this.motherboard.price + this.gpu.price
+        return (this.cpu.price + this.motherboard.price + this.gpu.price).toFixed(2)
       }
       if (this.selectedMB == null && this.selectedGPU == null) {
         return this.cpu.price
       }
       if (this.selectedGPU == null) {
-        return this.cpu.price + this.motherboard.price
+        return (this.cpu.price + this.motherboard.price).toFixed(2)
       }
       if (this.selectedCPU == null && this.selectedMB == null && this.selectedGPU == null) {
         return 0
