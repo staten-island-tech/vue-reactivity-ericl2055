@@ -7,7 +7,7 @@
           <p class="name">{{ build.name }}</p>
           <p1 class="description"></p1>
         </RouterLink>
-        <RouterLink to="/Shop" class="child">
+        <RouterLink to="/shop" class="child">
           <p class="name">New</p>
           <p1 class="description"></p1>
         </RouterLink>

@@ -2,7 +2,8 @@
   <div class="new">
     <div class="header" v-show="showCPU">
       <div>
-        <button
+        <DropDown :list="filterList" @clickedFilter="filterSelected"/>
+        <button 
           @click="selectedCPUManufacturer = ''"
           :class="{ selected: selectedCPUManufacturer === '' }"
         >
@@ -31,8 +32,8 @@
         <h2>CPU List</h2>
         <ul>
           <li v-for="CPU in filterCPU" :key="CPU.id">
-            {{ CPU.brand }} {{ CPU.model }} - ${{ CPU.price }}
             <button @click="addCPUToBuild(CPU), hideCPU()">Add to Build</button>
+            {{ CPU.brand }} {{ CPU.model }} - ${{ CPU.price }}
           </li>
         </ul>
       </div>
@@ -41,6 +42,7 @@
       <h2>Motherboard Selection</h2>
       <div class="MBheader">
         <div>
+         
           <button
             @click="selectedMBManufacturer = ''"
             :class="{ selected: selectedMBManufacturer === '' }"
@@ -134,6 +136,8 @@
   </div>
 </template>
 <script>
+import DropDown from '../components/DropDown.vue'
+
 import GPUdata from '../data/video-card.json'
 import MBdata from '../data/motherboard.json'
 import CPUdata from '../data/cpu.json'
@@ -142,6 +146,7 @@ export default {
   build: localStorage.getItem('builds'),
   data() {
     return {
+      filterList: ["All", "AMD", "Intel"],
       build_name: '',
       MBs: MBdata.data,
       GPUs: GPUdata.data,
@@ -162,6 +167,9 @@ export default {
       showMB: true,
       showGPU: true
     }
+  },
+  components: {
+    DropDown
   },
   computed: {
     filterCPU() {
@@ -265,6 +273,9 @@ export default {
   },
 
   methods: {
+    filterSelected(data) {
+      console.log(data)
+    },
     saveBuild() {
       const build = {
         name: this.build_name,
@@ -328,7 +339,7 @@ export default {
 .new {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 95vh;
 }
 
 .header {
@@ -336,16 +347,19 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: calc(100vw - 41rem);
   background-color: #f0f0f0;
+  margin-bottom: 3rem;
 }
 
 .cpu-container {
   left: 20rem;
   top: 0rem;
-  width: 1000px;
+  width: calc(100vw - 41rem);
   overflow-y: auto;
   padding: 1rem;
+  border: 1rem solid white;
+  border-radius: 5rem;
 }
 .cpu-list {
   flex: 1;
