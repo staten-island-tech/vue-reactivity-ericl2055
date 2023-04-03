@@ -3,8 +3,8 @@
     <div class="header" v-show="showCPU">
       <h2>CPU Selection</h2>
       <div>
-        <DropDown :list="filterList" @clickedFilter="filterSelected"/>
-        <button 
+        <DropDown :list="filterList" @clickedFilter="filterSelected" />
+        <button
           @click="selectedCPUManufacturer = ''"
           :class="{ selected: selectedCPUManufacturer === '' }"
         >
@@ -258,7 +258,7 @@ export default {
   build: localStorage.getItem('builds'),
   data() {
     return {
-      filterList: ["All", "AMD", "Intel"],
+      filterList: ['All', 'AMD', 'Intel'],
       build_name: '',
       Monitors: Monitordata.data,
       PSUs: PSUdata.data,
@@ -602,7 +602,39 @@ export default {
 
   methods: {
     filterSelected(data) {
-      console.log(data)
+      if ((data = 'AMD')) {
+        return this.CPUs.filter((CPU) => {
+          return CPU.brand === data && CPU.price > 0
+        })
+      }
+      //   filterCPU() {
+      //   if (this.selectedCPUManufacturer && this.CPUSearch) {
+      //     return this.CPUs.filter((CPU) => {
+      //       return (
+      //         CPU.brand === this.selectedCPUManufacturer &&
+      //         (CPU.brand.toLowerCase().includes(this.CPUSearch.toLowerCase()) ||
+      //           CPU.model.toLowerCase().includes(this.CPUSearch.toLowerCase())) &&
+      //         CPU.price > 0
+      //       )
+      //     })
+      //   } else if (this.selectedCPUManufacturer) {
+      //     return this.CPUs.filter((CPU) => {
+      //       return CPU.brand === this.selectedCPUManufacturer && CPU.price > 0
+      //     })
+      //   } else if (this.CPUSearch) {
+      //     return this.CPUs.filter((CPU) => {
+      //       return (
+      //         (CPU.brand.toLowerCase().includes(this.CPUSearch.toLowerCase()) ||
+      //           CPU.model.toLowerCase().includes(this.CPUSearch.toLowerCase())) &&
+      //         CPU.price > 0
+      //       )
+      //     })
+      //   } else {
+      //     return this.CPUs.filter((CPU) => {
+      //       return CPU.price > 0
+      //     })
+      //   }
+      // },
     },
     addCPUToBuild(CPU) {
       this.cpu = CPU
@@ -657,9 +689,7 @@ export default {
     hidePSU() {
       this.showPSU = false
     },
-    hideMonitor() {
-
-    },
+    hideMonitor() {},
     saveBuild() {
       const build = {
         name: this.build_name,

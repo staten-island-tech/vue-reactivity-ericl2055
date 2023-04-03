@@ -3,6 +3,7 @@
     <div class="header" v-show="showCPU">
       <h2>CPU Selection</h2>
       <div>
+        <DropDown :list="filterList" @clickedFilter="filterSelected" />
         <button
           @click="selectedCPUManufacturer = ''"
           :class="{ selected: selectedCPUManufacturer === '' }"
@@ -31,9 +32,9 @@
       <div class="cpu-list">
         <h2>CPU List</h2>
         <ul>
-          <li v-for="CPU in filterCPU" :key="CPU.id">
-            {{ CPU.brand }} {{ CPU.model }} - ${{ CPU.price }}
+          <li v-for="CPU in filterSelected" :key="CPU.id">
             <button @click="addCPUToBuild(CPU), hideCPU()">Add to Build</button>
+            {{ CPU.brand }} {{ CPU.model }} - ${{ CPU.price }}
           </li>
         </ul>
       </div>
@@ -242,6 +243,8 @@
 </template>
 
 <script>
+import DropDown from '../components/DropDown.vue'
+
 import Monitordata from '../data/monitor.json'
 import PSUdata from '../data/power-supply.json'
 import Casedata from '../data/case.json'
@@ -255,6 +258,7 @@ export default {
   build: localStorage.getItem('builds'),
   data() {
     return {
+      filterList: ['All', 'AMD', 'Intel'],
       build_name: '',
       Monitors: Monitordata.data,
       PSUs: PSUdata.data,
@@ -299,6 +303,9 @@ export default {
       showPSU: true,
       showMonitor: true
     }
+  },
+  components: {
+    DropDown
   },
   computed: {
     filterCPU() {
@@ -594,6 +601,7 @@ export default {
   },
 
   methods: {
+    filterSelected(data) {},
     addCPUToBuild(CPU) {
       this.cpu = CPU
       this.selectedCPU = CPU
@@ -647,9 +655,7 @@ export default {
     hidePSU() {
       this.showPSU = false
     },
-    hideMonitor() {
-      this.showMonitor = false
-    },
+    hideMonitor() {},
     saveBuild() {
       const build = {
         name: this.build_name,
@@ -708,6 +714,27 @@ export default {
 .Monitor-container {
   display: flex;
   flex-direction: column;
+  height: 95vh;
+}
+
+.header {
+  left: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100vw - 41rem);
+  background-color: #f0f0f0;
+  margin-bottom: 3rem;
+}
+
+.cpu-container {
+  left: 20rem;
+  top: 0rem;
+  width: calc(100vw - 41rem);
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1rem solid white;
+  border-radius: 5rem;
   height: 100vh;
   width: 1000px;
   overflow-y: auto;
