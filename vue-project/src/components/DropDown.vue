@@ -1,68 +1,70 @@
 <template>
-<ul class="menus">
+  <ul class="menus">
     <li>
-      <button type="button" >Services<span class="arrow"></span>   </button>
+      <button type="button">{{ title }}<span class="arrow"></span></button>
       <ul class="dropdown" id="dropdown1">
-        <li v-for="item in list"><button @click="selectedFilter(item)">{{ item }}</button></li> 
+        <li v-for="item in list">
+          <button @click="selectedFilter(item)">{{ item }}</button>
+        </li>
       </ul>
     </li>
-</ul>
-
+  </ul>
 </template>
 
 <script>
-// https://blog.logrocket.com/making-dropdown-menus-css/ 
+// https://blog.logrocket.com/making-dropdown-menus-css/
 export default {
   name: 'DropDown',
   data() {
-    return {
-     
-    }
+    return {}
   },
   props: {
     list: {
       type: Array,
-      required: true,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
     }
   },
   methods: {
     selectedFilter(filter) {
-      this.$emit('clickedFilter', filter);
+      this.$emit('clickedFilter', filter)
     }
   }
 }
 </script>
 
 <style scoped>
-
 body {
   font-family: sans-serif;
 }
 
 li {
-   list-style: none;
-   font-size: 18px;
+  list-style: none;
+  font-size: 18px;
 }
 
 li button {
-    font-size: inherit;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    width: 100%;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
 }
 
 li button {
-   display: block;
-   color: black;
-   text-decoration: none;
+  display: block;
+  color: black;
+  text-decoration: none;
 }
 
-li button, li button {
+li button,
+li button {
   padding: 0.7rem 1rem;
   text-align: left;
 }
-
 
 .dropdown {
   padding: 2px 1.5rem;
@@ -104,7 +106,8 @@ li:focus-within > button > .arrow {
   transform: initial;
 }
 
-label, input[type="checkbox"] {
+label,
+input[type='checkbox'] {
   display: none;
 }
 
@@ -121,22 +124,20 @@ ul li button:hover {
 .dropdown {
   position: absolute;
   left: auto;
-  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
-  0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08), 0 4px 6px -2px rgba(71, 63, 79, 0.16);
   z-index: 99;
   min-width: 10rem;
   padding: 0;
   background-color: #fff;
-  border-radius: 0 0 0.5rem 0.5rem; 
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 ul li:hover .dropdown {
-  height: fit-content;  
+  height: fit-content;
 }
 
 ul li:hover > button > .arrow {
   transform: rotate(-225deg);
   margin-top: 4px;
 }
-
 </style>

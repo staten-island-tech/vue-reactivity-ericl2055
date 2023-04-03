@@ -3,8 +3,8 @@
     <div class="header" v-show="showCPU">
       <h2>CPU Selection</h2>
       <div>
-        <DropDown :list="filterList" @clickedFilter="filterSelected"/>
-        <button 
+        <DropDown :list="filterList" title="Filter" @clickedFilter="filterSelected" />
+        <button
           @click="selectedCPUManufacturer = ''"
           :class="{ selected: selectedCPUManufacturer === '' }"
         >
@@ -258,7 +258,7 @@ export default {
   build: localStorage.getItem('builds'),
   data() {
     return {
-      filterList: ["All", "AMD", "Intel"],
+      filterList: ['All', 'AMD', 'Intel'],
       build_name: '',
       Monitors: Monitordata.data,
       PSUs: PSUdata.data,
@@ -657,9 +657,7 @@ export default {
     hidePSU() {
       this.showPSU = false
     },
-    hideMonitor() {
-
-    },
+    hideMonitor() {},
     saveBuild() {
       const build = {
         name: this.build_name,

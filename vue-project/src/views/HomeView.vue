@@ -3,13 +3,13 @@
     <nav>
       <h1 id="title">Builds</h1>
       <div class="parent">
-        <RouterLink to="/new" class="child" v-for="build in builds">
+        ""<RouterLink :to="`/${build.name}`" class="child" v-for="build in builds">
           <p class="name">{{ build.name }}</p>
-          <p1 class="description"></p1>
+          <p class="description"></p>
         </RouterLink>
         <RouterLink to="/shop" class="child">
           <p class="name">New</p>
-          <p1 class="description"></p1>
+          <p class="description"></p>
         </RouterLink>
       </div>
       <!-- :to="build.dir" -->
