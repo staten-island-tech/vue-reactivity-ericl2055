@@ -1,6 +1,7 @@
 <template>
   <div class="new">
-    <div class="header" v-show="showCPU">
+    <Component part="cpu" />
+    <!-- <div class="header" v-show="showCPU">
       <h2>CPU Selection</h2>
       <div>
         <DropDown :list="filterList" @clickedFilter="filterSelected" />
@@ -44,16 +45,17 @@
       <label for="name">Name Of Build:</label>
       <input type="text" id="name" v-model="build_name" />
       <button @click="saveBuild()">Save Build</button>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import DropDown from '../components/DropDown.vue'
+import Component from '../components/component.vue'
 
 import caseFan from '../data/case-fan.json'
-import case from '../data/case.json'
-import cpu-cooler from '../data/cpu-cooler.json'
+import Case from '../data/case.json'
+import cpuCooler from '../data/cpu-cooler.json'
 import cpu from '../data/cpu.json'
 import externalHardDrive from '../data/external-hard-drive.json'
 import fanController from '../data/fan-controller.json'
@@ -84,7 +86,8 @@ export default {
     }
   },
   components: {
-    DropDown
+    DropDown,
+    Component
   },
 
   methods: {

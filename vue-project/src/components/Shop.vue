@@ -32,7 +32,7 @@
       <div class="cpu-list">
         <h2>CPU List</h2>
         <ul>
-          <li v-for="CPU in filterSelected" :key="CPU.id">
+          <li v-for="CPU in filterCPU" :key="CPU.id">
             <button @click="addCPUToBuild(CPU), hideCPU()">Add to Build</button>
             {{ CPU.brand }} {{ CPU.model }} - ${{ CPU.price }}
           </li>
