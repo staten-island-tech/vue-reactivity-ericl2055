@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     selectedFilter(filter) {
-      this.$emit('clickedFilter', filter)
+      this.$emit('clickedFilter', [this.title, filter])
     }
   }
 }

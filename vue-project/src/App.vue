@@ -14,9 +14,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-body {
-  
-}
 .container {
   /* width: 100vw; */
   height: 98.55vh;
@@ -34,5 +31,6 @@ header {
 
 .home {
   font-size:2rem;
+  height: 2.5rem;
 }
 </style>

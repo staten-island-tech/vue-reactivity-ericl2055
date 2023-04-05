@@ -1,18 +1,20 @@
 <template>
   <div class="new">
-    <Component part="cpu" />
-    <!-- <div class="header" v-show="showCPU">
+    <div class="header" >
+
       <h2>CPU Selection</h2>
       <div>
-        <DropDown :list="filterList" @clickedFilter="filterSelected" />
+        <DropDown title="Brand" :list="filterList" @clickedFilter="filterSelected" />
       </div>
       <div>
         <label for="search">Search:</label>
-        <input type="text" id="search" v-model="CPUSearch" />
+        <input type="text" id="search"/>
       </div>
-    </div>
-
-    <div v-if="selectedMonitor">
+    </div> 
+    <div class="main">
+      <ComponentDisplay class="display" part="cpu" :filters="this.filters"/>
+    </div> 
+    <!-- <div v-if="selectedMonitor">
       <h2>Finished Build</h2>
     </div>
     <div class="build">
@@ -50,31 +52,9 @@
 </template>
 
 <script>
+import * as data from '../data'
 import DropDown from '../components/DropDown.vue'
-import Component from '../components/component.vue'
-
-import caseFan from '../data/case-fan.json'
-import Case from '../data/case.json'
-import cpuCooler from '../data/cpu-cooler.json'
-import cpu from '../data/cpu.json'
-import externalHardDrive from '../data/external-hard-drive.json'
-import fanController from '../data/fan-controller.json'
-import headphones from '../data/headphones.json'
-import internalHardDrive from '../data/internal-hard-drive.json'
-import keyboard from '../data/keyboard.json'
-import memory from '../data/memory.json'
-import monitor from '../data/monitor.json'
-import motherboard from '../data/motherboard.json'
-import mouse from '../data/mouse.json'
-import opticalDrive from '../data/optical-drive.json'
-import powerSupply from '../data/power-supply.json'
-import soundCard from '../data/sound-card.json'
-import speakers from '../data/speakers.json'
-import thermalPaste from '../data/thermal-paste.json'
-import ups from '../data/ups.json'
-import videoCard from '../data/video-card.json'
-import wiredNetworkCard from '../data/wired-network-card.json'
-import wirelessNetworkCard from '../data/wireless-network-card.json'
+import ComponentDisplay from '../components/ComponentDisplay.vue'
 
 export default {
   name: 'Build',
@@ -82,15 +62,27 @@ export default {
   data() {
     return {
       filterList: ['All', 'AMD', 'Intel'],
+      filters: [],
       build_name: ''
     }
   },
   components: {
     DropDown,
-    Component
+    ComponentDisplay
   },
 
   methods: {
+    filterSelected(filter) {
+      try {
+        this.filters.forEach((existingFilter) => {
+          if (filter[0] === existingFilter.type) {
+            this.filters.splice(this.filters.indexOf(existingFilter), 1, {type: filter[0], filter: filter[1]});
+            throw new Error("Duplicate")
+          }
+        })
+        this.filters.push({type: filter[0], filter: filter[1]})
+      } catch(error) {return }
+    },
     hidePSU() {
       this.showPSU = false
     },
@@ -156,8 +148,13 @@ export default {
   height: 95vh;
 }
 
+.display {
+  height: 80vh;
+}
+
 .header {
   left: 20rem;
+  height: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -166,21 +163,6 @@ export default {
   margin-bottom: 3rem;
 }
 
-.cpu-container {
-  left: 20rem;
-  top: 0rem;
-  width: calc(100vw - 41rem);
-  overflow-y: auto;
-  padding: 1rem;
-  border: 1rem solid white;
-  border-radius: 5rem;
-  height: 100vh;
-  width: 1000px;
-  overflow-y: auto;
-}
-.cpu-list {
-  flex: 1;
-}
 
 .build {
   position: fixed;
@@ -208,20 +190,6 @@ input[type='text'] {
   font-size: 1rem;
   border-radius: 0.25rem;
   border: 1px solid #ccc;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-ul li {
-  font-size: 24px;
 }
 
 .new h2 {

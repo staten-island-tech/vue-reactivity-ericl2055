@@ -12,7 +12,6 @@
           <p class="description"></p>
         </RouterLink>
       </div>
-      <!-- :to="build.dir" -->
     </nav>
   </main>
 </template>
