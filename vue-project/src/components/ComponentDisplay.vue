@@ -2,7 +2,7 @@
   <div class="parts-container">
     <ul>
       <li v-for="part in data" :key="part.id">
-        <button @click="addCPUToBuild(CPU), hideCPU()">Add to Build</button>
+        <button @click="addToBuild()">Add to Build</button>
         {{ part.brand }} {{ part.model }} - ${{ part.price }}
       </li>
     </ul>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import * as data from '../data';
+import * as data from '../data'
 
 export default {
   name: 'about',
@@ -68,38 +68,36 @@ export default {
 }
 
 .parts-container::-webkit-scrollbar {
-  width: 1.2rem;  
+  width: 1.2rem;
 }
 .parts-container::-webkit-scrollbar-track {
   margin: 35px;
 }
 .parts-container::-webkit-scrollbar-thumb {
-  background-color: rgb(70, 70, 70);  
-  border-radius: 20px;    
+  background-color: rgb(70, 70, 70);
+  border-radius: 20px;
 }
 
 ul {
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
-
 }
 
 li {
   margin-bottom: 0.5rem;
   font-size: 2rem;
-  color: rgb(175, 175, 175)
+  color: rgb(175, 175, 175);
 }
 
-
 button {
-  background-color: rgba(0,0,0,0);
-  font-size:1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
   color: rgb(175, 175, 175);
   border: 0.25rem solid rgb(175, 175, 175);
   border-radius: 1rem;
 }
 
 button:hover {
-  background-color: rgb(100,100,100)
+  background-color: rgb(100, 100, 100);
 }
 </style>

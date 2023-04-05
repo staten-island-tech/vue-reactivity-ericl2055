@@ -1,19 +1,19 @@
 <template>
   <div class="new">
-    <div class="header" >
-
+    <Filter />
+    <div class="header">
       <h2>CPU Selection</h2>
       <div>
         <DropDown title="Brand" :list="filterList" @clickedFilter="filterSelected" />
       </div>
       <div>
         <label for="search">Search:</label>
-        <input type="text" id="search"/>
+        <input type="text" id="search" />
       </div>
-    </div> 
+    </div>
     <div class="main">
-      <ComponentDisplay class="display" part="cpu" :filters="this.filters"/>
-    </div> 
+      <ComponentDisplay class="display" :part="this.part" :filters="this.filters" />
+    </div>
     <!-- <div v-if="selectedMonitor">
       <h2>Finished Build</h2>
     </div>
@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import Filter from '../components/filter.vue'
 import * as data from '../data'
 import DropDown from '../components/DropDown.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
@@ -63,12 +64,14 @@ export default {
     return {
       filterList: ['All', 'AMD', 'Intel'],
       filters: [],
-      build_name: ''
+      build_name: '',
+      part: 'cpu'
     }
   },
   components: {
     DropDown,
-    ComponentDisplay
+    ComponentDisplay,
+    Filter
   },
 
   methods: {
@@ -76,12 +79,17 @@ export default {
       try {
         this.filters.forEach((existingFilter) => {
           if (filter[0] === existingFilter.type) {
-            this.filters.splice(this.filters.indexOf(existingFilter), 1, {type: filter[0], filter: filter[1]});
-            throw new Error("Duplicate")
+            this.filters.splice(this.filters.indexOf(existingFilter), 1, {
+              type: filter[0],
+              filter: filter[1]
+            })
+            throw new Error('Duplicate')
           }
         })
-        this.filters.push({type: filter[0], filter: filter[1]})
-      } catch(error) {return }
+        this.filters.push({ type: filter[0], filter: filter[1] })
+      } catch (error) {
+        return
+      }
     },
     hidePSU() {
       this.showPSU = false
@@ -162,7 +170,6 @@ export default {
   background-color: #f0f0f0;
   margin-bottom: 3rem;
 }
-
 
 .build {
   position: fixed;
