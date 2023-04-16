@@ -1,154 +1,139 @@
 <template>
   <main>
-    <ResetButton>Reset Build</ResetButton>
-    <div class="about">
-      <Card
-        @click="addbuild"
-        v-for="Card in Card"
-        :key="Card.title"
-        :title="Card.title"
-        :image="Card.image"
-        :price="Card.price"
-        :description="Card.description"
-      />
-    </div>
+    <nav>
+      <h1 id="title">Builds</h1>
+      <div class="parent">
+        <RouterLink :to="`/${build.name}`" class="child" v-for="build in builds">
+          <p class="name">{{ build.name }}</p>
+          <p class="description"></p>
+        </RouterLink>
+        <RouterLink to="/shop" class="child">
+          <p class="name">New</p>
+          <p class="description"></p>
+        </RouterLink>
+      </div>
+    </nav>
   </main>
 </template>
 
 <script>
-import ResetButton from '../components/Reset.vue'
-import Card from '../components/Card.vue'
 export default {
   name: 'about',
-  components: {
-    ResetButton,
-    Card
-  },
+  components: {},
   data() {
     return {
-      Card: [
-        {
-          title: 'Ryzen 5 5600X',
-          image: '',
-          price: '$154.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 5 5600',
-          image: '',
-          price: '$139.79',
-          description: ''
-        },
-        {
-          title: 'Ryzen 5 7600X',
-          image: '',
-          price: '$244.44',
-          description: ''
-        },
-        {
-          title: 'Ryzen 5 7600',
-          image: '',
-          price: '$234.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 7 5700X',
-          image: '',
-          price: '$185.99',
-          description: ''
-        },
-        {
-          title: 'Ryzen 7 7700X',
-          image: '',
-          price: '$338.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 7 7700',
-          image: '',
-          price: '$154.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 7 5800X',
-          image: '',
-          price: '$209.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 9 5900X',
-          image: '',
-          price: '$340.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 9 5950X',
-          image: '',
-          price: '$437.85',
-          description: ''
-        },
-        {
-          title: 'Ryzen 9 7900X',
-          image: '',
-          price: '$560.00',
-          description: ''
-        },
-        {
-          title: 'Ryzen 9 7950X',
-          image: '',
-          price: '$432.00',
-          description: ''
-        },
-        {
-          title: 'i9 13900',
-          image: '',
-          price: '$519.99',
-          description: ''
-        },
-        {
-          title: 'i9 13900K',
-          image: '',
-          price: '$569.99',
-          description: ''
-        },
-        {
-          title: 'i9 12900',
-          image: '',
-          price: '$539.99',
-          description: ''
-        },
-        {
-          title: 'i7 13700',
-          image: '',
-          price: '$319.99',
-          description: ''
-        },
-        {
-          title: 'i7 13700K',
-          image: '',
-          price: '$417.99',
-          description: ''
-        },
-        {
-          title: 'i7 12700',
-          image: '',
-          price: '$289.99',
-          description: ''
-        },
-        {
-          title: 'i7 12700K',
-          image: '',
-          price: '$319.99',
-          description: ''
-        }
-      ],
-      build: []
+      builds: JSON.parse(localStorage.getItem('builds'))
     }
   },
   methods: {
-    addbuild: function () {
-      console.log('work')
-    }
+    addbuild: function () {}
   }
 }
 </script>
+<style>
+:root {
+  --background-color: rgb(255, 255, 255);
+  --hover-color: rgb(0, 0, 0);
+  --h1-color: rgb(46, 46, 46);
+  --radial-1: rgba(50, 50, 50, 0.35);
+  --radial-2: rgba(0, 0, 0, 0);
+}
+html,
+*,
+body {
+  font-size: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hover-color: rgb(255, 255, 255);
+    --h1-color: rgb(221, 221, 221);
+    --radial-1: rgba(205, 205, 205, 0.35);
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+body {
+  height: 100vh;
+  padding-top: 15px;
+}
+header {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+h1 {
+  display: block;
+  font-size: 5rem;
+  color: var(--h1-color);
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  display: flex;
+  width: 30rem;
+  height: 15rem;
+  color: green;
+  border-color: grey;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 1rem;
+  border-radius: 2rem;
+  transition-duration: 0.3s;
+  font-size: 5rem;
+}
+
+.child:before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 2rem;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, var(--radial-1) 0%, rgba(0, 0, 0, 0) 70%);
+  transition-duration: 0.3s;
+  transition-property: transform, opacity;
+}
+
+.child:hover,
+.child:focus,
+.child:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+
+.child:hover:before,
+.child:focus:before,
+.child:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+.name {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.discription {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+</style>

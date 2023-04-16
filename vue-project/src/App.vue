@@ -3,20 +3,34 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
+  <div class="container">
+    <header>
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/" class="home">Home</RouterLink>
       </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    </header>
+    <RouterView class="view"/>
+  </div>
 </template>
 
 <style scoped>
+.container {
+  /* width: 100vw; */
+  height: 98.55vh;
+  vertical-align: top;
+}
+
 header {
-  width: 200px;
+  width: 100%;
+  height: 20px;
+}
+
+.view {
+  width: 100%;
+}
+
+.home {
+  font-size:2rem;
+  height: 2.5rem;
 }
 </style>
