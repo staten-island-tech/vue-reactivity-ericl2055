@@ -1,10 +1,10 @@
 <template>
   <div class="new">
-    <Filter />
     <div class="header">
       <h2>CPU Selection</h2>
       <div>
         <DropDown title="Brand" :list="filterList" @clickedFilter="filterSelected" />
+        <Filter :list="cities" />
       </div>
       <div>
         <label for="search">Search:</label>
@@ -65,7 +65,8 @@ export default {
       filterList: ['All', 'AMD', 'Intel'],
       filters: [],
       build_name: '',
-      part: 'cpu'
+      part: 'cpu',
+      cities: ['Milwaukee', 'Denver', 'Boston', 'LA']
     }
   },
   components: {

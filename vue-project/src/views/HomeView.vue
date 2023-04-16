@@ -3,7 +3,7 @@
     <nav>
       <h1 id="title">Builds</h1>
       <div class="parent">
-        ""<RouterLink :to="`/${build.name}`" class="child" v-for="build in builds">
+        <RouterLink :to="`/${build.name}`" class="child" v-for="build in builds">
           <p class="name">{{ build.name }}</p>
           <p class="description"></p>
         </RouterLink>

@@ -1,18 +1,13 @@
 <template>
   <div class="checkbox-dropdown">
-    Choose city
+    {{ label }}
     <ul class="checkbox-dropdown-list">
-      <li>
-        <label> <input type="checkbox" value="Vejle" name="city" />Milwaukee</label>
-      </li>
-      <li>
-        <label> <input type="checkbox" value="Horsens" name="city" />Denver</label>
-      </li>
-      <li>
-        <label> <input type="checkbox" value="Kolding" name="city" />Boston</label>
-      </li>
-      <li>
-        <label> <input type="checkbox" value="Kolding" name="city" />LA</label>
+      <li v-for="option in options" :key="option">
+        <label>
+          <input type="checkbox" :value="option" :name="name" @change="onChange" />{{
+            option
+          }}</label
+        >
       </li>
     </ul>
   </div>
@@ -22,19 +17,43 @@
 export default {
   name: 'Filter',
   props: {
-    list: {
+    label: {
+      type: String,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    options: {
       type: Array,
+      required: true
+    },
+    filterBy: {
+      type: String,
+      required: true
+    },
+    filteredValue: {
+      type: String,
+      required: true
+    },
+    onUpdate: {
+      type: Function,
       required: true
     }
   },
-  data() {
-    return {
-      //         $(".checkbox-dropdown").click(function () {
-      //     $(this).toggleClass("is-active");
-      // });
-      // $(".checkbox-dropdown ul").click(function(e) {
-      //     e.stopPropagation();
-      // });
+  computed: {
+    filteredOptions() {
+      return this.options.filter((option) => {
+        return option[this.filterBy] === this.filteredValue
+      })
+    }
+  },
+  methods: {
+    onChange() {
+      const checkedOptions = this.$el.querySelectorAll(`input[name="${this.name}"]:checked`)
+      const values = Array.from(checkedOptions).map((option) => option.value)
+      this.onUpdate(values)
     }
   }
 }
