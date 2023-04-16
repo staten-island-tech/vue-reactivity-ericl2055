@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import Filter from '../components/filter.vue'
+import Filter from '../components/FilterComponent.vue'
 import * as data from '../data'
 import DropDown from '../components/DropDown.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
