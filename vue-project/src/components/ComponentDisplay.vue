@@ -45,17 +45,20 @@ export default {
   },
   computed: {
     filter() {
-      if (this.filters.length === 0) {
-        return this.data.filter((part) => part.price > 0)
+      let filteredData = this.data.filter((part) => part.price > 0)
+
+      if (this.filters.length > 0) {
+        filteredData = this.filters.reduce((filteredData, filter) => {
+          if (filter.type === 'price') {
+            filteredData = filteredData.filter((part) => part.price <= filter.filter)
+          } else {
+            filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
+          }
+          return filteredData
+        }, filteredData)
       }
 
-      return this.filters.reduce((filteredData, filter) => {
-        return filteredData.filter((part) => {
-          const matchesFilter = part[filter.type] === filter.filter
-          const hasPrice = part.price > 0
-          return matchesFilter && hasPrice
-        })
-      }, this.data)
+      return filteredData
     }
   }
 }
