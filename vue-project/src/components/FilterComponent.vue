@@ -6,8 +6,8 @@
     </div>
     <ul class="checkbox-dropdown-list">
       <li v-for="option in options" :key="option">
-        <div class="checkbox-wrapper" @click="toggleCheckbox(option)">
-          <input type="checkbox" :value="option" :checked="selectedFilters.includes(option)" />
+        <div class="checkbox-wrapper">
+          <input type="checkbox" :value="option" :checked="selectedFilters.push(option)" />
           <label>{{ option }}</label>
         </div>
       </li>
@@ -40,7 +40,8 @@ export default {
       this.isActive = !this.isActive
     },
     applyFilters() {
-      this.$emit('filter-changed', { type: this.part, filters: this.selectedFilters })
+      console.log(this.selectedFilters)
+      this.$emit('filter-changed', this.selectedFilters)
     }
   }
 }

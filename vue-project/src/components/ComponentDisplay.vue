@@ -40,7 +40,7 @@ export default {
   },
   watch: {
     filters(newVal, oldVal) {
-      this.filter()
+      // this.filter()
     }
   },
   computed: {

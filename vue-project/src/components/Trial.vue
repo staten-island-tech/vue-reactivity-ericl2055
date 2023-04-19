@@ -4,8 +4,7 @@
       <div>
         <h2>CPU Selection</h2>
         <div class="filters">
-          <Filter part="CPU" :options="filters" />
-          <DropDown title="Brand" :list="filterList" @clickedFilter="filterSelected" />
+          <Filter v-on:filter-changed="updateFilter" part="CPU" :options="filterOptions" />
         </div>
       </div>
       <div>
@@ -14,7 +13,7 @@
       </div>
     </div>
     <div class="main">
-      <ComponentDisplay class="display" :part="this.part" :filters="this.filters" />
+      <ComponentDisplay class="display" :part="this.part" :filters="this.activeFilters" />
     </div>
   </div>
 </template>
@@ -28,11 +27,11 @@ export default {
   name: 'Build',
   data() {
     return {
-      filterList: ['All', 'AMD', 'Intel'],
-      filters: [
+      filterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'price', filter: 100 }
       ],
+      activeFilters: [],
       build_name: '',
       part: 'cpu'
     }
@@ -40,6 +39,11 @@ export default {
   components: {
     ComponentDisplay,
     Filter
+  },
+  methods: {
+    updateFilter(selectedFilters) {
+      this.activeFilters = selectedFilters
+    }
   }
 }
 </script>
