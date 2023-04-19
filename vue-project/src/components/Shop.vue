@@ -3,7 +3,6 @@
     <div class="header" v-show="showCPU">
       <h2>CPU Selection</h2>
       <div>
-        <DropDown :list="filterList" @clickedFilter="filterSelected" />
         <button
           @click="selectedCPUManufacturer = ''"
           :class="{ selected: selectedCPUManufacturer === '' }"

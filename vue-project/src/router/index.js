@@ -18,7 +18,7 @@ let activeRoutes = [
   {
     path: '/shop',
     name: 'shop',
-    component: () => import('../components/Shop.vue')
+    component: () => import('../components/Trial.vue')
   }
 ]
 

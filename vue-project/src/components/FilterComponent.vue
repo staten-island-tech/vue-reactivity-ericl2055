@@ -1,15 +1,18 @@
 <template>
-  <div class="checkbox-dropdown">
-    {{ label }}
+  <div class="checkbox-dropdown" :class="{ 'is-active': isActive }">
+    <div class="checkbox-dropdown-toggle" @click="toggleActive">
+      <span>Filter by {{ part }}</span>
+      <span class="icon" v-html="isActive ? '&and;' : '&or;'"></span>
+    </div>
     <ul class="checkbox-dropdown-list">
       <li v-for="option in options" :key="option">
-        <label>
-          <input type="checkbox" :value="option" :name="name" @change="onChange" />{{
-            option
-          }}</label
-        >
+        <div class="checkbox-wrapper" @click="toggleCheckbox(option)">
+          <input type="checkbox" :value="option" :checked="selectedFilters.includes(option)" />
+          <label>{{ option }}</label>
+        </div>
       </li>
     </ul>
+    <button @click="applyFilters">Apply Filters</button>
   </div>
 </template>
 
@@ -17,43 +20,27 @@
 export default {
   name: 'Filter',
   props: {
-    label: {
-      type: String,
-      required: true
-    },
-    name: {
+    part: {
       type: String,
       required: true
     },
     options: {
       type: Array,
       required: true
-    },
-    filterBy: {
-      type: String,
-      required: true
-    },
-    filteredValue: {
-      type: String,
-      required: true
-    },
-    onUpdate: {
-      type: Function,
-      required: true
     }
   },
-  computed: {
-    filteredOptions() {
-      return this.options.filter((option) => {
-        return option[this.filterBy] === this.filteredValue
-      })
+  data() {
+    return {
+      selectedFilters: [],
+      isActive: false
     }
   },
   methods: {
-    onChange() {
-      const checkedOptions = this.$el.querySelectorAll(`input[name="${this.name}"]:checked`)
-      const values = Array.from(checkedOptions).map((option) => option.value)
-      this.onUpdate(values)
+    toggleActive() {
+      this.isActive = !this.isActive
+    },
+    applyFilters() {
+      this.$emit('filter-changed', { type: this.part, filters: this.selectedFilters })
     }
   }
 }
@@ -66,12 +53,22 @@ export default {
   padding: 10px;
   position: relative;
   margin: 0 auto;
-
   user-select: none;
 }
 
+.checkbox-dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* Display CSS arrow to the right of the dropdown text */
-.checkbox-dropdown:after {
+.checkbox-dropdown-toggle span.icon {
+  font-size: 1.2rem;
+}
+
+.checkbox-dropdown-toggle span.icon::before {
   content: '';
   height: 0;
   position: absolute;
@@ -84,7 +81,7 @@ export default {
 }
 
 /* Reverse the CSS arrow when the dropdown is active */
-.checkbox-dropdown.is-active:after {
+.checkbox-dropdown.is-active .checkbox-dropdown-toggle span.icon::before {
   border-bottom-color: #000;
   border-top-color: #fff;
   margin-top: -9px;
