@@ -2,13 +2,19 @@
   <div class="checkbox-dropdown" :class="{ 'is-active': isActive }">
     <div class="checkbox-dropdown-toggle" @click="toggleActive">
       <span>Filter by {{ part }}</span>
-      <span class="icon" v-html="isActive ? '&and;' : '&or;'"></span>
+      <span class="arrow"></span>
     </div>
     <ul class="checkbox-dropdown-list">
       <li v-for="option in options" :key="option">
         <div class="checkbox-wrapper">
-          <input type="checkbox" :value="option" :checked="selectedFilters.push(option)" />
-          <label>{{ option }}</label>
+          <input type="checkbox" :value="option" v-model="selectedFilters" />
+          <label>
+            {{
+              option.type === 'price'
+                ? option.type.toUpperCase() + ' - less than or equal to $' + option.filter
+                : option.type.toUpperCase() + ' - ' + option.filter
+            }}
+          </label>
         </div>
       </li>
     </ul>
@@ -56,7 +62,6 @@ export default {
   margin: 0 auto;
   user-select: none;
 }
-
 .checkbox-dropdown-toggle {
   display: flex;
   justify-content: space-between;
@@ -65,24 +70,24 @@ export default {
 }
 
 /* Display CSS arrow to the right of the dropdown text */
-.checkbox-dropdown-toggle span.icon {
+.checkbox-dropdown-toggle span.arrow {
   font-size: 1.2rem;
 }
 
-.checkbox-dropdown-toggle span.icon::before {
+.checkbox-dropdown-toggle span.arrow::before {
   content: '';
   height: 0;
   position: absolute;
   width: 0;
   border: 6px solid transparent;
-  border-top-color: #000;
+  border-top-color: #ffffff;
   top: 50%;
   right: 10px;
   margin-top: -3px;
 }
 
 /* Reverse the CSS arrow when the dropdown is active */
-.checkbox-dropdown.is-active .checkbox-dropdown-toggle span.icon::before {
+.checkbox-dropdown.is-active .checkbox-dropdown-toggle span.arrow::before {
   border-bottom-color: #000;
   border-top-color: #fff;
   margin-top: -9px;

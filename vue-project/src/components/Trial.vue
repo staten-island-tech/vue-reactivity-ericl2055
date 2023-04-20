@@ -1,24 +1,26 @@
 <template>
   <div class="new">
     <div class="header">
-      <div>
-        <h2>CPU Selection</h2>
-        <div class="filters">
-          <Filter v-on:filter-changed="updateFilter" part="CPU" :options="filterOptions" />
-        </div>
+      <h2>CPU Selection</h2>
+    </div>
+    <div class="main">
+      <div class="display">
+        <ComponentDisplay class="display" :part="this.part" :filters="this.activeFilters" />
       </div>
-      <div>
+      <div class="filters">
+        <Filter v-on:filter-changed="updateFilter" part="CPU" :options="filterOptions" />
         <label for="search">Search:</label>
         <input type="text" id="search" />
       </div>
-    </div>
-    <div class="main">
-      <ComponentDisplay class="display" :part="this.part" :filters="this.activeFilters" />
+      <div class="build-display">
+        <Build :components="computerBuild" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import Build from '../components/BuildComponent.vue'
 import Filter from '../components/FilterComponent.vue'
 import * as data from '../data'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
@@ -29,16 +31,33 @@ export default {
     return {
       filterOptions: [
         { type: 'brand', filter: 'Intel' },
+        { type: 'brand', filter: 'AMD' },
         { type: 'price', filter: 100 }
       ],
       activeFilters: [],
       build_name: '',
+      computerBuild: [
+        {
+          type: 'cpu',
+          brand: 'Intel',
+          model: 'i7-10700K',
+          price: 399.99
+        },
+        {
+          type: 'gpu',
+          brand: 'Nvidia',
+          model: 'RTX 3080',
+          price: 999.99
+        }
+      ],
+      allParts: [],
       part: 'cpu'
     }
   },
   components: {
     ComponentDisplay,
-    Filter
+    Filter,
+    Build
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -52,7 +71,14 @@ export default {
 * {
   font-size: 16px;
 }
+.main {
+  display: flex;
+  width: 2000px;
+}
 
+.display {
+  position: static;
+}
 .filters {
   display: flex;
   align-items: center;
@@ -70,6 +96,7 @@ export default {
 }
 
 .header h2 {
+  font-size: 25px;
   margin: 0;
 }
 
@@ -85,7 +112,6 @@ export default {
 }
 
 .new {
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 10px;
 }
 </style>

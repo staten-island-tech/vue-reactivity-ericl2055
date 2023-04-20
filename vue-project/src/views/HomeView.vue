@@ -12,18 +12,37 @@
           <p class="description"></p>
         </RouterLink>
       </div>
+      <Build :components="computerBuild" />
     </nav>
   </main>
 </template>
 
 <script>
+import Build from '../components/BuildComponent.vue'
 export default {
   name: 'about',
   components: {},
   data() {
     return {
+      computerBuild: [
+        {
+          type: 'cpu',
+          brand: 'Intel',
+          model: 'i7-10700K',
+          price: 399.99
+        },
+        {
+          type: 'gpu',
+          brand: 'Nvidia',
+          model: 'RTX 3080',
+          price: 999.99
+        }
+      ],
       builds: JSON.parse(localStorage.getItem('builds'))
     }
+  },
+  components: {
+    Build
   },
   methods: {
     addbuild: function () {}

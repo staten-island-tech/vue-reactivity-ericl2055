@@ -73,6 +73,7 @@ export default {
   border: 0.9rem solid white;
   border-radius: 5rem;
   width: 100rem;
+  height: 90vh;
   overflow-y: auto;
 }
 
