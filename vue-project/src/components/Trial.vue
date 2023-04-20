@@ -90,7 +90,9 @@ export default {
       this.activeFilters = selectedFilters
     },
     updatePart() {
+      console.log('work')
       this.part = 'gpu'
+      console.log(this.part)
     }
   }
 }
