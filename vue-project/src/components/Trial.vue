@@ -13,7 +13,7 @@
         <input type="text" id="search" />
       </div>
       <div class="build-display">
-        <Build :components="computerBuild" />
+        <!-- <Build :components="computerBuild" /> -->
       </div>
     </div>
   </div>
