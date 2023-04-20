@@ -33,9 +33,8 @@ export default {
     }
   },
   methods: {
-    addToBuild(CPU) {
-      this.cpu = CPU
-      this.selectedCPU = CPU
+    addToBuild(part) {
+      this.$emit('add-to-build', part)
     }
   },
   watch: {

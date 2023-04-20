@@ -5,7 +5,12 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay class="display" :part="this.part" :filters="this.activeFilters" />
+        <ComponentDisplay
+          v-on:add-to-build="updatePart"
+          class="display"
+          :part="this.part"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="filters">
         <Filter v-on:filter-changed="updateFilter" part="CPU" :options="filterOptions" />
@@ -50,7 +55,28 @@ export default {
           price: 999.99
         }
       ],
-      allParts: [],
+      allParts: [
+        'cpu',
+        'video-card',
+        'case-fan',
+        'case',
+        'cpu-cooler',
+        'external-hard-drive',
+        'fan-controller',
+        'headphones',
+        'internal-hard-drive',
+        'keyboard',
+        'memory',
+        'monitor',
+        'motherboard',
+        'mouse',
+        'power-supply',
+        'sound-card',
+        'speakers',
+        'thermal-paste',
+        'wired-network-card',
+        'wireless-network-card'
+      ],
       part: 'cpu'
     }
   },
@@ -62,6 +88,9 @@ export default {
   methods: {
     updateFilter(selectedFilters) {
       this.activeFilters = selectedFilters
+    },
+    updatePart() {
+      this.part = 'gpu'
     }
   }
 }
