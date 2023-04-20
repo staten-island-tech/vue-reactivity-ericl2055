@@ -5,15 +5,10 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay
-          v-on:add-to-build="updatePart"
-          class="display"
-          :part="this.part"
-          :filters="this.activeFilters"
-        />
+        <ComponentDisplay class="display" part="cpu" :filters="this.activeFilters" />
       </div>
       <div class="filters">
-        <Filter v-on:filter-changed="updateFilter" part="CPU" :options="filterOptions" />
+        <Filter v-on:filter-changed="updateFilter" part="CPU" :options="CPUfilterOptions" />
         <label for="search">Search:</label>
         <input type="text" id="search" />
       </div>
@@ -34,7 +29,7 @@ export default {
   name: 'Build',
   data() {
     return {
-      filterOptions: [
+      CPUfilterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'brand', filter: 'AMD' },
         { type: 'price', filter: 100 }
@@ -54,30 +49,7 @@ export default {
           model: 'RTX 3080',
           price: 999.99
         }
-      ],
-      allParts: [
-        'cpu',
-        'video-card',
-        'case-fan',
-        'case',
-        'cpu-cooler',
-        'external-hard-drive',
-        'fan-controller',
-        'headphones',
-        'internal-hard-drive',
-        'keyboard',
-        'memory',
-        'monitor',
-        'motherboard',
-        'mouse',
-        'power-supply',
-        'sound-card',
-        'speakers',
-        'thermal-paste',
-        'wired-network-card',
-        'wireless-network-card'
-      ],
-      part: 'cpu'
+      ]
     }
   },
   components: {
