@@ -2,6 +2,9 @@
   <div class="build-container">
     <h2>Build</h2>
     <ul>
+      <!-- <li v-for="component in component" :key="component.id">
+        {{ component.brand }} {{ component.model }} - ${{ component.price }}
+      </li> -->
       <li v-for="component in cpuComponents" :key="component.id">
         {{ component.type.toUpperCase() }}: {{ component.brand }} {{ component.model }} - ${{
           component.price

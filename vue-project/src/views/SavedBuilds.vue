@@ -5,7 +5,12 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay class="display" part="cpu" :filters="this.activeFilters" />
+        <ComponentDisplay
+          v-on:addBuild="updateBuild"
+          class="display"
+          part="cpu"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="filters">
         <Filter v-on:filter-changed="updateFilter" part="CPU" :options="CPUfilterOptions" />
@@ -59,6 +64,10 @@ export default {
   methods: {
     updateFilter(selectedFilters) {
       this.activeFilters = selectedFilters
+    },
+    updateBuild(part) {
+      this.computerBuild.push(part)
+      console.log(this.computerBuild)
     }
   }
 }
