@@ -2,18 +2,8 @@
   <div class="build-container">
     <h2>Build</h2>
     <ul>
-      <!-- <li v-for="component in component" :key="component.id">
+      <li v-for="component in components" :key="component.id">
         {{ component.brand }} {{ component.model }} - ${{ component.price }}
-      </li> -->
-      <li v-for="component in cpuComponents" :key="component.id">
-        {{ component.type.toUpperCase() }}: {{ component.brand }} {{ component.model }} - ${{
-          component.price
-        }}
-      </li>
-      <li v-for="component in gpuComponents" :key="component.id">
-        {{ component.type.toUpperCase() }}: {{ component.brand }} {{ component.model }} - ${{
-          component.price
-        }}
       </li>
     </ul>
   </div>
@@ -26,14 +16,6 @@ export default {
     components: {
       type: Array,
       required: false
-    }
-  },
-  computed: {
-    cpuComponents() {
-      return this.components.filter((component) => component.type === 'cpu')
-    },
-    gpuComponents() {
-      return this.components.filter((component) => component.type === 'gpu')
     }
   }
 }

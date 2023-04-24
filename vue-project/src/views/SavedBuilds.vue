@@ -40,20 +40,7 @@ export default {
       ],
       activeFilters: [],
       build_name: '',
-      computerBuild: [
-        {
-          type: 'cpu',
-          brand: 'Intel',
-          model: 'i7-10700K',
-          price: 399.99
-        },
-        {
-          type: 'gpu',
-          brand: 'Nvidia',
-          model: 'RTX 3080',
-          price: 999.99
-        }
-      ]
+      computerBuild: []
     }
   },
   components: {
