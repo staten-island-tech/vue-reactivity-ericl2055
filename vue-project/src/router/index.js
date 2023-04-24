@@ -14,11 +14,6 @@ let activeRoutes = [
     // this generates a separate chunk (About.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/SavedBuilds.vue')
-  },
-  {
-    path: '/shop',
-    name: 'shop',
-    component: () => import('../components/Trial.vue')
   }
 ]
 
