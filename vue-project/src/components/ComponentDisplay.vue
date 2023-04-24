@@ -34,6 +34,7 @@ export default {
   },
   methods: {
     addToBuild(part) {
+      console.log('works')
       this.$emit('add-to-build', part)
     }
   },
