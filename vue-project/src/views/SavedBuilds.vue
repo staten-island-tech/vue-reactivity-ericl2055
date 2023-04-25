@@ -1,15 +1,17 @@
 <template>
-  <div class="new" :onload="log()">
+  <div class="new">
     <div class="header">
+      <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
         {{
           this.dataList[this.selectedValue]
             .split(/(?=[A-Z])/)
-            .forEach((value) => (value = value.toUpperCase()))
+            .map((value) => value.charAt(0).toUpperCase() + value.slice(1))
             .join(' ')
         }}
         Selection
       </h2>
+      <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
     <div class="main">
       <div class="display">
@@ -92,13 +94,10 @@ export default {
     updateFilter(selectedFilters) {
       this.activeFilters = selectedFilters
     },
-    log() {
-      console.log(
-        this.dataList[this.selectedValue]
-          .split(/(?=[A-Z])/)
-          .forEach((value) => console.log(value.split(1)))
-          .join(' ')
-      )
+    changeValue(num) {
+      this.selectedValue += num
+      if (this.selectedValue === -1) this.selectedValue = this.dataList.length - 1
+      else if (this.selectedValue === this.dataList.length) this.selectedValue = 0
     }
   }
 }
@@ -127,14 +126,17 @@ export default {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
+  width: 100rem;
 }
 
 .header h2 {
   font-size: 25px;
   margin: 0;
+  width: 50rem;
+  text-align: center;
 }
 
 .header label {
@@ -150,5 +152,22 @@ export default {
 
 .new {
   margin: 10px;
+}
+
+.arrow {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid #ccc;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 3px;
+}
+#right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 </style>
