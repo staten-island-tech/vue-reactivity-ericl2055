@@ -18,7 +18,7 @@
         <ComponentDisplay
           v-on:addBuild="updateBuild"
           class="display"
-          part="this.dataList[this.selectedValue]"
+          :part="this.dataList[this.selectedValue]"
           :filters="this.activeFilters"
         />
       </div>
