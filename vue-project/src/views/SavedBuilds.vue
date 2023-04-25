@@ -1,15 +1,15 @@
 <template>
-  <div class="new" :onload="log()">
+  <div class="new">
     <div class="header">
-      <h2>
-        {{
+      <!-- <h2>
+        {{:onload="log()" <-supposed to be in class="new" _____
           this.dataList[this.selectedValue]
             .split(/(?=[A-Z])/)
             .forEach((value) => (value = value.toUpperCase()))
             .join(' ')
         }}
         Selection
-      </h2>
+      </h2> -->
     </div>
     <div class="main">
       <div class="display">
@@ -74,7 +74,6 @@ export default {
         'videoCard',
         'networkCard'
       ]
-
     }
   },
   components: {
@@ -90,15 +89,15 @@ export default {
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
-
-    log() {
-      console.log(
-        this.dataList[this.selectedValue]
-          .split(/(?=[A-Z])/)
-          .forEach((value) => console.log(value.split(1)))
-          .join(' ')
-      )
     }
+    // log() {
+    //   console.log(
+    //     this.dataList[this.selectedValue]
+    //       .split(/(?=[A-Z])/)
+    //       .forEach((value) => console.log(value.split(1)))
+    //       .join(' ')
+    //   )
+    // }
   }
 }
 </script>
