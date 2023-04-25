@@ -1,5 +1,5 @@
 <template>
-  <div class="new">
+  <div class="new" @load="console.log(this.dataList[this.selectedValue])">
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
@@ -87,16 +87,17 @@ export default {
   methods: {
     updateFilter(selectedFilters) {
       this.activeFilters = selectedFilters
-    }, createControlls
+    },
     changeValue(num) {
       this.selectedValue += num
       if (this.selectedValue === -1) this.selectedValue = this.dataList.length - 1
       else if (this.selectedValue === this.dataList.length) this.selectedValue = 0
-  },
+    },
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
   }
+} 
 }
 </script>
 
