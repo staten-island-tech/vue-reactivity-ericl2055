@@ -2,7 +2,7 @@
   <div class="parts-container">
     <ul>
       <li v-for="part in filter" :key="part.id">
-        <button @click="addToBuild()">Add to Build</button>
+        <button @click="addToBuild(part)">Add to Build</button>
         {{ part.brand }} {{ part.model }} - ${{ part.price }}
       </li>
     </ul>
@@ -35,7 +35,7 @@ export default {
   methods: {
     addToBuild(part) {
       console.log('works')
-      this.$emit('add-to-build', part)
+      this.$emit('addBuild', part)
     }
   },
   watch: {
