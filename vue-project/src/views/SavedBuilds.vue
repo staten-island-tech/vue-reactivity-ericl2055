@@ -1,7 +1,15 @@
 <template>
-  <div class="new">
+  <div class="new" :onload="log()">
     <div class="header">
-      <h2>CPU Selection</h2>
+      <h2>
+        {{
+          this.dataList[this.selectedValue]
+            .split(/(?=[A-Z])/)
+            .forEach((value) => (value = value.toUpperCase()))
+            .join(' ')
+        }}
+        Selection
+      </h2>
     </div>
     <div class="main">
       <div class="display">
@@ -40,7 +48,33 @@ export default {
       ],
       activeFilters: [],
       build_name: '',
-      computerBuild: []
+
+      computerBuild: [],
+      selectedValue: 0,
+      dataList: [
+        'caseFan',
+        'case',
+        'cpuCooler',
+        'cpu',
+        'externalHardDrive',
+        'fanController',
+        'headphones',
+        'internalHardDrive',
+        'keyboard',
+        'memory',
+        'monitor',
+        'motherboard',
+        'mouse',
+        'opticalDrive',
+        'powerSupply',
+        'soundCard',
+        'speakers',
+        'thermalPaste',
+        'ups',
+        'videoCard',
+        'networkCard'
+      ]
+
     }
   },
   components: {
@@ -52,9 +86,18 @@ export default {
     updateFilter(selectedFilters) {
       this.activeFilters = selectedFilters
     },
+
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
+
+    log() {
+      console.log(
+        this.dataList[this.selectedValue]
+          .split(/(?=[A-Z])/)
+          .forEach((value) => console.log(value.split(1)))
+          .join(' ')
+      )
     }
   }
 }
