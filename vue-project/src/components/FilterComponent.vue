@@ -41,6 +41,7 @@ export default {
       isActive: false
     }
   },
+  mounted() {},
   methods: {
     toggleActive() {
       this.isActive = !this.isActive

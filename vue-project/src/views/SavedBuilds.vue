@@ -21,13 +21,14 @@
     <div class="main">
       <div class="display">
         <ComponentDisplay
-          v-on:addBuild="updateBuild"
+          @addBuild="updateBuild"
           class="display"
           :part="this.dataList[this.selectedValue]"
           :filters="this.activeFilters"
         />
       </div>
       <div class="filters">
+
         <Filter
           v-on:filter-changed="updateFilter"
           :part="
@@ -40,6 +41,7 @@
               )
               .join(' ')
           "
+
           :options="CPUfilterOptions"
         />
         <label for="search">Search:</label>
@@ -54,7 +56,7 @@
 
 <script>
 import BuildComp from '../components/BuildComponent.vue'
-import Filter from '../components/FilterComponent.vue'
+import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
 
 export default {
@@ -98,7 +100,7 @@ export default {
   },
   components: {
     ComponentDisplay,
-    Filter,
+    FilterComp,
     BuildComp
   },
   methods: {
