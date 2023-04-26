@@ -1,7 +1,5 @@
 <template>
-
   <div class="new">
-
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
@@ -30,7 +28,20 @@
         />
       </div>
       <div class="filters">
-        <Filter v-on:filter-changed="updateFilter" part="CPU" :options="CPUfilterOptions" />
+        <Filter
+          v-on:filter-changed="updateFilter"
+          :part="
+            this.dataList[this.selectedValue]
+              .split(/(?=[A-Z])/)
+              .map((string) =>
+                string.match(/cpu|ups/i)
+                  ? string.toUpperCase()
+                  : string.charAt(0).toUpperCase() + string.slice(1)
+              )
+              .join(' ')
+          "
+          :options="CPUfilterOptions"
+        />
         <label for="search">Search:</label>
         <input type="text" id="search" />
       </div>
@@ -103,7 +114,6 @@ export default {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
       this.changeValue(1)
-
     }
   }
 }

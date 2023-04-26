@@ -34,8 +34,7 @@ export default {
   },
   methods: {
     addToBuild(part) {
-      console.log('works')
-      this.$emit('addBuild', part, 1)
+      this.$emit('addBuild', part)
     }
   },
   watch: {
@@ -45,6 +44,7 @@ export default {
   },
   computed: {
     filter() {
+      console.log('work')
       let filteredData = this.data.filter((part) => part.price > 0)
 
       if (this.filters.length > 0) {
