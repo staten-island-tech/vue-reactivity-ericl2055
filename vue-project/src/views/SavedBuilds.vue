@@ -1,14 +1,19 @@
 <template>
-  <div class="new" @load="console.log(this.dataList[this.selectedValue])">
+  <div class="new">
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
         {{
           this.dataList[this.selectedValue]
             .split(/(?=[A-Z])/)
-            .map((value) => value.charAt(0).toUpperCase() + value.slice(1))
+            .map((string) =>
+              string.match(/cpu|ups/i)
+                ? string.toUpperCase()
+                : string.charAt(0).toUpperCase() + string.slice(1)
+            )
             .join(' ')
         }}
+
         Selection
       </h2>
       <button class="arrow" id="right" @click="changeValue(1)"></button>
@@ -76,7 +81,6 @@ export default {
         'videoCard',
         'networkCard'
       ]
-
     }
   },
   components: {
@@ -96,8 +100,8 @@ export default {
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
+    }
   }
-} 
 }
 </script>
 
