@@ -78,6 +78,7 @@ export default {
 }
 
 .parts-container::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0);
   width: 1.2rem;
 }
 .parts-container::-webkit-scrollbar-track {
