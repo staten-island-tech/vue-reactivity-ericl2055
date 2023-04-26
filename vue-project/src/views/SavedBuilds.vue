@@ -28,9 +28,20 @@
         />
       </div>
       <div class="filters">
-        <FilterComp
+
+        <Filter
           v-on:filter-changed="updateFilter"
-          :part="this.dataList[this.selectedValue]"
+          :part="
+            this.dataList[this.selectedValue]
+              .split(/(?=[A-Z])/)
+              .map((string) =>
+                string.match(/cpu|ups/i)
+                  ? string.toUpperCase()
+                  : string.charAt(0).toUpperCase() + string.slice(1)
+              )
+              .join(' ')
+          "
+
           :options="CPUfilterOptions"
         />
         <label for="search">Search:</label>
