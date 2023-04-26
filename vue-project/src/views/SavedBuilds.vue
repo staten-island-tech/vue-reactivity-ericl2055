@@ -1,7 +1,5 @@
 <template>
-
   <div class="new">
-
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
@@ -23,14 +21,18 @@
     <div class="main">
       <div class="display">
         <ComponentDisplay
-          v-on:addBuild="updateBuild"
+          @addBuild="updateBuild"
           class="display"
           :part="this.dataList[this.selectedValue]"
           :filters="this.activeFilters"
         />
       </div>
       <div class="filters">
-        <Filter v-on:filter-changed="updateFilter" part="CPU" :options="CPUfilterOptions" />
+        <FilterComp
+          v-on:filter-changed="updateFilter"
+          :part="this.dataList[this.selectedValue]"
+          :options="CPUfilterOptions"
+        />
         <label for="search">Search:</label>
         <input type="text" id="search" />
       </div>
@@ -43,7 +45,7 @@
 
 <script>
 import BuildComp from '../components/BuildComponent.vue'
-import Filter from '../components/FilterComponent.vue'
+import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
 
 export default {
@@ -87,7 +89,7 @@ export default {
   },
   components: {
     ComponentDisplay,
-    Filter,
+    FilterComp,
     BuildComp
   },
   methods: {
@@ -103,7 +105,6 @@ export default {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
       this.changeValue(1)
-
     }
   }
 }
