@@ -21,4 +21,19 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.build-container {
+  font-size: 20px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 15px;
+}
+</style>
