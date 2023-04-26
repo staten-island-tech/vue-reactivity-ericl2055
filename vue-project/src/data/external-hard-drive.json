@@ -6,9 +6,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -16,9 +16,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -26,9 +26,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -36,9 +36,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -46,9 +46,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.055"],
+      "price_per_gb": 0.055,
       "color": null,
-      "price": ["USD", "54.99"]
+      "price": 54.99
     },
     {
       "brand": "ADATA",
@@ -56,9 +56,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.057"],
+      "price_per_gb": 0.057,
       "color": null,
-      "price": ["USD", "57.13"]
+      "price": 57.13
     },
     {
       "brand": "ADATA",
@@ -66,9 +66,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -76,9 +76,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.430"],
+      "price_per_gb": 0.430,
       "color": null,
-      "price": ["USD", "110.00"]
+      "price": 110.00
     },
     {
       "brand": "ADATA",
@@ -86,9 +86,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.712"],
+      "price_per_gb": 0.712,
       "color": null,
-      "price": ["USD", "182.16"]
+      "price": 182.16
     },
     {
       "brand": "ADATA",
@@ -96,9 +96,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "ADATA",
@@ -106,9 +106,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.462"],
+      "price_per_gb": 0.462,
       "color": null,
-      "price": ["USD", "118.25"]
+      "price": 118.25
     },
     {
       "brand": "ADATA",
@@ -116,9 +116,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.159"],
+      "price_per_gb": 0.159,
       "color": null,
-      "price": ["USD", "81.40"]
+      "price": 81.40
     },
     {
       "brand": "ADATA",
@@ -126,9 +126,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.159"],
+      "price_per_gb": 0.159,
       "color": null,
-      "price": ["USD", "81.39"]
+      "price": 81.39
     },
     {
       "brand": "ADATA",
@@ -136,9 +136,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.336"],
+      "price_per_gb": 0.336,
       "color": null,
-      "price": ["USD", "86.00"]
+      "price": 86.00
     },
     {
       "brand": "ADATA",
@@ -146,9 +146,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.130"],
+      "price_per_gb": 0.130,
       "color": null,
-      "price": ["USD", "129.99"]
+      "price": 129.99
     },
     {
       "brand": "ADATA",
@@ -156,9 +156,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.917"],
+      "price_per_gb": 0.917,
       "color": null,
-      "price": ["USD", "229.28"]
+      "price": 229.28
     },
     {
       "brand": "ADATA",
@@ -166,9 +166,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -176,9 +176,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 120000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -186,9 +186,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 240000000000 },
-      "price_per_gb": ["USD", "0.833"],
+      "price_per_gb": 0.833,
       "color": null,
-      "price": ["USD", "200.00"]
+      "price": 200.00
     },
     {
       "brand": "Apricom",
@@ -196,9 +196,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 480000000000 },
-      "price_per_gb": ["USD", "0.623"],
+      "price_per_gb": 0.623,
       "color": null,
-      "price": ["USD", "298.95"]
+      "price": 298.95
     },
     {
       "brand": "Apricom",
@@ -206,9 +206,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.234"],
+      "price_per_gb": 0.234,
       "color": null,
-      "price": ["USD", "233.62"]
+      "price": 233.62
     },
     {
       "brand": "Apricom",
@@ -216,9 +216,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -226,9 +226,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -236,9 +236,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "2.696"],
+      "price_per_gb": 2.696,
       "color": null,
-      "price": ["USD", "345.11"]
+      "price": 345.11
     },
     {
       "brand": "Apricom",
@@ -246,9 +246,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.551"],
+      "price_per_gb": 0.551,
       "color": "Black",
-      "price": ["USD", "281.99"]
+      "price": 281.99
     },
     {
       "brand": "Apricom",
@@ -256,9 +256,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.400"],
+      "price_per_gb": 0.400,
       "color": null,
-      "price": ["USD", "199.99"]
+      "price": 199.99
     },
     {
       "brand": "Apricom",
@@ -266,9 +266,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -276,9 +276,9 @@
       "type": "Portable",
       "interface": "USB 2.0, eSATA 3Gb/s",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -286,9 +286,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -296,9 +296,9 @@
       "type": "Portable",
       "interface": "USB 2.0",
       "capacity": { "total": 320000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -306,9 +306,9 @@
       "type": "Portable",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -316,9 +316,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -326,9 +326,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -336,9 +336,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.092"],
+      "price_per_gb": 0.092,
       "color": null,
-      "price": ["USD", "183.99"]
+      "price": 183.99
     },
     {
       "brand": "Apricom",
@@ -346,9 +346,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.691"],
+      "price_per_gb": 0.691,
       "color": null,
-      "price": ["USD", "691.00"]
+      "price": 691.00
     },
     {
       "brand": "Apricom",
@@ -356,9 +356,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -366,9 +366,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.360"],
+      "price_per_gb": 0.360,
       "color": null,
-      "price": ["USD", "179.99"]
+      "price": 179.99
     },
     {
       "brand": "Apricom",
@@ -376,9 +376,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.131"],
+      "price_per_gb": 0.131,
       "color": "Black",
-      "price": ["USD", "261.57"]
+      "price": 261.57
     },
     {
       "brand": "Apricom",
@@ -386,9 +386,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -396,9 +396,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.216"],
+      "price_per_gb": 0.216,
       "color": null,
-      "price": ["USD", "215.99"]
+      "price": 215.99
     },
     {
       "brand": "Apricom",
@@ -406,9 +406,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -416,9 +416,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Apricom",
@@ -426,9 +426,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Asus",
@@ -436,9 +436,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Asus",
@@ -446,9 +446,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -456,9 +456,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 320000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -466,9 +466,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -476,9 +476,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 320000000000 },
-      "price_per_gb": ["USD", "0.378"],
+      "price_per_gb": 0.378,
       "color": null,
-      "price": ["USD", "120.80"]
+      "price": 120.80
     },
     {
       "brand": "Axiom",
@@ -486,9 +486,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.119"],
+      "price_per_gb": 0.119,
       "color": null,
-      "price": ["USD", "119.02"]
+      "price": 119.02
     },
     {
       "brand": "Axiom",
@@ -496,9 +496,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -506,9 +506,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -516,9 +516,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -526,9 +526,9 @@
       "type": "Desktop",
       "interface": null,
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -536,9 +536,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -546,9 +546,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Axiom",
@@ -556,9 +556,9 @@
       "type": "Desktop",
       "interface": null,
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -566,9 +566,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.045"],
+      "price_per_gb": 0.045,
       "color": "Black",
-      "price": ["USD", "89.99"]
+      "price": 89.99
     },
     {
       "brand": "Buffalo Technology",
@@ -576,9 +576,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.055"],
+      "price_per_gb": 0.055,
       "color": "Black",
-      "price": ["USD", "54.97"]
+      "price": 54.97
     },
     {
       "brand": "Buffalo Technology",
@@ -586,9 +586,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -596,9 +596,9 @@
       "type": "Desktop",
       "interface": "USB 2.0, IEEE 1394, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -606,9 +606,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -616,9 +616,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -626,9 +626,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -636,9 +636,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -646,9 +646,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -656,9 +656,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.228"],
+      "price_per_gb": 0.228,
       "color": null,
-      "price": ["USD", "227.59"]
+      "price": 227.59
     },
     {
       "brand": "Buffalo Technology",
@@ -666,9 +666,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.038"],
+      "price_per_gb": 0.038,
       "color": null,
-      "price": ["USD", "112.98"]
+      "price": 112.98
     },
     {
       "brand": "Buffalo Technology",
@@ -676,9 +676,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.047"],
+      "price_per_gb": 0.047,
       "color": null,
-      "price": ["USD", "94.99"]
+      "price": 94.99
     },
     {
       "brand": "Buffalo Technology",
@@ -686,9 +686,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.072"],
+      "price_per_gb": 0.072,
       "color": null,
-      "price": ["USD", "72.13"]
+      "price": 72.13
     },
     {
       "brand": "Buffalo Technology",
@@ -696,9 +696,9 @@
       "type": "Desktop",
       "interface": "USB 2.0, IEEE 1394, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.185"],
+      "price_per_gb": 0.185,
       "color": null,
-      "price": ["USD", "370.69"]
+      "price": 370.69
     },
     {
       "brand": "Buffalo Technology",
@@ -706,9 +706,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.087"],
+      "price_per_gb": 0.087,
       "color": null,
-      "price": ["USD", "349.00"]
+      "price": 349.00
     },
     {
       "brand": "Buffalo Technology",
@@ -716,9 +716,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.089"],
+      "price_per_gb": 0.089,
       "color": null,
-      "price": ["USD", "532.79"]
+      "price": 532.79
     },
     {
       "brand": "Buffalo Technology",
@@ -726,9 +726,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.218"],
+      "price_per_gb": 0.218,
       "color": null,
-      "price": ["USD", "435.59"]
+      "price": 435.59
     },
     {
       "brand": "Buffalo Technology",
@@ -736,9 +736,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -746,9 +746,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -756,9 +756,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.056"],
+      "price_per_gb": 0.056,
       "color": null,
-      "price": ["USD", "112.99"]
+      "price": 112.99
     },
     {
       "brand": "Buffalo Technology",
@@ -766,9 +766,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -776,9 +776,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.290"],
+      "price_per_gb": 0.290,
       "color": null,
-      "price": ["USD", "289.58"]
+      "price": 289.58
     },
     {
       "brand": "Buffalo Technology",
@@ -786,9 +786,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -796,9 +796,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -806,9 +806,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.391"],
+      "price_per_gb": 0.391,
       "color": null,
-      "price": ["USD", "195.59"]
+      "price": 195.59
     },
     {
       "brand": "Buslink",
@@ -816,9 +816,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buslink",
@@ -826,9 +826,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buslink",
@@ -836,9 +836,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Buslink",
@@ -846,9 +846,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.242"],
+      "price_per_gb": 0.242,
       "color": null,
-      "price": ["USD", "1449.99"]
+      "price": 1449.99
     },
     {
       "brand": "Buslink",
@@ -856,9 +856,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.161"],
+      "price_per_gb": 0.161,
       "color": "Black",
-      "price": ["USD", "644.01"]
+      "price": 644.01
     },
     {
       "brand": "Edge Tech",
@@ -866,9 +866,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Freecom",
@@ -876,9 +876,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.103"],
+      "price_per_gb": 0.103,
       "color": "Black",
-      "price": ["USD", "103.24"]
+      "price": 103.24
     },
     {
       "brand": "G-Technology",
@@ -886,9 +886,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "G-Technology",
@@ -896,9 +896,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "G-Technology",
@@ -906,9 +906,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "HP",
@@ -916,9 +916,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -926,9 +926,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -936,9 +936,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -946,9 +946,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -956,9 +956,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -966,9 +966,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Hitachi",
@@ -976,9 +976,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Imation",
@@ -986,9 +986,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Imation",
@@ -996,9 +996,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1006,9 +1006,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1016,9 +1016,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1026,9 +1026,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1036,9 +1036,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 16000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1046,9 +1046,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1056,9 +1056,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 12000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1066,9 +1066,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 25000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1076,9 +1076,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1086,9 +1086,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1096,9 +1096,9 @@
       "type": "Portable",
       "interface": "Thunderbolt",
       "capacity": { "total": 512000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1106,9 +1106,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1116,9 +1116,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1126,9 +1126,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1136,9 +1136,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1146,9 +1146,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1156,9 +1156,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 120000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1166,9 +1166,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1176,9 +1176,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1186,9 +1186,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1196,9 +1196,9 @@
       "type": "Portable",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1206,9 +1206,9 @@
       "type": "Portable",
       "interface": "USB 3.0, IEEE 1394a",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1216,9 +1216,9 @@
       "type": "Portable",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1226,9 +1226,9 @@
       "type": "Portable",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 120000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1236,9 +1236,9 @@
       "type": "Portable",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1246,9 +1246,9 @@
       "type": "Portable",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1256,9 +1256,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.070"],
+      "price_per_gb": 0.070,
       "color": null,
-      "price": ["USD", "69.99"]
+      "price": 69.99
     },
     {
       "brand": "LaCie",
@@ -1266,9 +1266,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1276,9 +1276,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1286,9 +1286,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1296,9 +1296,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1306,9 +1306,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.113"],
+      "price_per_gb": 0.113,
       "color": null,
-      "price": ["USD", "679.90"]
+      "price": 679.90
     },
     {
       "brand": "LaCie",
@@ -1316,9 +1316,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1326,9 +1326,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "LaCie",
@@ -1336,9 +1336,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.177"],
+      "price_per_gb": 0.177,
       "color": null,
-      "price": ["USD", "529.97"]
+      "price": 529.97
     },
     {
       "brand": "LaCie",
@@ -1346,9 +1346,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Lenovo",
@@ -1356,9 +1356,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.235"],
+      "price_per_gb": 0.235,
       "color": null,
-      "price": ["USD", "235.40"]
+      "price": 235.40
     },
     {
       "brand": "Lenovo",
@@ -1366,9 +1366,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Lenovo",
@@ -1376,9 +1376,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.609"],
+      "price_per_gb": 0.609,
       "color": null,
-      "price": ["USD", "304.61"]
+      "price": 304.61
     },
     {
       "brand": "Samsung",
@@ -1386,9 +1386,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1396,9 +1396,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1406,9 +1406,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1416,9 +1416,9 @@
       "type": "Desktop",
       "interface": null,
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1426,9 +1426,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1436,9 +1436,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1446,9 +1446,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1456,9 +1456,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1466,9 +1466,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1476,9 +1476,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1486,9 +1486,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1496,9 +1496,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1506,9 +1506,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Samsung",
@@ -1516,9 +1516,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.206"],
+      "price_per_gb": 0.206,
       "color": null,
-      "price": ["USD", "103.00"]
+      "price": 103.00
     },
     {
       "brand": "Samsung",
@@ -1526,9 +1526,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.115"],
+      "price_per_gb": 0.115,
       "color": "Black",
-      "price": ["USD", "229.99"]
+      "price": 229.99
     },
     {
       "brand": "Samsung",
@@ -1536,9 +1536,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 250000000000 },
-      "price_per_gb": ["USD", "0.508"],
+      "price_per_gb": 0.508,
       "color": "Blue",
-      "price": ["USD", "126.99"]
+      "price": 126.99
     },
     {
       "brand": "Samsung",
@@ -1546,9 +1546,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.130"],
+      "price_per_gb": 0.130,
       "color": null,
-      "price": ["USD", "129.99"]
+      "price": 129.99
     },
     {
       "brand": "Samsung",
@@ -1556,9 +1556,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.160"],
+      "price_per_gb": 0.160,
       "color": "Blue / Silver",
-      "price": ["USD", "79.98"]
+      "price": 79.98
     },
     {
       "brand": "Samsung",
@@ -1566,9 +1566,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.140"],
+      "price_per_gb": 0.140,
       "color": "Red / Silver",
-      "price": ["USD", "279.99"]
+      "price": 279.99
     },
     {
       "brand": "Samsung",
@@ -1576,9 +1576,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.160"],
+      "price_per_gb": 0.160,
       "color": "Red / Silver",
-      "price": ["USD", "79.98"]
+      "price": 79.98
     },
     {
       "brand": "Samsung",
@@ -1586,9 +1586,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.150"],
+      "price_per_gb": 0.150,
       "color": "Red / Silver",
-      "price": ["USD", "149.99"]
+      "price": 149.99
     },
     {
       "brand": "Samsung",
@@ -1596,9 +1596,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.150"],
+      "price_per_gb": 0.150,
       "color": "Black / Silver",
-      "price": ["USD", "149.99"]
+      "price": 149.99
     },
     {
       "brand": "Samsung",
@@ -1606,9 +1606,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.160"],
+      "price_per_gb": 0.160,
       "color": "Black / Silver",
-      "price": ["USD", "79.98"]
+      "price": 79.98
     },
     {
       "brand": "Samsung",
@@ -1616,9 +1616,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.140"],
+      "price_per_gb": 0.140,
       "color": "Blue / Silver",
-      "price": ["USD", "279.99"]
+      "price": 279.99
     },
     {
       "brand": "Samsung",
@@ -1626,9 +1626,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.150"],
+      "price_per_gb": 0.150,
       "color": "Blue / Silver",
-      "price": ["USD", "149.99"]
+      "price": 149.99
     },
     {
       "brand": "Samsung",
@@ -1636,9 +1636,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.125"],
+      "price_per_gb": 0.125,
       "color": "Black / Silver",
-      "price": ["USD", "249.99"]
+      "price": 249.99
     },
     {
       "brand": "SanDisk",
@@ -1646,9 +1646,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 1920000000000 },
-      "price_per_gb": ["USD", "0.391"],
+      "price_per_gb": 0.391,
       "color": null,
-      "price": ["USD", "750.00"]
+      "price": 750.00
     },
     {
       "brand": "SanDisk",
@@ -1656,9 +1656,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 960000000000 },
-      "price_per_gb": ["USD", "0.320"],
+      "price_per_gb": 0.320,
       "color": null,
-      "price": ["USD", "306.99"]
+      "price": 306.99
     },
     {
       "brand": "SanDisk",
@@ -1666,9 +1666,9 @@
       "type": "Portable",
       "interface": "USB 3.1",
       "capacity": { "total": 480000000000 },
-      "price_per_gb": ["USD", "1.551"],
+      "price_per_gb": 1.551,
       "color": null,
-      "price": ["USD", "744.31"]
+      "price": 744.31
     },
     {
       "brand": "Seagate",
@@ -1676,9 +1676,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.226"],
+      "price_per_gb": 0.226,
       "color": null,
-      "price": ["USD", "226.36"]
+      "price": 226.36
     },
     {
       "brand": "Seagate",
@@ -1686,9 +1686,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.085"],
+      "price_per_gb": 0.085,
       "color": null,
-      "price": ["USD", "254.28"]
+      "price": 254.28
     },
     {
       "brand": "Seagate",
@@ -1696,9 +1696,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.036"],
+      "price_per_gb": 0.036,
       "color": null,
-      "price": ["USD", "144.99"]
+      "price": 144.99
     },
     {
       "brand": "Seagate",
@@ -1706,9 +1706,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1716,9 +1716,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.031"],
+      "price_per_gb": 0.031,
       "color": null,
-      "price": ["USD", "62.49"]
+      "price": 62.49
     },
     {
       "brand": "Seagate",
@@ -1726,9 +1726,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.047"],
+      "price_per_gb": 0.047,
       "color": null,
-      "price": ["USD", "189.95"]
+      "price": 189.95
     },
     {
       "brand": "Seagate",
@@ -1736,9 +1736,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.029"],
+      "price_per_gb": 0.029,
       "color": null,
-      "price": ["USD", "229.00"]
+      "price": 229.00
     },
     {
       "brand": "Seagate",
@@ -1746,9 +1746,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1756,9 +1756,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.058"],
+      "price_per_gb": 0.058,
       "color": null,
-      "price": ["USD", "350.00"]
+      "price": 350.00
     },
     {
       "brand": "Seagate",
@@ -1766,9 +1766,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.030"],
+      "price_per_gb": 0.030,
       "color": null,
-      "price": ["USD", "149.97"]
+      "price": 149.97
     },
     {
       "brand": "Seagate",
@@ -1776,9 +1776,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1786,9 +1786,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.018"],
+      "price_per_gb": 0.018,
       "color": "Black",
-      "price": ["USD", "184.99"]
+      "price": 184.99
     },
     {
       "brand": "Seagate",
@@ -1796,9 +1796,9 @@
       "type": "Desktop",
       "interface": "USB 3.1",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.019"],
+      "price_per_gb": 0.019,
       "color": null,
-      "price": ["USD", "154.99"]
+      "price": 154.99
     },
     {
       "brand": "Seagate",
@@ -1806,9 +1806,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.023"],
+      "price_per_gb": 0.023,
       "color": "Black",
-      "price": ["USD", "114.99"]
+      "price": 114.99
     },
     {
       "brand": "Seagate",
@@ -1816,9 +1816,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.022"],
+      "price_per_gb": 0.022,
       "color": "Black",
-      "price": ["USD", "89.99"]
+      "price": 89.99
     },
     {
       "brand": "Seagate",
@@ -1826,9 +1826,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1836,9 +1836,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.023"],
+      "price_per_gb": 0.023,
       "color": "Blue / White",
-      "price": ["USD", "114.99"]
+      "price": 114.99
     },
     {
       "brand": "Seagate",
@@ -1846,9 +1846,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.026"],
+      "price_per_gb": 0.026,
       "color": "Blue / White",
-      "price": ["USD", "104.99"]
+      "price": 104.99
     },
     {
       "brand": "Seagate",
@@ -1856,9 +1856,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1866,9 +1866,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.054"],
+      "price_per_gb": 0.054,
       "color": null,
-      "price": ["USD", "109.00"]
+      "price": 109.00
     },
     {
       "brand": "Seagate",
@@ -1876,9 +1876,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.054"],
+      "price_per_gb": 0.054,
       "color": null,
-      "price": ["USD", "108.74"]
+      "price": 108.74
     },
     {
       "brand": "Seagate",
@@ -1886,9 +1886,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.052"],
+      "price_per_gb": 0.052,
       "color": "Black",
-      "price": ["USD", "52.49"]
+      "price": 52.49
     },
     {
       "brand": "Seagate",
@@ -1896,9 +1896,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.058"],
+      "price_per_gb": 0.058,
       "color": null,
-      "price": ["USD", "115.00"]
+      "price": 115.00
     },
     {
       "brand": "Seagate",
@@ -1906,9 +1906,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.037"],
+      "price_per_gb": 0.037,
       "color": "Black",
-      "price": ["USD", "74.98"]
+      "price": 74.98
     },
     {
       "brand": "Seagate",
@@ -1916,9 +1916,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.057"],
+      "price_per_gb": 0.057,
       "color": "White",
-      "price": ["USD", "57.49"]
+      "price": 57.49
     },
     {
       "brand": "Seagate",
@@ -1926,9 +1926,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.057"],
+      "price_per_gb": 0.057,
       "color": "Black",
-      "price": ["USD", "57.49"]
+      "price": 57.49
     },
     {
       "brand": "Seagate",
@@ -1936,9 +1936,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.037"],
+      "price_per_gb": 0.037,
       "color": "White",
-      "price": ["USD", "74.98"]
+      "price": 74.98
     },
     {
       "brand": "Seagate",
@@ -1946,9 +1946,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1956,9 +1956,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.030"],
+      "price_per_gb": 0.030,
       "color": null,
-      "price": ["USD", "89.99"]
+      "price": 89.99
     },
     {
       "brand": "Seagate",
@@ -1966,9 +1966,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1976,9 +1976,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -1986,9 +1986,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.024"],
+      "price_per_gb": 0.024,
       "color": null,
-      "price": ["USD", "94.99"]
+      "price": 94.99
     },
     {
       "brand": "Seagate",
@@ -1996,9 +1996,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.036"],
+      "price_per_gb": 0.036,
       "color": null,
-      "price": ["USD", "179.99"]
+      "price": 179.99
     },
     {
       "brand": "Seagate",
@@ -2006,9 +2006,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 16000000000000 },
-      "price_per_gb": ["USD", "0.018"],
+      "price_per_gb": 0.018,
       "color": "Black",
-      "price": ["USD", "294.99"]
+      "price": 294.99
     },
     {
       "brand": "Seagate",
@@ -2016,9 +2016,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.016"],
+      "price_per_gb": 0.016,
       "color": "Black",
-      "price": ["USD", "164.99"]
+      "price": 164.99
     },
     {
       "brand": "Seagate",
@@ -2026,9 +2026,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.016"],
+      "price_per_gb": 0.016,
       "color": null,
-      "price": ["USD", "124.99"]
+      "price": 124.99
     },
     {
       "brand": "Seagate",
@@ -2036,9 +2036,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -2046,9 +2046,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.020"],
+      "price_per_gb": 0.020,
       "color": "Black",
-      "price": ["USD", "99.99"]
+      "price": 99.99
     },
     {
       "brand": "Seagate",
@@ -2056,9 +2056,9 @@
       "type": "Desktop",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -2066,9 +2066,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.026"],
+      "price_per_gb": 0.026,
       "color": "White",
-      "price": ["USD", "104.99"]
+      "price": 104.99
     },
     {
       "brand": "Seagate",
@@ -2076,9 +2076,9 @@
       "type": "Portable",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.486"],
+      "price_per_gb": 0.486,
       "color": null,
-      "price": ["USD", "485.59"]
+      "price": 485.59
     },
     {
       "brand": "Seagate",
@@ -2086,9 +2086,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.032"],
+      "price_per_gb": 0.032,
       "color": null,
-      "price": ["USD", "159.00"]
+      "price": 159.00
     },
     {
       "brand": "Seagate",
@@ -2096,9 +2096,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.033"],
+      "price_per_gb": 0.033,
       "color": "Silver",
-      "price": ["USD", "163.95"]
+      "price": 163.95
     },
     {
       "brand": "Seagate",
@@ -2106,9 +2106,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Blue",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Seagate",
@@ -2116,9 +2116,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.034"],
+      "price_per_gb": 0.034,
       "color": "Black",
-      "price": ["USD", "169.00"]
+      "price": 169.00
     },
     {
       "brand": "Seagate",
@@ -2126,9 +2126,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.018"],
+      "price_per_gb": 0.018,
       "color": "Black",
-      "price": ["USD", "109.99"]
+      "price": 109.99
     },
     {
       "brand": "Toshiba",
@@ -2136,9 +2136,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.061"],
+      "price_per_gb": 0.061,
       "color": null,
-      "price": ["USD", "60.99"]
+      "price": 60.99
     },
     {
       "brand": "Toshiba",
@@ -2146,9 +2146,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2156,9 +2156,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.034"],
+      "price_per_gb": 0.034,
       "color": null,
-      "price": ["USD", "67.98"]
+      "price": 67.98
     },
     {
       "brand": "Toshiba",
@@ -2166,9 +2166,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2176,9 +2176,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2186,9 +2186,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2196,9 +2196,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.106"],
+      "price_per_gb": 0.106,
       "color": null,
-      "price": ["USD", "52.99"]
+      "price": 52.99
     },
     {
       "brand": "Toshiba",
@@ -2206,9 +2206,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2216,9 +2216,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2226,9 +2226,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Toshiba",
@@ -2236,9 +2236,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.051"],
+      "price_per_gb": 0.051,
       "color": null,
-      "price": ["USD", "205.97"]
+      "price": 205.97
     },
     {
       "brand": "Toshiba",
@@ -2246,9 +2246,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.053"],
+      "price_per_gb": 0.053,
       "color": null,
-      "price": ["USD", "157.79"]
+      "price": 157.79
     },
     {
       "brand": "Toshiba",
@@ -2256,9 +2256,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.068"],
+      "price_per_gb": 0.068,
       "color": null,
-      "price": ["USD", "135.03"]
+      "price": 135.03
     },
     {
       "brand": "Toshiba",
@@ -2266,9 +2266,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.065"],
+      "price_per_gb": 0.065,
       "color": null,
-      "price": ["USD", "325.94"]
+      "price": 325.94
     },
     {
       "brand": "Toshiba",
@@ -2276,9 +2276,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.099"],
+      "price_per_gb": 0.099,
       "color": null,
-      "price": ["USD", "99.00"]
+      "price": 99.00
     },
     {
       "brand": "Toshiba",
@@ -2286,9 +2286,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.099"],
+      "price_per_gb": 0.099,
       "color": null,
-      "price": ["USD", "99.00"]
+      "price": 99.00
     },
     {
       "brand": "Transcend",
@@ -2296,9 +2296,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.035"],
+      "price_per_gb": 0.035,
       "color": null,
-      "price": ["USD", "69.95"]
+      "price": 69.95
     },
     {
       "brand": "Transcend",
@@ -2306,9 +2306,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.071"],
+      "price_per_gb": 0.071,
       "color": null,
-      "price": ["USD", "70.57"]
+      "price": 70.57
     },
     {
       "brand": "Transcend",
@@ -2316,9 +2316,9 @@
       "type": "Portable",
       "interface": "USB 2.0",
       "capacity": { "total": 750000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Transcend",
@@ -2326,9 +2326,9 @@
       "type": "Portable",
       "interface": "USB 2.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Transcend",
@@ -2336,9 +2336,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Transcend",
@@ -2346,9 +2346,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.291"],
+      "price_per_gb": 0.291,
       "color": null,
-      "price": ["USD", "145.28"]
+      "price": 145.28
     },
     {
       "brand": "Transcend",
@@ -2356,9 +2356,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Transcend",
@@ -2366,9 +2366,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Transcend",
@@ -2376,9 +2376,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "0.578"],
+      "price_per_gb": 0.578,
       "color": null,
-      "price": ["USD", "73.98"]
+      "price": 73.98
     },
     {
       "brand": "Transcend",
@@ -2386,9 +2386,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Verbatim",
@@ -2396,9 +2396,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.201"],
+      "price_per_gb": 0.201,
       "color": null,
-      "price": ["USD", "100.55"]
+      "price": 100.55
     },
     {
       "brand": "Verbatim",
@@ -2406,9 +2406,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.179"],
+      "price_per_gb": 0.179,
       "color": null,
-      "price": ["USD", "178.60"]
+      "price": 178.60
     },
     {
       "brand": "Verbatim",
@@ -2416,9 +2416,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.040"],
+      "price_per_gb": 0.040,
       "color": "Black",
-      "price": ["USD", "158.38"]
+      "price": 158.38
     },
     {
       "brand": "Verbatim",
@@ -2426,9 +2426,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Verbatim",
@@ -2436,9 +2436,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.251"],
+      "price_per_gb": 0.251,
       "color": null,
-      "price": ["USD", "251.28"]
+      "price": 251.28
     },
     {
       "brand": "Verbatim",
@@ -2446,9 +2446,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Verbatim",
@@ -2456,9 +2456,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
-      "price_per_gb": ["USD", "0.494"],
+      "price_per_gb": 0.494,
       "color": null,
-      "price": ["USD", "126.57"]
+      "price": 126.57
     },
     {
       "brand": "Verbatim",
@@ -2466,9 +2466,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.081"],
+      "price_per_gb": 0.081,
       "color": null,
-      "price": ["USD", "81.45"]
+      "price": 81.45
     },
     {
       "brand": "Western Digital",
@@ -2476,9 +2476,9 @@
       "type": "Desktop",
       "interface": "USB 3.1",
       "capacity": { "total": 14000000000000 },
-      "price_per_gb": ["USD", "0.019"],
+      "price_per_gb": 0.019,
       "color": "Black",
-      "price": ["USD", "259.99"]
+      "price": 259.99
     },
     {
       "brand": "Western Digital",
@@ -2486,9 +2486,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.018"],
+      "price_per_gb": 0.018,
       "color": "Black",
-      "price": ["USD", "144.99"]
+      "price": 144.99
     },
     {
       "brand": "Western Digital",
@@ -2496,9 +2496,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2506,9 +2506,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.048"],
+      "price_per_gb": 0.048,
       "color": null,
-      "price": ["USD", "47.99"]
+      "price": 47.99
     },
     {
       "brand": "Western Digital",
@@ -2516,9 +2516,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.022"],
+      "price_per_gb": 0.022,
       "color": null,
-      "price": ["USD", "89.99"]
+      "price": 89.99
     },
     {
       "brand": "Western Digital",
@@ -2526,9 +2526,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2536,9 +2536,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2546,9 +2546,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2556,9 +2556,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.150"],
+      "price_per_gb": 0.150,
       "color": null,
-      "price": ["USD", "74.98"]
+      "price": 74.98
     },
     {
       "brand": "Western Digital",
@@ -2566,9 +2566,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 12000000000000 },
-      "price_per_gb": ["USD", "0.018"],
+      "price_per_gb": 0.018,
       "color": null,
-      "price": ["USD", "219.99"]
+      "price": 219.99
     },
     {
       "brand": "Western Digital",
@@ -2576,9 +2576,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2586,9 +2586,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.027"],
+      "price_per_gb": 0.027,
       "color": null,
-      "price": ["USD", "79.99"]
+      "price": 79.99
     },
     {
       "brand": "Western Digital",
@@ -2596,9 +2596,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.040"],
+      "price_per_gb": 0.040,
       "color": null,
-      "price": ["USD", "199.89"]
+      "price": 199.89
     },
     {
       "brand": "Western Digital",
@@ -2606,9 +2606,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.022"],
+      "price_per_gb": 0.022,
       "color": "Black",
-      "price": ["USD", "89.99"]
+      "price": 89.99
     },
     {
       "brand": "Western Digital",
@@ -2616,9 +2616,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.087"],
+      "price_per_gb": 0.087,
       "color": "Silver",
-      "price": ["USD", "87.05"]
+      "price": 87.05
     },
     {
       "brand": "Western Digital",
@@ -2626,9 +2626,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.054"],
+      "price_per_gb": 0.054,
       "color": "Silver",
-      "price": ["USD", "107.63"]
+      "price": 107.63
     },
     {
       "brand": "Western Digital",
@@ -2636,9 +2636,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Silver",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2646,9 +2646,9 @@
       "type": "Portable",
       "interface": "USB 2.0, USB Type-C",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Silver",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2656,9 +2656,9 @@
       "type": "Portable",
       "interface": "USB 3.0, USB 2.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Silver",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2666,9 +2666,9 @@
       "type": "Desktop",
       "interface": "USB 3.1",
       "capacity": { "total": 14000000000000 },
-      "price_per_gb": ["USD", "0.020"],
+      "price_per_gb": 0.020,
       "color": "Black",
-      "price": ["USD", "279.99"]
+      "price": 279.99
     },
     {
       "brand": "Western Digital",
@@ -2676,9 +2676,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.019"],
+      "price_per_gb": 0.019,
       "color": "Black",
-      "price": ["USD", "149.99"]
+      "price": 149.99
     },
     {
       "brand": "Western Digital",
@@ -2686,9 +2686,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.059"],
+      "price_per_gb": 0.059,
       "color": null,
-      "price": ["USD", "234.99"]
+      "price": 234.99
     },
     {
       "brand": "Western Digital",
@@ -2696,9 +2696,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.033"],
+      "price_per_gb": 0.033,
       "color": "Black",
-      "price": ["USD", "99.99"]
+      "price": 99.99
     },
     {
       "brand": "Western Digital",
@@ -2706,9 +2706,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.031"],
+      "price_per_gb": 0.031,
       "color": null,
-      "price": ["USD", "185.95"]
+      "price": 185.95
     },
     {
       "brand": "Western Digital",
@@ -2716,9 +2716,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.186"],
+      "price_per_gb": 0.186,
       "color": null,
-      "price": ["USD", "559.46"]
+      "price": 559.46
     },
     {
       "brand": "Western Digital",
@@ -2726,9 +2726,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.073"],
+      "price_per_gb": 0.073,
       "color": null,
-      "price": ["USD", "219.98"]
+      "price": 219.98
     },
     {
       "brand": "Western Digital",
@@ -2736,9 +2736,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.098"],
+      "price_per_gb": 0.098,
       "color": null,
-      "price": ["USD", "195.57"]
+      "price": 195.57
     },
     {
       "brand": "Western Digital",
@@ -2746,9 +2746,9 @@
       "type": "Desktop",
       "interface": "USB 3.1",
       "capacity": { "total": 12000000000000 },
-      "price_per_gb": ["USD", "0.021"],
+      "price_per_gb": 0.021,
       "color": "Black",
-      "price": ["USD", "249.64"]
+      "price": 249.64
     },
     {
       "brand": "Western Digital",
@@ -2756,9 +2756,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.020"],
+      "price_per_gb": 0.020,
       "color": "Black",
-      "price": ["USD", "118.00"]
+      "price": 118.00
     },
     {
       "brand": "Western Digital",
@@ -2766,9 +2766,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.027"],
+      "price_per_gb": 0.027,
       "color": "Black",
-      "price": ["USD", "109.99"]
+      "price": 109.99
     },
     {
       "brand": "Western Digital",
@@ -2776,9 +2776,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.021"],
+      "price_per_gb": 0.021,
       "color": "Black",
-      "price": ["USD", "207.95"]
+      "price": 207.95
     },
     {
       "brand": "Western Digital",
@@ -2786,9 +2786,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 24000000000000 },
-      "price_per_gb": ["USD", "0.032"],
+      "price_per_gb": 0.032,
       "color": "Black",
-      "price": ["USD", "759.99"]
+      "price": 759.99
     },
     {
       "brand": "Western Digital",
@@ -2796,9 +2796,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.055"],
+      "price_per_gb": 0.055,
       "color": "Black",
-      "price": ["USD", "219.99"]
+      "price": 219.99
     },
     {
       "brand": "Western Digital",
@@ -2806,9 +2806,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 6000000000000 },
-      "price_per_gb": ["USD", "0.040"],
+      "price_per_gb": 0.040,
       "color": "Black",
-      "price": ["USD", "239.99"]
+      "price": 239.99
     },
     {
       "brand": "Western Digital",
@@ -2816,9 +2816,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.045"],
+      "price_per_gb": 0.045,
       "color": "Black",
-      "price": ["USD", "359.99"]
+      "price": 359.99
     },
     {
       "brand": "Western Digital",
@@ -2826,9 +2826,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 16000000000000 },
-      "price_per_gb": ["USD", "0.030"],
+      "price_per_gb": 0.030,
       "color": "Black",
-      "price": ["USD", "479.90"]
+      "price": 479.90
     },
     {
       "brand": "Western Digital",
@@ -2836,9 +2836,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 20000000000000 },
-      "price_per_gb": ["USD", "0.036"],
+      "price_per_gb": 0.036,
       "color": "Black",
-      "price": ["USD", "727.15"]
+      "price": 727.15
     },
     {
       "brand": "Western Digital",
@@ -2846,9 +2846,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 12000000000000 },
-      "price_per_gb": ["USD", "0.027"],
+      "price_per_gb": 0.027,
       "color": "Black",
-      "price": ["USD", "329.99"]
+      "price": 329.99
     },
     {
       "brand": "Western Digital",
@@ -2856,9 +2856,9 @@
       "type": "Desktop",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 28000000000000 },
-      "price_per_gb": ["USD", "0.030"],
+      "price_per_gb": 0.030,
       "color": "Black",
-      "price": ["USD", "849.99"]
+      "price": 849.99
     },
     {
       "brand": "Western Digital",
@@ -2866,9 +2866,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.156"],
+      "price_per_gb": 0.156,
       "color": null,
-      "price": ["USD", "155.57"]
+      "price": 155.57
     },
     {
       "brand": "Western Digital",
@@ -2876,9 +2876,9 @@
       "type": "Desktop",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2886,9 +2886,9 @@
       "type": "Desktop",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.209"],
+      "price_per_gb": 0.209,
       "color": null,
-      "price": ["USD", "418.90"]
+      "price": 418.90
     },
     {
       "brand": "Western Digital",
@@ -2896,9 +2896,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.100"],
+      "price_per_gb": 0.100,
       "color": null,
-      "price": ["USD", "399.00"]
+      "price": 399.00
     },
     {
       "brand": "Western Digital",
@@ -2906,9 +2906,9 @@
       "type": "Desktop",
       "interface": "Thunderbolt",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.125"],
+      "price_per_gb": 0.125,
       "color": null,
-      "price": ["USD", "499.00"]
+      "price": 499.00
     },
     {
       "brand": "Western Digital",
@@ -2916,9 +2916,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2926,9 +2926,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
-      "price_per_gb": ["USD", "0.083"],
+      "price_per_gb": 0.083,
       "color": null,
-      "price": ["USD", "249.00"]
+      "price": 249.00
     },
     {
       "brand": "Western Digital",
@@ -2936,9 +2936,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2946,9 +2946,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.125"],
+      "price_per_gb": 0.125,
       "color": null,
-      "price": ["USD", "249.99"]
+      "price": 249.99
     },
     {
       "brand": "Western Digital",
@@ -2956,9 +2956,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2966,9 +2966,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2976,9 +2976,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2986,9 +2986,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -2996,9 +2996,9 @@
       "type": "Portable",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -3006,9 +3006,9 @@
       "type": "Portable",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price": 0.00
     },
     {
       "brand": "Western Digital",
@@ -3016,9 +3016,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.085"],
+      "price_per_gb": 0.085,
       "color": null,
-      "price": ["USD", "170.11"]
+      "price": 170.11
     },
     {
       "brand": "Western Digital",
@@ -3026,9 +3026,9 @@
       "type": "Portable",
       "interface": null,
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.140"],
+      "price_per_gb": 0.140,
       "color": null,
-      "price": ["USD", "139.86"]
+      "price": 139.86
     },
     {
       "brand": "Western Digital",
@@ -3036,9 +3036,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.017"],
+      "price_per_gb": 0.017,
       "color": "Black",
-      "price": ["USD", "169.99"]
+      "price": 169.99
     },
     {
       "brand": "Western Digital",
@@ -3046,9 +3046,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
-      "price_per_gb": ["USD", "0.032"],
+      "price_per_gb": 0.032,
       "color": "Black",
-      "price": ["USD", "64.98"]
+      "price": 64.98
     },
     {
       "brand": "Western Digital",
@@ -3056,9 +3056,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.025"],
+      "price_per_gb": 0.025,
       "color": "Black",
-      "price": ["USD", "99.99"]
+      "price": 99.99
     },
     {
       "brand": "Western Digital",
@@ -3066,9 +3066,9 @@
       "type": "Portable",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
-      "price_per_gb": ["USD", "0.024"],
+      "price_per_gb": 0.024,
       "color": "Black",
-      "price": ["USD", "119.99"]
+      "price": 119.99
     },
     {
       "brand": "Western Digital",
@@ -3076,9 +3076,9 @@
       "type": "Portable",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
-      "price_per_gb": ["USD", "0.200"],
+      "price_per_gb": 0.200,
       "color": "Black / Silver",
-      "price": ["USD", "199.99"]
+      "price": 199.99
     },
     {
       "brand": "Western Digital",
@@ -3086,9 +3086,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
-      "price_per_gb": ["USD", "0.019"],
+      "price_per_gb": 0.019,
       "color": null,
-      "price": ["USD", "155.87"]
+      "price": 155.87
     },
     {
       "brand": "Western Digital",
@@ -3096,9 +3096,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 12000000000000 },
-      "price_per_gb": ["USD", "0.017"],
+      "price_per_gb": 0.017,
       "color": null,
-      "price": ["USD", "199.99"]
+      "price": 199.99
     },
     {
       "brand": "Western Digital",
@@ -3106,9 +3106,9 @@
       "type": "Desktop",
       "interface": "USB 3.1",
       "capacity": { "total": 10000000000000 },
-      "price_per_gb": ["USD", "0.023"],
+      "price_per_gb": 0.023,
       "color": "Black",
-      "price": ["USD", "226.66"]
+      "price": 226.66
     },
     {
       "brand": "Western Digital",
@@ -3116,9 +3116,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
-      "price_per_gb": ["USD", "0.019"],
+      "price_per_gb": 0.019,
       "color": "Black",
-      "price": ["USD", "259.99"]
+      "price": 259.99
     },
     {
       "brand": "Western Digital",
@@ -3126,9 +3126,9 @@
       "type": "Desktop",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
-      "price_per_gb": ["USD", "0.00"],
+      "price_per_gb": 0.00,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price": 0.00
     }
   ]
 }

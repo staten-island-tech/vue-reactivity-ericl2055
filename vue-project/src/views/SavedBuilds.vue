@@ -1,12 +1,9 @@
 <template>
-
   <div class="new" @load="console.log(this.dataList[this.selectedValue])">
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
         {{
-
-
           this.dataList[this.selectedValue]
             .split(/(?=[A-Z])/)
             .map((value) => value.charAt(0).toUpperCase() + value.slice(1))
@@ -15,7 +12,6 @@
         Selection
       </h2>
       <button class="arrow" id="right" @click="changeValue(1)"></button>
-
     </div>
     <div class="main">
       <div class="display">
@@ -99,8 +95,9 @@ export default {
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
+      this.changeValue(1)
+    }
   }
-} 
 }
 </script>
 

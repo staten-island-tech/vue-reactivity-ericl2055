@@ -6,7 +6,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "AUKEY",
@@ -14,7 +14,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "AVM",
@@ -22,7 +22,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "White / Red",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -30,7 +30,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "Asus",
@@ -38,7 +38,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -46,7 +46,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "34.21"]
+      "price":34.21
     },
     {
       "brand": "Asus",
@@ -54,7 +54,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "49.50"]
+      "price":49.50
     },
     {
       "brand": "Asus",
@@ -62,7 +62,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Blue",
-      "price": ["USD", "32.00"]
+      "price":32.00
     },
     {
       "brand": "Asus",
@@ -70,7 +70,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -78,7 +78,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "81.45"]
+      "price":81.45
     },
     {
       "brand": "Asus",
@@ -86,7 +86,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "97.00"]
+      "price":97.00
     },
     {
       "brand": "Asus",
@@ -94,7 +94,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "57.99"]
+      "price":57.99
     },
     {
       "brand": "Asus",
@@ -102,7 +102,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -110,7 +110,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -118,7 +118,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -126,7 +126,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "35.52"]
+      "price":35.52
     },
     {
       "brand": "Asus",
@@ -134,7 +134,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -142,7 +142,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "36.52"]
+      "price":36.52
     },
     {
       "brand": "Asus",
@@ -150,7 +150,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -158,7 +158,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -166,7 +166,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "46.40"]
+      "price":46.40
     },
     {
       "brand": "Asus",
@@ -174,7 +174,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "89.99"]
+      "price":89.99
     },
     {
       "brand": "Asus",
@@ -182,7 +182,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "99.95"]
+      "price":99.95
     },
     {
       "brand": "Asus",
@@ -190,7 +190,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "75.25"]
+      "price":75.25
     },
     {
       "brand": "Asus",
@@ -198,7 +198,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -206,7 +206,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "120.00"]
+      "price":120.00
     },
     {
       "brand": "Asus",
@@ -214,7 +214,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Athenatech",
@@ -222,7 +222,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -230,7 +230,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -238,7 +238,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "45.99"]
+      "price":45.99
     },
     {
       "brand": "Belkin",
@@ -246,7 +246,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -254,7 +254,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "80.59"]
+      "price":80.59
     },
     {
       "brand": "Belkin",
@@ -262,7 +262,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -270,7 +270,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "119.59"]
+      "price":119.59
     },
     {
       "brand": "Belkin",
@@ -278,7 +278,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "151.59"]
+      "price":151.59
     },
     {
       "brand": "Belkin",
@@ -286,7 +286,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 1.0",
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Belkin",
@@ -294,7 +294,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Belkin",
@@ -302,7 +302,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -310,7 +310,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -318,7 +318,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "44.99"]
+      "price":44.99
     },
     {
       "brand": "Belkin",
@@ -326,7 +326,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "94.94"]
+      "price":94.94
     },
     {
       "brand": "Belkin",
@@ -334,7 +334,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 1.0",
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Belkin",
@@ -342,7 +342,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -350,7 +350,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "BenQ",
@@ -358,7 +358,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 1.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "BrosTrend",
@@ -366,7 +366,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "BrosTrend",
@@ -374,7 +374,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "27.99"]
+      "price":27.99
     },
     {
       "brand": "BrosTrend",
@@ -382,7 +382,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "BrosTrend",
@@ -390,7 +390,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "35.99"]
+      "price":35.99
     },
     {
       "brand": "BrosTrend",
@@ -398,7 +398,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "BrosTrend",
@@ -406,7 +406,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Red / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -414,7 +414,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Buffalo Technology",
@@ -422,7 +422,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cisco",
@@ -430,7 +430,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cisco",
@@ -438,7 +438,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cisco",
@@ -446,7 +446,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cisco",
@@ -454,7 +454,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Cisco",
@@ -462,7 +462,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -470,7 +470,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "12.58"]
+      "price":12.58
     },
     {
       "brand": "D-Link",
@@ -478,7 +478,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "94.30"]
+      "price":94.30
     },
     {
       "brand": "D-Link",
@@ -486,7 +486,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -494,7 +494,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -502,7 +502,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "39.82"]
+      "price":39.82
     },
     {
       "brand": "D-Link",
@@ -510,7 +510,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "22.99"]
+      "price":22.99
     },
     {
       "brand": "D-Link",
@@ -518,7 +518,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "30.99"]
+      "price":30.99
     },
     {
       "brand": "D-Link",
@@ -526,7 +526,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "22.47"]
+      "price":22.47
     },
     {
       "brand": "D-Link",
@@ -534,7 +534,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -542,7 +542,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "59.99"]
+      "price":59.99
     },
     {
       "brand": "D-Link",
@@ -550,7 +550,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "103.77"]
+      "price":103.77
     },
     {
       "brand": "D-Link",
@@ -558,7 +558,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -566,7 +566,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -574,7 +574,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "115.59"]
+      "price":115.59
     },
     {
       "brand": "D-Link",
@@ -582,7 +582,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "158.99"]
+      "price":158.99
     },
     {
       "brand": "D-Link",
@@ -590,7 +590,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "68.44"]
+      "price":68.44
     },
     {
       "brand": "D-Link",
@@ -598,7 +598,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "58.99"]
+      "price":58.99
     },
     {
       "brand": "D-Link",
@@ -606,7 +606,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Diamond",
@@ -614,7 +614,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -622,7 +622,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -630,7 +630,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": "Green",
-      "price": ["USD", "20.50"]
+      "price":20.50
     },
     {
       "brand": "Edimax",
@@ -638,7 +638,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -646,7 +646,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -654,7 +654,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -662,7 +662,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -670,7 +670,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -678,7 +678,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Edimax",
@@ -686,7 +686,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -694,7 +694,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -702,7 +702,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "18.98"]
+      "price":18.98
     },
     {
       "brand": "Edimax",
@@ -710,7 +710,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "15.10"]
+      "price":15.10
     },
     {
       "brand": "Edimax",
@@ -718,7 +718,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -726,7 +726,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -734,7 +734,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "28.49"]
+      "price":28.49
     },
     {
       "brand": "Edimax",
@@ -742,7 +742,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "25.88"]
+      "price":25.88
     },
     {
       "brand": "Encore",
@@ -750,7 +750,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "29.93"]
+      "price":29.93
     },
     {
       "brand": "Encore",
@@ -758,7 +758,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "22.99"]
+      "price":22.99
     },
     {
       "brand": "Encore",
@@ -766,7 +766,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -774,7 +774,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -782,7 +782,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -790,7 +790,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -798,7 +798,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -806,7 +806,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "21.00"]
+      "price":21.00
     },
     {
       "brand": "Encore",
@@ -814,7 +814,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Encore",
@@ -822,7 +822,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -830,7 +830,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Feb Smart",
@@ -838,7 +838,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gigabyte",
@@ -846,7 +846,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "33.49"]
+      "price":33.49
     },
     {
       "brand": "Gigabyte",
@@ -854,7 +854,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Gigabyte",
@@ -862,7 +862,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gigabyte",
@@ -870,7 +870,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Black / Silver",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -878,7 +878,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Green / Black",
-      "price": ["USD", "57.99"]
+      "price":57.99
     },
     {
       "brand": "HP",
@@ -886,7 +886,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Green / Black",
-      "price": ["USD", "50.27"]
+      "price":50.27
     },
     {
       "brand": "HP",
@@ -894,7 +894,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -902,7 +902,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -910,7 +910,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -918,7 +918,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -926,7 +926,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "58.99"]
+      "price":58.99
     },
     {
       "brand": "Hawking Technology",
@@ -934,7 +934,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "Hawking Technology",
@@ -942,7 +942,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Hawking Technology",
@@ -950,7 +950,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -958,7 +958,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -966,7 +966,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Hawking Technology",
@@ -974,7 +974,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "IOGEAR",
@@ -982,7 +982,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "IOGEAR",
@@ -990,7 +990,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "IOGEAR",
@@ -998,7 +998,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "IOGEAR",
@@ -1006,7 +1006,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "InFocus",
@@ -1014,7 +1014,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Inamax",
@@ -1022,7 +1022,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "Intel",
@@ -1030,7 +1030,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1038,7 +1038,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1046,7 +1046,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1054,7 +1054,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "81.59"]
+      "price":81.59
     },
     {
       "brand": "Intel",
@@ -1062,7 +1062,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1070,7 +1070,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1078,7 +1078,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1086,7 +1086,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Half Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1094,7 +1094,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "249.95"]
+      "price":249.95
     },
     {
       "brand": "Intel",
@@ -1102,7 +1102,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Half Mini-PCIe",
       "color": null,
-      "price": ["USD", "14.98"]
+      "price":14.98
     },
     {
       "brand": "Intel",
@@ -1110,7 +1110,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Half Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1118,7 +1118,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1126,7 +1126,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1134,7 +1134,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Half Mini-PCIe",
       "color": null,
-      "price": ["USD", "19.48"]
+      "price":19.48
     },
     {
       "brand": "Intel",
@@ -1142,7 +1142,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "37.49"]
+      "price":37.49
     },
     {
       "brand": "Intel",
@@ -1150,7 +1150,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1158,7 +1158,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "Intel",
@@ -1166,7 +1166,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1174,7 +1174,7 @@
       "supported_protocols": "Wi-Fi 5 (5 GHz only)",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1182,7 +1182,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "Mini-PCIe",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -1190,7 +1190,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Linksys",
@@ -1198,7 +1198,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "19.99"]
+      "price":19.99
     },
     {
       "brand": "Linksys",
@@ -1206,7 +1206,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "19.99"]
+      "price":19.99
     },
     {
       "brand": "Linksys",
@@ -1214,7 +1214,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "54.99"]
+      "price":54.99
     },
     {
       "brand": "Linksys",
@@ -1222,7 +1222,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Linksys",
@@ -1230,7 +1230,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Linksys",
@@ -1238,7 +1238,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "79.95"]
+      "price":79.95
     },
     {
       "brand": "Linksys",
@@ -1246,7 +1246,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Linksys",
@@ -1254,7 +1254,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Linksys",
@@ -1262,7 +1262,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Linksys",
@@ -1270,7 +1270,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "54.27"]
+      "price":54.27
     },
     {
       "brand": "Linksys",
@@ -1278,7 +1278,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "49.99"]
+      "price":49.99
     },
     {
       "brand": "Linksys",
@@ -1286,7 +1286,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "34.74"]
+      "price":34.74
     },
     {
       "brand": "Linksys",
@@ -1294,7 +1294,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "45.87"]
+      "price":45.87
     },
     {
       "brand": "MSI",
@@ -1302,7 +1302,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "34.49"]
+      "price":34.49
     },
     {
       "brand": "MSI",
@@ -1310,7 +1310,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Netgear",
@@ -1318,7 +1318,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "39.77"]
+      "price":39.77
     },
     {
       "brand": "Netgear",
@@ -1326,7 +1326,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Netgear",
@@ -1334,7 +1334,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "44.77"]
+      "price":44.77
     },
     {
       "brand": "Netgear",
@@ -1342,7 +1342,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "64.71"]
+      "price":64.71
     },
     {
       "brand": "Netgear",
@@ -1350,7 +1350,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "54.99"]
+      "price":54.99
     },
     {
       "brand": "Netgear",
@@ -1358,7 +1358,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "64.99"]
+      "price":64.99
     },
     {
       "brand": "Netgear",
@@ -1366,7 +1366,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Netgear",
@@ -1374,7 +1374,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "29.98"]
+      "price":29.98
     },
     {
       "brand": "Netgear",
@@ -1382,7 +1382,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "99.16"]
+      "price":99.16
     },
     {
       "brand": "Netgear",
@@ -1390,7 +1390,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "61.05"]
+      "price":61.05
     },
     {
       "brand": "Netgear",
@@ -1398,7 +1398,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Netgear",
@@ -1406,7 +1406,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "111.21"]
+      "price":111.21
     },
     {
       "brand": "Netgear",
@@ -1414,7 +1414,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "39.94"]
+      "price":39.94
     },
     {
       "brand": "Netgear",
@@ -1422,7 +1422,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "167.09"]
+      "price":167.09
     },
     {
       "brand": "Orico",
@@ -1430,7 +1430,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Orico",
@@ -1438,7 +1438,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Orico",
@@ -1446,7 +1446,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Orico",
@@ -1454,7 +1454,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Patriot",
@@ -1462,7 +1462,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "45.00"]
+      "price":45.00
     },
     {
       "brand": "Patriot",
@@ -1470,7 +1470,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1478,7 +1478,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1486,7 +1486,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "69.98"]
+      "price":69.98
     },
     {
       "brand": "Rosewill",
@@ -1494,7 +1494,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1502,7 +1502,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1510,7 +1510,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1518,7 +1518,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1526,7 +1526,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "43.94"]
+      "price":43.94
     },
     {
       "brand": "Rosewill",
@@ -1534,7 +1534,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Green",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1542,7 +1542,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1550,7 +1550,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "25.40"]
+      "price":25.40
     },
     {
       "brand": "Rosewill",
@@ -1558,7 +1558,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "50.00"]
+      "price":50.00
     },
     {
       "brand": "Rosewill",
@@ -1566,7 +1566,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Red / Black",
-      "price": ["USD", "62.19"]
+      "price":62.19
     },
     {
       "brand": "Rosewill",
@@ -1574,7 +1574,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Rosewill",
@@ -1582,7 +1582,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Red / Black",
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Rosewill",
@@ -1590,7 +1590,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "20.25"]
+      "price":20.25
     },
     {
       "brand": "Rosewill",
@@ -1598,7 +1598,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -1606,7 +1606,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "23.99"]
+      "price":23.99
     },
     {
       "brand": "Rosewill",
@@ -1614,7 +1614,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "29.77"]
+      "price":29.77
     },
     {
       "brand": "Rosewill",
@@ -1622,7 +1622,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1630,7 +1630,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1638,7 +1638,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1646,7 +1646,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1654,7 +1654,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -1662,7 +1662,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "10.99"]
+      "price":10.99
     },
     {
       "brand": "Rosewill",
@@ -1670,7 +1670,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1678,7 +1678,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "19.99"]
+      "price":19.99
     },
     {
       "brand": "Rosewill",
@@ -1686,7 +1686,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -1694,7 +1694,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1702,7 +1702,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "17.99"]
+      "price":17.99
     },
     {
       "brand": "Rosewill",
@@ -1710,7 +1710,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1718,7 +1718,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "19.73"]
+      "price":19.73
     },
     {
       "brand": "Rosewill",
@@ -1726,7 +1726,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1734,7 +1734,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -1742,7 +1742,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "39.90"]
+      "price":39.90
     },
     {
       "brand": "Rosewill",
@@ -1750,7 +1750,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "23.99"]
+      "price":23.99
     },
     {
       "brand": "Rosewill",
@@ -1758,7 +1758,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1766,7 +1766,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -1774,7 +1774,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -1782,7 +1782,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -1790,7 +1790,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -1798,7 +1798,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sabrent",
@@ -1806,7 +1806,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "Sabrent",
@@ -1814,7 +1814,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "12.12"]
+      "price":12.12
     },
     {
       "brand": "Samsung",
@@ -1822,7 +1822,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "StarTech",
@@ -1830,7 +1830,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "StarTech",
@@ -1838,7 +1838,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "StarTech",
@@ -1846,7 +1846,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "66.98"]
+      "price":66.98
     },
     {
       "brand": "StarTech",
@@ -1854,7 +1854,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "16.54"]
+      "price":16.54
     },
     {
       "brand": "StarTech",
@@ -1862,7 +1862,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 1.0",
       "color": null,
-      "price": ["USD", "17.65"]
+      "price":17.65
     },
     {
       "brand": "StarTech",
@@ -1870,7 +1870,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "16.79"]
+      "price":16.79
     },
     {
       "brand": "StarTech",
@@ -1878,7 +1878,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 1.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "StarTech",
@@ -1886,7 +1886,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "22.99"]
+      "price":22.99
     },
     {
       "brand": "StarTech",
@@ -1894,7 +1894,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "32.90"]
+      "price":32.90
     },
     {
       "brand": "StarTech",
@@ -1902,7 +1902,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "45.84"]
+      "price":45.84
     },
     {
       "brand": "Syba",
@@ -1910,7 +1910,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1918,7 +1918,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1926,7 +1926,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "11.78"]
+      "price":11.78
     },
     {
       "brand": "Syba",
@@ -1934,7 +1934,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": "Green / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1942,7 +1942,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -1950,7 +1950,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "TP-Link",
@@ -1958,7 +1958,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -1966,7 +1966,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -1974,7 +1974,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "22.49"]
+      "price":22.49
     },
     {
       "brand": "TP-Link",
@@ -1982,7 +1982,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": "Black / Gold",
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "TP-Link",
@@ -1990,7 +1990,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "144.73"]
+      "price":144.73
     },
     {
       "brand": "TP-Link",
@@ -1998,7 +1998,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "TP-Link",
@@ -2006,7 +2006,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "TP-Link",
@@ -2014,7 +2014,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "32.65"]
+      "price":32.65
     },
     {
       "brand": "TP-Link",
@@ -2022,7 +2022,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "33.99"]
+      "price":33.99
     },
     {
       "brand": "TP-Link",
@@ -2030,7 +2030,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "99.95"]
+      "price":99.95
     },
     {
       "brand": "TP-Link",
@@ -2038,7 +2038,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "TP-Link",
@@ -2046,7 +2046,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "TP-Link",
@@ -2054,7 +2054,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2062,7 +2062,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "139.99"]
+      "price":139.99
     },
     {
       "brand": "TP-Link",
@@ -2070,7 +2070,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": "Black",
-      "price": ["USD", "59.99"]
+      "price":59.99
     },
     {
       "brand": "TP-Link",
@@ -2078,7 +2078,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Red / Black",
-      "price": ["USD", "44.99"]
+      "price":44.99
     },
     {
       "brand": "TP-Link",
@@ -2086,7 +2086,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Black",
-      "price": ["USD", "37.99"]
+      "price":37.99
     },
     {
       "brand": "TP-Link",
@@ -2094,7 +2094,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "89.00"]
+      "price":89.00
     },
     {
       "brand": "TP-Link",
@@ -2102,7 +2102,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2110,7 +2110,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2118,7 +2118,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "140.00"]
+      "price":140.00
     },
     {
       "brand": "TP-Link",
@@ -2126,7 +2126,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "66.00"]
+      "price":66.00
     },
     {
       "brand": "TP-Link",
@@ -2134,7 +2134,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2142,7 +2142,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2150,7 +2150,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "15.99"]
+      "price":15.99
     },
     {
       "brand": "TP-Link",
@@ -2158,7 +2158,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2166,7 +2166,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "9.99"]
+      "price":9.99
     },
     {
       "brand": "TP-Link",
@@ -2174,7 +2174,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2182,7 +2182,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2190,7 +2190,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2198,7 +2198,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -2206,7 +2206,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "13.83"]
+      "price":13.83
     },
     {
       "brand": "TP-Link",
@@ -2214,7 +2214,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "20.22"]
+      "price":20.22
     },
     {
       "brand": "TP-Link",
@@ -2222,7 +2222,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "13.79"]
+      "price":13.79
     },
     {
       "brand": "TP-Link",
@@ -2230,7 +2230,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "TP-Link",
@@ -2238,7 +2238,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "17.98"]
+      "price":17.98
     },
     {
       "brand": "TP-Link",
@@ -2246,7 +2246,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2254,7 +2254,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "13.99"]
+      "price":13.99
     },
     {
       "brand": "TRENDnet",
@@ -2262,7 +2262,7 @@
       "supported_protocols": "Wi-Fi 3",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "30.59"]
+      "price":30.59
     },
     {
       "brand": "TRENDnet",
@@ -2270,7 +2270,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "55.10"]
+      "price":55.10
     },
     {
       "brand": "TRENDnet",
@@ -2278,7 +2278,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "60.91"]
+      "price":60.91
     },
     {
       "brand": "TRENDnet",
@@ -2286,7 +2286,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "29.10"]
+      "price":29.10
     },
     {
       "brand": "TRENDnet",
@@ -2294,7 +2294,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2302,7 +2302,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "29.98"]
+      "price":29.98
     },
     {
       "brand": "TRENDnet",
@@ -2310,7 +2310,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "49.95"]
+      "price":49.95
     },
     {
       "brand": "TRENDnet",
@@ -2318,7 +2318,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "79.95"]
+      "price":79.95
     },
     {
       "brand": "TRENDnet",
@@ -2326,7 +2326,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2334,7 +2334,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "15.98"]
+      "price":15.98
     },
     {
       "brand": "TRENDnet",
@@ -2342,7 +2342,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "52.28"]
+      "price":52.28
     },
     {
       "brand": "TRENDnet",
@@ -2350,7 +2350,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCI",
       "color": null,
-      "price": ["USD", "15.99"]
+      "price":15.99
     },
     {
       "brand": "TRENDnet",
@@ -2358,7 +2358,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "88.95"]
+      "price":88.95
     },
     {
       "brand": "TRENDnet",
@@ -2366,7 +2366,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2374,7 +2374,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 3.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2382,7 +2382,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -2390,7 +2390,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "TRENDnet",
@@ -2398,7 +2398,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "USB 2.0",
       "color": "Black",
-      "price": ["USD", "21.99"]
+      "price":21.99
     },
     {
       "brand": "Ziyituod",
@@ -2406,7 +2406,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Green",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Ziyituod",
@@ -2414,7 +2414,7 @@
       "supported_protocols": "Wi-Fi 6",
       "interface": "PCIe x1",
       "color": "Green",
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "fenvi",
@@ -2422,7 +2422,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black / Orange",
-      "price": ["USD", "27.99"]
+      "price":27.99
     },
     {
       "brand": "fenvi",
@@ -2430,7 +2430,7 @@
       "supported_protocols": "Wi-Fi 5",
       "interface": "PCIe x1",
       "color": "Black / Gold",
-      "price": ["USD", "59.99"]
+      "price":59.99
     },
     {
       "brand": "fenvi",
@@ -2438,7 +2438,7 @@
       "supported_protocols": "Wi-Fi 4",
       "interface": "PCIe x1",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     }
   ]
 }
