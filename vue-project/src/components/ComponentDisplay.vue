@@ -1,7 +1,7 @@
 <template>
   <div class="parts-container">
     <ul>
-      <li v-for="part in filter" :key="part.id">
+      <li v-for="part in data" :key="part.id">
         <button @click="addToBuild(part)">Add to Build</button>
         {{ part.brand }} {{ part.model }} - ${{ part.price }}
       </li>
@@ -39,8 +39,8 @@ export default {
     }
   },
   watch: {
-    filters(newVal, oldVal) {
-      // this.filter()
+    part(newVal, oldVal) {
+      this.data = data[newVal].data
     }
   },
   computed: {
@@ -60,6 +60,9 @@ export default {
 
       return filteredData
     }
+  },
+  mounted() {
+    console.log(data[this.part].data)
   }
 }
 </script>
