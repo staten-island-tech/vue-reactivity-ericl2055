@@ -7,7 +7,7 @@
       "port_speed": { "bits_per_second": 10000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -16,7 +16,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "149.99"]
+      "price":149.99
     },
     {
       "brand": "Asus",
@@ -25,7 +25,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "92.99"]
+      "price":92.99
     },
     {
       "brand": "Belkin",
@@ -34,7 +34,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "23.99"]
+      "price":23.99
     },
     {
       "brand": "Belkin",
@@ -43,7 +43,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "29.69"]
+      "price":29.69
     },
     {
       "brand": "Belkin",
@@ -52,7 +52,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Belkin",
@@ -61,7 +61,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "12.95"]
+      "price":12.95
     },
     {
       "brand": "Cisco",
@@ -70,7 +70,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "D-Link",
@@ -79,7 +79,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "13.38"]
+      "price":13.38
     },
     {
       "brand": "D-Link",
@@ -88,7 +88,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "15.99"]
+      "price":15.99
     },
     {
       "brand": "D-Link",
@@ -97,7 +97,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "29.98"]
+      "price":29.98
     },
     {
       "brand": "D-Link",
@@ -106,7 +106,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "100.18"]
+      "price":100.18
     },
     {
       "brand": "D-Link",
@@ -115,7 +115,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "726.10"]
+      "price":726.10
     },
     {
       "brand": "EDUP",
@@ -124,7 +124,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -133,7 +133,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edimax",
@@ -142,7 +142,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": "Silver / Green",
-      "price": ["USD", "69.90"]
+      "price":69.90
     },
     {
       "brand": "Edimax",
@@ -151,7 +151,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "13.90"]
+      "price":13.90
     },
     {
       "brand": "Edimax",
@@ -160,7 +160,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Gigabyte",
@@ -169,7 +169,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": "Black / White",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -178,7 +178,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -187,7 +187,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -196,7 +196,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "50.30"]
+      "price":50.30
     },
     {
       "brand": "Intel",
@@ -205,7 +205,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "436.50"]
+      "price":436.50
     },
     {
       "brand": "Intel",
@@ -214,7 +214,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "382.20"]
+      "price":382.20
     },
     {
       "brand": "Intel",
@@ -223,7 +223,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "86.00"]
+      "price":86.00
     },
     {
       "brand": "Intel",
@@ -232,7 +232,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "82.00"]
+      "price":82.00
     },
     {
       "brand": "Intel",
@@ -241,7 +241,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "36.00"]
+      "price":36.00
     },
     {
       "brand": "Intel",
@@ -250,7 +250,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "28.99"]
+      "price":28.99
     },
     {
       "brand": "Intel",
@@ -259,7 +259,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -268,7 +268,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -277,7 +277,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": "Green / Black",
-      "price": ["USD", "79.00"]
+      "price":79.00
     },
     {
       "brand": "Intel",
@@ -286,7 +286,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -295,7 +295,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -304,7 +304,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -313,7 +313,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "38.29"]
+      "price":38.29
     },
     {
       "brand": "Intel",
@@ -322,7 +322,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "69.25"]
+      "price":69.25
     },
     {
       "brand": "Intel",
@@ -331,7 +331,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -340,7 +340,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "70.54"]
+      "price":70.54
     },
     {
       "brand": "Intel",
@@ -349,7 +349,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -358,7 +358,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "167.02"]
+      "price":167.02
     },
     {
       "brand": "Intel",
@@ -367,7 +367,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -376,7 +376,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": "Green / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -385,7 +385,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Intel",
@@ -394,7 +394,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "323.18"]
+      "price":323.18
     },
     {
       "brand": "Lenovo",
@@ -403,7 +403,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "25.99"]
+      "price":25.99
     },
     {
       "brand": "Lenovo",
@@ -412,7 +412,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": "Green / Black",
-      "price": ["USD", "51.77"]
+      "price":51.77
     },
     {
       "brand": "Linksys",
@@ -421,7 +421,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "26.17"]
+      "price":26.17
     },
     {
       "brand": "Netgear",
@@ -430,7 +430,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "34.28"]
+      "price":34.28
     },
     {
       "brand": "Plugable",
@@ -439,7 +439,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "16.95"]
+      "price":16.95
     },
     {
       "brand": "Plugable",
@@ -448,7 +448,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "17.95"]
+      "price":17.95
     },
     {
       "brand": "QLogic",
@@ -457,7 +457,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "114.89"]
+      "price":114.89
     },
     {
       "brand": "QNAP",
@@ -466,7 +466,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "89.00"]
+      "price":89.00
     },
     {
       "brand": "Rosewill",
@@ -475,7 +475,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -484,7 +484,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "12.41"]
+      "price":12.41
     },
     {
       "brand": "Rosewill",
@@ -493,7 +493,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -502,7 +502,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "8.50"]
+      "price":8.50
     },
     {
       "brand": "Rosewill",
@@ -511,7 +511,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -520,7 +520,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Rosewill",
@@ -529,7 +529,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 2,
       "color": "Black / Silver",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -538,7 +538,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -547,7 +547,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.98"]
+      "price":14.98
     },
     {
       "brand": "Rosewill",
@@ -556,7 +556,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Rosewill",
@@ -565,7 +565,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "SIIG",
@@ -574,7 +574,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "SIIG",
@@ -583,7 +583,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "33.49"]
+      "price":33.49
     },
     {
       "brand": "SIIG",
@@ -592,7 +592,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -601,7 +601,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -610,7 +610,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -619,7 +619,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -628,7 +628,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -637,7 +637,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "White",
-      "price": ["USD", "13.99"]
+      "price":13.99
     },
     {
       "brand": "SIIG",
@@ -646,7 +646,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "18.73"]
+      "price":18.73
     },
     {
       "brand": "StarTech",
@@ -655,7 +655,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "18.32"]
+      "price":18.32
     },
     {
       "brand": "StarTech",
@@ -664,7 +664,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "532.92"]
+      "price":532.92
     },
     {
       "brand": "StarTech",
@@ -673,7 +673,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "10.99"]
+      "price":10.99
     },
     {
       "brand": "StarTech",
@@ -682,7 +682,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "38.99"]
+      "price":38.99
     },
     {
       "brand": "StarTech",
@@ -691,7 +691,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "StarTech",
@@ -700,7 +700,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "18.48"]
+      "price":18.48
     },
     {
       "brand": "StarTech",
@@ -709,7 +709,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "18.98"]
+      "price":18.98
     },
     {
       "brand": "StarTech",
@@ -718,7 +718,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "287.99"]
+      "price":287.99
     },
     {
       "brand": "StarTech",
@@ -727,7 +727,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": null,
-      "price": ["USD", "287.50"]
+      "price":287.50
     },
     {
       "brand": "StarTech",
@@ -736,7 +736,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "11.66"]
+      "price":11.66
     },
     {
       "brand": "StarTech",
@@ -745,7 +745,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "199.99"]
+      "price":199.99
     },
     {
       "brand": "StarTech",
@@ -754,7 +754,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "12.43"]
+      "price":12.43
     },
     {
       "brand": "StarTech",
@@ -763,7 +763,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "111.97"]
+      "price":111.97
     },
     {
       "brand": "StarTech",
@@ -772,7 +772,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "50.99"]
+      "price":50.99
     },
     {
       "brand": "StarTech",
@@ -781,7 +781,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "49.99"]
+      "price":49.99
     },
     {
       "brand": "StarTech",
@@ -790,7 +790,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "28.49"]
+      "price":28.49
     },
     {
       "brand": "StarTech",
@@ -799,7 +799,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "23.99"]
+      "price":23.99
     },
     {
       "brand": "StarTech",
@@ -808,7 +808,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "33.99"]
+      "price":33.99
     },
     {
       "brand": "StarTech",
@@ -817,7 +817,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "33.54"]
+      "price":33.54
     },
     {
       "brand": "StarTech",
@@ -826,7 +826,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "23.99"]
+      "price":23.99
     },
     {
       "brand": "StarTech",
@@ -835,7 +835,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "46.94"]
+      "price":46.94
     },
     {
       "brand": "Supermicro",
@@ -844,7 +844,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Supermicro",
@@ -853,7 +853,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": "Green / Silver",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -862,7 +862,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -871,7 +871,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.24"]
+      "price":14.24
     },
     {
       "brand": "Syba",
@@ -880,7 +880,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": "Green / Black",
-      "price": ["USD", "89.99"]
+      "price":89.99
     },
     {
       "brand": "Syba",
@@ -889,7 +889,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -898,7 +898,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.05"]
+      "price":14.05
     },
     {
       "brand": "Syba",
@@ -907,7 +907,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": "Green / Black",
-      "price": ["USD", "45.99"]
+      "price":45.99
     },
     {
       "brand": "Syba",
@@ -916,7 +916,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -925,7 +925,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -934,7 +934,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "18.95"]
+      "price":18.95
     },
     {
       "brand": "Syba",
@@ -943,7 +943,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "19.14"]
+      "price":19.14
     },
     {
       "brand": "Syba",
@@ -952,7 +952,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "44.70"]
+      "price":44.70
     },
     {
       "brand": "Syba",
@@ -961,7 +961,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": "Black",
-      "price": ["USD", "48.94"]
+      "price":48.94
     },
     {
       "brand": "Syba",
@@ -970,7 +970,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 2,
       "color": null,
-      "price": ["USD", "41.44"]
+      "price":41.44
     },
     {
       "brand": "Syba",
@@ -979,7 +979,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "22.65"]
+      "price":22.65
     },
     {
       "brand": "Syba",
@@ -988,7 +988,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 4,
       "color": "Green / Black",
-      "price": ["USD", "81.83"]
+      "price":81.83
     },
     {
       "brand": "Syba",
@@ -997,7 +997,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": "Green / Black",
-      "price": ["USD", "109.99"]
+      "price":109.99
     },
     {
       "brand": "TP-Link",
@@ -1006,7 +1006,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "46.82"]
+      "price":46.82
     },
     {
       "brand": "TP-Link",
@@ -1015,7 +1015,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TP-Link",
@@ -1024,7 +1024,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "TP-Link",
@@ -1033,7 +1033,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "TRENDnet",
@@ -1042,7 +1042,7 @@
       "port_speed": { "bits_per_second": 100000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "TRENDnet",
@@ -1051,7 +1051,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "TRENDnet",
@@ -1060,7 +1060,7 @@
       "port_speed": { "bits_per_second": 10000000000 },
       "port_number": 1,
       "color": "Green / Silver",
-      "price": ["USD", "99.99"]
+      "price":99.99
     },
     {
       "brand": "TRENDnet",
@@ -1069,7 +1069,7 @@
       "port_speed": { "bits_per_second": 2500000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "34.99"]
+      "price":34.99
     },
     {
       "brand": "Tripp Lite",
@@ -1078,7 +1078,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "29.20"]
+      "price":29.20
     },
     {
       "brand": "V7",
@@ -1087,7 +1087,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": "Black",
-      "price": ["USD", "22.99"]
+      "price":22.99
     },
     {
       "brand": "VisionTek",
@@ -1096,7 +1096,7 @@
       "port_speed": { "bits_per_second": 1000000000 },
       "port_number": 1,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     }
   ]
 }

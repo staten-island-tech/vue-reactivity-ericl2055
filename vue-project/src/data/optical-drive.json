@@ -9,7 +9,7 @@
       "bluray_write_speed": "6/2/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/4",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Archgon",
@@ -20,7 +20,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -31,7 +31,7 @@
       "bluray_write_speed": "6/4/6/4",
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -42,7 +42,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -53,7 +53,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -64,7 +64,7 @@
       "bluray_write_speed": "12/8/8/6",
       "dvd_write_speed": "16/8/8/6/12/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "92.95"]
+      "price":92.95
     },
     {
       "brand": "Asus",
@@ -75,7 +75,7 @@
       "bluray_write_speed": "12/4/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "199.95"]
+      "price":199.95
     },
     {
       "brand": "Asus",
@@ -86,7 +86,7 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -97,7 +97,7 @@
       "bluray_write_speed": "16/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "79.89"]
+      "price":79.89
     },
     {
       "brand": "Asus",
@@ -108,7 +108,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "20/8/8/20/6/8/14",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -119,7 +119,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -130,7 +130,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -141,7 +141,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "Asus",
@@ -152,7 +152,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -163,7 +163,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -174,7 +174,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "27.98"]
+      "price":27.98
     },
     {
       "brand": "Asus",
@@ -185,7 +185,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/13/12/16/8/12/5",
       "cd_write_speed": "48/40",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -196,7 +196,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/13/12/16/8/12/5",
       "cd_write_speed": "48/40",
-      "price": ["USD", "33.02"]
+      "price":33.02
     },
     {
       "brand": "Asus",
@@ -207,7 +207,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -218,7 +218,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "17.98"]
+      "price":17.98
     },
     {
       "brand": "Asus",
@@ -229,7 +229,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "33.44"]
+      "price":33.44
     },
     {
       "brand": "Asus",
@@ -240,7 +240,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "37.94"]
+      "price":37.94
     },
     {
       "brand": "Asus",
@@ -251,7 +251,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/10/8/16/10/8/5",
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Buslink",
@@ -262,7 +262,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "EVGA",
@@ -273,7 +273,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gear Head",
@@ -284,7 +284,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -295,7 +295,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -306,7 +306,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "57.59"]
+      "price":57.59
     },
     {
       "brand": "HP",
@@ -317,7 +317,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -328,7 +328,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -339,7 +339,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -350,7 +350,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -361,7 +361,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "43.00"]
+      "price":43.00
     },
     {
       "brand": "HP",
@@ -372,7 +372,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -383,7 +383,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HP",
@@ -394,7 +394,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "I/O Magic",
@@ -405,7 +405,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "I/O Magic",
@@ -416,7 +416,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/16/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "I/O Magic",
@@ -427,7 +427,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/16/24/1/16/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "36.05"]
+      "price":36.05
     },
     {
       "brand": "LG",
@@ -438,7 +438,7 @@
       "bluray_write_speed": "10/8/8/6",
       "dvd_write_speed": "16/8/8/16/8/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -449,7 +449,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/12/12/16/12/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -460,7 +460,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -471,7 +471,7 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "291.58"]
+      "price":291.58
     },
     {
       "brand": "LG",
@@ -482,7 +482,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "104.99"]
+      "price":104.99
     },
     {
       "brand": "LG",
@@ -493,7 +493,7 @@
       "bluray_write_speed": "8/8/8/6",
       "dvd_write_speed": "16/12/12/16/12/12/5",
       "cd_write_speed": "48/40",
-      "price": ["USD", "243.00"]
+      "price":243.00
     },
     {
       "brand": "LG",
@@ -504,7 +504,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -515,7 +515,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -526,7 +526,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -537,7 +537,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -548,7 +548,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -559,7 +559,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -570,7 +570,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -581,7 +581,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -592,7 +592,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -603,7 +603,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -614,7 +614,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -625,7 +625,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -636,7 +636,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -647,7 +647,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -658,7 +658,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "34.97"]
+      "price":34.97
     },
     {
       "brand": "LG",
@@ -669,7 +669,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "34.58"]
+      "price":34.58
     },
     {
       "brand": "LG",
@@ -680,7 +680,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "49.98"]
+      "price":49.98
     },
     {
       "brand": "LG",
@@ -691,7 +691,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "LG",
@@ -702,7 +702,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "34.97"]
+      "price":34.97
     },
     {
       "brand": "LG",
@@ -713,7 +713,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "18.98"]
+      "price":18.98
     },
     {
       "brand": "LG",
@@ -724,7 +724,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "18.98"]
+      "price":18.98
     },
     {
       "brand": "LG",
@@ -735,7 +735,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/16/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -746,7 +746,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/8/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -757,7 +757,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -768,7 +768,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -779,7 +779,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/6/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "39.81"]
+      "price":39.81
     },
     {
       "brand": "LG",
@@ -790,7 +790,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/6/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "45.00"]
+      "price":45.00
     },
     {
       "brand": "LG",
@@ -801,7 +801,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -812,7 +812,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -823,7 +823,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -834,7 +834,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -845,7 +845,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -856,7 +856,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -867,7 +867,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -878,7 +878,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "LG",
@@ -889,7 +889,7 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "53.48"]
+      "price":53.48
     },
     {
       "brand": "LG",
@@ -900,7 +900,7 @@
       "bluray_write_speed": "16/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "66.98"]
+      "price":66.98
     },
     {
       "brand": "LG",
@@ -911,7 +911,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "100.98"]
+      "price":100.98
     },
     {
       "brand": "Lenovo",
@@ -922,7 +922,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/12/12/16/12/12/12",
       "cd_write_speed": "48/40",
-      "price": ["USD", "53.50"]
+      "price":53.50
     },
     {
       "brand": "Lenovo",
@@ -933,7 +933,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -944,7 +944,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -955,7 +955,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -966,7 +966,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -977,7 +977,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -988,7 +988,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -999,7 +999,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1010,7 +1010,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1021,7 +1021,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1032,7 +1032,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "29.40"]
+      "price":29.40
     },
     {
       "brand": "Lite-On",
@@ -1043,7 +1043,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "69.00"]
+      "price":69.00
     },
     {
       "brand": "Lite-On",
@@ -1054,7 +1054,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/48",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1065,7 +1065,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1076,7 +1076,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1087,7 +1087,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1098,7 +1098,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1109,7 +1109,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1120,7 +1120,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1131,7 +1131,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1142,7 +1142,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1153,7 +1153,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1164,7 +1164,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1175,7 +1175,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "Lite-On",
@@ -1186,7 +1186,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1197,7 +1197,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1208,7 +1208,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1219,7 +1219,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1230,7 +1230,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1241,7 +1241,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1252,7 +1252,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1263,7 +1263,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1274,7 +1274,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1285,7 +1285,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "155.00"]
+      "price":155.00
     },
     {
       "brand": "Lite-On",
@@ -1296,7 +1296,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/48",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1307,7 +1307,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1318,7 +1318,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1329,7 +1329,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1340,7 +1340,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1351,7 +1351,7 @@
       "bluray_write_speed": "8/4/8/4",
       "dvd_write_speed": "16/8/16/16/6/16/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lite-On",
@@ -1362,7 +1362,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1373,7 +1373,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1384,7 +1384,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1395,7 +1395,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1406,7 +1406,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1417,7 +1417,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "MSI",
@@ -1428,7 +1428,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Memorex",
@@ -1439,7 +1439,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "49.95"]
+      "price":49.95
     },
     {
       "brand": "Memorex",
@@ -1450,7 +1450,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Memorex",
@@ -1461,7 +1461,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "OcUK",
@@ -1472,7 +1472,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "OcUK",
@@ -1483,7 +1483,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/12/8/8/12",
       "cd_write_speed": "48/40",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "OcUK",
@@ -1494,7 +1494,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/40",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "OcUK",
@@ -1505,7 +1505,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Panasonic",
@@ -1516,7 +1516,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "24/16",
-      "price": ["USD", "114.99"]
+      "price":114.99
     },
     {
       "brand": "Pioneer",
@@ -1527,7 +1527,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1538,7 +1538,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1549,7 +1549,7 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1560,7 +1560,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1571,7 +1571,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1582,7 +1582,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1593,7 +1593,7 @@
       "bluray_write_speed": "15/14/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1604,7 +1604,7 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "70.69"]
+      "price":70.69
     },
     {
       "brand": "Pioneer",
@@ -1615,7 +1615,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1626,7 +1626,7 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "159.99"]
+      "price":159.99
     },
     {
       "brand": "Pioneer",
@@ -1637,7 +1637,7 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "69.99"]
+      "price":69.99
     },
     {
       "brand": "Pioneer",
@@ -1648,7 +1648,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "90.57"]
+      "price":90.57
     },
     {
       "brand": "Pioneer",
@@ -1659,7 +1659,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1670,7 +1670,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1681,7 +1681,7 @@
       "bluray_write_speed": "15/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1692,7 +1692,7 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/6/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "129.99"]
+      "price":129.99
     },
     {
       "brand": "Pioneer",
@@ -1703,7 +1703,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1714,7 +1714,7 @@
       "bluray_write_speed": "12/8/10/6",
       "dvd_write_speed": "16/12/12/16/12/12/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1725,7 +1725,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "40/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1736,7 +1736,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1747,7 +1747,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1758,7 +1758,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1769,7 +1769,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "31.99"]
+      "price":31.99
     },
     {
       "brand": "Plextor",
@@ -1780,7 +1780,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1791,7 +1791,7 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1802,7 +1802,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1813,7 +1813,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1824,7 +1824,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Plextor",
@@ -1835,7 +1835,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1846,7 +1846,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1857,7 +1857,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1868,7 +1868,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1879,7 +1879,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "157.98"]
+      "price":157.98
     },
     {
       "brand": "Samsung",
@@ -1890,7 +1890,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1901,7 +1901,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1912,7 +1912,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1923,7 +1923,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1934,7 +1934,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1945,7 +1945,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1956,7 +1956,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1967,7 +1967,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -1978,7 +1978,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "Samsung",
@@ -1989,7 +1989,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2000,7 +2000,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2011,7 +2011,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2022,7 +2022,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/8/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2033,7 +2033,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "Samsung",
@@ -2044,7 +2044,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/4",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2055,7 +2055,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/16/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2066,7 +2066,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2077,7 +2077,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2088,7 +2088,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2099,7 +2099,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/8/8/6/8/5",
       "cd_write_speed": "24/4",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2110,7 +2110,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "100.78"]
+      "price":100.78
     },
     {
       "brand": "Samsung",
@@ -2121,7 +2121,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2132,7 +2132,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": null,
-      "price": ["USD", "47.99"]
+      "price":47.99
     },
     {
       "brand": "Samsung",
@@ -2143,7 +2143,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Samsung",
@@ -2154,7 +2154,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/8/8/12",
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Silverstone",
@@ -2165,7 +2165,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/4",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Silverstone",
@@ -2176,7 +2176,7 @@
       "bluray_write_speed": "6/6/6/6",
       "dvd_write_speed": "8/8/8/8/8/8/4",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Silverstone",
@@ -2187,7 +2187,7 @@
       "bluray_write_speed": "6/6/6/4",
       "dvd_write_speed": "8/8/8/8/8/8/8",
       "cd_write_speed": "24/24",
-      "price": ["USD", "228.78"]
+      "price":228.78
     },
     {
       "brand": "Sony",
@@ -2198,7 +2198,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2209,7 +2209,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "20/8/8/20/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "65.51"]
+      "price":65.51
     },
     {
       "brand": "Sony",
@@ -2220,7 +2220,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2231,7 +2231,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2242,7 +2242,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2253,7 +2253,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2264,7 +2264,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price": ["USD", "104.17"]
+      "price":104.17
     },
     {
       "brand": "Sony",
@@ -2275,7 +2275,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2286,7 +2286,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2297,7 +2297,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2308,7 +2308,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/4/4/8/4/4/5",
       "cd_write_speed": "16/10",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2319,7 +2319,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2330,7 +2330,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2341,7 +2341,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2352,7 +2352,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2363,7 +2363,7 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2374,7 +2374,7 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2385,7 +2385,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -2396,7 +2396,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "59.00"]
+      "price":59.00
     },
     {
       "brand": "Supermicro",
@@ -2407,7 +2407,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "99.99"]
+      "price":99.99
     },
     {
       "brand": "Teac",
@@ -2418,7 +2418,7 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Teac",
@@ -2429,7 +2429,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Teac",
@@ -2440,7 +2440,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     }
   ]
 }

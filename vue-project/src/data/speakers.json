@@ -7,7 +7,7 @@
       "wattage": 6,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Altec Lansing",
@@ -16,7 +16,7 @@
       "wattage": 0,
       "fonerequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Altec Lansing",
@@ -25,7 +25,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Altec Lansing",
@@ -34,7 +34,7 @@
       "wattage": 28,
       "frequency_response": { "min": 45.0, "max": 18000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "AmazonBasics",
@@ -43,7 +43,7 @@
       "wattage": 2,
       "frequency_response": { "min": 103.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "17.98"]
+      "price":17.98
     },
     {
       "brand": "AmazonBasics",
@@ -52,7 +52,7 @@
       "wattage": 4,
       "frequency_response": { "min": 68.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -61,7 +61,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -70,7 +70,7 @@
       "wattage": 30,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -79,7 +79,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -88,7 +88,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "690.00"]
+      "price":690.00
     },
     {
       "brand": "Audioengine",
@@ -97,7 +97,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "538.00"]
+      "price":538.00
     },
     {
       "brand": "Audioengine",
@@ -106,7 +106,7 @@
       "wattage": 100,
       "frequency_response": { "min": 50.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -115,7 +115,7 @@
       "wattage": 100,
       "frequency_response": { "min": 50.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "469.00"]
+      "price":469.00
     },
     {
       "brand": "Audioengine",
@@ -124,7 +124,7 @@
       "wattage": 100,
       "frequency_response": { "min": 50.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "399.00"]
+      "price":399.00
     },
     {
       "brand": "Audioengine",
@@ -133,7 +133,7 @@
       "wattage": 100,
       "frequency_response": { "min": 50.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "399.00"]
+      "price":399.00
     },
     {
       "brand": "Audioengine",
@@ -142,7 +142,7 @@
       "wattage": 50,
       "frequency_response": { "min": 50.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Audioengine",
@@ -151,7 +151,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "349.00"]
+      "price":349.00
     },
     {
       "brand": "Audioengine",
@@ -160,7 +160,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": "Red / Black",
-      "price": ["USD", "559.25"]
+      "price":559.25
     },
     {
       "brand": "Audioengine",
@@ -169,7 +169,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "349.00"]
+      "price":349.00
     },
     {
       "brand": "Audioengine",
@@ -178,7 +178,7 @@
       "wattage": 60,
       "frequency_response": { "min": 65.0, "max": 22000.0, "default": null },
       "color": "White / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Avermedia",
@@ -187,7 +187,7 @@
       "wattage": 77,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Avermedia",
@@ -196,7 +196,7 @@
       "wattage": 77,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Behringer",
@@ -205,7 +205,7 @@
       "wattage": 16,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Bose",
@@ -214,7 +214,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "89.00"]
+      "price":89.00
     },
     {
       "brand": "Bose",
@@ -223,7 +223,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "224.00"]
+      "price":224.00
     },
     {
       "brand": "Bose",
@@ -232,7 +232,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": "Black / Gray",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Corsair",
@@ -241,7 +241,7 @@
       "wattage": 232,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -250,7 +250,7 @@
       "wattage": 9,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -259,7 +259,7 @@
       "wattage": 9,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -268,7 +268,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -277,7 +277,7 @@
       "wattage": 4,
       "frequency_response": { "min": 90.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -286,7 +286,7 @@
       "wattage": 28,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "69.97"]
+      "price":69.97
     },
     {
       "brand": "Creative Labs",
@@ -295,7 +295,7 @@
       "wattage": 80,
       "frequency_response": { "min": 30.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -304,7 +304,7 @@
       "wattage": 32,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "89.99"]
+      "price":89.99
     },
     {
       "brand": "Creative Labs",
@@ -313,7 +313,7 @@
       "wattage": 33,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -322,7 +322,7 @@
       "wattage": 10,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "37.99"]
+      "price":37.99
     },
     {
       "brand": "Creative Labs",
@@ -331,7 +331,7 @@
       "wattage": 29,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -340,7 +340,7 @@
       "wattage": 25,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -349,7 +349,7 @@
       "wattage": 27,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -358,7 +358,7 @@
       "wattage": 50,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -367,7 +367,7 @@
       "wattage": 57,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -376,7 +376,7 @@
       "wattage": 4,
       "frequency_response": { "min": 100.0, "max": 17000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Creative Labs",
@@ -385,7 +385,7 @@
       "wattage": 4,
       "frequency_response": { "min": 100.0, "max": 17000.0, "default": null },
       "color": "White",
-      "price": ["USD", "22.98"]
+      "price":22.98
     },
     {
       "brand": "Creative Labs",
@@ -394,7 +394,7 @@
       "wattage": 8,
       "frequency_response": { "min": 100.0, "max": 17000.0, "default": null },
       "color": "Black / Copper",
-      "price": ["USD", "26.98"]
+      "price":26.98
     },
     {
       "brand": "Creative Labs",
@@ -403,7 +403,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "199.99"]
+      "price":199.99
     },
     {
       "brand": "Creative Labs",
@@ -412,7 +412,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -421,7 +421,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -430,7 +430,7 @@
       "wattage": 18,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -439,7 +439,7 @@
       "wattage": 14,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -448,7 +448,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -457,7 +457,7 @@
       "wattage": 40,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -466,7 +466,7 @@
       "wattage": 6,
       "frequency_response": { "min": 270.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -475,7 +475,7 @@
       "wattage": 4,
       "frequency_response": { "min": 220.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -484,7 +484,7 @@
       "wattage": 1,
       "frequency_response": { "min": 85.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -493,7 +493,7 @@
       "wattage": 4,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -502,7 +502,7 @@
       "wattage": 1,
       "frequency_response": { "min": 85.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "16.49"]
+      "price":16.49
     },
     {
       "brand": "Cyber Acoustics",
@@ -511,7 +511,7 @@
       "wattage": 4,
       "frequency_response": { "min": 85.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "16.59"]
+      "price":16.59
     },
     {
       "brand": "Cyber Acoustics",
@@ -520,7 +520,7 @@
       "wattage": 3,
       "frequency_response": { "min": 260.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "Cyber Acoustics",
@@ -529,7 +529,7 @@
       "wattage": 5,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "54.29"]
+      "price":54.29
     },
     {
       "brand": "Cyber Acoustics",
@@ -538,7 +538,7 @@
       "wattage": 5,
       "frequency_response": { "min": 35.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -547,7 +547,7 @@
       "wattage": 10,
       "frequency_response": { "min": 160.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "29.99"]
+      "price":29.99
     },
     {
       "brand": "Cyber Acoustics",
@@ -556,7 +556,7 @@
       "wattage": 30,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Cyber Acoustics",
@@ -565,7 +565,7 @@
       "wattage": 40,
       "frequency_response": { "min": 70.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -574,7 +574,7 @@
       "wattage": 14,
       "frequency_response": { "min": 38.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "35.04"]
+      "price":35.04
     },
     {
       "brand": "Cyber Acoustics",
@@ -583,7 +583,7 @@
       "wattage": 14,
       "frequency_response": { "min": 38.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "21.39"]
+      "price":21.39
     },
     {
       "brand": "Cyber Acoustics",
@@ -592,7 +592,7 @@
       "wattage": 68,
       "frequency_response": { "min": 22.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Cyber Acoustics",
@@ -601,7 +601,7 @@
       "wattage": 3,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "26.98"]
+      "price":26.98
     },
     {
       "brand": "Cyber Acoustics",
@@ -610,7 +610,7 @@
       "wattage": 22,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "59.99"]
+      "price":59.99
     },
     {
       "brand": "Edifier",
@@ -619,7 +619,7 @@
       "wattage": 74,
       "frequency_response": { "min": 30.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edifier",
@@ -628,7 +628,7 @@
       "wattage": 66,
       "frequency_response": { "min": 60.0, "max": 20000.0, "default": null },
       "color": "Black / Brown",
-      "price": ["USD", "149.99"]
+      "price":149.99
     },
     {
       "brand": "Edifier",
@@ -637,7 +637,7 @@
       "wattage": 4,
       "frequency_response": { "min": 150.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "34.98"]
+      "price":34.98
     },
     {
       "brand": "Edifier",
@@ -646,7 +646,7 @@
       "wattage": 120,
       "frequency_response": { "min": 48.0, "max": 20000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "349.99"]
+      "price":349.99
     },
     {
       "brand": "Edifier",
@@ -655,7 +655,7 @@
       "wattage": 124,
       "frequency_response": { "min": 48.0, "max": 20000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edifier",
@@ -664,7 +664,7 @@
       "wattage": 150,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": "Black / Brown",
-      "price": ["USD", "299.99"]
+      "price":299.99
     },
     {
       "brand": "Edifier",
@@ -673,7 +673,7 @@
       "wattage": 280,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Edifier",
@@ -682,7 +682,7 @@
       "wattage": 20,
       "frequency_response": { "min": 55.0, "max": 20000.0, "default": null },
       "color": "White / Brown",
-      "price": ["USD", "259.99"]
+      "price":259.99
     },
     {
       "brand": "Fluance",
@@ -691,7 +691,7 @@
       "wattage": 100,
       "frequency_response": { "min": 35.0, "max": 30000.0, "default": null },
       "color": "Black / Beige",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Fluance",
@@ -700,7 +700,7 @@
       "wattage": 100,
       "frequency_response": { "min": 35.0, "max": 30000.0, "default": null },
       "color": "White / White",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Fluance",
@@ -709,7 +709,7 @@
       "wattage": 100,
       "frequency_response": { "min": 35.0, "max": 30000.0, "default": null },
       "color": "Black / Brown",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Fluance",
@@ -718,7 +718,7 @@
       "wattage": 100,
       "frequency_response": { "min": 35.0, "max": 30000.0, "default": null },
       "color": "White / Brown",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Fluance",
@@ -727,7 +727,7 @@
       "wattage": 100,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "124.96"]
+      "price":124.96
     },
     {
       "brand": "Gear Head",
@@ -736,7 +736,7 @@
       "wattage": 3,
       "frequency_response": { "min": 200.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gear Head",
@@ -745,7 +745,7 @@
       "wattage": 3,
       "frequency_response": { "min": 200.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "49.95"]
+      "price":49.95
     },
     {
       "brand": "Gear Head",
@@ -754,7 +754,7 @@
       "wattage": 3,
       "frequency_response": { "min": 200.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "19.98"]
+      "price":19.98
     },
     {
       "brand": "Genius",
@@ -763,7 +763,7 @@
       "wattage": 30,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -772,7 +772,7 @@
       "wattage": 45,
       "frequency_response": { "min": 25.0, "max": 20000.0, "default": null },
       "color": "Black / Blue",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -781,7 +781,7 @@
       "wattage": 50,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -790,7 +790,7 @@
       "wattage": 20,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -799,7 +799,7 @@
       "wattage": 1,
       "frequency_response": { "min": 200.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -808,7 +808,7 @@
       "wattage": 0,
       "frequency_response": { "min": 200.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -817,7 +817,7 @@
       "wattage": 70,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Genius",
@@ -826,7 +826,7 @@
       "wattage": 38,
       "frequency_response": { "min": 58.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gigabyte",
@@ -835,7 +835,7 @@
       "wattage": 4,
       "frequency_response": { "min": 100.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gigabyte",
@@ -844,7 +844,7 @@
       "wattage": 1,
       "frequency_response": { "min": 230.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Harman Kardon",
@@ -853,7 +853,7 @@
       "wattage": 112,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Harman Kardon",
@@ -862,7 +862,7 @@
       "wattage": 40,
       "frequency_response": { "min": 44.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "169.99"]
+      "price":169.99
     },
     {
       "brand": "Harman Kardon",
@@ -871,7 +871,7 @@
       "wattage": 40,
       "frequency_response": { "min": 44.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "386.79"]
+      "price":386.79
     },
     {
       "brand": "HiFiMAN",
@@ -880,7 +880,7 @@
       "wattage": 11,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HiVi",
@@ -889,7 +889,7 @@
       "wattage": 0,
       "frequency_response": { "min": 100.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "79.98"]
+      "price":79.98
     },
     {
       "brand": "IK Multimedia",
@@ -898,7 +898,7 @@
       "wattage": 70,
       "frequency_response": { "min": 45.0, "max": 22000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "299.99"]
+      "price":299.99
     },
     {
       "brand": "Insignia",
@@ -907,7 +907,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "JBL",
@@ -916,7 +916,7 @@
       "wattage": 70,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "177.60"]
+      "price":177.60
     },
     {
       "brand": "JBL",
@@ -925,7 +925,7 @@
       "wattage": 82,
       "frequency_response": { "min": 43.0, "max": 24000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "JBL",
@@ -934,7 +934,7 @@
       "wattage": 140,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "JBL",
@@ -943,7 +943,7 @@
       "wattage": 0,
       "frequency_response": { "min": 70.0, "max": 20000.0, "default": null },
       "color": "Black / Red",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KEF",
@@ -952,7 +952,7 @@
       "wattage": 200,
       "frequency_response": { "min": 49.0, "max": 47000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "999.98"]
+      "price":999.98
     },
     {
       "brand": "KEF",
@@ -961,7 +961,7 @@
       "wattage": 200,
       "frequency_response": { "min": 49.0, "max": 47000.0, "default": null },
       "color": "Blue / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KEF",
@@ -970,7 +970,7 @@
       "wattage": 200,
       "frequency_response": { "min": 49.0, "max": 47000.0, "default": null },
       "color": "Green / Black",
-      "price": ["USD", "999.98"]
+      "price":999.98
     },
     {
       "brand": "KEF",
@@ -979,7 +979,7 @@
       "wattage": 200,
       "frequency_response": { "min": 49.0, "max": 47000.0, "default": null },
       "color": "Red / Black",
-      "price": ["USD", "999.98"]
+      "price":999.98
     },
     {
       "brand": "KEF",
@@ -988,7 +988,7 @@
       "wattage": 200,
       "frequency_response": { "min": 49.0, "max": 47000.0, "default": null },
       "color": "White / Black",
-      "price": ["USD", "999.98"]
+      "price":999.98
     },
     {
       "brand": "KRK",
@@ -997,7 +997,7 @@
       "wattage": 90,
       "frequency_response": { "min": 52.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KRK",
@@ -1006,7 +1006,7 @@
       "wattage": 100,
       "frequency_response": { "min": 48.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KRK",
@@ -1015,7 +1015,7 @@
       "wattage": 140,
       "frequency_response": { "min": 44.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KRK",
@@ -1024,7 +1024,7 @@
       "wattage": 180,
       "frequency_response": { "min": 49.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KRK",
@@ -1033,7 +1033,7 @@
       "wattage": 360,
       "frequency_response": { "min": 37.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "KRK",
@@ -1042,7 +1042,7 @@
       "wattage": 90,
       "frequency_response": { "min": 66.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Kanto",
@@ -1051,7 +1051,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "229.99"]
+      "price":229.99
     },
     {
       "brand": "Kanto",
@@ -1060,7 +1060,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Kanto",
@@ -1069,7 +1069,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Red / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Kanto",
@@ -1078,7 +1078,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Blue / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Kanto",
@@ -1087,7 +1087,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "White / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Kanto",
@@ -1096,7 +1096,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Kanto",
@@ -1105,7 +1105,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Silver / Black",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Kanto",
@@ -1114,7 +1114,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "White / Black",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Klipsch",
@@ -1123,7 +1123,7 @@
       "wattage": 120,
       "frequency_response": { "min": 31.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "154.99"]
+      "price":154.99
     },
     {
       "brand": "Klipsch",
@@ -1132,7 +1132,7 @@
       "wattage": 120,
       "frequency_response": { "min": 68.0, "max": 21000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "399.00"]
+      "price":399.00
     },
     {
       "brand": "Klipsch",
@@ -1141,7 +1141,7 @@
       "wattage": 70,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": "Black / Brown",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lenovo",
@@ -1150,7 +1150,7 @@
       "wattage": 2,
       "frequency_response": { "min": 90.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "20.79"]
+      "price":20.79
     },
     {
       "brand": "Lenovo",
@@ -1159,7 +1159,7 @@
       "wattage": 12,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1168,7 +1168,7 @@
       "wattage": 120,
       "frequency_response": { "min": 40.0, "max": 18000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "169.99"]
+      "price":169.99
     },
     {
       "brand": "Logitech",
@@ -1177,7 +1177,7 @@
       "wattage": 3,
       "frequency_response": { "min": 70.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1186,7 +1186,7 @@
       "wattage": 7,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "99.99"]
+      "price":99.99
     },
     {
       "brand": "Logitech",
@@ -1195,7 +1195,7 @@
       "wattage": 1,
       "frequency_response": { "min": 90.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "14.99"]
+      "price":14.99
     },
     {
       "brand": "Logitech",
@@ -1204,7 +1204,7 @@
       "wattage": 17,
       "frequency_response": { "min": 85.0, "max": 15000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1213,7 +1213,7 @@
       "wattage": 2,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "12.99"]
+      "price":12.99
     },
     {
       "brand": "Logitech",
@@ -1222,7 +1222,7 @@
       "wattage": 280,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "1358.06"]
+      "price":1358.06
     },
     {
       "brand": "Logitech",
@@ -1231,7 +1231,7 @@
       "wattage": 4,
       "frequency_response": { "min": 80.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1240,7 +1240,7 @@
       "wattage": 32,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1249,7 +1249,7 @@
       "wattage": 70,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1258,7 +1258,7 @@
       "wattage": 70,
       "frequency_response": { "min": 40.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1267,7 +1267,7 @@
       "wattage": 200,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1276,7 +1276,7 @@
       "wattage": 505,
       "frequency_response": { "min": 33.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1285,7 +1285,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "48.02"]
+      "price":48.02
     },
     {
       "brand": "Logitech",
@@ -1294,7 +1294,7 @@
       "wattage": 5,
       "frequency_response": { "min": 140.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "19.99"]
+      "price":19.99
     },
     {
       "brand": "Logitech",
@@ -1303,7 +1303,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1312,7 +1312,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "18.99"]
+      "price":18.99
     },
     {
       "brand": "Logitech",
@@ -1321,7 +1321,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "24.99"]
+      "price":24.99
     },
     {
       "brand": "Logitech",
@@ -1330,7 +1330,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": "Black",
-      "price": ["USD", "44.47"]
+      "price":44.47
     },
     {
       "brand": "Logitech",
@@ -1339,7 +1339,7 @@
       "wattage": 0,
       "frequency_response": null,
       "color": "White",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1348,7 +1348,7 @@
       "wattage": 7,
       "frequency_response": { "min": 65.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "26.49"]
+      "price":26.49
     },
     {
       "brand": "Logitech",
@@ -1357,7 +1357,7 @@
       "wattage": 25,
       "frequency_response": { "min": 48.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Logitech",
@@ -1366,7 +1366,7 @@
       "wattage": 10,
       "frequency_response": { "min": 70.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "73.42"]
+      "price":73.42
     },
     {
       "brand": "Logitech",
@@ -1375,7 +1375,7 @@
       "wattage": 30,
       "frequency_response": { "min": 55.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "49.99"]
+      "price":49.99
     },
     {
       "brand": "Logitech",
@@ -1384,7 +1384,7 @@
       "wattage": 40,
       "frequency_response": { "min": 55.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "54.38"]
+      "price":54.38
     },
     {
       "brand": "Logitech",
@@ -1393,7 +1393,7 @@
       "wattage": 40,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "79.98"]
+      "price":79.98
     },
     {
       "brand": "Logitech",
@@ -1402,7 +1402,7 @@
       "wattage": 155,
       "frequency_response": { "min": 45.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1411,7 +1411,7 @@
       "wattage": 40,
       "frequency_response": { "min": 48.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Logitech",
@@ -1420,7 +1420,7 @@
       "wattage": 60,
       "frequency_response": { "min": 55.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "99.99"]
+      "price":99.99
     },
     {
       "brand": "Logitech",
@@ -1429,7 +1429,7 @@
       "wattage": 40,
       "frequency_response": { "min": 55.0, "max": 17000.0, "default": null },
       "color": null,
-      "price": ["USD", "299.99"]
+      "price":299.99
     },
     {
       "brand": "Logitech",
@@ -1438,7 +1438,7 @@
       "wattage": 200,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "119.99"]
+      "price":119.99
     },
     {
       "brand": "Logitech",
@@ -1447,7 +1447,7 @@
       "wattage": 200,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "135.99"]
+      "price":135.99
     },
     {
       "brand": "Logitech",
@@ -1456,7 +1456,7 @@
       "wattage": 500,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "379.05"]
+      "price":379.05
     },
     {
       "brand": "M-Audio",
@@ -1465,7 +1465,7 @@
       "wattage": 20,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1474,7 +1474,7 @@
       "wattage": 40,
       "frequency_response": { "min": 75.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1483,7 +1483,7 @@
       "wattage": 140,
       "frequency_response": { "min": 56.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1492,7 +1492,7 @@
       "wattage": 100,
       "frequency_response": { "min": 52.0, "max": 35000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1501,7 +1501,7 @@
       "wattage": 100,
       "frequency_response": { "min": 52.0, "max": 35000.0, "default": null },
       "color": "Black / Red",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1510,7 +1510,7 @@
       "wattage": 100,
       "frequency_response": { "min": 45.0, "max": 22000.0, "default": null },
       "color": "Black / Silver",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1519,7 +1519,7 @@
       "wattage": 130,
       "frequency_response": { "min": 38.0, "max": 22000.0, "default": null },
       "color": "Black / Silver",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1528,7 +1528,7 @@
       "wattage": 260,
       "frequency_response": { "min": 30.0, "max": 22000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1537,7 +1537,7 @@
       "wattage": 150,
       "frequency_response": { "min": 37.0, "max": 22000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1546,7 +1546,7 @@
       "wattage": 220,
       "frequency_response": { "min": 38.0, "max": 22000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1555,7 +1555,7 @@
       "wattage": 10,
       "frequency_response": { "min": 120.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1564,7 +1564,7 @@
       "wattage": 20,
       "frequency_response": { "min": 90.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -1573,7 +1573,7 @@
       "wattage": 40,
       "frequency_response": { "min": 85.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1582,7 +1582,7 @@
       "wattage": 50,
       "frequency_response": { "min": 80.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1591,7 +1591,7 @@
       "wattage": 28,
       "frequency_response": { "min": 60.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1600,7 +1600,7 @@
       "wattage": 50,
       "frequency_response": { "min": 45.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1609,7 +1609,7 @@
       "wattage": 100,
       "frequency_response": { "min": 57.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1618,7 +1618,7 @@
       "wattage": 65,
       "frequency_response": { "min": 38.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Mackie",
@@ -1627,7 +1627,7 @@
       "wattage": 130,
       "frequency_response": { "min": 46.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1636,7 +1636,7 @@
       "wattage": 85,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "269.99"]
+      "price":269.99
     },
     {
       "brand": "Mackie",
@@ -1645,7 +1645,7 @@
       "wattage": 170,
       "frequency_response": { "min": 38.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Mackie",
@@ -1654,7 +1654,7 @@
       "wattage": 120,
       "frequency_response": { "min": 40.0, "max": 180.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Micca",
@@ -1663,7 +1663,7 @@
       "wattage": 100,
       "frequency_response": { "min": 90.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "54.99"]
+      "price":54.99
     },
     {
       "brand": "Micca",
@@ -1672,7 +1672,7 @@
       "wattage": 150,
       "frequency_response": { "min": 60.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Micca",
@@ -1681,7 +1681,7 @@
       "wattage": 150,
       "frequency_response": { "min": 60.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "89.99"]
+      "price":89.99
     },
     {
       "brand": "Microlab",
@@ -1690,7 +1690,7 @@
       "wattage": 64,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Microlab",
@@ -1699,7 +1699,7 @@
       "wattage": 40,
       "frequency_response": { "min": 50.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Microlab",
@@ -1708,7 +1708,7 @@
       "wattage": 40,
       "frequency_response": { "min": 50.0, "max": 18000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Pioneer",
@@ -1717,7 +1717,7 @@
       "wattage": 80,
       "frequency_response": { "min": 65.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "PreSonus",
@@ -1726,7 +1726,7 @@
       "wattage": 50,
       "frequency_response": { "min": 70.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "199.95"]
+      "price":199.95
     },
     {
       "brand": "Razer",
@@ -1735,7 +1735,7 @@
       "wattage": 6,
       "frequency_response": { "min": 150.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Razer",
@@ -1744,7 +1744,7 @@
       "wattage": 60,
       "frequency_response": { "min": 180.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "199.99"]
+      "price":199.99
     },
     {
       "brand": "Razer",
@@ -1753,7 +1753,7 @@
       "wattage": 0,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "149.99"]
+      "price":149.99
     },
     {
       "brand": "Razer",
@@ -1762,7 +1762,7 @@
       "wattage": 0,
       "frequency_response": { "min": 35.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "599.99"]
+      "price":599.99
     },
     {
       "brand": "Razer",
@@ -1771,7 +1771,7 @@
       "wattage": 0,
       "frequency_response": { "min": 50.0, "max": 20000.0, "default": null },
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -1780,7 +1780,7 @@
       "wattage": 0,
       "frequency_response": { "min": 60.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Sony",
@@ -1789,7 +1789,7 @@
       "wattage": 20,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "64.95"]
+      "price":64.95
     },
     {
       "brand": "Swan Speakers",
@@ -1798,7 +1798,7 @@
       "wattage": 120,
       "frequency_response": { "min": 53.0, "max": 20000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Swan Speakers",
@@ -1807,7 +1807,7 @@
       "wattage": 114,
       "frequency_response": { "min": 38.0, "max": 20000.0, "default": null },
       "color": "Brown / Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1816,7 +1816,7 @@
       "wattage": 3,
       "frequency_response": { "min": 280.0, "max": 16000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1825,7 +1825,7 @@
       "wattage": 6,
       "frequency_response": { "min": 150.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -1834,7 +1834,7 @@
       "wattage": 6,
       "frequency_response": { "min": 150.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Trust",
@@ -1843,7 +1843,7 @@
       "wattage": 24,
       "frequency_response": { "min": 20.0, "max": 20000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "V7",
@@ -1852,7 +1852,7 @@
       "wattage": 1,
       "frequency_response": null,
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Yamaha",
@@ -1861,7 +1861,7 @@
       "wattage": 70,
       "frequency_response": { "min": 54.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Yamaha",
@@ -1870,7 +1870,7 @@
       "wattage": 70,
       "frequency_response": { "min": 54.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "199.99"]
+      "price":199.99
     },
     {
       "brand": "Yamaha",
@@ -1879,7 +1879,7 @@
       "wattage": 95,
       "frequency_response": { "min": 43.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Yamaha",
@@ -1888,7 +1888,7 @@
       "wattage": 95,
       "frequency_response": { "min": 43.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "349.00"]
+      "price":349.00
     },
     {
       "brand": "Yamaha",
@@ -1897,7 +1897,7 @@
       "wattage": 120,
       "frequency_response": { "min": 38.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Yamaha",
@@ -1906,7 +1906,7 @@
       "wattage": 120,
       "frequency_response": { "min": 38.0, "max": 30000.0, "default": null },
       "color": null,
-      "price": ["USD", "369.99"]
+      "price":369.99
     },
     {
       "brand": "Yamaha",
@@ -1915,7 +1915,7 @@
       "wattage": 550,
       "frequency_response": { "min": 28.0, "max": 50000.0, "default": null },
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     }
   ]
 }

@@ -8,7 +8,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Aerocool",
@@ -18,7 +18,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "17.76"]
+      "price":17.76
     },
     {
       "brand": "Aerocool",
@@ -28,7 +28,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Aerocool",
@@ -38,7 +38,7 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Aerocool",
@@ -48,7 +48,7 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Aerocool",
@@ -58,7 +58,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "28.60"]
+      "price":28.60
     },
     {
       "brand": "Aerocool",
@@ -68,7 +68,7 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Aerocool",
@@ -78,7 +78,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "BitFenix",
@@ -88,7 +88,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "BitFenix",
@@ -98,7 +98,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Deepcool",
@@ -108,7 +108,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Gelid Solutions",
@@ -118,7 +118,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Kingwin",
@@ -128,7 +128,7 @@
       "pwm": "False",
       "form_factor": "3.5\"",
       "color": null,
-      "price": ["USD", "15.18"]
+      "price":15.18
     },
     {
       "brand": "Kingwin",
@@ -138,7 +138,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "83.99"]
+      "price":83.99
     },
     {
       "brand": "Kingwin",
@@ -148,7 +148,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -158,7 +158,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -168,7 +168,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "44.99"]
+      "price":44.99
     },
     {
       "brand": "Lamptron",
@@ -178,7 +178,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -188,7 +188,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -198,7 +198,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -208,7 +208,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -218,7 +218,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "69.95"]
+      "price":69.95
     },
     {
       "brand": "Lamptron",
@@ -228,7 +228,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -238,7 +238,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -248,7 +248,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -258,7 +258,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Lamptron",
@@ -268,7 +268,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "NZXT",
@@ -278,7 +278,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "NZXT",
@@ -288,7 +288,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "NZXT",
@@ -298,7 +298,7 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "NZXT",
@@ -308,7 +308,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "NZXT",
@@ -318,7 +318,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Scythe",
@@ -328,7 +328,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Silverstone",
@@ -338,7 +338,7 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Thermaltake",
@@ -348,7 +348,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Thermaltake",
@@ -358,7 +358,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price": ["USD", "59.41"]
+      "price":59.41
     },
     {
       "brand": "Thermaltake",
@@ -368,7 +368,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price": ["USD", "39.99"]
+      "price":39.99
     }
   ]
 }

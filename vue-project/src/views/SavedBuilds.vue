@@ -1,5 +1,7 @@
 <template>
+
   <div class="new">
+
     <div class="header">
       <button class="arrow" id="left" @click="changeValue(-1)"></button>
       <h2>
@@ -100,6 +102,8 @@ export default {
     updateBuild(part) {
       this.computerBuild.push(part)
       console.log(this.computerBuild)
+      this.changeValue(1)
+
     }
   }
 }

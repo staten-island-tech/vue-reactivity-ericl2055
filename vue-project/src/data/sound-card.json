@@ -9,7 +9,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCIe x1",
-      "price": ["USD", "590.75"]
+      "price":590.75
     },
     {
       "brand": "Asus",
@@ -20,7 +20,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -31,7 +31,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "219.99"]
+      "price":219.99
     },
     {
       "brand": "Asus",
@@ -42,7 +42,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -53,7 +53,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "109.94"]
+      "price":109.94
     },
     {
       "brand": "Asus",
@@ -64,7 +64,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "69.99"]
+      "price":69.99
     },
     {
       "brand": "Asus",
@@ -75,7 +75,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -86,7 +86,7 @@
       "sample_rate": 96.0,
       "chipset": "C-Media CMI8786",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -97,7 +97,7 @@
       "sample_rate": 96.0,
       "chipset": "C-Media CMI8786",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -108,7 +108,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV200",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -119,7 +119,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV200",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -130,7 +130,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV66",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -141,7 +141,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -152,7 +152,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -163,7 +163,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -174,7 +174,7 @@
       "sample_rate": 192.0,
       "chipset": "ASUS AV100",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -185,7 +185,7 @@
       "sample_rate": 96.0,
       "chipset": "C-Media CMI8888DHT",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Asus",
@@ -196,7 +196,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "39.99"]
+      "price":39.99
     },
     {
       "brand": "Creative Labs",
@@ -207,7 +207,7 @@
       "sample_rate": 96.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -218,7 +218,7 @@
       "sample_rate": null,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "36.99"]
+      "price":36.99
     },
     {
       "brand": "Creative Labs",
@@ -229,7 +229,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -240,7 +240,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "87.59"]
+      "price":87.59
     },
     {
       "brand": "Creative Labs",
@@ -251,7 +251,7 @@
       "sample_rate": 96.0,
       "chipset": "Audigy SE",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -262,7 +262,7 @@
       "sample_rate": 96.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -273,7 +273,7 @@
       "sample_rate": 96.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -284,7 +284,7 @@
       "sample_rate": 96.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -295,7 +295,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -306,7 +306,7 @@
       "sample_rate": 384.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "195.35"]
+      "price":195.35
     },
     {
       "brand": "Creative Labs",
@@ -317,7 +317,7 @@
       "sample_rate": 384.0,
       "chipset": "Sound Core3D",
       "interface": "PCIe x1",
-      "price": ["USD", "329.99"]
+      "price":329.99
     },
     {
       "brand": "Creative Labs",
@@ -328,7 +328,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "52.33"]
+      "price":52.33
     },
     {
       "brand": "Creative Labs",
@@ -339,7 +339,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "56.99"]
+      "price":56.99
     },
     {
       "brand": "Creative Labs",
@@ -350,7 +350,7 @@
       "sample_rate": 192.0,
       "chipset": "Audigy2",
       "interface": "PCI",
-      "price": ["USD", "175.27"]
+      "price":175.27
     },
     {
       "brand": "Creative Labs",
@@ -361,7 +361,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -372,7 +372,7 @@
       "sample_rate": 96.0,
       "chipset": "X-Fi",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -383,7 +383,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -394,7 +394,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -405,7 +405,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -416,7 +416,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -427,7 +427,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Creative Labs",
@@ -438,7 +438,7 @@
       "sample_rate": null,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "127.99"]
+      "price":127.99
     },
     {
       "brand": "Creative Labs",
@@ -449,7 +449,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "79.98"]
+      "price":79.98
     },
     {
       "brand": "Creative Labs",
@@ -460,7 +460,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Diamond",
@@ -471,7 +471,7 @@
       "sample_rate": 48.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Diamond",
@@ -482,7 +482,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "53.99"]
+      "price":53.99
     },
     {
       "brand": "EVGA",
@@ -493,7 +493,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "172.98"]
+      "price":172.98
     },
     {
       "brand": "EVGA",
@@ -504,7 +504,7 @@
       "sample_rate": 384.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Encore",
@@ -515,7 +515,7 @@
       "sample_rate": 96.0,
       "chipset": "VIA VT1723",
       "interface": "PCI",
-      "price": ["USD", "28.00"]
+      "price":28.00
     },
     {
       "brand": "Encore",
@@ -526,7 +526,7 @@
       "sample_rate": 96.0,
       "chipset": "VIA VT1723",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -537,7 +537,7 @@
       "sample_rate": 192.0,
       "chipset": "C-Media CMI8788",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -548,7 +548,7 @@
       "sample_rate": 192.0,
       "chipset": "C-Media CMI8788",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -559,7 +559,7 @@
       "sample_rate": 192.0,
       "chipset": "C-Media CMI8788",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -570,7 +570,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -581,7 +581,7 @@
       "sample_rate": null,
       "chipset": "C-Media CMI8770",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "HT Omega",
@@ -592,7 +592,7 @@
       "sample_rate": 192.0,
       "chipset": "C-Media CMI8788",
       "interface": "PCIe x1",
-      "price": ["USD", "184.99"]
+      "price":184.99
     },
     {
       "brand": "M-Audio",
@@ -603,7 +603,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "M-Audio",
@@ -614,7 +614,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "PPA International",
@@ -625,7 +625,7 @@
       "sample_rate": null,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "PowerColor",
@@ -636,7 +636,7 @@
       "sample_rate": 192.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -647,7 +647,7 @@
       "sample_rate": null,
       "chipset": "C-Media CMI8738",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -658,7 +658,7 @@
       "sample_rate": 96.0,
       "chipset": "C-Media CMI8768",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Rosewill",
@@ -669,7 +669,7 @@
       "sample_rate": 44.1,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -680,7 +680,7 @@
       "sample_rate": null,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -691,7 +691,7 @@
       "sample_rate": null,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -702,7 +702,7 @@
       "sample_rate": 96.0,
       "chipset": "VIA VT1723",
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -713,7 +713,7 @@
       "sample_rate": 96.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "SIIG",
@@ -724,7 +724,7 @@
       "sample_rate": 96.0,
       "chipset": "VIA VT1723",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "StarTech",
@@ -735,7 +735,7 @@
       "sample_rate": 48.0,
       "chipset": "C-Media CMI8738",
       "interface": "PCI",
-      "price": ["USD", "61.59"]
+      "price":61.59
     },
     {
       "brand": "StarTech",
@@ -746,7 +746,7 @@
       "sample_rate": 48.0,
       "chipset": "C-Media CMI8738",
       "interface": "PCI",
-      "price": ["USD", "61.59"]
+      "price":61.59
     },
     {
       "brand": "StarTech",
@@ -757,7 +757,7 @@
       "sample_rate": 48.0,
       "chipset": "C-Media CMI8738",
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Syba",
@@ -768,7 +768,7 @@
       "sample_rate": 48.0,
       "chipset": null,
       "interface": "PCIe x1",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Turtle Beach",
@@ -779,7 +779,7 @@
       "sample_rate": 48.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     },
     {
       "brand": "Vantec",
@@ -790,7 +790,7 @@
       "sample_rate": 48.0,
       "chipset": null,
       "interface": "PCI",
-      "price": ["USD", "0.00"]
+      "price":0.00
     }
   ]
 }

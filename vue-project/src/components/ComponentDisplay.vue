@@ -35,7 +35,7 @@ export default {
   methods: {
     addToBuild(part) {
       console.log('works')
-      this.$emit('addBuild', part)
+      this.$emit('addBuild', part, 1)
     }
   },
   watch: {
@@ -60,9 +60,6 @@ export default {
 
       return filteredData
     }
-  },
-  mounted() {
-    console.log(data[this.part].data)
   }
 }
 </script>
