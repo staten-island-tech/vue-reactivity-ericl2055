@@ -28,11 +28,11 @@
         />
       </div>
       <div class="filters">
-
         <FilterComp
           v-on:filter-changed="updateFilter"
-          :part="this.dataList[this.selectedValue]"
+          :part="this.data[this.dataList[this.selectedValue]].data[0]"
           :options="CPUfilterOptions"
+          :name="this.dataList[this.selectedValue]"
         />
         <label for="search">Search:</label>
         <input type="text" id="search" />
@@ -48,11 +48,13 @@
 import BuildComp from '../components/BuildComponent.vue'
 import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
+import * as data from '../data'
 
 export default {
   name: 'Build',
   data() {
     return {
+      data: data,
       CPUfilterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'brand', filter: 'AMD' },

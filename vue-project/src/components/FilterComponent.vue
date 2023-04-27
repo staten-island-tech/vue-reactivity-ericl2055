@@ -27,11 +27,15 @@ export default {
   name: 'Filter',
   props: {
     part: {
-      type: String,
+      type: Object,
       required: true
     },
     options: {
       type: Array,
+      required: true
+    },
+    name: {
+      type: String,
       required: true
     }
   },
@@ -42,14 +46,13 @@ export default {
     }
   },
   mounted() {
-    console.log(this.part)
+    console.log(this.part, Object.keys(this.part))
   },
   methods: {
     toggleActive() {
       this.isActive = !this.isActive
     },
     applyFilters() {
-      console.log(this.selectedFilters)
       this.$emit('filter-changed', this.selectedFilters)
     }
   }
