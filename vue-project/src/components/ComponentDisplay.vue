@@ -1,7 +1,7 @@
 <template>
   <div class="parts-container">
     <ul>
-      <li v-for="part in data" :key="part.id">
+      <li v-for="part in filter" :key="part.id">
         <button @click="addToBuild(part)">Add to Build</button>
         {{ part.brand }} {{ part.model }} - ${{ part.price }}
       </li>
@@ -44,18 +44,24 @@ export default {
   },
   computed: {
     filter() {
-      console.log('work')
       let filteredData = this.data.filter((part) => part.price > 0)
 
       if (this.filters.length > 0) {
-        filteredData = this.filters.reduce((filteredData, filter) => {
-          if (filter.type === 'price') {
-            filteredData = filteredData.filter((part) => part.price <= filter.filter)
-          } else {
-            filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
-          }
-          return filteredData
-        }, filteredData)
+        let brandFilters = this.filters.filter((filter) => filter.type === 'brand')
+        if (brandFilters.length > 1) {
+          filteredData = this.data.filter((part) => part.price > 0)
+        } else {
+          filteredData = this.filters.reduce((filteredData, filter) => {
+            if (filter.type === 'brand') {
+              filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
+            } else if (filter.type === 'price') {
+              filteredData = filteredData.filter((part) => part.price <= filter.filter)
+            } else {
+              filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
+            }
+            return filteredData
+          }, filteredData)
+        }
       }
 
       return filteredData

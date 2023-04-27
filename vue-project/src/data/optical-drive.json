@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "type": "Optical Drive",
       "brand": "Archgon",
       "model": "CB-5021-GB",
       "bluray_read_speed": 6,
@@ -9,9 +10,10 @@
       "bluray_write_speed": "6/2/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/4",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Archgon",
       "model": "CB-5021-GD",
       "bluray_read_speed": null,
@@ -20,9 +22,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BC-06B1ST",
       "bluray_read_speed": 6,
@@ -31,9 +34,10 @@
       "bluray_write_speed": "6/4/6/4",
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BC-12B1ST",
       "bluray_read_speed": null,
@@ -42,9 +46,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BC-12B1ST/BLK/B/AS",
       "bluray_read_speed": 12,
@@ -53,9 +58,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BC-12D2HT",
       "bluray_read_speed": null,
@@ -64,9 +70,10 @@
       "bluray_write_speed": "12/8/8/6",
       "dvd_write_speed": "16/8/8/6/12/8/5",
       "cd_write_speed": "48/24",
-      "price":92.95
+      "price": 92.95
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BW-12B1ST/BLK/G/AS",
       "bluray_read_speed": 8,
@@ -75,9 +82,10 @@
       "bluray_write_speed": "12/4/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":199.95
+      "price": 199.95
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BW-14D1XT",
       "bluray_read_speed": 12,
@@ -86,9 +94,10 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "BW-16D1HT",
       "bluray_read_speed": 12,
@@ -97,9 +106,10 @@
       "bluray_write_speed": "16/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":79.89
+      "price": 79.89
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-2014L1T",
       "bluray_read_speed": null,
@@ -108,9 +118,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "20/8/8/20/6/8/14",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-22B2Sb/BLK/B/AS",
       "bluray_read_speed": null,
@@ -119,9 +130,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-22B3S/BLK/G/AS",
       "bluray_read_speed": null,
@@ -130,9 +142,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24B1ST/BLK/B/AS",
       "bluray_read_speed": null,
@@ -141,9 +154,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":19.98
+      "price": 19.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24B3LT",
       "bluray_read_speed": null,
@@ -152,9 +166,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24B3LT/BLK/G/AS",
       "bluray_read_speed": null,
@@ -163,9 +178,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24B3ST/BLK/G/AS",
       "bluray_read_speed": null,
@@ -174,9 +190,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price":27.98
+      "price": 27.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24D3ST",
       "bluray_read_speed": null,
@@ -185,9 +202,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/13/12/16/8/12/5",
       "cd_write_speed": "48/40",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24D5MT",
       "bluray_read_speed": null,
@@ -196,9 +214,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/13/12/16/8/12/5",
       "cd_write_speed": "48/40",
-      "price":33.02
+      "price": 33.02
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24F1MT",
       "bluray_read_speed": null,
@@ -207,9 +226,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DRW-24F1ST",
       "bluray_read_speed": null,
@@ -218,9 +238,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":17.98
+      "price": 17.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DVD-E818AAT/BLK/B/GE",
       "bluray_read_speed": null,
@@ -229,9 +250,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":33.44
+      "price": 33.44
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DVD-E818AAT/BLK/B/GEN",
       "bluray_read_speed": null,
@@ -240,9 +262,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":37.94
+      "price": 37.94
     },
     {
+      "type": "Optical Drive",
       "brand": "Asus",
       "model": "DVDE818A7T/BLK/B/GEN",
       "bluray_read_speed": null,
@@ -251,9 +274,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/10/8/16/10/8/5",
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Buslink",
       "model": "DBW-1647",
       "bluray_read_speed": null,
@@ -262,9 +286,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "EVGA",
       "model": "100-OD-S101-BR",
       "bluray_read_speed": null,
@@ -273,9 +298,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Gear Head",
       "model": "24XDVDINTLS",
       "bluray_read_speed": null,
@@ -284,9 +310,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "1270i",
       "bluray_read_speed": null,
@@ -295,9 +322,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "447326-B21",
       "bluray_read_speed": null,
@@ -306,9 +334,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":57.59
+      "price": 57.59
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "447328-B21",
       "bluray_read_speed": null,
@@ -317,9 +346,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "481041-B21",
       "bluray_read_speed": null,
@@ -328,9 +358,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "624192-B21",
       "bluray_read_speed": null,
@@ -339,9 +370,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "652238-B21",
       "bluray_read_speed": null,
@@ -350,9 +382,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "AR629AA",
       "bluray_read_speed": null,
@@ -361,9 +394,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":43.00
+      "price": 43.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "DVD1265I",
       "bluray_read_speed": null,
@@ -372,9 +406,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "QS208AA",
       "bluray_read_speed": null,
@@ -383,9 +418,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "HP",
       "model": "bd340i",
       "bluray_read_speed": 8,
@@ -394,9 +430,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "I/O Magic",
       "model": "IBD1",
       "bluray_read_speed": 10,
@@ -405,9 +442,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "I/O Magic",
       "model": "IDVD22DL",
       "bluray_read_speed": null,
@@ -416,9 +454,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/16/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "I/O Magic",
       "model": "IDVD24S",
       "bluray_read_speed": null,
@@ -427,9 +466,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/16/24/1/16/12",
       "cd_write_speed": "48/32",
-      "price":36.05
+      "price": 36.05
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH10LS30",
       "bluray_read_speed": 6,
@@ -438,9 +478,10 @@
       "bluray_write_speed": "10/8/8/6",
       "dvd_write_speed": "16/8/8/16/8/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH12LS35",
       "bluray_read_speed": null,
@@ -449,9 +490,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/12/12/16/12/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH12LS38",
       "bluray_read_speed": 12,
@@ -460,9 +502,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH14NS40",
       "bluray_read_speed": 12,
@@ -471,9 +514,10 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":291.58
+      "price": 291.58
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH16NS40",
       "bluray_read_speed": 12,
@@ -482,9 +526,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":104.99
+      "price": 104.99
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BH16NS55.AUAR10B",
       "bluray_read_speed": null,
@@ -493,9 +538,10 @@
       "bluray_write_speed": "8/8/8/6",
       "dvd_write_speed": "16/12/12/16/12/12/5",
       "cd_write_speed": "48/40",
-      "price":243.00
+      "price": 243.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "BT30N",
       "bluray_read_speed": 6,
@@ -504,9 +550,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "CH10LS20 OEM",
       "bluray_read_speed": 10,
@@ -515,9 +562,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "CH10LS28",
       "bluray_read_speed": 10,
@@ -526,9 +574,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "CH12LS28",
       "bluray_read_speed": 10,
@@ -537,9 +586,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "CU20N",
       "bluray_read_speed": 6,
@@ -548,9 +598,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GGC-H20L",
       "bluray_read_speed": 6,
@@ -559,9 +610,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH10N",
       "bluray_read_speed": null,
@@ -570,9 +622,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH22LP21",
       "bluray_read_speed": null,
@@ -581,9 +634,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH22NP21",
       "bluray_read_speed": null,
@@ -592,9 +646,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH22NS50 Bulk",
       "bluray_read_speed": null,
@@ -603,9 +658,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH22NS70 OEM",
       "bluray_read_speed": null,
@@ -614,9 +670,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH22NS90B",
       "bluray_read_speed": null,
@@ -625,9 +682,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24LS70",
       "bluray_read_speed": null,
@@ -636,9 +694,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NS70 OEM",
       "bluray_read_speed": null,
@@ -647,9 +706,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NS72",
       "bluray_read_speed": null,
@@ -658,9 +718,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":34.97
+      "price": 34.97
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NS90",
       "bluray_read_speed": null,
@@ -669,9 +730,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price":34.58
+      "price": 34.58
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NS95",
       "bluray_read_speed": null,
@@ -680,9 +742,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":49.98
+      "price": 49.98
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSB0",
       "bluray_read_speed": null,
@@ -691,9 +754,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":39.99
+      "price": 39.99
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSB0B",
       "bluray_read_speed": null,
@@ -702,9 +766,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":34.97
+      "price": 34.97
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSC0",
       "bluray_read_speed": null,
@@ -713,9 +778,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":18.98
+      "price": 18.98
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSC0B",
       "bluray_read_speed": null,
@@ -724,9 +790,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":18.98
+      "price": 18.98
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSD1",
       "bluray_read_speed": null,
@@ -735,9 +802,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/16/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GH24NSD5",
       "bluray_read_speed": null,
@@ -746,9 +814,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/8/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GS40N",
       "bluray_read_speed": null,
@@ -757,9 +826,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GT80N",
       "bluray_read_speed": null,
@@ -768,9 +838,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GTB0N",
       "bluray_read_speed": null,
@@ -779,9 +850,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/6/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":39.81
+      "price": 39.81
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "GUB0N",
       "bluray_read_speed": null,
@@ -790,9 +862,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/6/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":45.00
+      "price": 45.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "UH12LS28 OEM",
       "bluray_read_speed": 12,
@@ -801,9 +874,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "UH12LS29",
       "bluray_read_speed": 10,
@@ -812,9 +886,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "UH12NS29",
       "bluray_read_speed": 10,
@@ -823,9 +898,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "UH12NS30",
       "bluray_read_speed": 12,
@@ -834,9 +910,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "UH12NS40",
       "bluray_read_speed": 12,
@@ -845,9 +922,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH12LS30",
       "bluray_read_speed": 10,
@@ -856,9 +934,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH12LS38",
       "bluray_read_speed": 10,
@@ -867,9 +946,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH12LS39",
       "bluray_read_speed": 10,
@@ -878,9 +958,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH14NS40",
       "bluray_read_speed": 12,
@@ -889,9 +970,10 @@
       "bluray_write_speed": "14/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":53.48
+      "price": 53.48
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH16NS40",
       "bluray_read_speed": 12,
@@ -900,9 +982,10 @@
       "bluray_write_speed": "16/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":66.98
+      "price": 66.98
     },
     {
+      "type": "Optical Drive",
       "brand": "LG",
       "model": "WH16NS60",
       "bluray_read_speed": null,
@@ -911,9 +994,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":100.98
+      "price": 100.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Lenovo",
       "model": "0A65618",
       "bluray_read_speed": null,
@@ -922,9 +1006,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/12/12/16/12/12/12",
       "cd_write_speed": "48/40",
-      "price":53.50
+      "price": 53.5
     },
     {
+      "type": "Optical Drive",
       "brand": "Lenovo",
       "model": "41N5618",
       "bluray_read_speed": null,
@@ -933,9 +1018,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DC-8A2SH",
       "bluray_read_speed": null,
@@ -944,9 +1030,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DH-16AFSH",
       "bluray_read_speed": null,
@@ -955,9 +1042,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DH-4O1S-11",
       "bluray_read_speed": 4,
@@ -966,9 +1054,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DL-8A4SH-01",
       "bluray_read_speed": null,
@@ -977,9 +1066,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DS-8A5S",
       "bluray_read_speed": null,
@@ -988,9 +1078,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DS-8A8SH",
       "bluray_read_speed": null,
@@ -999,9 +1090,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DS-8A9SH-01",
       "bluray_read_speed": null,
@@ -1010,9 +1102,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "DS-8ABSH-01",
       "bluray_read_speed": null,
@@ -1021,9 +1114,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHAS324-07",
       "bluray_read_speed": null,
@@ -1032,9 +1126,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":29.40
+      "price": 29.4
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHAS324-98",
       "bluray_read_speed": null,
@@ -1043,9 +1138,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":69.00
+      "price": 69.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHBS112-04",
       "bluray_read_speed": 8,
@@ -1054,9 +1150,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/48",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHBS112-29",
       "bluray_read_speed": 8,
@@ -1065,9 +1162,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHBS312-98",
       "bluray_read_speed": 8,
@@ -1076,9 +1174,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "IHES312-98",
       "bluray_read_speed": 12,
@@ -1087,9 +1186,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "Ihap322-98",
       "bluray_read_speed": null,
@@ -1098,9 +1198,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "SOHW-832S",
       "bluray_read_speed": null,
@@ -1109,9 +1210,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAP122-04",
       "bluray_read_speed": null,
@@ -1120,9 +1222,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAP222-06",
       "bluray_read_speed": null,
@@ -1131,9 +1234,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAP422-98",
       "bluray_read_speed": null,
@@ -1142,9 +1246,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS-324-98B",
       "bluray_read_speed": null,
@@ -1153,9 +1258,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS124-04",
       "bluray_read_speed": null,
@@ -1164,9 +1270,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS124-14",
       "bluray_read_speed": null,
@@ -1175,9 +1282,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":19.98
+      "price": 19.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS224-06",
       "bluray_read_speed": null,
@@ -1186,9 +1294,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS324-99",
       "bluray_read_speed": null,
@@ -1197,9 +1306,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS424-98",
       "bluray_read_speed": null,
@@ -1208,9 +1318,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS524-06",
       "bluray_read_speed": null,
@@ -1219,9 +1330,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHAS524-T98A",
       "bluray_read_speed": null,
@@ -1230,9 +1342,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHBS212-08",
       "bluray_read_speed": 8,
@@ -1241,9 +1354,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHDP118-04",
       "bluray_read_speed": null,
@@ -1252,9 +1366,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHDP118-08",
       "bluray_read_speed": null,
@@ -1263,9 +1378,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHDS118-04",
       "bluray_read_speed": null,
@@ -1274,9 +1390,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHES112-29",
       "bluray_read_speed": 12,
@@ -1285,9 +1402,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":155.00
+      "price": 155.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHES208-08",
       "bluray_read_speed": 8,
@@ -1296,9 +1414,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/48",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHES212-08",
       "bluray_read_speed": 12,
@@ -1307,9 +1426,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHOS104-06",
       "bluray_read_speed": 4,
@@ -1318,9 +1438,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "iHOS104-08",
       "bluray_read_speed": 4,
@@ -1329,9 +1450,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "ihas524-T06",
       "bluray_read_speed": null,
@@ -1340,9 +1462,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "ihes108-29",
       "bluray_read_speed": 8,
@@ -1351,9 +1474,10 @@
       "bluray_write_speed": "8/4/8/4",
       "dvd_write_speed": "16/8/16/16/6/16/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Lite-On",
       "model": "ihes112-04",
       "bluray_read_speed": 12,
@@ -1362,9 +1486,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-18D4P",
       "bluray_read_speed": null,
@@ -1373,9 +1498,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-18D5S",
       "bluray_read_speed": null,
@@ -1384,9 +1510,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-22AP",
       "bluray_read_speed": null,
@@ -1395,9 +1522,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-24AAS-17 R",
       "bluray_read_speed": null,
@@ -1406,9 +1534,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-24AS",
       "bluray_read_speed": null,
@@ -1417,9 +1546,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "MSI",
       "model": "DH-24AS U88",
       "bluray_read_speed": null,
@@ -1428,9 +1558,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Memorex",
       "model": "98240",
       "bluray_read_speed": null,
@@ -1439,9 +1570,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":49.95
+      "price": 49.95
     },
     {
+      "type": "Optical Drive",
       "brand": "Memorex",
       "model": "98240-KIT",
       "bluray_read_speed": null,
@@ -1450,9 +1582,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Memorex",
       "model": "MRX-550L",
       "bluray_read_speed": null,
@@ -1461,9 +1594,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "OcUK",
       "model": "CD-004-OK",
       "bluray_read_speed": 8,
@@ -1472,9 +1606,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "OcUK",
       "model": "CD-005-OK",
       "bluray_read_speed": 10,
@@ -1483,9 +1618,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/12/8/8/12",
       "cd_write_speed": "48/40",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "OcUK",
       "model": "OcUKSATADVDRW",
       "bluray_read_speed": null,
@@ -1494,9 +1630,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/40",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "OcUK",
       "model": "iHAS124-14",
       "bluray_read_speed": null,
@@ -1505,9 +1642,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Panasonic",
       "model": "UJ-265",
       "bluray_read_speed": 6,
@@ -1516,9 +1654,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "24/16",
-      "price":114.99
+      "price": 114.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDC-207DBK",
       "bluray_read_speed": 8,
@@ -1527,9 +1666,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-206DBKS",
       "bluray_read_speed": 8,
@@ -1538,9 +1678,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-206MBK",
       "bluray_read_speed": 6,
@@ -1549,9 +1690,10 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-207",
       "bluray_read_speed": 10,
@@ -1560,9 +1702,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-207DBKS",
       "bluray_read_speed": 10,
@@ -1571,9 +1714,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-207MBK",
       "bluray_read_speed": 10,
@@ -1582,9 +1726,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-208DBK",
       "bluray_read_speed": 12,
@@ -1593,9 +1738,10 @@
       "bluray_write_speed": "15/14/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-209DBK",
       "bluray_read_speed": 12,
@@ -1604,9 +1750,10 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":70.69
+      "price": 70.69
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-211EBK",
       "bluray_read_speed": null,
@@ -1615,9 +1762,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-211UBK",
       "bluray_read_speed": 12,
@@ -1626,9 +1774,10 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":159.99
+      "price": 159.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-212DBK",
       "bluray_read_speed": null,
@@ -1637,9 +1786,10 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":69.99
+      "price": 69.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-212EBK",
       "bluray_read_speed": 16,
@@ -1648,9 +1798,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":90.57
+      "price": 90.57
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-2206",
       "bluray_read_speed": 8,
@@ -1659,9 +1810,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-2207",
       "bluray_read_speed": 10,
@@ -1670,9 +1822,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-2208",
       "bluray_read_speed": 12,
@@ -1681,9 +1834,10 @@
       "bluray_write_speed": "15/14/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-2209",
       "bluray_read_speed": 12,
@@ -1692,9 +1846,10 @@
       "bluray_write_speed": "16/14/2/2",
       "dvd_write_speed": "16/6/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":129.99
+      "price": 129.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-S08XLT",
       "bluray_read_speed": null,
@@ -1703,9 +1858,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "BDR-S09XLT",
       "bluray_read_speed": null,
@@ -1714,9 +1870,10 @@
       "bluray_write_speed": "12/8/10/6",
       "dvd_write_speed": "16/12/12/16/12/12/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "DVR-118LBK",
       "bluray_read_speed": null,
@@ -1725,9 +1882,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "40/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Pioneer",
       "model": "DVR-216D",
       "bluray_read_speed": null,
@@ -1736,9 +1894,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "40/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-891SA-26",
       "bluray_read_speed": null,
@@ -1747,9 +1906,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-891SA-28",
       "bluray_read_speed": null,
@@ -1758,9 +1918,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-891SAF",
       "bluray_read_speed": null,
@@ -1769,9 +1930,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":31.99
+      "price": 31.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-B320SA SW",
       "bluray_read_speed": 8,
@@ -1780,9 +1942,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-B940SA-11",
       "bluray_read_speed": 8,
@@ -1791,9 +1954,10 @@
       "bluray_write_speed": "12/12/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "40/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-L871A",
       "bluray_read_speed": null,
@@ -1802,9 +1966,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/12/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-L890SA",
       "bluray_read_speed": null,
@@ -1813,9 +1978,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-L890SA R",
       "bluray_read_speed": null,
@@ -1824,9 +1990,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Plextor",
       "model": "PX-LB950SA",
       "bluray_read_speed": 8,
@@ -1835,9 +2002,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-118BB",
       "bluray_read_speed": null,
@@ -1846,9 +2014,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-118CB/BEBE",
       "bluray_read_speed": null,
@@ -1857,9 +2026,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-216DB",
       "bluray_read_speed": null,
@@ -1868,9 +2038,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222AB",
       "bluray_read_speed": null,
@@ -1879,9 +2050,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":157.98
+      "price": 157.98
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222AL",
       "bluray_read_speed": null,
@@ -1890,9 +2062,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222AL/BSBE",
       "bluray_read_speed": null,
@@ -1901,9 +2074,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222AL/BSBS",
       "bluray_read_speed": null,
@@ -1912,9 +2086,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222AL/RSBS",
       "bluray_read_speed": null,
@@ -1923,9 +2098,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222BB/BEBE",
       "bluray_read_speed": null,
@@ -1934,9 +2110,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-222BB/RSBS",
       "bluray_read_speed": null,
@@ -1945,9 +2122,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/8/22/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224BB",
       "bluray_read_speed": null,
@@ -1956,9 +2134,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224BB/RSBS",
       "bluray_read_speed": null,
@@ -1967,9 +2146,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224DB/BEBE",
       "bluray_read_speed": null,
@@ -1978,9 +2158,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/12",
       "cd_write_speed": "48/24",
-      "price":29.99
+      "price": 29.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224DB/RSBS",
       "bluray_read_speed": null,
@@ -1989,9 +2170,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224FB",
       "bluray_read_speed": null,
@@ -2000,9 +2182,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224FB/RSBS",
       "bluray_read_speed": null,
@@ -2011,9 +2194,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224FB/RSMS",
       "bluray_read_speed": null,
@@ -2022,9 +2206,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/8/8/5",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-224GB/BSBE",
       "bluray_read_speed": null,
@@ -2033,9 +2218,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/8/24/6/8/5",
       "cd_write_speed": "48/24",
-      "price":29.99
+      "price": 29.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-B123L",
       "bluray_read_speed": 12,
@@ -2044,9 +2230,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/4",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-B123L/RSBP",
       "bluray_read_speed": 12,
@@ -2055,9 +2242,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/16/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-S222A",
       "bluray_read_speed": null,
@@ -2066,9 +2254,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-S223C",
       "bluray_read_speed": null,
@@ -2077,9 +2266,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SH-S223Q",
       "bluray_read_speed": null,
@@ -2088,9 +2278,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "22/8/16/22/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SN-208BB",
       "bluray_read_speed": null,
@@ -2099,9 +2290,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/8/8/6/8/5",
       "cd_write_speed": "24/4",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SN-208DB/BEBE",
       "bluray_read_speed": null,
@@ -2110,9 +2302,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":100.78
+      "price": 100.78
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SN-208DB/BEBET",
       "bluray_read_speed": null,
@@ -2121,9 +2314,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "SN-208FB/BEBE",
       "bluray_read_speed": null,
@@ -2132,9 +2326,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": null,
-      "price":47.99
+      "price": 47.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "TS-H353C",
       "bluray_read_speed": null,
@@ -2143,9 +2338,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Samsung",
       "model": "TS-HB43L/HPBHF",
       "bluray_read_speed": null,
@@ -2154,9 +2350,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "16/8/8/16/8/8/12",
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Silverstone",
       "model": "SOD02B",
       "bluray_read_speed": null,
@@ -2165,9 +2362,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/4",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Silverstone",
       "model": "SST-SOB02",
       "bluray_read_speed": null,
@@ -2176,9 +2374,10 @@
       "bluray_write_speed": "6/6/6/6",
       "dvd_write_speed": "8/8/8/8/8/8/4",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Silverstone",
       "model": "TOB04",
       "bluray_read_speed": 6,
@@ -2187,9 +2386,10 @@
       "bluray_write_speed": "6/6/6/4",
       "dvd_write_speed": "8/8/8/8/8/8/8",
       "cd_write_speed": "24/24",
-      "price":228.78
+      "price": 228.78
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "5280S-CB-PLUS",
       "bluray_read_speed": null,
@@ -2198,9 +2398,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7200S-0B",
       "bluray_read_speed": null,
@@ -2209,9 +2410,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "20/8/8/20/6/12/12",
       "cd_write_speed": "48/32",
-      "price":65.51
+      "price": 65.51
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7260S-01",
       "bluray_read_speed": null,
@@ -2220,9 +2422,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7260S-0B",
       "bluray_read_speed": null,
@@ -2231,9 +2434,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7261S-0B",
       "bluray_read_speed": null,
@@ -2242,9 +2446,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7280S-02",
       "bluray_read_speed": null,
@@ -2253,9 +2458,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7280S-0B",
       "bluray_read_speed": null,
@@ -2264,9 +2470,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "24/8/12/24/6/12/12",
       "cd_write_speed": "48/32",
-      "price":104.17
+      "price": 104.17
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7690H-01",
       "bluray_read_speed": null,
@@ -2275,9 +2482,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7710H-01",
       "bluray_read_speed": null,
@@ -2286,9 +2494,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "AD-7740H-01",
       "bluray_read_speed": null,
@@ -2297,9 +2506,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BC-5500H-01",
       "bluray_read_speed": 4,
@@ -2308,9 +2518,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/4/4/8/4/4/5",
       "cd_write_speed": "16/10",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BC-5640H-01",
       "bluray_read_speed": 6,
@@ -2319,9 +2530,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BC5640H-03",
       "bluray_read_speed": 6,
@@ -2330,9 +2542,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BD-5300S",
       "bluray_read_speed": 8,
@@ -2341,9 +2554,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "16/8/8/16/6/8/12",
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BD-5300S-0B",
       "bluray_read_speed": 8,
@@ -2352,9 +2566,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BD-5740H-01",
       "bluray_read_speed": 6,
@@ -2363,9 +2578,10 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BD-5750H",
       "bluray_read_speed": 6,
@@ -2374,9 +2590,10 @@
       "bluray_write_speed": "6/6/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "BWU-500S",
       "bluray_read_speed": 8,
@@ -2385,9 +2602,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": "8/8/6/8/6/6/5",
       "cd_write_speed": "24/16",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Sony",
       "model": "DDU1681S-0B",
       "bluray_read_speed": null,
@@ -2396,9 +2614,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":59.00
+      "price": 59.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Supermicro",
       "model": "DVM-TEAC-824B",
       "bluray_read_speed": null,
@@ -2407,9 +2626,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":99.99
+      "price": 99.99
     },
     {
+      "type": "Optical Drive",
       "brand": "Teac",
       "model": "BD-W512GSA",
       "bluray_read_speed": null,
@@ -2418,9 +2638,10 @@
       "bluray_write_speed": "12/8/2/2",
       "dvd_write_speed": null,
       "cd_write_speed": "48/24",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Teac",
       "model": "DV516E/B/S",
       "bluray_read_speed": null,
@@ -2429,9 +2650,10 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Optical Drive",
       "brand": "Teac",
       "model": "DV516E/S",
       "bluray_read_speed": null,
@@ -2440,7 +2662,7 @@
       "bluray_write_speed": null,
       "dvd_write_speed": null,
       "cd_write_speed": null,
-      "price":0.00
+      "price": 0.0
     }
   ]
 }
