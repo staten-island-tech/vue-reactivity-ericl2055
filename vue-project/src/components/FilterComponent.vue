@@ -19,6 +19,7 @@
       </li>
     </ul>
     <button @click="applyFilters">Apply Filters</button>
+    <button @click="resetFilters">Reset Filters</button>
   </div>
 </template>
 
@@ -46,7 +47,10 @@ export default {
       this.isActive = !this.isActive
     },
     applyFilters() {
-      console.log(this.selectedFilters)
+      this.$emit('filter-changed', this.selectedFilters)
+    },
+    resetFilters() {
+      this.selectedFilters = []
       this.$emit('filter-changed', this.selectedFilters)
     }
   }

@@ -64,7 +64,9 @@ export default {
       CPUfilterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'brand', filter: 'AMD' },
-        { type: 'price', filter: 100 }
+        { type: 'price', filter: 100 },
+        { type: 'price', filter: 200 },
+        { type: 'price', filter: 300 }
       ],
       activeFilters: [],
       build_name: '',
@@ -72,27 +74,28 @@ export default {
       computerBuild: [],
       selectedValue: 0,
       dataList: [
-        'caseFan',
-        'case',
-        'cpuCooler',
         'cpu',
-        'externalHardDrive',
-        'fanController',
-        'headphones',
-        'internalHardDrive',
-        'keyboard',
-        'memory',
-        'monitor',
+        'cpuCooler',
         'motherboard',
-        'mouse',
-        'opticalDrive',
-        'powerSupply',
-        'soundCard',
-        'speakers',
-        'thermalPaste',
-        'ups',
+        'memory',
+        'internalHardDrive',
         'videoCard',
-        'networkCard'
+        'case',
+        'powerSupply',
+        'monitor',
+        'soundCard',
+        'wiredNetworkCard',
+        'wirelessNetworkCard',
+        'headphones',
+        'keyboard',
+        'mouse',
+        'speakers',
+        'caseFan',
+        'fanController',
+        'thermalPaste',
+        'externalHardDrive',
+        'opticalDrive',
+        'ups'
       ]
     }
   },
@@ -109,9 +112,22 @@ export default {
       this.selectedValue += num
       if (this.selectedValue === -1) this.selectedValue = this.dataList.length - 1
       else if (this.selectedValue === this.dataList.length) this.selectedValue = 0
+      this.activeFilters = []
     },
     updateBuild(part) {
-      this.computerBuild.push(part)
+      const partType = part.type
+      let partAlreadyExists = false
+
+      for (let i = 0; i < this.computerBuild.length; i++) {
+        if (this.computerBuild[i].type === partType) {
+          this.computerBuild.splice(i, 1, part)
+          partAlreadyExists = true
+          break
+        }
+      }
+      if (!partAlreadyExists) {
+        this.computerBuild.push(part)
+      }
       console.log(this.computerBuild)
       this.changeValue(1)
     }

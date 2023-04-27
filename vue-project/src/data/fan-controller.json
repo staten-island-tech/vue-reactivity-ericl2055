@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "CoolTouch-R Black",
       "channels": 4,
@@ -8,9 +9,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "F6XT",
       "channels": 6,
@@ -18,9 +20,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":17.76
+      "price": 17.76
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "Strike-X-X1000",
       "channels": 5,
@@ -28,9 +31,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "Touch 2000",
       "channels": 4,
@@ -38,9 +42,10 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "Touch 2100",
       "channels": 5,
@@ -48,9 +53,10 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "Touch-1000",
       "channels": 4,
@@ -58,9 +64,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":28.60
+      "price": 28.6
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "V12XT",
       "channels": 4,
@@ -68,9 +75,10 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Aerocool",
       "model": "X-Vision",
       "channels": 5,
@@ -78,9 +86,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "BitFenix",
       "model": "Recon (Black)",
       "channels": 5,
@@ -88,9 +97,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "BitFenix",
       "model": "Recon (White)",
       "channels": 5,
@@ -98,9 +108,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Deepcool",
       "model": "ROCK MASTER V3.0",
       "channels": 4,
@@ -108,9 +119,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Gelid Solutions",
       "model": "SpeedTouch6",
       "channels": 6,
@@ -118,9 +130,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Kingwin",
       "model": "FPX-001",
       "channels": 4,
@@ -128,9 +141,10 @@
       "pwm": "False",
       "form_factor": "3.5\"",
       "color": null,
-      "price":15.18
+      "price": 15.18
     },
     {
+      "type": "Fan Controller",
       "brand": "Kingwin",
       "model": "FPX-003",
       "channels": 4,
@@ -138,9 +152,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":83.99
+      "price": 83.99
     },
     {
+      "type": "Fan Controller",
       "brand": "Kingwin",
       "model": "FPX-005",
       "channels": 5,
@@ -148,9 +163,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "CW611-B",
       "channels": 6,
@@ -158,9 +174,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC Touch",
       "channels": 6,
@@ -168,9 +185,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":44.99
+      "price": 44.99
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-CF525-BK",
       "channels": 5,
@@ -178,9 +196,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-CM615-BK",
       "channels": 6,
@@ -188,9 +207,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-FANATIC-B",
       "channels": 5,
@@ -198,9 +218,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-FC2-B",
       "channels": 6,
@@ -208,9 +229,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-FC5V2-B",
       "channels": 4,
@@ -218,9 +240,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":69.95
+      "price": 69.95
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC-FC5V3-BK",
       "channels": 6,
@@ -228,9 +251,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC2",
       "channels": 6,
@@ -238,9 +262,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC6",
       "channels": 4,
@@ -248,9 +273,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "FC9",
       "channels": 4,
@@ -258,9 +284,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Lamptron",
       "model": "Fanatic",
       "channels": 5,
@@ -268,9 +295,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "NZXT",
       "model": "SENTRY 3",
       "channels": 5,
@@ -278,9 +306,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "NZXT",
       "model": "Sentry 2",
       "channels": 5,
@@ -288,9 +317,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "NZXT",
       "model": "Sentry LX",
       "channels": 5,
@@ -298,9 +328,10 @@
       "pwm": "False",
       "form_factor": "2 x 5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "NZXT",
       "model": "Sentry Mesh",
       "channels": 5,
@@ -308,9 +339,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "NZXT",
       "model": "Sentry Mix 2",
       "channels": 6,
@@ -318,9 +350,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Scythe",
       "model": "Kaze Master Flat II",
       "channels": 4,
@@ -328,9 +361,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Silverstone",
       "model": "FP59B",
       "channels": 1,
@@ -338,9 +372,10 @@
       "pwm": "False",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Thermaltake",
       "model": "AC-001-BN1NAN-A1",
       "channels": 5,
@@ -348,9 +383,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":0.00
+      "price": 0.0
     },
     {
+      "type": "Fan Controller",
       "brand": "Thermaltake",
       "model": "Commander F6 RGB",
       "channels": 6,
@@ -358,9 +394,10 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": "Black",
-      "price":59.41
+      "price": 59.41
     },
     {
+      "type": "Fan Controller",
       "brand": "Thermaltake",
       "model": "Commander FT",
       "channels": 5,
@@ -368,7 +405,7 @@
       "pwm": "True",
       "form_factor": "5.25\"",
       "color": null,
-      "price":39.99
+      "price": 39.99
     }
   ]
 }

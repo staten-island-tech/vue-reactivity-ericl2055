@@ -3,7 +3,7 @@
     {
       "brand": "ADATA",
       "model": "AHV620-2TU3-CBK",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -13,7 +13,7 @@
     {
       "brand": "ADATA",
       "model": "AHV620-500GU3-CBK",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -23,7 +23,7 @@
     {
       "brand": "ADATA",
       "model": "CH11",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -33,7 +33,7 @@
     {
       "brand": "ADATA",
       "model": "DashDrive",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -43,7 +43,7 @@
     {
       "brand": "ADATA",
       "model": "DashDrive Durable HD650",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.055,
@@ -53,7 +53,7 @@
     {
       "brand": "ADATA",
       "model": "DashDrive Durable HD650",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.057,
@@ -63,7 +63,7 @@
     {
       "brand": "ADATA",
       "model": "DashDrive SE720",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 0.00,
@@ -73,7 +73,7 @@
     {
       "brand": "ADATA",
       "model": "SD600",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.430,
@@ -83,7 +83,7 @@
     {
       "brand": "ADATA",
       "model": "SD600",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.712,
@@ -93,7 +93,7 @@
     {
       "brand": "ADATA",
       "model": "SD600",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.00,
@@ -103,7 +103,7 @@
     {
       "brand": "ADATA",
       "model": "SD700",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.462,
@@ -113,7 +113,7 @@
     {
       "brand": "ADATA",
       "model": "SD700",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.159,
@@ -123,7 +123,7 @@
     {
       "brand": "ADATA",
       "model": "SD700",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.159,
@@ -133,7 +133,7 @@
     {
       "brand": "ADATA",
       "model": "SD700",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.336,
@@ -143,7 +143,7 @@
     {
       "brand": "ADATA",
       "model": "SD700",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.130,
@@ -153,7 +153,7 @@
     {
       "brand": "ADATA",
       "model": "SE730",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.917,
@@ -163,7 +163,7 @@
     {
       "brand": "ADATA",
       "model": "SH14",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -173,7 +173,7 @@
     {
       "brand": "Apricom",
       "model": "ASSD-3PL256-120F",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 120000000000 },
       "price_per_gb": 0.00,
@@ -183,7 +183,7 @@
     {
       "brand": "Apricom",
       "model": "ASSD-3PL256-240F",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 240000000000 },
       "price_per_gb": 0.833,
@@ -193,7 +193,7 @@
     {
       "brand": "Apricom",
       "model": "ASSD-3PL256-480F",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 480000000000 },
       "price_per_gb": 0.623,
@@ -203,7 +203,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Bio",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.234,
@@ -213,7 +213,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Bio 3.0",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.00,
@@ -223,7 +223,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -233,7 +233,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 2.696,
@@ -243,7 +243,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.551,
@@ -253,7 +253,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.400,
@@ -263,7 +263,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -273,7 +273,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, eSATA 3Gb/s",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -283,7 +283,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -293,7 +293,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 320000000000 },
       "price_per_gb": 0.00,
@@ -303,7 +303,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -313,7 +313,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock DT",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -323,7 +323,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock DT",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -333,7 +333,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock DT",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.092,
@@ -343,7 +343,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock DT",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.691,
@@ -353,7 +353,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock DT",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
       "price_per_gb": 0.00,
@@ -363,7 +363,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock Fortress",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.360,
@@ -373,7 +373,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock Fortress",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.131,
@@ -383,7 +383,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock Fortress",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -393,7 +393,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Padlock Fortress",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.216,
@@ -403,7 +403,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Portable 3.0",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -413,7 +413,7 @@
     {
       "brand": "Apricom",
       "model": "Aegis Portable 3.0",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -423,7 +423,7 @@
     {
       "brand": "Apricom",
       "model": "Apricorn Aegis Padlock",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 0.00,
@@ -433,7 +433,7 @@
     {
       "brand": "Asus",
       "model": "FX HDD",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -443,7 +443,7 @@
     {
       "brand": "Asus",
       "model": "FX HDD",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -453,7 +453,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 320000000000 },
       "price_per_gb": 0.00,
@@ -463,7 +463,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.00,
@@ -473,7 +473,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 320000000000 },
       "price_per_gb": 0.378,
@@ -483,7 +483,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.119,
@@ -493,7 +493,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -503,7 +503,7 @@
     {
       "brand": "Axiom",
       "model": "Mobile-D",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
       "price_per_gb": 0.00,
@@ -513,7 +513,7 @@
     {
       "brand": "Axiom",
       "model": "USB3HD35S1TB-AX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -523,7 +523,7 @@
     {
       "brand": "Axiom",
       "model": "USB3HD35S250-AX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.00,
@@ -533,7 +533,7 @@
     {
       "brand": "Axiom",
       "model": "USB3HD35S2TB-AX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -543,7 +543,7 @@
     {
       "brand": "Axiom",
       "model": "USB3HD35S3TB-AX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -553,7 +553,7 @@
     {
       "brand": "Axiom",
       "model": "USB3HD35S500-AX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -563,7 +563,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "Americas MiniStation",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.045,
@@ -573,7 +573,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "Americas MiniStation",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.055,
@@ -583,7 +583,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -593,7 +593,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -603,7 +603,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.00,
@@ -613,7 +613,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -623,7 +623,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -633,7 +633,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -643,7 +643,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.00,
@@ -653,7 +653,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Axis",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.228,
@@ -663,7 +663,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Axis Velocity",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.038,
@@ -673,7 +673,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Axis Velocity",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.047,
@@ -683,7 +683,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Axis Velocity",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.072,
@@ -693,7 +693,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Combo 4",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.185,
@@ -703,7 +703,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.087,
@@ -713,7 +713,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.089,
@@ -723,7 +723,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.218,
@@ -733,7 +733,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "DriveStation Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.00,
@@ -743,7 +743,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -753,7 +753,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.056,
@@ -763,7 +763,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -773,7 +773,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation Extreme",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.290,
@@ -783,7 +783,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation Extreme",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -793,7 +793,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation Extreme",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -803,7 +803,7 @@
     {
       "brand": "Buffalo Technology",
       "model": "MiniStation Extreme",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.391,
@@ -813,7 +813,7 @@
     {
       "brand": "Buslink",
       "model": "CRF-2T-U2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -823,7 +823,7 @@
     {
       "brand": "Buslink",
       "model": "CSC-1T-U2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -833,7 +833,7 @@
     {
       "brand": "Buslink",
       "model": "CSC-2T-U3",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -843,7 +843,7 @@
     {
       "brand": "Buslink",
       "model": "CipherShield",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.242,
@@ -853,7 +853,7 @@
     {
       "brand": "Buslink",
       "model": "DL-4TSDU31G2",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.161,
@@ -863,7 +863,7 @@
     {
       "brand": "Edge Tech",
       "model": "EDGDG-236236-PE",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -873,7 +873,7 @@
     {
       "brand": "Freecom",
       "model": "35610",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.103,
@@ -883,7 +883,7 @@
     {
       "brand": "G-Technology",
       "model": "0G02530",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -893,7 +893,7 @@
     {
       "brand": "G-Technology",
       "model": "0G02534",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -903,7 +903,7 @@
     {
       "brand": "G-Technology",
       "model": "0G02538",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 6Gb/s",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -913,7 +913,7 @@
     {
       "brand": "HP",
       "model": "HPHDD2E30500AS1-RBU",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -923,7 +923,7 @@
     {
       "brand": "Hitachi",
       "model": "GST Touro Mobile Pro",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -933,7 +933,7 @@
     {
       "brand": "Hitachi",
       "model": "HGST Touro Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -943,7 +943,7 @@
     {
       "brand": "Hitachi",
       "model": "HGST Touro Desk Pro",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -953,7 +953,7 @@
     {
       "brand": "Hitachi",
       "model": "HGST Touro Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -963,7 +963,7 @@
     {
       "brand": "Hitachi",
       "model": "HGST Touro Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -973,7 +973,7 @@
     {
       "brand": "Hitachi",
       "model": "HGST Touro Mobile Pro",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -983,7 +983,7 @@
     {
       "brand": "Imation",
       "model": "Apollo Expert",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -993,7 +993,7 @@
     {
       "brand": "Imation",
       "model": "Apollo Pro UX",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1003,7 +1003,7 @@
     {
       "brand": "LaCie",
       "model": "2big",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.00,
@@ -1013,7 +1013,7 @@
     {
       "brand": "LaCie",
       "model": "2big Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.00,
@@ -1023,7 +1023,7 @@
     {
       "brand": "LaCie",
       "model": "2big Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1033,7 +1033,7 @@
     {
       "brand": "LaCie",
       "model": "4big Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 16000000000000 },
       "price_per_gb": 0.00,
@@ -1043,7 +1043,7 @@
     {
       "brand": "LaCie",
       "model": "4big Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.00,
@@ -1053,7 +1053,7 @@
     {
       "brand": "LaCie",
       "model": "4big Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 12000000000000 },
       "price_per_gb": 0.00,
@@ -1063,7 +1063,7 @@
     {
       "brand": "LaCie",
       "model": "5big",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 25000000000000 },
       "price_per_gb": 0.00,
@@ -1073,7 +1073,7 @@
     {
       "brand": "LaCie",
       "model": "Blade Runner",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1083,7 +1083,7 @@
     {
       "brand": "LaCie",
       "model": "Little Big Disk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1093,7 +1093,7 @@
     {
       "brand": "LaCie",
       "model": "Little Big Disk",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 512000000000 },
       "price_per_gb": 0.00,
@@ -1103,7 +1103,7 @@
     {
       "brand": "LaCie",
       "model": "Minimus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -1113,7 +1113,7 @@
     {
       "brand": "LaCie",
       "model": "Minimus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1123,7 +1123,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1133,7 +1133,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1143,7 +1143,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.00,
@@ -1153,7 +1153,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 120000000000 },
       "price_per_gb": 0.00,
@@ -1163,7 +1163,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1173,7 +1173,7 @@
     {
       "brand": "LaCie",
       "model": "Porsche Design",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.00,
@@ -1183,7 +1183,7 @@
     {
       "brand": "LaCie",
       "model": "Rikiki",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1193,7 +1193,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1203,7 +1203,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394a",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1213,7 +1213,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.00,
@@ -1223,7 +1223,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 120000000000 },
       "price_per_gb": 0.00,
@@ -1233,7 +1233,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1243,7 +1243,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1253,7 +1253,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged Mini",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.070,
@@ -1263,7 +1263,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged Mini",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
       "price_per_gb": 0.00,
@@ -1273,7 +1273,7 @@
     {
       "brand": "LaCie",
       "model": "Rugged Mini",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1283,7 +1283,7 @@
     {
       "brand": "LaCie",
       "model": "d2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -1293,7 +1293,7 @@
     {
       "brand": "LaCie",
       "model": "d2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1303,7 +1303,7 @@
     {
       "brand": "LaCie",
       "model": "d2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.113,
@@ -1313,7 +1313,7 @@
     {
       "brand": "LaCie",
       "model": "d2",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, Thunderbolt",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -1323,7 +1323,7 @@
     {
       "brand": "LaCie",
       "model": "d2 Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1333,7 +1333,7 @@
     {
       "brand": "LaCie",
       "model": "d2 Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.177,
@@ -1343,7 +1343,7 @@
     {
       "brand": "LaCie",
       "model": "d2 Quadra",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, IEEE 1394b, eSATA 3Gb/s",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -1353,7 +1353,7 @@
     {
       "brand": "Lenovo",
       "model": "ThinkPad",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.235,
@@ -1363,7 +1363,7 @@
     {
       "brand": "Lenovo",
       "model": "ThinkPad",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
       "price_per_gb": 0.00,
@@ -1373,7 +1373,7 @@
     {
       "brand": "Lenovo",
       "model": "ThinkPad",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.609,
@@ -1383,7 +1383,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.00,
@@ -1393,7 +1393,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -1403,7 +1403,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1413,7 +1413,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1423,7 +1423,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1433,7 +1433,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -1443,7 +1443,7 @@
     {
       "brand": "Samsung",
       "model": "D3 Station",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1453,7 +1453,7 @@
     {
       "brand": "Samsung",
       "model": "MU-PS250B/AM",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.00,
@@ -1463,7 +1463,7 @@
     {
       "brand": "Samsung",
       "model": "MU-PS500B/AM",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1473,7 +1473,7 @@
     {
       "brand": "Samsung",
       "model": "P3",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1483,7 +1483,7 @@
     {
       "brand": "Samsung",
       "model": "P3",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -1493,7 +1493,7 @@
     {
       "brand": "Samsung",
       "model": "P3 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1503,7 +1503,7 @@
     {
       "brand": "Samsung",
       "model": "T1",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1513,7 +1513,7 @@
     {
       "brand": "Samsung",
       "model": "T5",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.206,
@@ -1523,7 +1523,7 @@
     {
       "brand": "Samsung",
       "model": "T5",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.115,
@@ -1533,7 +1533,7 @@
     {
       "brand": "Samsung",
       "model": "T5",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 250000000000 },
       "price_per_gb": 0.508,
@@ -1543,7 +1543,7 @@
     {
       "brand": "Samsung",
       "model": "T5",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.130,
@@ -1553,7 +1553,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.160,
@@ -1563,7 +1563,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.140,
@@ -1573,7 +1573,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.160,
@@ -1583,7 +1583,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.150,
@@ -1593,7 +1593,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.150,
@@ -1603,7 +1603,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.160,
@@ -1613,7 +1613,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.140,
@@ -1623,7 +1623,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.150,
@@ -1633,7 +1633,7 @@
     {
       "brand": "Samsung",
       "model": "T7 Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.125,
@@ -1643,7 +1643,7 @@
     {
       "brand": "SanDisk",
       "model": "Extreme 900",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 1920000000000 },
       "price_per_gb": 0.391,
@@ -1653,7 +1653,7 @@
     {
       "brand": "SanDisk",
       "model": "Extreme 900",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 960000000000 },
       "price_per_gb": 0.320,
@@ -1663,7 +1663,7 @@
     {
       "brand": "SanDisk",
       "model": "Extreme 900",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 480000000000 },
       "price_per_gb": 1.551,
@@ -1673,7 +1673,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.226,
@@ -1683,7 +1683,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.085,
@@ -1693,7 +1693,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.036,
@@ -1703,7 +1703,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -1713,7 +1713,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.031,
@@ -1723,7 +1723,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.047,
@@ -1733,7 +1733,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.029,
@@ -1743,7 +1743,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1753,7 +1753,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.058,
@@ -1763,7 +1763,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.030,
@@ -1773,7 +1773,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1783,7 +1783,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Hub",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.018,
@@ -1793,7 +1793,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Hub",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.019,
@@ -1803,7 +1803,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.023,
@@ -1813,7 +1813,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.022,
@@ -1823,7 +1823,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -1833,7 +1833,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.023,
@@ -1843,7 +1843,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.026,
@@ -1853,7 +1853,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -1863,7 +1863,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.054,
@@ -1873,7 +1873,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.054,
@@ -1883,7 +1883,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.052,
@@ -1893,7 +1893,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.058,
@@ -1903,7 +1903,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Ultra Touch",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.037,
@@ -1913,7 +1913,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Ultra Touch",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.057,
@@ -1923,7 +1923,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Ultra Touch",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.057,
@@ -1933,7 +1933,7 @@
     {
       "brand": "Seagate",
       "model": "Backup Plus Ultra Touch",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.037,
@@ -1943,7 +1943,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -1953,7 +1953,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.030,
@@ -1963,7 +1963,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -1973,7 +1973,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -1983,7 +1983,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.024,
@@ -1993,7 +1993,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.036,
@@ -2003,7 +2003,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 16000000000000 },
       "price_per_gb": 0.018,
@@ -2013,7 +2013,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.016,
@@ -2023,7 +2023,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.016,
@@ -2033,7 +2033,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2043,7 +2043,7 @@
     {
       "brand": "Seagate",
       "model": "Expansion",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.020,
@@ -2053,7 +2053,7 @@
     {
       "brand": "Seagate",
       "model": "FreeAgent GoFlex Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2063,7 +2063,7 @@
     {
       "brand": "Seagate",
       "model": "Game Drive Xbox GamePass Edition",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.026,
@@ -2073,7 +2073,7 @@
     {
       "brand": "Seagate",
       "model": "GoFlex for Mac",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.486,
@@ -2083,7 +2083,7 @@
     {
       "brand": "Seagate",
       "model": "STDR5000100",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.032,
@@ -2093,7 +2093,7 @@
     {
       "brand": "Seagate",
       "model": "STDR5000101",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.033,
@@ -2103,7 +2103,7 @@
     {
       "brand": "Seagate",
       "model": "STDR5000102",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.00,
@@ -2113,7 +2113,7 @@
     {
       "brand": "Seagate",
       "model": "STDR5000103",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.034,
@@ -2123,7 +2123,7 @@
     {
       "brand": "Seagate",
       "model": "STEB6000403",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.018,
@@ -2133,7 +2133,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Basics",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.061,
@@ -2143,7 +2143,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Basics 3.0",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2153,7 +2153,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Basics 3.0",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.034,
@@ -2163,7 +2163,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2173,7 +2173,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -2183,7 +2183,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
       "price_per_gb": 0.00,
@@ -2193,7 +2193,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.106,
@@ -2203,7 +2203,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2213,7 +2213,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 750000000000 },
       "price_per_gb": 0.00,
@@ -2223,7 +2223,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Connect",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
       "price_per_gb": 0.00,
@@ -2233,7 +2233,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.051,
@@ -2243,7 +2243,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.053,
@@ -2253,7 +2253,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.068,
@@ -2263,7 +2263,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Desk",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.065,
@@ -2273,7 +2273,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Slim II",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.099,
@@ -2283,7 +2283,7 @@
     {
       "brand": "Toshiba",
       "model": "Canvio Slim II",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.099,
@@ -2293,7 +2293,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.035,
@@ -2303,7 +2303,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.071,
@@ -2313,7 +2313,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 750000000000 },
       "price_per_gb": 0.00,
@@ -2323,7 +2323,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -2333,7 +2333,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2343,7 +2343,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.291,
@@ -2353,7 +2353,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet 35T3",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2363,7 +2363,7 @@
     {
       "brand": "Transcend",
       "model": "StoreJet 35T3",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -2373,7 +2373,7 @@
     {
       "brand": "Transcend",
       "model": "TS128GESD200K",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 0.578,
@@ -2383,7 +2383,7 @@
     {
       "brand": "Transcend",
       "model": "TS128GSJC10K",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 0.00,
@@ -2393,7 +2393,7 @@
     {
       "brand": "Verbatim",
       "model": "97805",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.201,
@@ -2403,7 +2403,7 @@
     {
       "brand": "Verbatim",
       "model": "97806",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.179,
@@ -2413,7 +2413,7 @@
     {
       "brand": "Verbatim",
       "model": "99399",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.040,
@@ -2423,7 +2423,7 @@
     {
       "brand": "Verbatim",
       "model": "Freecom",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2433,7 +2433,7 @@
     {
       "brand": "Verbatim",
       "model": "Freecom",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.251,
@@ -2443,7 +2443,7 @@
     {
       "brand": "Verbatim",
       "model": "Store 'n' Go",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 128000000000 },
       "price_per_gb": 0.00,
@@ -2453,7 +2453,7 @@
     {
       "brand": "Verbatim",
       "model": "Store 'n' Go",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 256000000000 },
       "price_per_gb": 0.494,
@@ -2463,7 +2463,7 @@
     {
       "brand": "Verbatim",
       "model": "Titan XS",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.081,
@@ -2473,7 +2473,7 @@
     {
       "brand": "Western Digital",
       "model": "ELEMENTS",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 14000000000000 },
       "price_per_gb": 0.019,
@@ -2483,7 +2483,7 @@
     {
       "brand": "Western Digital",
       "model": "ELEMENTS",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.018,
@@ -2493,7 +2493,7 @@
     {
       "brand": "Western Digital",
       "model": "Easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
       "price_per_gb": 0.00,
@@ -2503,7 +2503,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.048,
@@ -2513,7 +2513,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.022,
@@ -2523,7 +2523,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2533,7 +2533,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2543,7 +2543,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2553,7 +2553,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.150,
@@ -2563,7 +2563,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 12000000000000 },
       "price_per_gb": 0.018,
@@ -2573,7 +2573,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1500000000000 },
       "price_per_gb": 0.00,
@@ -2583,7 +2583,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.027,
@@ -2593,7 +2593,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.040,
@@ -2603,7 +2603,7 @@
     {
       "brand": "Western Digital",
       "model": "Elements Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.022,
@@ -2613,7 +2613,7 @@
     {
       "brand": "Western Digital",
       "model": "G-DRIVE Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.087,
@@ -2623,7 +2623,7 @@
     {
       "brand": "Western Digital",
       "model": "G-DRIVE Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.054,
@@ -2633,7 +2633,7 @@
     {
       "brand": "Western Digital",
       "model": "G-DRIVE Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2643,7 +2643,7 @@
     {
       "brand": "Western Digital",
       "model": "G-DRIVE Mobile",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, USB Type-C",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -2653,7 +2653,7 @@
     {
       "brand": "Western Digital",
       "model": "G-DRIVE ev RaW",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB 2.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2663,7 +2663,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 14000000000000 },
       "price_per_gb": 0.020,
@@ -2673,7 +2673,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.019,
@@ -2683,7 +2683,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.059,
@@ -2693,7 +2693,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.033,
@@ -2703,7 +2703,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.031,
@@ -2713,7 +2713,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.186,
@@ -2723,7 +2723,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.073,
@@ -2733,7 +2733,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.098,
@@ -2743,7 +2743,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 12000000000000 },
       "price_per_gb": 0.021,
@@ -2753,7 +2753,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.020,
@@ -2763,7 +2763,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.027,
@@ -2773,7 +2773,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.021,
@@ -2783,7 +2783,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 24000000000000 },
       "price_per_gb": 0.032,
@@ -2793,7 +2793,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.055,
@@ -2803,7 +2803,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 6000000000000 },
       "price_per_gb": 0.040,
@@ -2813,7 +2813,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.045,
@@ -2823,7 +2823,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 16000000000000 },
       "price_per_gb": 0.030,
@@ -2833,7 +2833,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 20000000000000 },
       "price_per_gb": 0.036,
@@ -2843,7 +2843,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 12000000000000 },
       "price_per_gb": 0.027,
@@ -2853,7 +2853,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0, USB Type-C",
       "capacity": { "total": 28000000000000 },
       "price_per_gb": 0.030,
@@ -2863,7 +2863,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Essential",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.156,
@@ -2873,7 +2873,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Studio",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.00,
@@ -2883,7 +2883,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Studio",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.209,
@@ -2893,7 +2893,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Studio",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.100,
@@ -2903,7 +2903,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book Thunderbolt Duo",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "Thunderbolt",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.125,
@@ -2913,7 +2913,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book for Mac",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2923,7 +2923,7 @@
     {
       "brand": "Western Digital",
       "model": "My Book for Mac",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 3000000000000 },
       "price_per_gb": 0.083,
@@ -2933,7 +2933,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
@@ -2943,7 +2943,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.125,
@@ -2953,7 +2953,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -2963,7 +2963,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Air",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2973,7 +2973,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Air",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 500000000000 },
       "price_per_gb": 0.00,
@@ -2983,7 +2983,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Slim",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -2993,7 +2993,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Studio",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.00,
@@ -3003,7 +3003,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Studio",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 2.0, IEEE 1394b",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.00,
@@ -3013,7 +3013,7 @@
     {
       "brand": "Western Digital",
       "model": "My Passport Ultra Portable",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.085,
@@ -3023,7 +3023,7 @@
     {
       "brand": "Western Digital",
       "model": "WDBGPU0010BBK-NESN",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": null,
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.140,
@@ -3033,7 +3033,7 @@
     {
       "brand": "Western Digital",
       "model": "WDBWLG0100HBK-NESN",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.017,
@@ -3043,7 +3043,7 @@
     {
       "brand": "Western Digital",
       "model": "WD_BLACK P10",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 2000000000000 },
       "price_per_gb": 0.032,
@@ -3053,7 +3053,7 @@
     {
       "brand": "Western Digital",
       "model": "WD_BLACK P10",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.025,
@@ -3063,7 +3063,7 @@
     {
       "brand": "Western Digital",
       "model": "WD_BLACK P10",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 5000000000000 },
       "price_per_gb": 0.024,
@@ -3073,7 +3073,7 @@
     {
       "brand": "Western Digital",
       "model": "WD_BLACK P50",
-      "type": "Portable",
+      "type": "External Hard Drive",
       "interface": "USB Type-C",
       "capacity": { "total": 1000000000000 },
       "price_per_gb": 0.200,
@@ -3083,7 +3083,7 @@
     {
       "brand": "Western Digital",
       "model": "easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 8000000000000 },
       "price_per_gb": 0.019,
@@ -3093,7 +3093,7 @@
     {
       "brand": "Western Digital",
       "model": "easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 12000000000000 },
       "price_per_gb": 0.017,
@@ -3103,7 +3103,7 @@
     {
       "brand": "Western Digital",
       "model": "easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.1",
       "capacity": { "total": 10000000000000 },
       "price_per_gb": 0.023,
@@ -3113,7 +3113,7 @@
     {
       "brand": "Western Digital",
       "model": "easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 14000000000000 },
       "price_per_gb": 0.019,
@@ -3123,7 +3123,7 @@
     {
       "brand": "Western Digital",
       "model": "easystore",
-      "type": "Desktop",
+      "type": "External Hard Drive",
       "interface": "USB 3.0",
       "capacity": { "total": 4000000000000 },
       "price_per_gb": 0.00,
