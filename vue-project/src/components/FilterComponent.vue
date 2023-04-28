@@ -1,18 +1,18 @@
 <template>
   <div class="checkbox-dropdown" :class="{ 'is-active': isActive }">
     <div class="checkbox-dropdown-toggle" @click="toggleActive">
-      <span>Filter by {{ part }}</span>
+      <span>Filter by <!--{{ part }}--></span>
       <span class="arrow"></span>
     </div>
     <ul class="checkbox-dropdown-list">
-      <li v-for="option in options" :key="option">
+      <li v-for="option in filterList" :key="option">
         <div class="checkbox-wrapper">
           <input type="checkbox" :value="option" v-model="selectedFilters" />
           <label>
             {{
               option.type === 'price'
-                ? option.type.toUpperCase() + ' - less than or equal to $' + option.filter
-                : option.type.toUpperCase() + ' - ' + option.filter
+              ? option.toUpperCase() + ' - less than or equal to $' + option.filter
+              : option.toUpperCase() + ' - ' + option.filter
             }}
           </label>
         </div>
@@ -42,7 +42,8 @@ export default {
   data() {
     return {
       selectedFilters: [],
-      isActive: false
+      isActive: false,
+      filterList: Object.keys(this.part)
     }
   },
   mounted() {
@@ -68,6 +69,7 @@ export default {
   margin: 0 auto;
   user-select: none;
 }
+
 .checkbox-dropdown-toggle {
   display: flex;
   justify-content: space-between;
@@ -104,22 +106,30 @@ export default {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 100%; /* align the dropdown right below the dropdown text */
+  top: 100%;
+  /* align the dropdown right below the dropdown text */
   border: inherit;
   border-top: none;
-  left: -1px; /* align the dropdown to the left */
-  right: -1px; /* align the dropdown to the right */
-  opacity: 0; /* hide the dropdown */
+  left: -1px;
+  /* align the dropdown to the left */
+  right: -1px;
+  /* align the dropdown to the right */
+  opacity: 0;
+  /* hide the dropdown */
 
   transition: opacity 0.4s ease-in-out;
   height: 100px;
   overflow: scroll;
   overflow-x: hidden;
-  pointer-events: none; /* avoid mouse click events inside the dropdown */
+  pointer-events: none;
+  /* avoid mouse click events inside the dropdown */
 }
+
 .is-active .checkbox-dropdown-list {
-  opacity: 1; /* display the dropdown */
-  pointer-events: auto; /* make sure that the user still can select checkboxes */
+  opacity: 1;
+  /* display the dropdown */
+  pointer-events: auto;
+  /* make sure that the user still can select checkboxes */
 }
 
 .checkbox-dropdown-list li label {
@@ -133,5 +143,4 @@ export default {
 .checkbox-dropdown-list li label:hover {
   background-color: #555;
   color: white;
-}
-</style>
+}</style>

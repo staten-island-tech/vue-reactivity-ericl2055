@@ -5,8 +5,7 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?=[A-Z])/)
-            .map((string) =>
+            .split(/(?<=[a-z])(?=[A-Z]) /).map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
                 : string.charAt(0).toUpperCase() + string.slice(1)
@@ -14,26 +13,19 @@
             .join(' ')
         }}
 
-        Selection
+          Selection
       </h2>
       <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay
-          @addBuild="updateBuild"
-          class="display"
-          :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters"
-        />
+        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters" />
       </div>
       <div class="filters">
-        <FilterComp
-          v-on:filter-changed="updateFilter"
-          :part="this.data[this.dataList[this.selectedValue]].data[0]"
-          :options="CPUfilterOptions"
-          :name="this.dataList[this.selectedValue]"
-        />
+        <FilterComp v-on:filter-changed="updateFilter"
+          :part="Object.entries(Object.entries(this.data[this.dataList[this.selectedValue]].data[0]).reduce(((acc, [key, value]) => { return { ...acc, [key]: new Set(this.data[this.dataList[this.selectedValue]].data.map(obj => JSON.stringify(obj[key]))) } }), {})).reduce(((acc, [key, values]) => { return { ...acc, [key]: Array.from(values).map((value) => JSON.parse(value)) } }), {})"
+          :options="CPUfilterOptions" :name="this.dataList[this.selectedValue]" />
         <label for="search">Search:</label>
         <input type="text" id="search" />
       </div>
@@ -117,6 +109,7 @@ export default {
 * {
   font-size: 16px;
 }
+
 .main {
   display: flex;
   width: 2000px;
@@ -125,12 +118,13 @@ export default {
 .display {
   position: static;
 }
+
 .filters {
   display: flex;
   align-items: center;
 }
 
-.filters > * {
+.filters>* {
   margin-right: 10px;
 }
 
@@ -171,6 +165,7 @@ export default {
   display: inline-block;
   padding: 3px;
 }
+
 #right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
