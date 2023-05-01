@@ -5,15 +5,15 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?<=[a-z])(?=[A-Z]) /).map((string) =>
+            .split(/(?=[A-Z])/).map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
-                : string.charAt(0).toUpperCase() + string.slice(1)
+                : string[0].toUpperCase() + string.substring(1)
             )
             .join(' ')
         }}
 
-          Selection
+        Selection
       </h2>
       <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
@@ -21,13 +21,6 @@
       <div class="display">
         <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
           :filters="this.activeFilters" />
-      </div>
-      <div class="filters">
-        <FilterComp v-on:filter-changed="updateFilter"
-          :part="Object.entries(Object.entries(this.data[this.dataList[this.selectedValue]].data[0]).reduce(((acc, [key, value]) => { return { ...acc, [key]: new Set(this.data[this.dataList[this.selectedValue]].data.map(obj => JSON.stringify(obj[key]))) } }), {})).reduce(((acc, [key, values]) => { return { ...acc, [key]: Array.from(values).map((value) => JSON.parse(value)) } }), {})"
-          :options="CPUfilterOptions" :name="this.dataList[this.selectedValue]" />
-        <label for="search">Search:</label>
-        <input type="text" id="search" />
       </div>
       <div class="build-display">
         <BuildComp :components="computerBuild" />
@@ -38,15 +31,12 @@
 
 <script>
 import BuildComp from '../components/BuildComponent.vue'
-import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
-import * as data from '../data'
 
 export default {
   name: 'Build',
   data() {
     return {
-      data: data,
       CPUfilterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'brand', filter: 'AMD' },
@@ -54,7 +44,6 @@ export default {
       ],
       activeFilters: [],
       build_name: '',
-
       computerBuild: [],
       selectedValue: 0,
       dataList: [
@@ -78,14 +67,14 @@ export default {
         'thermalPaste',
         'ups',
         'videoCard',
-        'networkCard'
+        'wiredNetworkCard',
+        'wirelessNetworkCard',
       ]
     }
   },
   components: {
     ComponentDisplay,
-    FilterComp,
-    BuildComp
+    BuildComp,
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -101,7 +90,7 @@ export default {
       console.log(this.computerBuild)
       this.changeValue(1)
     }
-  }
+  },
 }
 </script>
 
@@ -112,7 +101,6 @@ export default {
 
 .main {
   display: flex;
-  width: 2000px;
 }
 
 .display {
