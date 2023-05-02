@@ -9,7 +9,7 @@
             .map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
-                : string.charAt(0).toUpperCase() + string.slice(1)
+                : string[0].toUpperCase() + string.substring(1)
             )
             .join(' ')
         }}
@@ -27,26 +27,6 @@
           :filters="this.activeFilters"
         />
       </div>
-      <div class="filters">
-
-        <Filter
-          v-on:filter-changed="updateFilter"
-          :part="
-            this.dataList[this.selectedValue]
-              .split(/(?=[A-Z])/)
-              .map((string) =>
-                string.match(/cpu|ups/i)
-                  ? string.toUpperCase()
-                  : string.charAt(0).toUpperCase() + string.slice(1)
-              )
-              .join(' ')
-          "
-
-          :options="CPUfilterOptions"
-        />
-        <label for="search">Search:</label>
-        <input type="text" id="search" />
-      </div>
       <div class="build-display">
         <BuildComp :components="computerBuild" />
       </div>
@@ -56,7 +36,6 @@
 
 <script>
 import BuildComp from '../components/BuildComponent.vue'
-import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
 
 export default {
@@ -72,7 +51,6 @@ export default {
       ],
       activeFilters: [],
       build_name: '',
-
       computerBuild: [],
       selectedValue: 0,
       dataList: [
@@ -82,28 +60,13 @@ export default {
         'memory',
         'internalHardDrive',
         'videoCard',
-        'case',
-        'powerSupply',
-        'monitor',
-        'soundCard',
         'wiredNetworkCard',
-        'wirelessNetworkCard',
-        'headphones',
-        'keyboard',
-        'mouse',
-        'speakers',
-        'caseFan',
-        'fanController',
-        'thermalPaste',
-        'externalHardDrive',
-        'opticalDrive',
-        'ups'
+        'wirelessNetworkCard'
       ]
     }
   },
   components: {
     ComponentDisplay,
-    FilterComp,
     BuildComp
   },
   methods: {
@@ -141,14 +104,15 @@ export default {
 * {
   font-size: 16px;
 }
+
 .main {
   display: flex;
-  width: 2000px;
 }
 
 .display {
   position: static;
 }
+
 .filters {
   display: flex;
   align-items: center;
@@ -195,6 +159,7 @@ export default {
   display: inline-block;
   padding: 3px;
 }
+
 #right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);

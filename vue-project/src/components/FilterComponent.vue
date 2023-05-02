@@ -1,136 +1,131 @@
 <template>
-  <div class="checkbox-dropdown" :class="{ 'is-active': isActive }">
-    <div class="checkbox-dropdown-toggle" @click="toggleActive">
-      <span>Filter by {{ part }}</span>
-      <span class="arrow"></span>
+  <h1>Price</h1>
+  <NumberSlide :valueList="price" symbol="$" @change="(event) => $emit('price', event)" />
+
+  <div class="checkbox-list" v-for="[key, value] in Object.entries(list)" :key="key">
+    <div v-if="isNaN(value[0]) || typeof value[0] === 'object'">
+      <h1>
+        {{
+          key
+            .split('_')
+            .map((string) =>
+              string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                ? string.toUpperCase()
+                : string[0].toUpperCase() + string.substring(1)
+            )
+            .join(' ')
+        }}
+      </h1>
+      <label v-for="item in this.active[key] ? value.sort().slice(0, 5) : value.sort()" :key="item">
+        <input
+          v-if="item !== null"
+          type="checkbox"
+          name="option3"
+          :value="item"
+          @change="(event) => selectedFilter(event, key, item)"
+        />
+        <p v-if="item !== null">{{ item }}</p>
+      </label>
+      <button @click="this.active[key] = !this.active[key]" class="show">
+        {{ this.active[key] ? 'Show more' : 'Show less' }}
+      </button>
     </div>
-    <ul class="checkbox-dropdown-list">
-      <li v-for="option in options" :key="option">
-        <div class="checkbox-wrapper">
-          <input type="checkbox" :value="option" v-model="selectedFilters" />
-          <label>
-            {{
-              option.type === 'price'
-                ? option.type.toUpperCase() + ' - less than or equal to $' + option.filter
-                : option.type.toUpperCase() + ' - ' + option.filter
-            }}
-          </label>
-        </div>
-      </li>
-    </ul>
-    <button @click="applyFilters">Apply Filters</button>
-    <button @click="resetFilters">Reset Filters</button>
+    <div v-if="!isNaN(value[0])">
+      <h1>
+        {{
+          key
+            .split('_')
+            .map((string) =>
+              string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                ? string.toUpperCase()
+                : string[0].toUpperCase() + string.substring(1)
+            )
+            .join(' ')
+        }}
+      </h1>
+      <NumberSlide :valueList="value.map((value) => parseInt(value))" @change="(event) => {}" />
+    </div>
   </div>
 </template>
 
 <script>
+import NumberSlide from './NumberSlide.vue'
 export default {
-  name: 'Filter',
-  props: {
-    part: {
-      type: String,
-      required: true
-    },
-    options: {
-      type: Array,
-      required: true
-    }
+  name: 'FilterComponent',
+  emits: ['filterControl', 'price'],
+  components: {
+    NumberSlide
   },
   data() {
     return {
-      selectedFilters: [],
-      isActive: false
+      active: {},
+      price: []
     }
   },
-  mounted() {},
+  props: {
+    list: {
+      type: Object,
+      required: true
+    }
+  },
   methods: {
-    toggleActive() {
-      this.isActive = !this.isActive
+    selectedFilter(event, key, filter) {
+      if (event.target.checked) {
+        this.$emit('filterControl', [true, key, filter])
+      } else {
+        this.$emit('filterControl', [false, key, filter])
+      }
     },
-    applyFilters() {
-      this.$emit('filter-changed', this.selectedFilters)
+    activeList(obj) {
+      return Object.keys(obj).reduce((acc, key) => {
+        acc[key] = true
+        return acc
+      }, {})
     },
-    resetFilters() {
-      this.selectedFilters = []
-      this.$emit('filter-changed', this.selectedFilters)
+    createPrice(value) {
+      return value === undefined ? [] : value.map((price) => parseInt(price[1]))
+    },
+    handleFunction(value) {}
+  },
+  watch: {
+    list(newValue, oldValue) {
+      this.active = this.activeList(newValue)
+      this.price = this.createPrice(newValue.price)
+      delete this.list.price
     }
   }
 }
 </script>
-
-<style>
-.checkbox-dropdown {
-  width: 200px;
-  border: 1px solid #aaa;
-  padding: 10px;
-  position: relative;
-  margin: 0 auto;
-  user-select: none;
-}
-.checkbox-dropdown-toggle {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-}
-
-/* Display CSS arrow to the right of the dropdown text */
-.checkbox-dropdown-toggle span.arrow {
-  font-size: 1.2rem;
-}
-
-.checkbox-dropdown-toggle span.arrow::before {
-  content: '';
-  height: 0;
-  position: absolute;
-  width: 0;
-  border: 6px solid transparent;
-  border-top-color: #ffffff;
-  top: 50%;
-  right: 10px;
-  margin-top: -3px;
-}
-
-/* Reverse the CSS arrow when the dropdown is active */
-.checkbox-dropdown.is-active .checkbox-dropdown-toggle span.arrow::before {
-  border-bottom-color: #000;
-  border-top-color: #fff;
-  margin-top: -9px;
-}
-
-.checkbox-dropdown-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 100%; /* align the dropdown right below the dropdown text */
-  border: inherit;
-  border-top: none;
-  left: -1px; /* align the dropdown to the left */
-  right: -1px; /* align the dropdown to the right */
-  opacity: 0; /* hide the dropdown */
-
-  transition: opacity 0.4s ease-in-out;
-  height: 100px;
-  overflow: scroll;
-  overflow-x: hidden;
-  pointer-events: none; /* avoid mouse click events inside the dropdown */
-}
-.is-active .checkbox-dropdown-list {
-  opacity: 1; /* display the dropdown */
-  pointer-events: auto; /* make sure that the user still can select checkboxes */
-}
-
-.checkbox-dropdown-list li label {
+<style scoped>
+.checkbox-list label {
   display: block;
-  border-bottom: 1px solid silver;
-  padding: 10px;
-
-  transition: all 0.2s ease-out;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  align-items: center;
 }
 
-.checkbox-dropdown-list li label:hover {
-  background-color: #555;
-  color: white;
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.checkbox-list input[type='checkbox'] {
+  display: inline-block;
+  margin-right: 10px;
+  top: 1px;
+}
+
+.show {
+  font-size: 12px;
+  border: none;
+  background: none;
+  color: rgb(113, 113, 230);
+  text-decoration: underline;
+  cursor: pointer;
 }
 </style>
