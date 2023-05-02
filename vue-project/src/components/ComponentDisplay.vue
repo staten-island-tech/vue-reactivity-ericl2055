@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="(output) => manageFilters(output)" @price="filterPrice" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="(output) => manageFilters(output)"
+        @price="filterPrice"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
@@ -46,20 +50,22 @@ export default {
     },
     manageFilters(filter) {
       if (filter[0]) {
-        if (this.selectedFilters[filter[1]] === undefined) this.selectedFilters[filter[1]] = [filter[2]]
+        if (this.selectedFilters[filter[1]] === undefined)
+          this.selectedFilters[filter[1]] = [filter[2]]
         else this.selectedFilters[filter[1]].push(filter[2])
       } else {
         delete this.selectedFilters[filter[1]]
       }
     },
     filterPrice(price) {
-      if (price[0] === "min") this.price[0] = price[1]
+      if (price[0] === 'min') this.price[0] = price[1]
       else this.price[1] = price[1]
-    },
+    }
   },
   computed: {
     filteredData() {
-      if (this.selectedFilters.length === 0 && this.price[0] === 0 && this.price[1] === 10000) return this.data
+      if (this.selectedFilters.length === 0 && this.price[0] === 0 && this.price[1] === 10000)
+        return this.data
       return this.data.filter((data) => {
         if (parseInt(data.price[1]) < this.price[0]) return false
         if (parseInt(data.price[1]) > this.price[1]) return false
@@ -71,16 +77,14 @@ export default {
     },
     convertList() {
       this.filtersList = Object.entries(
-        Object.entries(
-          this.data[0])
-          .reduce(((acc, [key, value]) => {
-            acc[key] = new Set(this.data.map(obj => JSON.stringify(obj[key])))
-            return acc
-          }), {}))
-        .reduce(((acc, [key, values]) => {
-          acc[key] = Array.from(values).map((value) => JSON.parse(value))
+        Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+          acc[key] = new Set(this.data.map((obj) => JSON.stringify(obj[key])))
           return acc
-        }), {})
+        }, {})
+      ).reduce((acc, [key, values]) => {
+        acc[key] = Array.from(values).map((value) => JSON.parse(value))
+        return acc
+      }, {})
     }
   },
   watch: {
@@ -90,6 +94,7 @@ export default {
       this.selectedFilters = {}
     }
   },
+
   mounted() {
     this.convertList
   }
@@ -113,7 +118,7 @@ export default {
 }
 
 .filters {
-  height: 100%
+  height: 100%;
 }
 
 .parts-container::-webkit-scrollbar {
@@ -133,7 +138,7 @@ export default {
 .main {
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
-  width: 100%
+  width: 100%;
 }
 
 li {

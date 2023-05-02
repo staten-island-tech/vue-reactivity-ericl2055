@@ -5,7 +5,8 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?=[A-Z])/).map((string) =>
+            .split(/(?=[A-Z])/)
+            .map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
                 : string[0].toUpperCase() + string.substring(1)
@@ -19,8 +20,12 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters" />
+        <ComponentDisplay
+          @addBuild="updateBuild"
+          class="display"
+          :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="build-display">
         <BuildComp :components="computerBuild" />
@@ -40,41 +45,29 @@ export default {
       CPUfilterOptions: [
         { type: 'brand', filter: 'Intel' },
         { type: 'brand', filter: 'AMD' },
-        { type: 'price', filter: 100 }
+        { type: 'price', filter: 100 },
+        { type: 'price', filter: 200 },
+        { type: 'price', filter: 300 }
       ],
       activeFilters: [],
       build_name: '',
       computerBuild: [],
       selectedValue: 0,
       dataList: [
-        'caseFan',
-        'case',
-        'cpuCooler',
         'cpu',
-        'externalHardDrive',
-        'fanController',
-        'headphones',
-        'internalHardDrive',
-        'keyboard',
-        'memory',
-        'monitor',
+        'cpuCooler',
         'motherboard',
-        'mouse',
-        'opticalDrive',
-        'powerSupply',
-        'soundCard',
-        'speakers',
-        'thermalPaste',
-        'ups',
+        'memory',
+        'internalHardDrive',
         'videoCard',
         'wiredNetworkCard',
-        'wirelessNetworkCard',
+        'wirelessNetworkCard'
       ]
     }
   },
   components: {
     ComponentDisplay,
-    BuildComp,
+    BuildComp
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -84,13 +77,26 @@ export default {
       this.selectedValue += num
       if (this.selectedValue === -1) this.selectedValue = this.dataList.length - 1
       else if (this.selectedValue === this.dataList.length) this.selectedValue = 0
+      this.activeFilters = []
     },
     updateBuild(part) {
-      this.computerBuild.push(part)
+      const partType = part.type
+      let partAlreadyExists = false
+
+      for (let i = 0; i < this.computerBuild.length; i++) {
+        if (this.computerBuild[i].type === partType) {
+          this.computerBuild.splice(i, 1, part)
+          partAlreadyExists = true
+          break
+        }
+      }
+      if (!partAlreadyExists) {
+        this.computerBuild.push(part)
+      }
       console.log(this.computerBuild)
       this.changeValue(1)
     }
-  },
+  }
 }
 </script>
 
@@ -112,7 +118,7 @@ export default {
   align-items: center;
 }
 
-.filters>* {
+.filters > * {
   margin-right: 10px;
 }
 
