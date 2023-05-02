@@ -58,14 +58,21 @@ export default {
       }
     },
     filterValue(data) {
-      if (this.selectedFilters[data[0]]) {
-        this.selectedFilters = this.selectedFilters[data[0]].filter(
-          (array) => array[0] !== data[1][0]
-        )
-        this.selectedFilters.push(data[1])
-      } else {
-        this.selectedFilters[data[0]] = [data[1]]
+      if (this.selectedFilters[data[0]] !== null) {
+        if (this.selectedFilters[data[0]].length !== 0) {
+          this.selectedFilters = this.selectedFilters[data[0]].filter(
+            (array) => array[0] !== data[1][0]
+          )
+        }
+
+        if (this.selectedFilters[data[0]]) {
+          this.selectedFilters[data[0]].push(data[1])
+          return
+        }
       }
+
+      this.selectedFilters[data[0]] = [data[1]]
+
       console.log(this.selectedFilters)
     }
   },
