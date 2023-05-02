@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
@@ -46,41 +50,53 @@ export default {
     },
     manageFilters(filter) {
       if (filter[0]) {
-        if (this.selectedFilters[filter[1]] === undefined) this.selectedFilters[filter[1]] = [filter[2]]
+        if (this.selectedFilters[filter[1]] === undefined)
+          this.selectedFilters[filter[1]] = [filter[2]]
         else this.selectedFilters[filter[1]].push(filter[2])
       } else {
         delete this.selectedFilters[filter[1]]
       }
     },
-    filterValue(price) {
-      if (price[0] === "min") this.price[0] = price[1]
-      else this.price[1] = price[1]
-    },
+    filterValue(data) {
+      if (this.selectedFilters[data[0]]) {
+        this.selectedFilters = this.selectedFilters[data[0]].filter(
+          (array) => array[0] !== data[1][0]
+        )
+        this.selectedFilters.push(data[1])
+      } else {
+        this.selectedFilters[data[0]] = [data[1]]
+      }
+      console.log(this.selectedFilters)
+    }
   },
   computed: {
     filteredData() {
-      if (this.selectedFilters.length === 0 && this.price[0] === 0 && this.price[1] === 10000) return this.data
+      if (this.selectedFilters.length === 0) return this.data
+
       return this.data.filter((data) => {
-        if (parseInt(data.price[1]) < this.price[0]) return false
-        if (parseInt(data.price[1]) > this.price[1]) return false
-        for (let key in this.selectedFilters) {
-          if (!this.selectedFilters[key].includes(data[key])) return false
+        for (const key in this.selectedFilters) {
+          if (typeof this.selectedFilters[key][1] === 'object') {
+            for (let value of this.selectedFilters[key]) {
+              console.log(data[key][value[0]] !== value[1])
+              console.log(data[key])
+            }
+          } else {
+            return this.selectedFilters[key].includes(data[key])
+          }
         }
         return true
       })
     },
     convertList() {
       this.filtersList = Object.entries(
-        Object.entries(
-          this.data[0])
-          .reduce(((acc, [key, value]) => {
-            acc[key] = new Set(this.data.map(obj => JSON.stringify(obj[key])))
-            return acc
-          }), {}))
-        .reduce(((acc, [key, values]) => {
-          acc[key] = Array.from(values).map((value) => JSON.parse(value))
+        Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+          acc[key] = new Set(this.data.map((obj) => JSON.stringify(obj[key])))
           return acc
-        }), {})
+        }, {})
+      ).reduce((acc, [key, values]) => {
+        acc[key] = Array.from(values).map((value) => JSON.parse(value))
+        return acc
+      }, {})
     }
   },
   watch: {
@@ -113,7 +129,7 @@ export default {
 }
 
 .filters {
-  height: 100%
+  height: 100%;
 }
 
 .parts-container::-webkit-scrollbar {
@@ -133,7 +149,7 @@ export default {
 .main {
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
-  width: 100%
+  width: 100%;
 }
 
 li {
