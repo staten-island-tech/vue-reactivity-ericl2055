@@ -1,7 +1,7 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="(output) => manageFilters(output)" @price="filterPrice" />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
@@ -52,7 +52,7 @@ export default {
         delete this.selectedFilters[filter[1]]
       }
     },
-    filterPrice(price) {
+    filterValue(price) {
       if (price[0] === "min") this.price[0] = price[1]
       else this.price[1] = price[1]
     },

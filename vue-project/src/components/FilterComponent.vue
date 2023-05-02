@@ -1,15 +1,51 @@
 <template>
     <h1>Price</h1>
-    <NumberSlide :valueList="price" symbol="$" @change="(event) => $emit('price', event)" />
+    <NumberSlide :valueList="price" symbol="$" @change="(event) => $emit('valueChange', ['price', event])" />
 
-    <div class="checkbox-list" v-for=" [key, value] in Object.entries(list)" :key="key">
-        <div v-if="(isNaN(value[0])) || (typeof value[0] === 'object')">
-            <h1>{{ key.split("_").map((string) =>
-                string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
-                    ? string.toUpperCase()
-                    : string[0].toUpperCase() + string.substring(1)
-            )
-                .join(' ') }}</h1>
+    <div class="checkbox-list"
+        v-for=" [key, value] in Object.entries(list).map(([key, value]) => [key, value.filter(value => value !== undefined && value !== null)]).filter(([key, value]) => value.length !== 0)"
+        :key="key">
+
+        <h1>{{ key.split("_").map((string) =>
+            string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                ? string.toUpperCase()
+                : string[0].toUpperCase() + string.substring(1)
+        ).join(' ') }}
+        </h1>
+
+        <div v-if="typeof value[0] === 'object'">
+            <label v-if="checkInt(value)" v-for="[newKey, newValue] in convertObject(value, true)" :key="(newKey + '.int'
+            )">
+                <h1 class="small">{{ newKey.split("_").map((string) =>
+                    string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                        ? string.toUpperCase()
+                        : string[0].toUpperCase() + string.substring(1)
+                ).join(' ') }}
+                </h1>
+                <NumberSlide :valueList="new Array(newValue)" symbol=""
+                    @change="(event) => $emit('valueChange', ['price', event])" />
+
+
+
+            </label>
+
+            <label v-else
+                v-for=" item in this.active[key] ? convertObject(value).sort().slice(0, 5) : convertObject(value).sort() "
+                :key="item">
+                <input type="checkbox" name="option3" :value="item" @change="(event) => selectedFilter(event, key, item)">
+                <p>{{ createString(item) }}</p>
+                <button @click="this.active[key] = !this.active[key]" class="show">
+                    {{ this.active[key] ? "Show more" : "Show less" }}
+                </button>
+            </label>
+        </div>
+
+        <div v-else-if="!isNaN(value[0])">
+            <NumberSlide :valueList="value.map(value => parseInt(value))"
+                @change="(event) => $emit('valueChange', [key, event])" />
+        </div>
+
+        <div v-else>
             <label v-for=" item in this.active[key] ? value.sort().slice(0, 5) : value.sort() " :key="item">
                 <input v-if="item !== null" type="checkbox" name="option3" :value="item"
                     @change="(event) => selectedFilter(event, key, item)">
@@ -19,15 +55,7 @@
                 {{ this.active[key] ? "Show more" : "Show less" }}
             </button>
         </div>
-        <div v-if="!isNaN(value[0])">
-            <h1>{{ key.split("_").map((string) =>
-                string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
-                    ? string.toUpperCase()
-                    : string[0].toUpperCase() + string.substring(1)
-            )
-                .join(' ') }}</h1>
-            <NumberSlide :valueList="value.map(value => parseInt(value))" @change="(event) => { }" />
-        </div>
+
     </div>
 </template>
   
@@ -35,7 +63,7 @@
 import NumberSlide from "./NumberSlide.vue"
 export default {
     name: 'FilterComponent',
-    emits: ['filterControl', 'price'],
+    emits: ['filterControl', 'valueChange'],
     components: {
         NumberSlide
     },
@@ -68,11 +96,45 @@ export default {
         createPrice(value) {
             return value === undefined ? [] : value.map(price => parseInt(price[1]))
         },
-        handleFunction(value) {
-        }
+        checkInt(value) {
+            try {
+                this.convertObject(value).forEach((value) => {
+                    if (typeof value[0][1] === "number" || typeof value[1][1] === "number" || typeof value[2][1] === "number") {
+                        throw 'BreakException';
+                    }
+                })
+            } catch (e) {
+                if (e === 'BreakException') {
+                    return true
+                }
+            }
+        },
+        convertObject(value, int) {
+            if (int) {
+                return Object.entries(value.reduce((acc, obj) => {
+                    Object.entries(obj).forEach(([key, value]) => {
+                        acc[key] = (acc[key] || new Set()).add(value);
+                    })
+                    return acc;
+                }, {}))
+
+            }
+            else { return value.map(value => Object.entries(value)) }
+        },
+        createString(item) {
+            return item.reduce(((acc, arr) => {
+                if (arr[1] === null) {
+                    acc.push(arr[0][0].toUpperCase() + arr[0].substring(1) + ": " + "N/A")
+                } else {
+                    acc.push(arr[0][0].toUpperCase() + arr[0].substring(1) + ": " + arr[1])
+                }
+                return acc;
+            }), []).reduce(((acc, string) => acc.length === 0 ? acc + string : acc + ", " + string), "")
+        },
     },
     watch: {
         list(newValue, oldValue) {
+            // console.log(newValue)
             this.active = this.activeList(newValue)
             this.price = this.createPrice(newValue.price)
             delete this.list.price
@@ -115,6 +177,10 @@ p {
     text-decoration: underline;
     cursor: pointer;
 
+}
+
+.small {
+    font-size: 15px;
 }
 </style>
   

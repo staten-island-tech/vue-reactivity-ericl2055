@@ -55,6 +55,7 @@ export default {
             }
             this.valueGap = this.totalValue / 10
             this.minValue = 0
+            console.log(this.totalValue)
         },
     },
     watch: {
@@ -68,11 +69,15 @@ export default {
             this.$emit('change', ["min", this.minValue])
         },
         maxValue(newVal, oldVal) {
-            if (this.maxValue < this.minValue + this.valueGap) this.maxValue = this.minValue + this.valueGap;
+            if (this.maxValue < parseInt(this.minValue) + this.valueGap) this.maxValue = parseInt(this.minValue) + this.valueGap
+
             if (newVal > this.totalValue) this.maxValue = this.totalValue;
             this.$emit('change', ["max", this.maxValue])
         }
-    },
+    }, onMount() {
+        this.progessWidth
+        this.greatestValue
+    }
 
 }
 </script>
