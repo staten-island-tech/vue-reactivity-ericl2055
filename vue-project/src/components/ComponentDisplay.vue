@@ -58,22 +58,15 @@ export default {
       }
     },
     filterValue(data) {
-      if (this.selectedFilters[data[0]] !== null) {
-        if (this.selectedFilters[data[0]].length !== 0) {
-          this.selectedFilters = this.selectedFilters[data[0]].filter(
-            (array) => array[0] !== data[1][0]
-          )
-        }
+      if (JSON.stringify(this.selectedFilters) !== '{}') {
+        this.selectedFilters[data[0]] = this.selectedFilters[data[0]].filter(
+          (array) => array[0] !== data[1][0]
+        )
 
-        if (this.selectedFilters[data[0]]) {
-          this.selectedFilters[data[0]].push(data[1])
-          return
-        }
+        this.selectedFilters[data[0]].push(data[1])
+      } else {
+        this.selectedFilters[data[0]] = [data[1]]
       }
-
-      this.selectedFilters[data[0]] = [data[1]]
-
-      console.log(this.selectedFilters)
     }
   },
   computed: {
@@ -83,9 +76,8 @@ export default {
       return this.data.filter((data) => {
         for (const key in this.selectedFilters) {
           if (typeof this.selectedFilters[key][1] === 'object') {
-            for (let value of this.selectedFilters[key]) {
-              console.log(data[key][value[0]] !== value[1])
-              console.log(data[key])
+            for (const value of this.selectedFilters[key]) {
+              if (data[key][value[0]] !== value[1]) return false
             }
           } else {
             return this.selectedFilters[key].includes(data[key])

@@ -179,7 +179,6 @@ export default {
   },
   watch: {
     list(newValue, oldValue) {
-      // console.log(newValue)
       this.active = this.activeList(newValue)
       this.price = this.createPrice(newValue.price)
       delete this.list.price
