@@ -1,11 +1,7 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
@@ -71,18 +67,45 @@ export default {
   },
   computed: {
     filteredData() {
-      if (this.selectedFilters.length === 0) return this.data
+      if (Object.keys(this.selectedFilters).length === 0) return this.data
+
+      console.log(this.data.filter((data) => {
+        for (const key in this.selectedFilters) {
+          console.log(typeof this.selectedFilters[key][1])
+          if (typeof this.selectedFilters[key][1] === 'object') {
+            for (const value of this.selectedFilters[key]) {
+              if (value[0] === 'price') {
+                if (value[0] === 'max' && data[key][1] > value[1]) return false
+                else if (value[0] === 'min' && data[key][1] < value[1]) return false
+              } else {
+                if (data[key][value[0]] !== value[1]) return false
+              }
+            }
+          } else {
+            console.log(this.selectedFilters)
+            return data[key].includes(this.selectedFilters[key])
+          }
+        }
+        return true
+      }))
 
       return this.data.filter((data) => {
         for (const key in this.selectedFilters) {
           if (typeof this.selectedFilters[key][1] === 'object') {
             for (const value of this.selectedFilters[key]) {
-              if (data[key][value[0]] !== value[1]) return false
+              if (value[0] === 'price') {
+                if (value[0] === 'max' && data[key][1] > value[1]) return false
+                else if (value[0] === 'min' && data[key][1] < value[1]) return false
+                console.log(2)
+              } else {
+                if (data[key][value[0]] !== value[1]) return false
+              }
             }
           } else {
             return this.selectedFilters[key].includes(data[key])
           }
         }
+        console.log(1)
         return true
       })
     },
@@ -103,6 +126,9 @@ export default {
       this.data = data[newValue].data
       this.convertList
       this.selectedFilters = {}
+    },
+    filtersList(newValue, oldValue) {
+      this.filteredData
     }
   },
   mounted() {
