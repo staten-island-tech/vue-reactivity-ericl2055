@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
@@ -45,12 +49,15 @@ export default {
       this.$emit('addBuild', part)
     },
     manageFilters(filter) {
-      if (filter[0]) {
-        if (this.selectedFilters[filter[1]] === undefined)
-          this.selectedFilters[filter[1]] = [filter[2]]
-        else this.selectedFilters[filter[1]].push(filter[2])
+      console.log(filter)
+      if (filter[2]) {
+        if (this.selectedFilters[filter[0]] === undefined) {
+          this.selectedFilters[filter[0]] = [filter[1]]
+        } else this.selectedFilters[filter[0]].push(filter[1])
       } else {
-        delete this.selectedFilters[filter[1]]
+        this.selectedFilters[filter[0]] = this.selectedFilters[filter[0]].filter(
+          (existingFilter) => existingFilter !== filter[1]
+        )
       }
     },
     filterValue(data) {
@@ -69,34 +76,14 @@ export default {
     filteredData() {
       if (Object.keys(this.selectedFilters).length === 0) return this.data
 
-      console.log(this.data.filter((data) => {
-        for (const key in this.selectedFilters) {
-          console.log(typeof this.selectedFilters[key][1])
-          if (typeof this.selectedFilters[key][1] === 'object') {
-            for (const value of this.selectedFilters[key]) {
-              if (value[0] === 'price') {
-                if (value[0] === 'max' && data[key][1] > value[1]) return false
-                else if (value[0] === 'min' && data[key][1] < value[1]) return false
-              } else {
-                if (data[key][value[0]] !== value[1]) return false
-              }
-            }
-          } else {
-            console.log(this.selectedFilters)
-            return data[key].includes(this.selectedFilters[key])
-          }
-        }
-        return true
-      }))
-
       return this.data.filter((data) => {
         for (const key in this.selectedFilters) {
-          if (typeof this.selectedFilters[key][1] === 'object') {
+          // console.log(this.selectedFilters)
+          if (typeof this.selectedFilters[key][1] === 'object' || key === 'price') {
             for (const value of this.selectedFilters[key]) {
-              if (value[0] === 'price') {
-                if (value[0] === 'max' && data[key][1] > value[1]) return false
-                else if (value[0] === 'min' && data[key][1] < value[1]) return false
-                console.log(2)
+              if (key === 'price') {
+                if (value[0] === 'max' && data[key][1] > parseInt(value[1])) return false
+                if (value[0] === 'min' && data[key][1] < parseInt(value[1])) return false
               } else {
                 if (data[key][value[0]] !== value[1]) return false
               }
@@ -105,7 +92,6 @@ export default {
             return this.selectedFilters[key].includes(data[key])
           }
         }
-        console.log(1)
         return true
       })
     },

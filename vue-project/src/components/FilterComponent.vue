@@ -119,9 +119,9 @@ export default {
   methods: {
     selectedFilter(event, key, filter) {
       if (event.target.checked) {
-        this.$emit('filterControl', [true, key, filter])
+        this.$emit('filterControl', [key, filter, true])
       } else {
-        this.$emit('filterControl', [false, key, filter])
+        this.$emit('filterControl', [key, filter, false])
       }
     },
     activeList(obj) {
