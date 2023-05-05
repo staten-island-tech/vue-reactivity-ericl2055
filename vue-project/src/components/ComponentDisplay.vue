@@ -59,9 +59,11 @@ export default {
           (existingFilter) => existingFilter !== filter[1]
         )
       }
+      if (this.selectedFilters[filter[0]].length === 0) delete this.selectedFilters[filter[0]]
     },
     filterValue(data) {
-      if (JSON.stringify(this.selectedFilters) !== '{}') {
+      console.log(data)
+      if (this.selectedFilters[data[0]] !== undefined) {
         this.selectedFilters[data[0]] = this.selectedFilters[data[0]].filter(
           (array) => array[0] !== data[1][0]
         )
@@ -75,16 +77,17 @@ export default {
   computed: {
     filteredData() {
       if (Object.keys(this.selectedFilters).length === 0) return this.data
+      console.log(Object.keys(this.selectedFilters))
 
       return this.data.filter((data) => {
-        for (const key in this.selectedFilters) {
-          // console.log(this.selectedFilters)
+        for (const key of Object.keys(this.selectedFilters)) {
           if (typeof this.selectedFilters[key][1] === 'object' || key === 'price') {
             for (const value of this.selectedFilters[key]) {
               if (key === 'price') {
                 if (value[0] === 'max' && data[key][1] > parseInt(value[1])) return false
                 if (value[0] === 'min' && data[key][1] < parseInt(value[1])) return false
               } else {
+                console.log(value)
                 if (data[key][value[0]] !== value[1]) return false
               }
             }
