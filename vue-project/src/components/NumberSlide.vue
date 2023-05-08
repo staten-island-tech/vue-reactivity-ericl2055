@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper" @load="determineValue">
+    <div class="wrapper" ref="wrapperRef">
         <div class="slider">
             <div class="progress" :style="progressWidth"></div>
         </div>
@@ -21,10 +21,10 @@ export default {
 
     data() {
         return {
-            minValue: 0,
-            maxValue: 1000,
+            minValue: 10,
+            maxValue: 100000,
             valueGap: 10,
-            totalValue: 1000
+            totalValue: 100000
         }
     },
     props: {
@@ -44,38 +44,41 @@ export default {
                 }%;`
         },
         greatestValue() {
-            if (Math.max(...this.valueList) < 800) {
+            if (Math.max(...this.valueList) < 10) {
+                console.log(Math.ceil(Math.max(...this.valueList)))
+                this.totalValue = Math.ceil(Math.max(...this.valueList))
+            } else if (Math.max(...this.valueList) < 800) {
                 this.totalValue = Math.ceil(Math.max(...this.valueList) / 100) * 100
-                this.maxValue = this.totalValue
-            } else {
+            }
+            else {
                 this.totalValue = Math.ceil(Math.max(...this.valueList) / 1000) * 1000
-                this.maxValue = this.totalValue
             }
             this.valueGap = this.totalValue / 10
             this.minValue = 0
+            this.maxValue = this.totalValue
+            console.log(this.valueGap)
         }
     },
     watch: {
         valueList(newVal, oldVal) {
-            this.progessWidth
             this.greatestValue
         },
         minValue(newVal, oldVal) {
             if (newVal < 0) this.minValue = 0
             if (newVal > this.maxValue - this.valueGap) this.minValue = this.maxValue - this.valueGap
-            this.$emit('change', ['min', this.minValue])
+            this.$emit('change', ['min', parseInt(this.minValue)])
         },
         maxValue(newVal, oldVal) {
             if (this.maxValue < parseInt(this.minValue) + this.valueGap)
                 this.maxValue = parseInt(this.minValue) + this.valueGap
 
             if (newVal > this.totalValue) this.maxValue = this.totalValue
-            this.$emit('change', ['max', this.maxValue])
+            this.$emit('change', ['max', parseInt(this.maxValue)])
         }
     },
-    onMount() {
-        this.progessWidth
-        this.greatestValue
+    mounted() {
+        this.greatestValue;
+        if (this.symbol == "hell") console.log(Math.max(...this.valueList) < 10, this.valueList)
     }
 }
 </script>

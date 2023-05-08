@@ -1,16 +1,12 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part.id">
         <button @click="addToBuild(part)">Add to Build</button>
-        {{ part.brand }} {{ part.model }} - ${{ part.price[1] }}
+        {{ part.brand }} {{ part.model }} - ${{ part.price[1] }} - {{ part.size }}
       </li>
     </ul>
   </div>
@@ -49,7 +45,6 @@ export default {
       this.$emit('addBuild', part)
     },
     manageFilters(filter) {
-      console.log(filter)
       if (filter[2]) {
         if (this.selectedFilters[filter[0]] === undefined) {
           this.selectedFilters[filter[0]] = [filter[1]]
@@ -62,41 +57,70 @@ export default {
       if (this.selectedFilters[filter[0]].length === 0) delete this.selectedFilters[filter[0]]
     },
     filterValue(data) {
-      console.log(data)
-      if (this.selectedFilters[data[0]] !== undefined) {
-        this.selectedFilters[data[0]] = this.selectedFilters[data[0]].filter(
-          (array) => array[0] !== data[1][0]
-        )
+      if (typeof data[1][1] === 'object') {
+        if (this.selectedFilters[data[0]] === undefined) {
+          this.selectedFilters[data[0]] = [data[1]]
+        } else {
+          let contains = true
+          this.selectedFilters[data[0]] = this.selectedFilters[data[0]].map((array) => {
+            if (array[0] === data[1][0]) {
+              array[1] = array[1].filter((newArr) => {
+                return newArr[0] !== data[1][1][0][0]
+              })
+              array[1].push(...data[1][1])
+              contains = false
+              return [array[0], array[1]]
+            } else {
+              return array
+            }
+          })
+          if (contains) this.selectedFilters[data[0]].push(data[1])
+        }
+      } else {
+        if (this.selectedFilters[data[0]] !== undefined) {
+          this.selectedFilters[data[0]] = this.selectedFilters[data[0]].filter(
+            (array) => array[0] !== data[1][0]
+          )
+        } else this.selectedFilters[data[0]] = []
 
         this.selectedFilters[data[0]].push(data[1])
-      } else {
-        this.selectedFilters[data[0]] = [data[1]]
+
       }
     }
   },
   computed: {
     filteredData() {
       if (Object.keys(this.selectedFilters).length === 0) return this.data
-      console.log(Object.keys(this.selectedFilters))
-
       return this.data.filter((data) => {
         for (const key of Object.keys(this.selectedFilters)) {
-          if (typeof this.selectedFilters[key][1] === 'object' || key === 'price') {
-            for (const value of this.selectedFilters[key]) {
+          const filterValue = this.selectedFilters[key];
+          const dataValue = data[key];
+
+          if (Array.isArray(filterValue[0])) {
+            for (const [operation, operand] of filterValue) {
               if (key === 'price') {
-                if (value[0] === 'max' && data[key][1] > parseInt(value[1])) return false
-                if (value[0] === 'min' && data[key][1] < parseInt(value[1])) return false
+                if (operation === 'max' && dataValue[1] > operand) return false;
+                if (operation === 'min' && dataValue[1] < operand) return false;
+              } else if (Array.isArray(operand)) {
+                if (dataValue === null) continue;
+
+                for (const [op, value] of operand) {
+                  if (dataValue[operation] === null) continue;
+
+                  if (op === 'min' && dataValue[operation] < value) return false;
+                  if (op === 'max' && dataValue[operation] > value) return false;
+                }
               } else {
-                console.log(value)
-                if (data[key][value[0]] !== value[1]) return false
+                if (operation === 'min' && dataValue < operand && operand !== 0) return false;
+                if (operation === 'max' && dataValue > operand) return false;
               }
             }
           } else {
-            return this.selectedFilters[key].includes(data[key])
+            if (!filterValue.includes(dataValue)) return false;
           }
         }
-        return true
-      })
+        return true;
+      });
     },
     convertList() {
       this.filtersList = Object.entries(
