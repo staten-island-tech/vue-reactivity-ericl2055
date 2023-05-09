@@ -1,10 +1,11 @@
 <template>
+    <ThreeSwitch />
     <h1>Price</h1>
     <NumberSlide :valueList="price" symbol="$" @change="(event) => $emit('valueChange', ['price', event])" />
 
 
     <div class="checkbox-list" v-for="[key, value] in Object.entries(list)
-        .map(([key, value]) => [key, value.filter((value) => value !== undefined && value !== null)])
+        .map(([key, value]) => [key, value])
         .filter(([key, value]) => value.length !== 0)" :key="key">
         <h1>
             {{
@@ -83,12 +84,14 @@
 </template>
 
 <script>
+import ThreeSwitch from './ThreeSwitch.vue'
 import NumberSlide from './NumberSlide.vue'
 export default {
     name: 'FilterComponent',
     emits: ['filterControl', 'valueChange'],
     components: {
-        NumberSlide
+        NumberSlide,
+        ThreeSwitch
     },
     data() {
         return {

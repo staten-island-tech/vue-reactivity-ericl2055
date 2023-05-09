@@ -1,10 +1,10 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <!-- <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" /> -->
     </div>
     <ul class="main">
-      <li v-for="part in filteredData" :key="part.id">
+      <li v-for="part in filteredData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
         {{ part.brand }} {{ part.model }} - ${{ part.price[1] }} - {{ part.size }}
       </li>
@@ -34,7 +34,7 @@ export default {
 
   data() {
     return {
-      data: data[this.part].data,
+      data: [],
       filtersList: {},
       selectedFilters: {},
       price: [0, 10000]
@@ -89,54 +89,102 @@ export default {
     }
   },
   computed: {
+    createData() {
+      this.data = data[this.part].data.map((data) => {
+        return Object.entries(data).reduce((acc, [key, value]) => {
+          if (typeof value === "object") {
+            if (Array.isArray(value)) {
+              value = value[1]
+            } else {
+              if (value === null) {
+                value = {}
+              } else if (value.default === null) {
+                value = { min: value.min, max: value.max }
+              } else if (value.min === null && value.max === null) {
+                value = { default: value.default }
+              } else {
+                value = Object.values(value)[0]
+              }
+            }
+          }
+
+          acc[key] = value
+          return acc
+        }, {})
+      })
+
+    },
     filteredData() {
       if (Object.keys(this.selectedFilters).length === 0) return this.data
       return this.data.filter((data) => {
-        for (const key of Object.keys(this.selectedFilters)) {
-          const filterValue = this.selectedFilters[key];
-          const dataValue = data[key];
+        // for (const key of Object.keys(this.selectedFilters)) {
+        //   const filterValue = this.selectedFilters[key];
+        //   const dataValue = data[key];
 
-          if (Array.isArray(filterValue[0])) {
-            for (const [operation, operand] of filterValue) {
-              if (key === 'price') {
-                if (operation === 'max' && dataValue[1] > operand) return false;
-                if (operation === 'min' && dataValue[1] < operand) return false;
-              } else if (Array.isArray(operand)) {
-                if (dataValue === null) continue;
+        //   if (typeof dataValue === "object") {
+        //     if 
+        //   }
 
-                for (const [op, value] of operand) {
-                  if (dataValue[operation] === null) continue;
+        //   if (Array.isArray(filterValue[0])) {
+        //     for (const [operation, operand] of filterValue) {
+        //       if (key === 'price') {
+        //         if (operation === 'max' && dataValue[1] > operand) return false;
+        //         if (operation === 'min' && dataValue[1] < operand) return false;
+        //       } else if (Array.isArray(operand)) {
+        //         if (dataValue === null) continue;
 
-                  if (op === 'min' && dataValue[operation] < value) return false;
-                  if (op === 'max' && dataValue[operation] > value) return false;
-                }
-              } else {
-                if (operation === 'min' && dataValue < operand && operand !== 0) return false;
-                if (operation === 'max' && dataValue > operand) return false;
-              }
-            }
-          } else {
-            if (!filterValue.includes(dataValue)) return false;
-          }
-        }
+        //         for (const [op, value] of operand) {
+        //           if (dataValue[operation] === null) continue;
+
+        //           if (op === 'min' && dataValue[operation] < value) return false;
+        //           if (op === 'max' && dataValue[operation] > value) return false;
+        //         }
+        //       } else {
+        //         if (operation === 'min' && dataValue < operand && operand !== 0) return false;
+        //         if (operation === 'max' && dataValue > operand) return false;
+        //       }
+        //     }
+        //   } else {
+        //     if (!filterValue.includes(dataValue)) return false;
+        //   }
+        // }
         return true;
       });
     },
     convertList() {
       this.filtersList = Object.entries(
         Object.entries(this.data[0]).reduce((acc, [key, value]) => {
-          acc[key] = new Set(this.data.map((obj) => JSON.stringify(obj[key])))
+          if (typeof value === "object") {
+            acc[key] = this.data.reduce((acc, obj) => {
+              if (obj[key].min !== undefined && obj[key].max !== undefined) {
+                acc.min.add(obj[key].min);
+                acc.max.add(obj[key].max);
+              } else if (obj[key].default !== undefined) {
+                acc.default.add(obj[key].default);
+              }
+              return acc;
+            }, { default: new Set(), min: new Set(), max: new Set() });
+            console.log(acc[key])
+
+          } else acc[key] = new Set(this.data.map((obj) => obj[key]))
           return acc
         }, {})
       ).reduce((acc, [key, values]) => {
-        acc[key] = Array.from(values).map((value) => JSON.parse(value))
+        if (Object.keys(values).length === 0) {
+          let array = Array.from(values)
+          if (array.length !== 1 && array[0] !== null) {
+            acc[key] = array
+          }
+        }
+        else acc[key] = { default: Array.from(values.default), min: Array.from(values.min), max: Array.from(values.max) }
         return acc
       }, {})
+      console.log(this.filtersList)
     }
   },
   watch: {
     part(newValue, oldValue) {
-      this.data = data[newValue].data
+      this.createData
       this.convertList
       this.selectedFilters = {}
     },
@@ -145,6 +193,7 @@ export default {
     }
   },
   mounted() {
+    this.createData
     this.convertList
   }
 }

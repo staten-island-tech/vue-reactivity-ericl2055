@@ -56,7 +56,6 @@ export default {
             this.valueGap = this.totalValue / 10
             this.minValue = 0
             this.maxValue = this.totalValue
-            console.log(this.valueGap)
         }
     },
     watch: {
