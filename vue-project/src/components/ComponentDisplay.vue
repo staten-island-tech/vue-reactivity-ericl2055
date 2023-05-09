@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <!-- <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" /> -->
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
@@ -84,7 +88,6 @@ export default {
         } else this.selectedFilters[data[0]] = []
 
         this.selectedFilters[data[0]].push(data[1])
-
       }
     }
   },
@@ -92,9 +95,9 @@ export default {
     createData() {
       this.data = data[this.part].data.map((data) => {
         return Object.entries(data).reduce((acc, [key, value]) => {
-          if (typeof value === "object") {
+          if (typeof value === 'object') {
             if (Array.isArray(value)) {
-              value = value[1]
+              value[0] === 'USD' ? (value = value[1]) : (value = value[0])
             } else {
               if (value === null) {
                 value = {}
@@ -107,12 +110,10 @@ export default {
               }
             }
           }
-
           acc[key] = value
           return acc
         }, {})
       })
-
     },
     filteredData() {
       if (Object.keys(this.selectedFilters).length === 0) return this.data
@@ -122,7 +123,7 @@ export default {
         //   const dataValue = data[key];
 
         //   if (typeof dataValue === "object") {
-        //     if 
+        //     if
         //   }
 
         //   if (Array.isArray(filterValue[0])) {
@@ -148,38 +149,38 @@ export default {
         //     if (!filterValue.includes(dataValue)) return false;
         //   }
         // }
-        return true;
-      });
+        return true
+      })
     },
     convertList() {
-      this.filtersList = Object.entries(
-        Object.entries(this.data[0]).reduce((acc, [key, value]) => {
-          if (typeof value === "object") {
-            acc[key] = this.data.reduce((acc, obj) => {
+      this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+        let set = []
+        if (typeof value === 'object') {
+          set = this.data.reduce(
+            (acc, obj) => {
               if (obj[key].min !== undefined && obj[key].max !== undefined) {
-                acc.min.add(obj[key].min);
-                acc.max.add(obj[key].max);
+                acc.min.add(obj[key].min)
+                acc.max.add(obj[key].max)
               } else if (obj[key].default !== undefined) {
-                acc.default.add(obj[key].default);
+                acc.default.add(obj[key].default)
               }
-              return acc;
-            }, { default: new Set(), min: new Set(), max: new Set() });
-            console.log(acc[key])
-
-          } else acc[key] = new Set(this.data.map((obj) => obj[key]))
-          return acc
-        }, {})
-      ).reduce((acc, [key, values]) => {
-        if (Object.keys(values).length === 0) {
-          let array = Array.from(values)
-          if (array.length !== 1 && array[0] !== null) {
-            acc[key] = array
+              return acc
+            },
+            { default: new Set(), min: new Set(), max: new Set() }
+          )
+          acc[key] = {
+            default: Array.from(set.default),
+            min: Array.from(set.min),
+            max: Array.from(set.max)
+          }
+        } else {
+          set = Array.from(new Set(this.data.map((obj) => obj[key])))
+          if (set.length !== 1 && set[0] !== null) {
+            acc[key] = set
           }
         }
-        else acc[key] = { default: Array.from(values.default), min: Array.from(values.min), max: Array.from(values.max) }
         return acc
       }, {})
-      console.log(this.filtersList)
     }
   },
   watch: {
@@ -195,6 +196,7 @@ export default {
   mounted() {
     this.createData
     this.convertList
+    console.log(this.filtersList)
   }
 }
 </script>
