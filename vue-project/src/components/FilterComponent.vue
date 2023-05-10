@@ -4,16 +4,10 @@
   <NumberSlide
     :valueList="price"
     symbol="$"
-    @change="(event) => $emit('valueChange', ['price', event])"
+    @change="(event) => $emit('valueChange', { key: 'price', values: event })"
   />
 
-  <div
-    class="checkbox-list"
-    v-for="[key, value] in Object.entries(list)
-      .map(([key, value]) => [key, value])
-      .filter(([key, value]) => value.length !== 0)"
-    :key="key"
-  >
+  <div class="checkbox-list" v-for="[key, value] in Object.entries(list)" :key="key">
     <h1>
       {{
         key
@@ -27,77 +21,38 @@
       }}
     </h1>
 
-    <div v-if="typeof value === 'object' && !Array.isArray(value)">
-      <label v-for="[objKey, objValue] in Object.entries(value)" :key="objKey + '.int'">
-        <h1 class="small">
-          {{
-            objKey
-              .split('_')
-              .map((string) =>
-                string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
-                  ? string.toUpperCase()
-                  : string[0].toUpperCase() + string.substring(1)
-              )
-              .join(' ')
-          }}
-        </h1>
-        <NumberSlide
-          :valueList="objValue"
-          symbol=""
-          @change="(event) => $emit('valueChange', [key, [objKey, [event]]])"
-        />
-      </label>
-      <!-- <div v-else-if="value[0][0] === 'USD'">
-        <NumberSlide
-          :valueList="
-            value.map((val) => parseFloat(val[1]) * 100).filter((value) => value !== null)
-          "
-          symbol="¢"
-          @change="(event) => $emit('valueChange', [key, ['USD', [event]]])"
-        />
-      </div> -->
-      <!-- <div v-else>
-        <label
-          v-for="item in this.active[key]
-            ? convertObject(value).sort().slice(0, 5)
-            : convertObject(value).sort()"
-          :key="item"
-        >
-          <input
-            type="checkbox"
-            name="option3"
-            :value="item"
-            @change="(event) => selectedFilter(event, key, item)"
-          />
-          <p>{{ createString(item) }}</p>
-        </label>
-        <button @click="this.active[key] = !this.active[key]" class="show">
-          {{ this.active[key] ? 'Show more' : 'Show less' }}
-        </button>
-      </div> -->
-    </div>
-
-    <div v-else-if="typeof value[0] === 'number'">
+    <label
+      v-if="typeof value === 'object' && !Array.isArray(value)"
+      v-for="[objKey, objValue] in Object.entries(value)"
+      :key="objKey + '.int'"
+    >
+      <h1 class="small">
+        {{ objKey[0].toUpperCase() + objKey.substring(1) }}
+      </h1>
       <NumberSlide
-        :valueList="value.map((value) => parseInt(value)).filter((value) => value !== null)"
-        @change="(event) => $emit('valueChange', [key, event])"
+        :valueList="objValue"
+        symbol=""
+        @change="(event) => $emit('valueChange', { key: key, objKey: objKey, values: event })"
       />
-    </div>
+    </label>
 
-    <div v-else-if="value.length <= 5">
-      <label v-for="item in value.sort().reverse()" :key="item">
-        <input
-          v-if="item !== null"
-          type="checkbox"
-          name="option3"
-          :value="item"
-          @change="(event) => selectedFilter(event, key, item)"
-        />
-        <p v-if="item !== null">{{ item }}</p>
-      </label>
-    </div>
+    <NumberSlide
+      v-else-if="typeof value[0] === 'number'"
+      :valueList="value.map((value) => parseInt(value)).filter((value) => value !== null)"
+      @change="(event) => $emit('valueChange', { key: key, values: event })"
+    />
 
-    <!-- <div v-else>
+    <label v-else-if="value.length <= 5" v-for="item in value.sort()" :key="item">
+      <input
+        type="checkbox"
+        name="option3"
+        :value="item"
+        @change="(event) => selectedFilter(event, key, item)"
+      />
+      <p>{{ item }}</p>
+    </label>
+
+    <div v-else>
       <label v-for="item in this.active[key] ? value.sort().slice(0, 5) : value.sort()" :key="item">
         <input
           v-if="item !== null"
@@ -111,7 +66,7 @@
       <button @click="this.active[key] = !this.active[key]" class="show">
         {{ this.active[key] ? 'Show more' : 'Show less' }}
       </button>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -169,7 +124,6 @@ export default {
       this.active = this.activeList(objValue)
       this.price = this.list.price
       delete this.list.price
-      console.log(this.list)
     }
   }
 }

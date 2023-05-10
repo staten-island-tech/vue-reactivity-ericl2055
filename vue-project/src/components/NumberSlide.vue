@@ -79,19 +79,18 @@ export default {
     minValue(newVal, oldVal) {
       if (newVal < 0) this.minValue = 0
       if (newVal > this.maxValue - this.valueGap) this.minValue = this.maxValue - this.valueGap
-      this.$emit('change', ['min', parseInt(this.minValue)])
+      this.$emit('change', { max: parseInt(this.maxValue), min: parseInt(this.minValue) })
     },
     maxValue(newVal, oldVal) {
       if (this.maxValue < parseInt(this.minValue) + this.valueGap)
         this.maxValue = parseInt(this.minValue) + this.valueGap
 
       if (newVal > this.totalValue) this.maxValue = this.totalValue
-      this.$emit('change', ['max', parseInt(this.maxValue)])
+      this.$emit('change', { max: parseInt(this.maxValue), min: parseInt(this.minValue) })
     }
   },
   mounted() {
     this.greatestValue
-    // if (this.symbol == "hell") console.log(Math.max(...this.valueList) < 10, this.valueList)
   }
 }
 </script>

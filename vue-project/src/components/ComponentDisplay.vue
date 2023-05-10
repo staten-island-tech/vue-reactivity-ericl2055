@@ -41,7 +41,8 @@ export default {
       data: [],
       filtersList: {},
       selectedFilters: {},
-      price: [0, 10000]
+      price: [0, 10000],
+      currentList: []
     }
   },
   methods: {
@@ -61,33 +62,12 @@ export default {
       if (this.selectedFilters[filter[0]].length === 0) delete this.selectedFilters[filter[0]]
     },
     filterValue(data) {
-      if (typeof data[1][1] === 'object') {
-        if (this.selectedFilters[data[0]] === undefined) {
-          this.selectedFilters[data[0]] = [data[1]]
-        } else {
-          let contains = true
-          this.selectedFilters[data[0]] = this.selectedFilters[data[0]].map((array) => {
-            if (array[0] === data[1][0]) {
-              array[1] = array[1].filter((newArr) => {
-                return newArr[0] !== data[1][1][0][0]
-              })
-              array[1].push(...data[1][1])
-              contains = false
-              return [array[0], array[1]]
-            } else {
-              return array
-            }
-          })
-          if (contains) this.selectedFilters[data[0]].push(data[1])
-        }
+      if (data.objKey !== undefined) {
+        if (this.selectedFilters[data.key] === undefined)
+          this.selectedFilters[data.key] = { default: {}, min: {}, max: {} }
+        this.selectedFilters[data.key][data.objKey] = data.values
       } else {
-        if (this.selectedFilters[data[0]] !== undefined) {
-          this.selectedFilters[data[0]] = this.selectedFilters[data[0]].filter(
-            (array) => array[0] !== data[1][0]
-          )
-        } else this.selectedFilters[data[0]] = []
-
-        this.selectedFilters[data[0]].push(data[1])
+        this.selectedFilters[data.key] = data.values
       }
     }
   },
@@ -116,41 +96,39 @@ export default {
       })
     },
     filteredData() {
-      if (Object.keys(this.selectedFilters).length === 0) return this.data
-      return this.data.filter((data) => {
-        // for (const key of Object.keys(this.selectedFilters)) {
-        //   const filterValue = this.selectedFilters[key];
-        //   const dataValue = data[key];
+      // if (this.currentList.length === 0) {
+      this.currentList = this.data.filter((data) => {
+        for (const key of Object.keys(this.selectedFilters)) {
+          const filterValue = this.selectedFilters[key]
+          const dataValue = data[key]
 
-        //   if (typeof dataValue === "object") {
-        //     if
-        //   }
+          if (!Array.isArray(filterValue)) {
+            for (const [operation, operand] of filterValue) {
+              if (key === 'price') {
+                if (operation === 'max' && dataValue[1] > operand) return false
+                if (operation === 'min' && dataValue[1] < operand) return false
+              } else if (Array.isArray(operand)) {
+                if (dataValue === null) continue
 
-        //   if (Array.isArray(filterValue[0])) {
-        //     for (const [operation, operand] of filterValue) {
-        //       if (key === 'price') {
-        //         if (operation === 'max' && dataValue[1] > operand) return false;
-        //         if (operation === 'min' && dataValue[1] < operand) return false;
-        //       } else if (Array.isArray(operand)) {
-        //         if (dataValue === null) continue;
+                for (const [op, value] of operand) {
+                  if (dataValue[operation] === null) continue
 
-        //         for (const [op, value] of operand) {
-        //           if (dataValue[operation] === null) continue;
-
-        //           if (op === 'min' && dataValue[operation] < value) return false;
-        //           if (op === 'max' && dataValue[operation] > value) return false;
-        //         }
-        //       } else {
-        //         if (operation === 'min' && dataValue < operand && operand !== 0) return false;
-        //         if (operation === 'max' && dataValue > operand) return false;
-        //       }
-        //     }
-        //   } else {
-        //     if (!filterValue.includes(dataValue)) return false;
-        //   }
-        // }
+                  if (op === 'min' && dataValue[operation] < value) return false
+                  if (op === 'max' && dataValue[operation] > value) return false
+                }
+              } else {
+                if (operation === 'min' && dataValue < operand && operand !== 0) return false
+                if (operation === 'max' && dataValue > operand) return false
+              }
+            }
+          } else {
+            if (!filterValue.includes(dataValue)) return false
+          }
+        }
         return true
       })
+      // }
+      return this.currentList
     },
     convertList() {
       this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
