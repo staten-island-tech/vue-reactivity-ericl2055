@@ -1,13 +1,14 @@
 <template>
     <div class="toggle-switch">
-        <button :class="{ 'active': state === 'left' }" @click="toggleLeft">Left</button>
-        <button :class="{ 'active': state === 'middle' }" @click="toggleMiddle">Middle</button>
-        <button :class="{ 'active': state === 'right' }" @click="toggleRight">Right</button>
+        <button :class="{ 'active': state === 'left' }" @click="toggleLeft">All</button>
+        <button :class="{ 'active': state === 'middle' }" @click="toggleMiddle">Min/Max</button>
+        <button :class="{ 'active': state === 'right' }" @click="toggleRight">Default</button>
     </div>
 </template>
   
 <script>
 export default {
+    emits: ['select'],
     data() {
         return {
             state: 'left'
@@ -16,27 +17,32 @@ export default {
     methods: {
         toggleLeft() {
             this.state = 'left';
+            this.$emit('select', "All")
         },
         toggleMiddle() {
             this.state = 'middle';
+            this.$emit('select', "Min/Max")
         },
         toggleRight() {
             this.state = 'right';
+            this.$emit('select', "Default")
         }
-    }
+    }, mounted() { this.$emit('select', "All") }
 };
 </script>
   
 <style scoped>
 .toggle-switch {
-    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 button {
+    width: 65px;
     padding: 8px 16px;
     border: none;
     outline: none;
-    background-color: #eee;
+    background-color: #555;
     cursor: pointer;
 }
 

@@ -1,11 +1,7 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
@@ -96,39 +92,36 @@ export default {
       })
     },
     filteredData() {
-      // if (this.currentList.length === 0) {
-      this.currentList = this.data.filter((data) => {
+      return this.data.filter((data) => {
         for (const key of Object.keys(this.selectedFilters)) {
           const filterValue = this.selectedFilters[key]
           const dataValue = data[key]
 
-          if (!Array.isArray(filterValue)) {
-            for (const [operation, operand] of filterValue) {
-              if (key === 'price') {
-                if (operation === 'max' && dataValue[1] > operand) return false
-                if (operation === 'min' && dataValue[1] < operand) return false
-              } else if (Array.isArray(operand)) {
-                if (dataValue === null) continue
+          // if (!Array.isArray(filterValue)) {
+          //   for (const [operation, operand] of filterValue) {
+          //     if (key === 'price') {
+          //       if (operation === 'max' && dataValue[1] > operand) return false
+          //       if (operation === 'min' && dataValue[1] < operand) return false
+          //     } else if (Array.isArray(operand)) {
+          //       if (dataValue === null) continue
 
-                for (const [op, value] of operand) {
-                  if (dataValue[operation] === null) continue
+          //       for (const [op, value] of operand) {
+          //         if (dataValue[operation] === null) continue
 
-                  if (op === 'min' && dataValue[operation] < value) return false
-                  if (op === 'max' && dataValue[operation] > value) return false
-                }
-              } else {
-                if (operation === 'min' && dataValue < operand && operand !== 0) return false
-                if (operation === 'max' && dataValue > operand) return false
-              }
-            }
-          } else {
-            if (!filterValue.includes(dataValue)) return false
-          }
+          //         if (op === 'min' && dataValue[operation] < value) return false
+          //         if (op === 'max' && dataValue[operation] > value) return false
+          //       }
+          //     } else {
+          //       if (operation === 'min' && dataValue < operand && operand !== 0) return false
+          //       if (operation === 'max' && dataValue > operand) return false
+          //     }
+          //   }
+          // } else {
+          //   if (!filterValue.includes(dataValue)) return false
+          // }
         }
         return true
       })
-      // }
-      return this.currentList
     },
     convertList() {
       this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
@@ -146,6 +139,7 @@ export default {
             },
             { default: new Set(), min: new Set(), max: new Set() }
           )
+          if (set.min.size + set.max.size + set.default.size === 0) return acc
           acc[key] = {
             default: Array.from(set.default),
             min: Array.from(set.min),
@@ -166,6 +160,8 @@ export default {
       this.createData
       this.convertList
       this.selectedFilters = {}
+      // console.log(this.filtersList)
+
     },
     filtersList(newValue, oldValue) {
       this.filteredData
@@ -174,7 +170,6 @@ export default {
   mounted() {
     this.createData
     this.convertList
-    console.log(this.filtersList)
   }
 }
 </script>
