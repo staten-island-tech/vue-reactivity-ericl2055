@@ -63,8 +63,11 @@ export default {
     filterValue(data) {
       let newObj = this.selectedFilters
       if (data.objKey !== undefined) {
-        if (newObj[data.key] === undefined) newObj[data.key] = { all: {}, minMax: {}, default: {} }
+        if (newObj[data.key] === undefined) {
+          newObj[data.key] = { all: {}, min: {}, max: {}, default: {}, current: '' }
+        }
         newObj[data.key][data.objKey] = data.values
+        newObj[data.key].current = data.objKey
       } else {
         newObj[data.key] = data.values
       }
@@ -98,35 +101,39 @@ export default {
     filteredData() {
       console.log(this.selectedFilters)
       return this.data.filter((data) => {
-        for (const key of Object.keys(this.selectedFilters)) {
-          const filterValue = this.selectedFilters[key]
+        for (const [key, value] of Object.entries(this.selectedFilters)) {
           const dataValue = data[key]
 
-          if (typeof filterValue === 'object') {
-            // console.log(filterValue)
+          if (typeof value === 'object' && value.all !== undefined) {
+            if (value.current === 'min' || value.current === 'max') {
+              if (
+                dataValue.min === undefined ||
+                dataValue.min < value.min.min ||
+                dataValue.min > value.min.max ||
+                dataValue.max < value.max.min ||
+                dataValue.max > value.max.max
+              )
+                return false
+            } else if (value.current === 'default') {
+              if (
+                dataValue.default === undefined ||
+                dataValue.default < value.default.min ||
+                dataValue.default > value.default.max
+              )
+                return false
+            } else {
+              if (dataValue.default === undefined) {
+                if (dataValue.min < value.all.min || dataValue.max > value.all.max) return false
+              } else {
+                if (dataValue.default < value.all.min || dataValue.default > value.all.max)
+                  return false
+              }
+            }
+          } else if (typeof value === 'object') {
+            // console.log(key)
           } else {
-            if (!filterValue.includes(dataValue)) return false
+            if (!value.includes(dataValue)) return false
           }
-          // if (!Array.isArray(filterValue)) {
-          //   for (const [operation, operand] of filterValue) {
-          //     if (key === 'price') {
-          //       if (operation === 'max' && dataValue[1] > operand) return false
-          //       if (operation === 'min' && dataValue[1] < operand) return false
-          //     } else if (Array.isArray(operand)) {
-          //       if (dataValue === null) continue
-
-          //       for (const [op, value] of operand) {
-          //         if (dataValue[operation] === null) continue
-
-          //         if (op === 'min' && dataValue[operation] < value) return false
-          //         if (op === 'max' && dataValue[operation] > value) return false
-          //       }
-          //     } else {
-          //       if (operation === 'min' && dataValue < operand && operand !== 0) return false
-          //       if (operation === 'max' && dataValue > operand) return false
-          //     }
-          //   }
-          // }
         }
         return true
       })

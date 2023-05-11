@@ -22,13 +22,24 @@
 
     <label v-if="typeof value === 'object' && !Array.isArray(value)">
       <ThreeSwitch @select="(event) => (active[key] = event)" />
+      <div v-if="active[key] === 'minMax'">
+        <div class="center">Min</div>
+        <NumberSlide
+          :valueList="value.min"
+          symbol=""
+          @change="(event) => $emit('valueChange', { key: key, objKey: 'min', values: event })"
+        />
+        <div class="center">Max</div>
+        <NumberSlide
+          :valueList="value.max"
+          symbol=""
+          @change="(event) => $emit('valueChange', { key: key, objKey: 'max', values: event })"
+        />
+      </div>
       <NumberSlide
+        v-else
         :valueList="
-          active[key] === 'all'
-            ? [...value.min, ...value.max, ...value.default]
-            : active[key] === 'default'
-            ? value.default
-            : [...value.min, ...value.max]
+          active[key] === 'all' ? [...value.min, ...value.max, ...value.default] : value.default
         "
         symbol=""
         @change="(event) => $emit('valueChange', { key: key, objKey: active[key], values: event })"
@@ -143,6 +154,8 @@ h1 {
 
 p {
   display: inline-block;
+  text-align: center;
+
   font-size: 12px;
 }
 
@@ -163,5 +176,10 @@ p {
 
 .small {
   font-size: 15px;
+}
+.center {
+  font-size: 15px;
+
+  text-align: center;
 }
 </style>
