@@ -1,53 +1,56 @@
 <template>
-    <div class="toggle-switch">
-        <button :class="{ 'active': state === 'left' }" @click="toggleLeft">All</button>
-        <button :class="{ 'active': state === 'middle' }" @click="toggleMiddle">Min/Max</button>
-        <button :class="{ 'active': state === 'right' }" @click="toggleRight">Default</button>
-    </div>
+  <div class="toggle-switch">
+    <button :class="{ active: state === 'left' }" @click="toggleLeft">All</button>
+    <button :class="{ active: state === 'middle' }" @click="toggleMiddle">Min/Max</button>
+    <button :class="{ active: state === 'right' }" @click="toggleRight">Default</button>
+  </div>
 </template>
-  
+
 <script>
 export default {
-    emits: ['select'],
-    data() {
-        return {
-            state: 'left'
-        };
+  emits: ['select'],
+  data() {
+    return {
+      state: 'left'
+    }
+  },
+  methods: {
+    toggleLeft() {
+      this.state = 'left'
+      this.$emit('select', 'all')
     },
-    methods: {
-        toggleLeft() {
-            this.state = 'left';
-            this.$emit('select', "All")
-        },
-        toggleMiddle() {
-            this.state = 'middle';
-            this.$emit('select', "Min/Max")
-        },
-        toggleRight() {
-            this.state = 'right';
-            this.$emit('select', "Default")
-        }
-    }, mounted() { this.$emit('select', "All") }
-};
+    toggleMiddle() {
+      this.state = 'middle'
+      this.$emit('select', 'minMax')
+    },
+    toggleRight() {
+      this.state = 'right'
+      this.$emit('select', 'default')
+    }
+  },
+  mounted() {
+    this.$emit('select', 'all')
+  }
+}
 </script>
-  
+
 <style scoped>
 .toggle-switch {
-    margin: auto;
-    margin-bottom: 10px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 button {
-    width: 65px;
-    padding: 8px 16px;
-    border: none;
-    outline: none;
-    background-color: #555;
-    cursor: pointer;
+  width: 65px;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  cursor: pointer;
 }
 
 button.active {
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 </style>

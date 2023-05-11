@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
@@ -37,8 +41,7 @@ export default {
       data: [],
       filtersList: {},
       selectedFilters: {},
-      price: [0, 10000],
-      currentList: []
+      price: [0, 10000]
     }
   },
   methods: {
@@ -58,13 +61,14 @@ export default {
       if (this.selectedFilters[filter[0]].length === 0) delete this.selectedFilters[filter[0]]
     },
     filterValue(data) {
+      let newObj = this.selectedFilters
       if (data.objKey !== undefined) {
-        if (this.selectedFilters[data.key] === undefined)
-          this.selectedFilters[data.key] = { default: {}, min: {}, max: {} }
-        this.selectedFilters[data.key][data.objKey] = data.values
+        if (newObj[data.key] === undefined) newObj[data.key] = { all: {}, minMax: {}, default: {} }
+        newObj[data.key][data.objKey] = data.values
       } else {
-        this.selectedFilters[data.key] = data.values
+        newObj[data.key] = data.values
       }
+      this.selectedFilters = newObj
     }
   },
   computed: {
@@ -92,11 +96,17 @@ export default {
       })
     },
     filteredData() {
+      console.log(this.selectedFilters)
       return this.data.filter((data) => {
         for (const key of Object.keys(this.selectedFilters)) {
           const filterValue = this.selectedFilters[key]
           const dataValue = data[key]
 
+          if (typeof filterValue === 'object') {
+            // console.log(filterValue)
+          } else {
+            if (!filterValue.includes(dataValue)) return false
+          }
           // if (!Array.isArray(filterValue)) {
           //   for (const [operation, operand] of filterValue) {
           //     if (key === 'price') {
@@ -116,8 +126,6 @@ export default {
           //       if (operation === 'max' && dataValue > operand) return false
           //     }
           //   }
-          // } else {
-          //   if (!filterValue.includes(dataValue)) return false
           // }
         }
         return true
@@ -160,8 +168,6 @@ export default {
       this.createData
       this.convertList
       this.selectedFilters = {}
-      // console.log(this.filtersList)
-
     },
     filtersList(newValue, oldValue) {
       this.filteredData
