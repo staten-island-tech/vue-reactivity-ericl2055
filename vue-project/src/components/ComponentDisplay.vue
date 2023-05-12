@@ -1,16 +1,12 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        {{ part.brand }} {{ part.model }} - ${{ part.price[1] }} - {{ part.size }}
+        {{ part.brand }} {{ part.model }} - ${{ part.price }} - {{ part.size }}
       </li>
     </ul>
   </div>
@@ -80,7 +76,7 @@ export default {
         return Object.entries(data).reduce((acc, [key, value]) => {
           if (typeof value === 'object') {
             if (Array.isArray(value)) {
-              value[0] === 'USD' ? (value = value[1]) : (value = value[0])
+              value[0] === 'USD' ? (value = parseFloat(value[1])) : (value = parseFloat(value[0]))
             } else {
               if (value === null) {
                 value = {}
@@ -99,7 +95,6 @@ export default {
       })
     },
     filteredData() {
-      console.log(this.selectedFilters)
       return this.data.filter((data) => {
         for (const [key, value] of Object.entries(this.selectedFilters)) {
           const dataValue = data[key]
@@ -129,8 +124,8 @@ export default {
                   return false
               }
             }
-          } else if (typeof value === 'object') {
-            // console.log(key)
+          } else if (typeof value === 'object' && !Array.isArray(value)) {
+            if (dataValue < value.min || dataValue > value.max) return false
           } else {
             if (!value.includes(dataValue)) return false
           }
@@ -161,7 +156,9 @@ export default {
             max: Array.from(set.max)
           }
         } else {
-          set = Array.from(new Set(this.data.map((obj) => obj[key])))
+          set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
+          set.delete(undefined)
+          set = Array.from(set)
           if (set.length !== 1 && set[0] !== null) {
             acc[key] = set
           }
