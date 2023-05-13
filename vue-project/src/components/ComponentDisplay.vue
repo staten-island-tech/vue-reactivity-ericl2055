@@ -1,20 +1,26 @@
 <template>
   <div class="parts-container">
-    <ul>
-      <li v-for="part in filter" :key="part.id">
+    <div class="filters">
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+    </div>
+    <ul class="main">
+      <li v-for="part in filteredData" :key="part">
+        >>>>>>> plzhelpme
         <button @click="addToBuild(part)">Add to Build</button>
-        {{ part.brand }} {{ part.model }} - ${{ part.price }}
+        {{ part.brand }} {{ part.model }} - ${{ part.price }} - {{ part.size }}
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import * as data from '../data'
+import FilterComponent from './FilterComponent.vue'
 
 export default {
   name: 'about',
-  components: {},
+  components: {
+    FilterComponent
+  },
   props: {
     part: {
       type: String,
@@ -28,44 +34,152 @@ export default {
 
   data() {
     return {
-      data: data[this.part].data,
-      builds: JSON.parse(localStorage.getItem('builds'))
+      data: [],
+      filtersList: {},
+      selectedFilters: {},
+      price: [0, 10000]
     }
   },
   methods: {
     addToBuild(part) {
       this.$emit('addBuild', part)
-    }
-  },
-  watch: {
-    part(newVal, oldVal) {
-      this.data = data[newVal].data
+    },
+    manageFilters(filter) {
+      if (filter[2]) {
+        if (this.selectedFilters[filter[0]] === undefined) {
+          this.selectedFilters[filter[0]] = [filter[1]]
+        } else this.selectedFilters[filter[0]].push(filter[1])
+      } else {
+        this.selectedFilters[filter[0]] = this.selectedFilters[filter[0]].filter(
+          (existingFilter) => existingFilter !== filter[1]
+        )
+      }
+      if (this.selectedFilters[filter[0]].length === 0) delete this.selectedFilters[filter[0]]
+    },
+    filterValue(data) {
+      let newObj = this.selectedFilters
+      if (data.objKey !== undefined) {
+        if (newObj[data.key] === undefined) {
+          newObj[data.key] = { all: {}, min: {}, max: {}, default: {}, current: '' }
+        }
+        newObj[data.key][data.objKey] = data.values
+        newObj[data.key].current = data.objKey
+      } else {
+        newObj[data.key] = data.values
+      }
+      this.selectedFilters = newObj
     }
   },
   computed: {
-    filter() {
-      let filteredData = this.data.filter((part) => part.price > 0)
-
-      if (this.filters.length > 0) {
-        let brandFilters = this.filters.filter((filter) => filter.type === 'brand')
-        if (brandFilters.length > 1) {
-          filteredData = this.data.filter((part) => part.price > 0)
-        } else {
-          filteredData = this.filters.reduce((filteredData, filter) => {
-            if (filter.type === 'brand') {
-              filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
-            } else if (filter.type === 'price') {
-              filteredData = filteredData.filter((part) => part.price <= filter.filter)
+    createData() {
+      this.data = data[this.part].data.map((data) => {
+        return Object.entries(data).reduce((acc, [key, value]) => {
+          if (typeof value === 'object') {
+            if (Array.isArray(value)) {
+              value[0] === 'USD' ? (value = parseFloat(value[1])) : (value = parseFloat(value[0]))
             } else {
-              filteredData = filteredData.filter((part) => part[filter.type] === filter.filter)
+              if (value === null) {
+                value = {}
+              } else if (value.default === null) {
+                value = { min: value.min, max: value.max }
+              } else if (value.min === null && value.max === null) {
+                value = { default: value.default }
+              } else {
+                value = Object.values(value)[0]
+              }
             }
-            return filteredData
-          }, filteredData)
-        }
-      }
+          }
+          acc[key] = value
+          return acc
+        }, {})
+      })
+    },
+    filteredData() {
+      return this.data.filter((data) => {
+        for (const [key, value] of Object.entries(this.selectedFilters)) {
+          const dataValue = data[key]
 
-      return filteredData
+          if (typeof value === 'object' && value.all !== undefined) {
+            if (value.current === 'min' || value.current === 'max') {
+              if (
+                dataValue.min === undefined ||
+                dataValue.min < value.min.min ||
+                dataValue.min > value.min.max ||
+                dataValue.max < value.max.min ||
+                dataValue.max > value.max.max
+              )
+                return false
+            } else if (value.current === 'default') {
+              if (
+                dataValue.default === undefined ||
+                dataValue.default < value.default.min ||
+                dataValue.default > value.default.max
+              )
+                return false
+            } else {
+              if (dataValue.default === undefined) {
+                if (dataValue.min < value.all.min || dataValue.max > value.all.max) return false
+              } else {
+                if (dataValue.default < value.all.min || dataValue.default > value.all.max)
+                  return false
+              }
+            }
+          } else if (typeof value === 'object' && !Array.isArray(value)) {
+            if (dataValue < value.min || dataValue > value.max) return false
+          } else {
+            if (!value.includes(dataValue)) return false
+          }
+        }
+        return true
+      })
+    },
+    convertList() {
+      this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+        let set = []
+        if (typeof value === 'object') {
+          set = this.data.reduce(
+            (acc, obj) => {
+              if (obj[key].min !== undefined && obj[key].max !== undefined) {
+                acc.min.add(obj[key].min)
+                acc.max.add(obj[key].max)
+              } else if (obj[key].default !== undefined) {
+                acc.default.add(obj[key].default)
+              }
+              return acc
+            },
+            { default: new Set(), min: new Set(), max: new Set() }
+          )
+          if (set.min.size + set.max.size + set.default.size === 0) return acc
+          acc[key] = {
+            default: Array.from(set.default),
+            min: Array.from(set.min),
+            max: Array.from(set.max)
+          }
+        } else {
+          set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
+          set.delete(undefined)
+          set = Array.from(set)
+          if (set.length !== 1 && set[0] !== null) {
+            acc[key] = set
+          }
+        }
+        return acc
+      }, {})
     }
+  },
+  watch: {
+    part(newValue, oldValue) {
+      this.createData
+      this.convertList
+      this.selectedFilters = {}
+    },
+    filtersList(newValue, oldValue) {
+      this.filteredData
+    }
+  },
+  mounted() {
+    this.createData
+    this.convertList
   }
 }
 </script>
@@ -73,31 +187,41 @@ export default {
 .parts-container {
   left: 20rem;
   top: 0rem;
-  width: calc(100vw - 41rem);
+  width: calc(100vw - 40rem);
   overflow-y: auto;
   padding: 1rem;
   border: 0.9rem solid white;
   border-radius: 5rem;
   width: 100rem;
-  height: 90vh;
+  height: 85vh;
   overflow-y: auto;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  gap: 10px;
+}
+
+.filters {
+  height: 100%;
 }
 
 .parts-container::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0);
   width: 1.2rem;
 }
+
 .parts-container::-webkit-scrollbar-track {
   margin: 35px;
 }
+
 .parts-container::-webkit-scrollbar-thumb {
   background-color: rgb(70, 70, 70);
   border-radius: 20px;
 }
 
-ul {
+.main {
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
+  width: 100%;
 }
 
 li {

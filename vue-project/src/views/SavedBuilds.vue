@@ -5,11 +5,10 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?=[A-Z])/)
-            .map((string) =>
+            .split(/(?=[A-Z])/).map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
-                : string.charAt(0).toUpperCase() + string.slice(1)
+                : string[0].toUpperCase() + string.substring(1)
             )
             .join(' ')
         }}
@@ -20,32 +19,8 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay
-          @addBuild="updateBuild"
-          class="display"
-          :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters"
-        />
-      </div>
-      <div class="filters">
-
-        <Filter
-          v-on:filter-changed="updateFilter"
-          :part="
-            this.dataList[this.selectedValue]
-              .split(/(?=[A-Z])/)
-              .map((string) =>
-                string.match(/cpu|ups/i)
-                  ? string.toUpperCase()
-                  : string.charAt(0).toUpperCase() + string.slice(1)
-              )
-              .join(' ')
-          "
-
-          :options="CPUfilterOptions"
-        />
-        <label for="search">Search:</label>
-        <input type="text" id="search" />
+        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters" />
       </div>
       <div class="build-display">
         <BuildComp :components="computerBuild" />
@@ -56,7 +31,6 @@
 
 <script>
 import BuildComp from '../components/BuildComponent.vue'
-import FilterComp from '../components/FilterComponent.vue'
 import ComponentDisplay from '../components/ComponentDisplay.vue'
 
 export default {
@@ -72,7 +46,6 @@ export default {
       ],
       activeFilters: [],
       build_name: '',
-
       computerBuild: [],
       selectedValue: 0,
       dataList: [
@@ -97,14 +70,15 @@ export default {
         'thermalPaste',
         'externalHardDrive',
         'opticalDrive',
-        'ups'
+        'ups',
+        'wiredNetworkCard',
+        'wirelessNetworkCard',
       ]
     }
   },
   components: {
     ComponentDisplay,
-    FilterComp,
-    BuildComp
+    BuildComp,
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -133,7 +107,7 @@ export default {
       console.log(this.computerBuild)
       this.changeValue(1)
     }
-  }
+  },
 }
 </script>
 
@@ -141,20 +115,21 @@ export default {
 * {
   font-size: 16px;
 }
+
 .main {
   display: flex;
-  width: 2000px;
 }
 
 .display {
   position: static;
 }
+
 .filters {
   display: flex;
   align-items: center;
 }
 
-.filters > * {
+.filters>* {
   margin-right: 10px;
 }
 
@@ -195,6 +170,7 @@ export default {
   display: inline-block;
   padding: 3px;
 }
+
 #right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
