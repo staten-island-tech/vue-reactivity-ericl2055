@@ -5,7 +5,8 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?=[A-Z])/).map((string) =>
+            .split(/(?=[A-Z])/)
+            .map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
                 : string[0].toUpperCase() + string.substring(1)
@@ -19,11 +20,15 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters" />
+        <ComponentDisplay
+          @addBuild="updateBuild"
+          class="display"
+          :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="build-display">
-        <BuildComp :components="computerBuild" />
+        <BuildComp :components="computerBuild" :list="dataList" />
       </div>
     </div>
   </div>
@@ -68,13 +73,13 @@ export default {
         'ups',
         'videoCard',
         'wiredNetworkCard',
-        'wirelessNetworkCard',
+        'wirelessNetworkCard'
       ]
     }
   },
   components: {
     ComponentDisplay,
-    BuildComp,
+    BuildComp
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -90,7 +95,7 @@ export default {
       console.log(this.computerBuild)
       this.changeValue(1)
     }
-  },
+  }
 }
 </script>
 
@@ -112,7 +117,7 @@ export default {
   align-items: center;
 }
 
-.filters>* {
+.filters > * {
   margin-right: 10px;
 }
 

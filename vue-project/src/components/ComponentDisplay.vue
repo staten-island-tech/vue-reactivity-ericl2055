@@ -1,7 +1,11 @@
 <template>
   <div class="parts-container">
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
@@ -18,6 +22,7 @@ import * as data from '../data'
 
 export default {
   name: 'about',
+  emits: ['addBuild', 'keys'],
   components: {
     FilterComponent
   },
@@ -156,7 +161,9 @@ export default {
             max: Array.from(set.max)
           }
         } else {
-          set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
+          set = new Set(
+            this.data.map((obj) => (typeof obj[key] === 'object' ? undefined : obj[key]))
+          )
           set.delete(undefined)
           set = Array.from(set)
           if (set.length !== 1 && set[0] !== null) {

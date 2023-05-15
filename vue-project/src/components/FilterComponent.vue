@@ -48,7 +48,7 @@
 
     <NumberSlide
       v-else-if="typeof value[0] === 'number'"
-      :valueList="value.map((value) => parseInt(value)).filter((value) => value !== null)"
+      :valueList="value.map((value) => parseFloat(value)).filter((value) => value !== null)"
       @change="(event) => $emit('valueChange', { key: key, values: event })"
     />
 

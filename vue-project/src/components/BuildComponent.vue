@@ -13,9 +13,8 @@
 export default {
   name: 'Build',
   props: {
-    components: {
-      type: Array,
-      required: false
+    list: { type: Array, required: true },
+    components: {type: Array, required: false }
     }
   }
 }
