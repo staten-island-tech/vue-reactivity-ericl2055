@@ -37,42 +37,33 @@ export default {
   name: 'Build',
   data() {
     return {
-      CPUfilterOptions: [
-        { type: 'brand', filter: 'Intel' },
-        { type: 'brand', filter: 'AMD' },
-        { type: 'price', filter: 100 },
-        { type: 'price', filter: 200 },
-        { type: 'price', filter: 300 }
-      ],
       activeFilters: [],
       build_name: '',
       computerBuild: [],
       selectedValue: 0,
       dataList: [
-        'cpu',
-        'cpuCooler',
-        'motherboard',
-        'memory',
-        'internalHardDrive',
-        'videoCard',
-        'case',
-        'powerSupply',
-        'monitor',
-        'soundCard',
-        'wiredNetworkCard',
-        'wirelessNetworkCard',
-        'headphones',
-        'keyboard',
-        'mouse',
-        'speakers',
-        'caseFan',
-        'fanController',
-        'thermalPaste',
-        'externalHardDrive',
-        'opticalDrive',
-        'ups',
-        'wiredNetworkCard',
-        'wirelessNetworkCard',
+        "caseFan",
+        "case",
+        "cpu",
+        "cpuCooler",
+        "externalHardDrive",
+        "fanController",
+        "headphones",
+        "internalHardDrive",
+        "keyboard",
+        "memory",
+        "monitor",
+        "motherboard",
+        "mouse",
+        "opticalDrive",
+        "powerSupply",
+        "soundCard",
+        "speakers",
+        "thermalPaste",
+        "ups",
+        "videoCard",
+        "wiredNetworkCard",
+        "wirelessNetworkCard"
       ]
     }
   },
@@ -104,7 +95,6 @@ export default {
       if (!partAlreadyExists) {
         this.computerBuild.push(part)
       }
-      console.log(this.computerBuild)
       this.changeValue(1)
     }
   },
@@ -138,7 +128,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
-  width: 100rem;
+  width: 110rem;
 }
 
 .header h2 {

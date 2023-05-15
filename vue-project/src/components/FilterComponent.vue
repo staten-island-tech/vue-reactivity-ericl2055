@@ -32,7 +32,7 @@
         </label>
 
         <NumberSlide v-else-if="typeof value[0] === 'number'"
-            :valueList="value.map((value) => parseInt(value)).filter((value) => value !== null)"
+            :valueList="value.map((value) => parseFloat(value)).filter((value) => value !== null)"
             @change="(event) => $emit('valueChange', { key: key, values: event })" />
 
         <label v-else-if="value.length <= 5" v-for="item in value.sort()" :key="item">
@@ -121,8 +121,7 @@ h1 {
 }
 
 p {
-    text-align: center;
-
+    display: inline-block;
     font-size: 12px;
 }
 

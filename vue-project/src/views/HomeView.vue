@@ -26,7 +26,7 @@ export default {
     }
   },
   methods: {
-    addbuild: function () {}
+    addbuild: function () { }
   }
 }
 </script>
@@ -38,6 +38,7 @@ export default {
   --radial-1: rgba(50, 50, 50, 0.35);
   --radial-2: rgba(0, 0, 0, 0);
 }
+
 html,
 *,
 body {
@@ -64,6 +65,7 @@ body {
   height: 100vh;
   padding-top: 15px;
 }
+
 header {
   display: block;
   width: 100%;
@@ -76,6 +78,7 @@ h1 {
   color: var(--h1-color);
   text-align: center;
 }
+
 .parent {
   display: flex;
   justify-content: center;
@@ -125,6 +128,7 @@ h1 {
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
 .name {
   width: 100%;
   text-align: center;

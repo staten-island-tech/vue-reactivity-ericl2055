@@ -4,8 +4,8 @@
             <div class="progress" :style="progressWidth"></div>
         </div>
         <div class="range-input">
-            <input type="range" class="range-min" min="0" :max="totalValue" step="10" v-model="minValue" />
-            <input type="range" class="range-max" min="0" :max="totalValue" step="10" v-model="maxValue" />
+            <input type="range" class="range-min" min="0" :max="totalValue" step=".1" v-model="minValue" />
+            <input type="range" class="range-max" min="0" :max="totalValue" step=".1" v-model="maxValue" />
             <div class="nums">
                 <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(minValue) }}</p>
                 <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(maxValue) }}</p>
@@ -24,7 +24,7 @@ export default {
             minValue: 0,
             maxValue: 100000,
             valueGap: 10,
-            totalValue: 100000,
+            totalValue: 1000000000000000,
             tempSymbol: false,
         }
     },
@@ -40,11 +40,11 @@ export default {
     }, methods: {
         genValue(value) {
             try {
-                return (value < 1 && value > 0) || value > 10000 ? value.toExponential(2) : value
+                return value > 10000 ? value.toExponential(2) : value
             } catch (error) {
                 value = value / 1000000000
                 this.tempSymbol = "GB:"
-                return (value < 1 && value > 0) || value > 10000 ? value.toExponential(2) : Math.round(value)
+                return value > 10000 ? value.toExponential(2) : Math.round(value)
             }
         }
     },
@@ -54,12 +54,12 @@ export default {
                 }%;`
         },
         greatestValue() {
-            if (Math.max(...this.valueList) < 1) {
+            this.minValue = 0
+            if (Math.max(...this.valueList) < 3) {
                 this.totalValue = Math.ceil(Math.max(...this.valueList) * 100) / 100
-                this.valueGap = Math.round(this.totalValue * 10)
-                this.minValue = 0
-                console.log(totalValue)
+                this.valueGap = Math.round(this.totalValue * 10) / 100
                 this.maxValue = this.totalValue
+                console.log(this.valueGap)
                 return
             } else if (Math.max(...this.valueList) < 10) {
                 this.totalValue = Math.ceil(Math.max(...this.valueList) / 10) * 10
@@ -69,7 +69,6 @@ export default {
                 this.totalValue = Math.ceil(Math.max(...this.valueList) / 1000) * 1000
             }
             this.valueGap = Math.round(this.totalValue / 10)
-            this.minValue = 0
             this.maxValue = this.totalValue
         }
     },
@@ -80,19 +79,17 @@ export default {
         minValue(newVal, oldVal) {
             if (newVal < 0) this.minValue = 0
             if (newVal > this.maxValue - this.valueGap) this.minValue = this.maxValue - this.valueGap
-            this.$emit('change', { max: parseInt(this.maxValue), min: parseInt(this.minValue) })
+            this.$emit('change', { max: parseFloat(this.maxValue), min: parseFloat(this.minValue) })
         },
         maxValue(newVal, oldVal) {
-            if (this.maxValue < parseInt(this.minValue) + this.valueGap)
-                this.maxValue = parseInt(this.minValue) + this.valueGap
-
+            if (this.maxValue < parseFloat(this.minValue) + this.valueGap)
+                this.maxValue = parseFloat(this.minValue) + this.valueGap
             if (newVal > this.totalValue) this.maxValue = this.totalValue
-            this.$emit('change', { max: parseInt(this.maxValue), min: parseInt(this.minValue) })
+            this.$emit('change', { max: parseFloat(this.maxValue), min: parseFloat(this.minValue) })
         }
     },
     mounted() {
         this.greatestValue
-        // console.log(this.valueList)
     }
 }
 </script>

@@ -4,17 +4,21 @@
       <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
-      <li v-for="part in filteredData" :key="part">
-        >>>>>>> plzhelpme
+      <li v-for="(part, index) in displayedData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        {{ part.brand }} {{ part.model }} - ${{ part.price }} - {{ part.size }}
+        <div class="data" v-for="prop in Object.values(part)">
+          <p v-if="(typeof prop !== 'object')"> || {{ prop }}</p>
+        </div>
       </li>
     </ul>
+    <button v-if="showLoadMoreButton" @click="loadMore">Load More</button>
   </div>
-</template>
+</template> 
+
 
 <script>
 import FilterComponent from './FilterComponent.vue'
+import * as data from '../data/index.js'
 
 export default {
   name: 'about',
@@ -37,7 +41,10 @@ export default {
       data: [],
       filtersList: {},
       selectedFilters: {},
-      price: [0, 10000]
+      price: [0, 10000],
+      displayedData: [],
+      itemsPerPage: 200,
+      currentPage: 1
     }
   },
   methods: {
@@ -68,9 +75,21 @@ export default {
         newObj[data.key] = data.values
       }
       this.selectedFilters = newObj
-    }
+    },
+    loadMore() {
+      // Increment the current page
+      this.currentPage++;
+
+      // Calculate the range of items to display
+      const start = (this.currentPage - 1) * this.itemsPerPage;
+      const end = this.currentPage * this.itemsPerPage;
+      this.displayedData = this.displayedData.concat(this.filteredData.slice(start, end));
+    },
   },
   computed: {
+    showLoadMoreButton() {
+      return this.currentPage * this.itemsPerPage < this.filteredData.length;
+    },
     createData() {
       this.data = data[this.part].data.map((data) => {
         return Object.entries(data).reduce((acc, [key, value]) => {
@@ -134,37 +153,39 @@ export default {
       })
     },
     convertList() {
-      this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
-        let set = []
-        if (typeof value === 'object') {
-          set = this.data.reduce(
-            (acc, obj) => {
-              if (obj[key].min !== undefined && obj[key].max !== undefined) {
-                acc.min.add(obj[key].min)
-                acc.max.add(obj[key].max)
-              } else if (obj[key].default !== undefined) {
-                acc.default.add(obj[key].default)
-              }
-              return acc
-            },
-            { default: new Set(), min: new Set(), max: new Set() }
-          )
-          if (set.min.size + set.max.size + set.default.size === 0) return acc
-          acc[key] = {
-            default: Array.from(set.default),
-            min: Array.from(set.min),
-            max: Array.from(set.max)
+      this.$nextTick(() => {
+        this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+          let set = []
+          if (typeof value === 'object') {
+            set = this.data.reduce(
+              (acc, obj) => {
+                if (obj[key].min !== undefined && obj[key].max !== undefined) {
+                  acc.min.add(obj[key].min)
+                  acc.max.add(obj[key].max)
+                } else if (obj[key].default !== undefined) {
+                  acc.default.add(obj[key].default)
+                }
+                return acc
+              },
+              { default: new Set(), min: new Set(), max: new Set() }
+            )
+            if (set.min.size + set.max.size + set.default.size === 0) return acc
+            acc[key] = {
+              default: Array.from(set.default),
+              min: Array.from(set.min),
+              max: Array.from(set.max)
+            }
+          } else {
+            set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
+            set.delete(undefined)
+            set = Array.from(set)
+            if (set.length !== 1 && set[0] !== null) {
+              acc[key] = set
+            }
           }
-        } else {
-          set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
-          set.delete(undefined)
-          set = Array.from(set)
-          if (set.length !== 1 && set[0] !== null) {
-            acc[key] = set
-          }
-        }
-        return acc
-      }, {})
+          return acc
+        }, {})
+      }, 100)
     }
   },
   watch: {
@@ -192,7 +213,7 @@ export default {
   padding: 1rem;
   border: 0.9rem solid white;
   border-radius: 5rem;
-  width: 100rem;
+  width: 110rem;
   height: 85vh;
   overflow-y: auto;
   display: grid;
@@ -240,5 +261,9 @@ button {
 
 button:hover {
   background-color: rgb(100, 100, 100);
+}
+
+.data {
+  display: inline-block;
 }
 </style>
