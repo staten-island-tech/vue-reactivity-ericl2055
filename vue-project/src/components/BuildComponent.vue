@@ -14,8 +14,7 @@ export default {
   name: 'Build',
   props: {
     list: { type: Array, required: true },
-    components: {type: Array, required: false }
-    }
+    components: { type: Array, required: false }
   }
 }
 </script>

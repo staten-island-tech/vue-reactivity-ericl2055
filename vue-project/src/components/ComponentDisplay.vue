@@ -1,5 +1,8 @@
 <template>
   <div class="parts-container">
+    <div class="head">
+      <p>hiii</p>
+    </div>
     <div class="filters">
       <FilterComponent
         :list="filtersList"
@@ -42,7 +45,7 @@ export default {
       data: [],
       filtersList: {},
       selectedFilters: {},
-      price: [0, 10000]
+      keys: []
     }
   },
   methods: {
@@ -172,6 +175,10 @@ export default {
         }
         return acc
       }, {})
+
+      this.keys = Object.keys(this.filtersList).filter((data) =>
+        Array.isArray(this.filtersList[data])
+      )
     }
   },
   watch: {
@@ -203,11 +210,18 @@ export default {
   height: 85vh;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: 20rem 1fr;
-  gap: 10px;
+  grid-template:
+    'head head' 1fr
+    'filter list' 20rem / 1fr;
+  grid-template-rows: 10rem 1fr;
 }
 
+.head {
+  position: fixed;
+  grid-area: head;
+}
 .filters {
+  grid-area: filter;
   height: 100%;
 }
 
@@ -226,6 +240,7 @@ export default {
 }
 
 .main {
+  grid-area: list;
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
   width: 100%;
