@@ -5,7 +5,8 @@
       <h2>
         {{
           this.dataList[this.selectedValue]
-            .split(/(?=[A-Z])/).map((string) =>
+            .split(/(?=[A-Z])/)
+            .map((string) =>
               string.match(/cpu|ups/i)
                 ? string.toUpperCase()
                 : string[0].toUpperCase() + string.substring(1)
@@ -19,11 +20,15 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters" />
+        <ComponentDisplay
+          @addBuild="updateBuild"
+          class="display"
+          :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="build-display">
-        <BuildComp :components="computerBuild" />
+        <BuildComp :components="computerBuild" :list="dataList" />
       </div>
     </div>
   </div>
@@ -42,34 +47,34 @@ export default {
       computerBuild: [],
       selectedValue: 0,
       dataList: [
-        "caseFan",
-        "case",
-        "cpu",
-        "cpuCooler",
-        "externalHardDrive",
-        "fanController",
-        "headphones",
-        "internalHardDrive",
-        "keyboard",
-        "memory",
-        "monitor",
-        "motherboard",
-        "mouse",
-        "opticalDrive",
-        "powerSupply",
-        "soundCard",
-        "speakers",
-        "thermalPaste",
-        "ups",
-        "videoCard",
-        "wiredNetworkCard",
-        "wirelessNetworkCard"
+        'caseFan',
+        'case',
+        'cpu',
+        'cpuCooler',
+        'externalHardDrive',
+        'fanController',
+        'headphones',
+        'internalHardDrive',
+        'keyboard',
+        'memory',
+        'monitor',
+        'motherboard',
+        'mouse',
+        'opticalDrive',
+        'powerSupply',
+        'soundCard',
+        'speakers',
+        'thermalPaste',
+        'ups',
+        'videoCard',
+        'wiredNetworkCard',
+        'wirelessNetworkCard'
       ]
     }
   },
   components: {
     ComponentDisplay,
-    BuildComp,
+    BuildComp
   },
   methods: {
     updateFilter(selectedFilters) {
@@ -97,7 +102,7 @@ export default {
       }
       this.changeValue(1)
     }
-  },
+  }
 }
 </script>
 
@@ -119,7 +124,7 @@ export default {
   align-items: center;
 }
 
-.filters>* {
+.filters > * {
   margin-right: 10px;
 }
 

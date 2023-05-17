@@ -1,20 +1,26 @@
 <template>
   <div class="parts-container">
+    <div class="head">
+      <p>hiii</p>
+    </div>
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="(part, index) in displayedData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
         <div class="data" v-for="prop in Object.values(part)">
-          <p v-if="(typeof prop !== 'object')"> || {{ prop }}</p>
+          <p v-if="typeof prop !== 'object'">|| {{ prop }}</p>
         </div>
       </li>
     </ul>
     <button v-if="showLoadMoreButton" @click="loadMore">Load More</button>
   </div>
-</template> 
-
+</template>
 
 <script>
 import FilterComponent from './FilterComponent.vue'
@@ -22,6 +28,7 @@ import * as data from '../data/index.js'
 
 export default {
   name: 'about',
+  emits: ['addBuild', 'keys'],
   components: {
     FilterComponent
   },
@@ -41,10 +48,7 @@ export default {
       data: [],
       filtersList: {},
       selectedFilters: {},
-      price: [0, 10000],
-      displayedData: [],
-      itemsPerPage: 200,
-      currentPage: 1
+      keys: []
     }
   },
   methods: {
@@ -78,17 +82,17 @@ export default {
     },
     loadMore() {
       // Increment the current page
-      this.currentPage++;
+      this.currentPage++
 
       // Calculate the range of items to display
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = this.currentPage * this.itemsPerPage;
-      this.displayedData = this.displayedData.concat(this.filteredData.slice(start, end));
-    },
+      const start = (this.currentPage - 1) * this.itemsPerPage
+      const end = this.currentPage * this.itemsPerPage
+      this.displayedData = this.displayedData.concat(this.filteredData.slice(start, end))
+    }
   },
   computed: {
     showLoadMoreButton() {
-      return this.currentPage * this.itemsPerPage < this.filteredData.length;
+      return this.currentPage * this.itemsPerPage < this.filteredData.length
     },
     createData() {
       this.data = data[this.part].data.map((data) => {
@@ -153,39 +157,43 @@ export default {
       })
     },
     convertList() {
-      this.$nextTick(() => {
-        this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
-          let set = []
-          if (typeof value === 'object') {
-            set = this.data.reduce(
-              (acc, obj) => {
-                if (obj[key].min !== undefined && obj[key].max !== undefined) {
-                  acc.min.add(obj[key].min)
-                  acc.max.add(obj[key].max)
-                } else if (obj[key].default !== undefined) {
-                  acc.default.add(obj[key].default)
-                }
-                return acc
-              },
-              { default: new Set(), min: new Set(), max: new Set() }
-            )
-            if (set.min.size + set.max.size + set.default.size === 0) return acc
-            acc[key] = {
-              default: Array.from(set.default),
-              min: Array.from(set.min),
-              max: Array.from(set.max)
-            }
-          } else {
-            set = new Set(this.data.map((obj) => typeof obj[key] === 'object' ? undefined : obj[key]))
-            set.delete(undefined)
-            set = Array.from(set)
-            if (set.length !== 1 && set[0] !== null) {
-              acc[key] = set
-            }
+      this.filtersList = Object.entries(this.data[0]).reduce((acc, [key, value]) => {
+        let set = []
+        if (typeof value === 'object') {
+          set = this.data.reduce(
+            (acc, obj) => {
+              if (obj[key].min !== undefined && obj[key].max !== undefined) {
+                acc.min.add(obj[key].min)
+                acc.max.add(obj[key].max)
+              } else if (obj[key].default !== undefined) {
+                acc.default.add(obj[key].default)
+              }
+              return acc
+            },
+            { default: new Set(), min: new Set(), max: new Set() }
+          )
+          if (set.min.size + set.max.size + set.default.size === 0) return acc
+          acc[key] = {
+            default: Array.from(set.default),
+            min: Array.from(set.min),
+            max: Array.from(set.max)
           }
-          return acc
-        }, {})
-      }, 100)
+        } else {
+          set = new Set(
+            this.data.map((obj) => (typeof obj[key] === 'object' ? undefined : obj[key]))
+          )
+          set.delete(undefined)
+          set = Array.from(set)
+          if (set.length !== 1 && set[0] !== null) {
+            acc[key] = set
+          }
+        }
+        return acc
+      }, {})
+
+      this.keys = Object.keys(this.filtersList).filter((data) =>
+        Array.isArray(this.filtersList[data])
+      )
     }
   },
   watch: {
@@ -217,11 +225,18 @@ export default {
   height: 85vh;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: 20rem 1fr;
-  gap: 10px;
+  grid-template:
+    'head head' 1fr
+    'filter list' 20rem / 1fr;
+  grid-template-rows: 10rem 1fr;
 }
 
+.head {
+  position: fixed;
+  grid-area: head;
+}
 .filters {
+  grid-area: filter;
   height: 100%;
 }
 
@@ -240,6 +255,7 @@ export default {
 }
 
 .main {
+  grid-area: list;
   list-style-type: decimal;
   padding: 0.75rem 2rem 3rem 4.5rem;
   width: 100%;
