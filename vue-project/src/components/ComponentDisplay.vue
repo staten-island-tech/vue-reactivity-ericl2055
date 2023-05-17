@@ -1,7 +1,18 @@
 <template>
   <div class="parts-container">
     <div class="head">
-      <p>hiii</p>
+      <div v-for="(key, index) in keys" :key="key" :class="'key key' + index">
+        {{
+          key
+            .split('_')
+            .map((string) =>
+              string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                ? string.toUpperCase()
+                : string[0].toUpperCase() + string.substring(1)
+            )
+            .join(' ')
+        }}
+      </div>
     </div>
     <div class="filters">
       <FilterComponent
@@ -11,14 +22,11 @@
       />
     </div>
     <ul class="main">
-      <li v-for="(part, index) in displayedData" :key="part">
+      <li v-for="part in filteredData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        <div class="data" v-for="prop in Object.values(part)">
-          <p v-if="typeof prop !== 'object'">|| {{ prop }}</p>
-        </div>
+        {{ part.brand }} {{ part.model }} - ${{ part.price }} - {{ part.size }}
       </li>
     </ul>
-    <button v-if="showLoadMoreButton" @click="loadMore">Load More</button>
   </div>
 </template>
 
@@ -42,7 +50,6 @@ export default {
       required: false
     }
   },
-
   data() {
     return {
       data: [],
@@ -79,15 +86,6 @@ export default {
         newObj[data.key] = data.values
       }
       this.selectedFilters = newObj
-    },
-    loadMore() {
-      // Increment the current page
-      this.currentPage++
-
-      // Calculate the range of items to display
-      const start = (this.currentPage - 1) * this.itemsPerPage
-      const end = this.currentPage * this.itemsPerPage
-      this.displayedData = this.displayedData.concat(this.filteredData.slice(start, end))
     }
   },
   computed: {
@@ -226,20 +224,41 @@ export default {
   overflow-y: auto;
   display: grid;
   grid-template:
-    'head head' 1fr
-    'filter list' 20rem / 1fr;
-  grid-template-rows: 10rem 1fr;
+    'head head'
+    'filter list';
+  grid-template-rows: 7rem 1fr;
+  grid-template-columns: 20rem 1fr;
 }
 
 .head {
   position: fixed;
   grid-area: head;
+  width: inherit;
+  padding: 3rem;
+  padding-left: 32.5rem;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  z-index: 1;
+}
+
+.key {
+  display: inline-block;
+  font-size: 2.5rem;
 }
 .filters {
   grid-area: filter;
   height: 100%;
+  width: 20rem;
 }
 
+.main {
+  width: 100%;
+  grid-area: list;
+  list-style-type: decimal;
+  padding: 0.75rem 2rem 3rem 4.5rem;
+}
 .parts-container::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0);
   width: 1.2rem;
@@ -252,13 +271,6 @@ export default {
 .parts-container::-webkit-scrollbar-thumb {
   background-color: rgb(70, 70, 70);
   border-radius: 20px;
-}
-
-.main {
-  grid-area: list;
-  list-style-type: decimal;
-  padding: 0.75rem 2rem 3rem 4.5rem;
-  width: 100%;
 }
 
 li {

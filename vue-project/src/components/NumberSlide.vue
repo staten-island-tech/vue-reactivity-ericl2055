@@ -68,7 +68,10 @@ export default {
       type: Array,
       required: true
     },
-    required: false
+    symbol: {
+      type: String,
+      required: false
+    }
   },
   methods: {
     genValue(value) {
