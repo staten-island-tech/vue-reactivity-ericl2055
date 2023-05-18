@@ -2,16 +2,18 @@
   <div class="parts-container">
     <div class="head">
       <div v-for="(key, index) in keys" :key="key" :class="'key key' + index">
-        {{
-          key
-            .split('_')
-            .map((string) =>
-              string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
-                ? string.toUpperCase()
-                : string[0].toUpperCase() + string.substring(1)
-            )
-            .join(' ')
-        }}
+        <p class="key-text">
+          {{
+            key
+              .split('_')
+              .map((string) =>
+                string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                  ? string.toUpperCase()
+                  : string[0].toUpperCase() + string.substring(1)
+              )
+              .join(' ')
+          }}
+        </p>
       </div>
     </div>
     <div class="filters">
@@ -24,7 +26,12 @@
     <ul class="main">
       <li v-for="part in filteredData" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        {{ part.brand }} {{ part.model }} - ${{ part.price }} - {{ part.size }}
+        <p
+          v-for="(value, index) in Object.values(part).filter((part) => typeof part !== 'object')"
+          :class="'subkey key' + index"
+        >
+          {{ value }}
+        </p>
       </li>
     </ul>
   </div>
@@ -217,7 +224,7 @@ export default {
   width: calc(100vw - 40rem);
   overflow-y: auto;
   padding: 1rem;
-  border: 0.9rem solid white;
+  border: 1rem solid white;
   border-radius: 5rem;
   width: 110rem;
   height: 85vh;
@@ -228,12 +235,13 @@ export default {
     'filter list';
   grid-template-rows: 7rem 1fr;
   grid-template-columns: 20rem 1fr;
+  padding-top: 0;
 }
 
 .head {
   position: fixed;
   grid-area: head;
-  width: inherit;
+  width: 106rem;
   padding: 3rem;
   padding-left: 32.5rem;
   padding-top: 0;
@@ -241,10 +249,19 @@ export default {
   justify-content: space-around;
   background-color: red;
   z-index: 1;
+  height: 7rem;
 }
 
 .key {
   display: inline-block;
+  height: 7rem;
+  align-items: center;
+  font-size: 2.5rem;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.key-text {
+  margin: auto;
   font-size: 2.5rem;
 }
 .filters {
