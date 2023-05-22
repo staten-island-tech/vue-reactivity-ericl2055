@@ -16,7 +16,7 @@ let activeRoutes = [
     component: () => import('../views/SavedBuilds.vue')
   }
 ]
-
+console.log(localStorage.getItem('builds'))
 JSON.parse(localStorage.getItem('builds')).forEach((build) =>
   activeRoutes.push({
     path: `/${build.name}`,

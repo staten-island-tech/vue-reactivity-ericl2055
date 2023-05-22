@@ -24,7 +24,7 @@
       />
     </div>
     <ul class="main">
-      <li v-for="part in filteredData" :key="part">
+      <li v-for="part in filteredData.splice(0, currentCount)" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
         <p
           v-for="(value, index) in Object.values(part).filter((part) => typeof part !== 'object')"
@@ -33,6 +33,7 @@
           {{ value }}
         </p>
       </li>
+      <button v-if="currentCount < data.length" @click="increaseCount">Show More</button>
     </ul>
   </div>
 </template>
@@ -59,6 +60,7 @@ export default {
   },
   data() {
     return {
+      currentCount: 200,
       data: [],
       filtersList: {},
       selectedFilters: {},
@@ -93,6 +95,10 @@ export default {
         newObj[data.key] = data.values
       }
       this.selectedFilters = newObj
+    },
+    increaseCount() {
+      if (this.currentCount < this.data.length) this.currentCount += 200
+      else this.currentCount = this.data.length
     }
   },
   computed: {
