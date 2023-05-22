@@ -1,7 +1,12 @@
 <template>
   <div class="parts-container">
     <div class="head">
-      <div v-for="(key, index) in keys" :key="key" :class="'key key' + index">
+      <div
+        v-for="(key, index) in keys"
+        :key="key"
+        :class="'key key' + index"
+        :style="'width: ' + 73.2 / keys.length + 'rem;'"
+      >
         <p class="key-text">
           {{
             key
@@ -24,13 +29,14 @@
       />
     </div>
     <ul class="main">
-      <li v-for="part in filteredData.splice(0, currentCount)" :key="part">
+      <li v-for="part in filteredData.slice(0, currentCount)" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
         <p
-          v-for="(value, index) in Object.values(part).filter((part) => typeof part !== 'object')"
+          v-for="(value, index) in keys"
           :class="'subkey key' + index"
+          :style="'width: ' + 85 / keys.length + '%;'"
         >
-          {{ value }}
+          {{ part[value] }}
         </p>
       </li>
       <button v-if="currentCount < data.length" @click="increaseCount">Show More</button>
@@ -249,7 +255,7 @@ export default {
   grid-area: head;
   width: 106rem;
   padding: 3rem;
-  padding-left: 32.5rem;
+  padding-left: 32.8rem;
   padding-top: 0;
   display: flex;
   justify-content: space-around;
@@ -257,12 +263,19 @@ export default {
   z-index: 1;
   height: 7rem;
 }
+.subkey {
+  display: inline-block;
+  height: 7rem;
+  align-items: center;
+  font-size: 1.5rem;
+  border-left: 1px solid rgb(255, 255, 255);
+}
 
 .key {
   display: inline-block;
   height: 7rem;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   border-left: 1px solid rgb(255, 255, 255);
 }
 
@@ -280,7 +293,7 @@ export default {
   width: 100%;
   grid-area: list;
   list-style-type: decimal;
-  padding: 0.75rem 2rem 3rem 4.5rem;
+  padding: 0.75rem 0 3rem 4.5rem;
 }
 .parts-container::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0);
@@ -303,6 +316,7 @@ li {
 }
 
 button {
+  width: 14%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 1.5rem;
   color: rgb(175, 175, 175);
