@@ -1,12 +1,10 @@
 <template>
   <div class="parts-container">
+    <h1 class="filterHead">Filters</h1>
     <div class="head">
-      <div
-        v-for="(key, index) in keys"
-        :key="key"
-        :class="'key key' + index"
-        :style="'width: ' + 73.2 / keys.length + 'rem;'"
-      >
+      <div class="key keym">Add</div>
+      <div v-for="(key, index) in keys" :key="key" :class="'key key' + index"
+        :style="'width: ' + 68.3 / keys.length + 'rem;'">
         <p class="key-text">
           {{
             key
@@ -22,20 +20,12 @@
       </div>
     </div>
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="part in filteredData.slice(0, currentCount)" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        <p
-          v-for="(value, index) in keys"
-          :class="'subkey key' + index"
-          :style="'width: ' + 85 / keys.length + '%;'"
-        >
+        <p v-for="(value, index) in keys" :class="'subkey subkey' + index" :style="'width: ' + 85 / keys.length + '%;'">
           {{ part[value] }}
         </p>
       </li>
@@ -243,19 +233,19 @@ export default {
   overflow-y: auto;
   display: grid;
   grid-template:
-    'head head'
+    'build head'
     'filter list';
   grid-template-rows: 7rem 1fr;
   grid-template-columns: 20rem 1fr;
   padding-top: 0;
 }
 
-.head {
-  position: fixed;
-  grid-area: head;
-  width: 106rem;
+.filterHead {
+  position: absolute;
+  grid-area: build;
   padding: 3rem;
-  padding-left: 32.8rem;
+  font-size: 2.5rem;
+  width: 20rem;
   padding-top: 0;
   display: flex;
   justify-content: space-around;
@@ -263,26 +253,52 @@ export default {
   z-index: 1;
   height: 7rem;
 }
+
+.head {
+  position: absolute;
+  grid-area: head;
+  padding-top: 0;
+  padding-left: 6.5rem;
+  left: 20rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  z-index: 1;
+  height: 7rem;
+}
+
 .subkey {
   display: inline-block;
-  height: 7rem;
+  vertical-align: center;
   align-items: center;
   font-size: 1.5rem;
   border-left: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  height: 6rem;
+  top: 0;
 }
 
 .key {
   display: inline-block;
   height: 7rem;
   align-items: center;
-  font-size: 1.5rem;
   border-left: 1px solid rgb(255, 255, 255);
 }
+
+.keym {
+  width: 11.2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.subkey0 {}
 
 .key-text {
   margin: auto;
   font-size: 2.5rem;
+  text-align: center;
 }
+
 .filters {
   grid-area: filter;
   height: 100%;
@@ -295,6 +311,7 @@ export default {
   list-style-type: decimal;
   padding: 0.75rem 0 3rem 4.5rem;
 }
+
 .parts-container::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0);
   width: 1.2rem;
@@ -310,6 +327,7 @@ export default {
 }
 
 li {
+  height: 6rem;
   margin-bottom: 0.5rem;
   font-size: 2rem;
   color: rgb(175, 175, 175);
