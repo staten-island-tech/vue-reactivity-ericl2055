@@ -3,33 +3,51 @@
     <h1 class="filterHead">Filters</h1>
     <div class="head">
       <div class="key keym">Add</div>
-      <div v-for="(key, index) in keys" :key="key" :class="'key key' + index"
-        :style="'width: ' + 68.3 / keys.length + 'rem;'">
-        <p class="key-text">
-          {{
-            key
-              .split('_')
-              .map((string) =>
-                string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
-                  ? string.toUpperCase()
-                  : string[0].toUpperCase() + string.substring(1)
-              )
-              .join(' ')
-          }}
-        </p>
+      <div class="head-container">
+        <div
+          v-for="(key, index) in keys"
+          :key="key"
+          class="key"
+          :style="'width: ' + 100 / keys.length + '%;'"
+        >
+          <p class="key-text">
+            {{
+              key
+                .split('_')
+                .map((string) =>
+                  string.match(/rpm|pwm|psu|tdp|gb|cas|ram|dpi|dvd|cd|snr|va/i)
+                    ? string.toUpperCase()
+                    : string[0].toUpperCase() + string.substring(1)
+                )
+                .join(' ')
+            }}
+          </p>
+        </div>
       </div>
     </div>
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="part in filteredData.slice(0, currentCount)" :key="part">
         <button @click="addToBuild(part)">Add to Build</button>
-        <p v-for="(value, index) in keys" :class="'subkey subkey' + index" :style="'width: ' + 85 / keys.length + '%;'">
-          {{ part[value] }}
-        </p>
+        <div class="parent">
+          <p
+            v-for="(value, index) in keys"
+            class="subkey"
+            :style="'width: ' + 100 / keys.length + '%;'"
+          >
+            {{ part[value] }}
+          </p>
+        </div>
       </li>
-      <button v-if="currentCount < data.length" @click="increaseCount">Show More</button>
+      <div class="showMore">
+        <button v-if="currentCount < data.length" @click="increaseCount">Show More</button>
+      </div>
     </ul>
   </div>
 </template>
@@ -228,7 +246,7 @@ export default {
   padding: 1rem;
   border: 1rem solid white;
   border-radius: 5rem;
-  width: 110rem;
+  width: 130rem;
   height: 85vh;
   overflow-y: auto;
   display: grid;
@@ -255,6 +273,7 @@ export default {
 }
 
 .head {
+  width: 106.8rem;
   position: absolute;
   grid-area: head;
   padding-top: 0;
@@ -267,15 +286,24 @@ export default {
   height: 7rem;
 }
 
+.parent {
+  display: inline-block;
+  width: 86%;
+  height: 6rem;
+}
 .subkey {
   display: inline-block;
+  top: 0;
   vertical-align: center;
   align-items: center;
   font-size: 1.5rem;
   border-left: 1px solid rgb(255, 255, 255);
   text-align: center;
   height: 6rem;
-  top: 0;
+}
+
+.head-container {
+  width: 86%;
 }
 
 .key {
@@ -286,12 +314,13 @@ export default {
 }
 
 .keym {
-  width: 11.2rem;
+  width: 14%;
   font-size: 2.5rem;
   text-align: center;
 }
 
-.subkey0 {}
+.subkey0 {
+}
 
 .key-text {
   margin: auto;
@@ -327,7 +356,6 @@ export default {
 }
 
 li {
-  height: 6rem;
   margin-bottom: 0.5rem;
   font-size: 2rem;
   color: rgb(175, 175, 175);
@@ -346,6 +374,9 @@ button:hover {
   background-color: rgb(100, 100, 100);
 }
 
+.showMore {
+  text-align: center;
+}
 .data {
   display: inline-block;
 }
