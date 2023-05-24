@@ -18,6 +18,10 @@ export default {
   props: {
     components: {
       type: Array,
+      required: true
+    },
+    selectedParts: {
+      type: Array,
       required: false
     }
   },

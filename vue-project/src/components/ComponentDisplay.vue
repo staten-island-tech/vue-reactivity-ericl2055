@@ -34,7 +34,9 @@
     </div>
     <ul class="main">
       <li v-for="part in filteredData.slice(0, currentCount)" :key="part">
-        <button @click="addToBuild(part)">Add to Build</button>
+        <button @click="(event) => $emit('addBuild', { type: part, part: event })">
+          Add to Build
+        </button>
         <div class="parent">
           <p
             v-for="(value, index) in keys"
@@ -46,7 +48,7 @@
         </div>
       </li>
       <div class="showMore">
-        <button v-if="currentCount < data.length" @click="increaseCount">Show More</button>
+        <button v-if="currentCount < filteredData.length" @click="increaseCount">Show More</button>
       </div>
     </ul>
   </div>
@@ -300,6 +302,8 @@ export default {
   border-left: 1px solid rgb(255, 255, 255);
   text-align: center;
   height: 6rem;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .head-container {

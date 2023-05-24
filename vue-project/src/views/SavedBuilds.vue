@@ -77,9 +77,6 @@ export default {
     BuildComp
   },
   methods: {
-    updateFilter(selectedFilters) {
-      this.activeFilters = selectedFilters
-    },
     changeValue(num) {
       this.selectedValue += num
       if (this.selectedValue === -1) this.selectedValue = this.dataList.length - 1
@@ -87,11 +84,10 @@ export default {
       this.activeFilters = []
     },
     updateBuild(part) {
-      const partType = part.type
       let partAlreadyExists = false
 
       for (let i = 0; i < this.computerBuild.length; i++) {
-        if (this.computerBuild[i].type === partType) {
+        if (this.computerBuild[i].type === part.type) {
           this.computerBuild.splice(i, 1, part)
           partAlreadyExists = true
           break
