@@ -2,10 +2,26 @@
   <div class="build-container">
     <h2>Build</h2>
     <ul>
-      <li v-for="component in components" :key="component.id">
-        {{ component.type }} : {{ component.brand }} {{ component.model }} - ${{
+      <li v-for="component in components" :key="component">
+        <p>
+          {{
+            component
+              .split(/(?=[A-Z])/)
+              .map((string) =>
+                string.match(/cpu|ups/i)
+                  ? string.toUpperCase()
+                  : string[0].toUpperCase() + string.substring(1)
+              )
+              .join(' ')
+          }}
+        </p>
+        :
+        <p :key="containsObj(component)">
+          {{ containsObj(component) }}
+        </p>
+        <!-- {{ component.type }} : {{ component.brand }} {{ component.model }} - ${{
           component.price.toFixed(2)
-        }}
+        }} -->
       </li>
     </ul>
     <h2>Total Price: ${{ totalPrice.toFixed(2) }}</h2>
@@ -20,9 +36,14 @@ export default {
       type: Array,
       required: true
     },
-    selectedParts: {
+    buildList: {
       type: Array,
       required: false
+    }
+  },
+  methods: {
+    containsObj(component) {
+      return this.buildList.find((item) => item.type === component)
     }
   },
   computed: {
@@ -31,11 +52,17 @@ export default {
         return sum + component.price
       }, 0)
     }
+  },
+  mounted() {
+    console.log(this.containsObj(this.components[0]))
   }
 }
 </script>
 
 <style scoped>
+p {
+  display: inline-block;
+}
 .build-container {
   font-size: 20px;
 }

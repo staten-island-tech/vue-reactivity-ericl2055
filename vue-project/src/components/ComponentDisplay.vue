@@ -33,8 +33,8 @@
       />
     </div>
     <ul class="main">
-      <li v-for="part in filteredData.slice(0, currentCount)" :key="part">
-        <button @click="(event) => $emit('addBuild', { type: part, part: event })">
+      <li v-for="component in filteredData.slice(0, currentCount)" :key="component">
+        <button @click="(event) => $emit('addBuild', { type: component, part: part })">
           Add to Build
         </button>
         <div class="parent">
@@ -43,7 +43,7 @@
             class="subkey"
             :style="'width: ' + 100 / keys.length + '%;'"
           >
-            {{ part[value] }}
+            {{ component[value] }}
           </p>
         </div>
       </li>

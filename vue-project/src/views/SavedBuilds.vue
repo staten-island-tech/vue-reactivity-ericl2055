@@ -28,7 +28,7 @@
         />
       </div>
       <div class="build-display">
-        <BuildComp :components="computerBuild" :list="dataList" />
+        <BuildComp :components="dataList" :buildList="computerBuild" />
       </div>
     </div>
   </div>

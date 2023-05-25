@@ -96,7 +96,6 @@ export default {
         this.totalValue = Math.ceil(Math.max(...this.valueList) * 100) / 100
         this.valueGap = Math.round(this.totalValue * 10) / 100
         this.maxValue = this.totalValue
-        console.log(this.valueGap)
         return
       } else if (Math.max(...this.valueList) < 10) {
         this.totalValue = Math.ceil(Math.max(...this.valueList) / 10) * 10
