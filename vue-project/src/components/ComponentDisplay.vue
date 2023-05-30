@@ -4,7 +4,12 @@
     <div class="head">
       <div class="key keym">Add</div>
       <div class="head-container">
-        <div v-for="(key, index) in keys" :key="key" class="key" :style="'width: ' + 100 / keys.length + '%;'">
+        <div
+          v-for="(key, index) in keys"
+          :key="key"
+          class="key"
+          :style="'width: ' + 100 / keys.length + '%;'"
+        >
           <p class="key-text">
             {{
               key
@@ -21,7 +26,11 @@
       </div>
     </div>
     <div class="filters">
-      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
+      <FilterComponent
+        :list="filtersList"
+        @filterControl="manageFilters"
+        @valueChange="filterValue"
+      />
     </div>
     <ul class="main">
       <li v-for="component in filteredData.slice(0, currentCount)" :key="component">
@@ -30,7 +39,11 @@
         </button>
         <div class="parent">
           <div class="child-subkey">
-            <p v-for="(value, index) in keys" class="subkey" :style="'width: ' + 100 / keys.length + '%;'">
+            <p
+              v-for="(value, index) in keys"
+              class="subkey"
+              :style="'width: ' + 100 / keys.length + '%;'"
+            >
               {{ component[value] }}
             </p>
           </div>
@@ -207,8 +220,8 @@ export default {
         return acc
       }, {})
 
-      this.keys = Object.keys(this.filtersList).filter((data) =>
-        Array.isArray(this.filtersList[data]) && data.length < 17
+      this.keys = Object.keys(this.filtersList).filter(
+        (data) => Array.isArray(this.filtersList[data]) && data.length < 17
       )
     }
   },
@@ -217,6 +230,7 @@ export default {
       this.createData
       this.convertList
       this.selectedFilters = {}
+      this.currentCount = 200
     },
     filtersList(newValue, oldValue) {
       this.filteredData
@@ -262,7 +276,7 @@ export default {
   z-index: 1;
   height: 8rem;
   border-top-left-radius: 20px;
-  border-bottom: solid 1px white
+  border-bottom: solid 1px white;
 }
 
 .head {
@@ -278,7 +292,7 @@ export default {
   z-index: 1;
   height: 8rem;
   border-top-right-radius: 20px;
-  border-bottom: solid 1px white
+  border-bottom: solid 1px white;
 }
 
 .parent {
@@ -302,7 +316,6 @@ export default {
   white-space: wrap;
 }
 
-
 .head-container {
   width: 90%;
   display: flex;
@@ -318,7 +331,6 @@ export default {
   font-size: 2rem;
   text-align: center;
 }
-
 
 .key-text {
   margin: auto;
@@ -377,5 +389,6 @@ button:hover {
   text-align: center;
 }
 
-.data {}
+.data {
+}
 </style>

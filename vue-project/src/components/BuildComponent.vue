@@ -2,7 +2,7 @@
   <div class="build-container">
     <h2>Build</h2>
     <ul>
-      <li v-for="component in components" :key="component">
+      <li v-for="component in fullList" :key="component">
         <p>
           {{
             component
@@ -48,8 +48,17 @@ export default {
       return this.components.reduce((sum, component) => {
         return sum + component.price
       }, 0)
+    },
+    fullList() {
+      console.log(this.components, this.buildList)
+      return this.components
     }
   },
+  // watch: {
+  //   buildList(newVal, oldVal) {
+
+  //   }
+  // }
   mounted() {
     console.log(this.containsObj(this.components[0]))
   }
@@ -77,4 +86,5 @@ ul {
 
 li {
   font-size: 15px;
-}</style>
+}
+</style>
