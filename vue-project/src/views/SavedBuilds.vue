@@ -20,11 +20,15 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters" />
+        <ComponentDisplay
+          @addBuild="updateBuild"
+          class="display"
+          :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters"
+        />
       </div>
       <div class="build-display">
-        <BuildComp :components="dataList" :buildList="computerBuild" />
+        <BuildComp :buildList="computerBuild" @changeDisplay="(event) => (selectedValue = event)" />
       </div>
     </div>
   </div>
@@ -80,20 +84,16 @@ export default {
       this.activeFilters = []
     },
     updateBuild(part) {
-      let partAlreadyExists = false
-
-      for (let i = 0; i < this.computerBuild.length; i++) {
-        if (this.computerBuild[i].type === part.type) {
-          this.computerBuild.splice(i, 1, part)
-          partAlreadyExists = true
-          break
-        }
-      }
-      if (!partAlreadyExists) {
-        this.computerBuild.push(part)
-      }
       this.changeValue(1)
+
+      this.computerBuild[part.part] = part.item
     }
+  },
+  mounted() {
+    this.computerBuild = this.dataList.reduce((acc, item) => {
+      acc[item] = ''
+      return acc
+    }, {})
   }
 }
 </script>
@@ -116,7 +116,7 @@ export default {
   align-items: center;
 }
 
-.filters>* {
+.filters > * {
   margin-right: 10px;
 }
 

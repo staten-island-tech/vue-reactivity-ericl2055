@@ -2,23 +2,23 @@
   <div class="build-container">
     <h2>Build</h2>
     <ul>
-      <li v-for="component in fullList" :key="component">
-        <p>
-          {{
-            component
-              .split(/(?=[A-Z])/)
-              .map((string) =>
-                string.match(/cpu|ups/i)
-                  ? string.toUpperCase()
-                  : string[0].toUpperCase() + string.substring(1)
-              )
-              .join(' ')
-          }}
-        </p>
-        :
-        <p :key="containsObj(component)">
-          {{ containsObj(component) }}
-        </p>
+      <li v-for="([component, item], index) in Object.entries(buildList)" :key="component">
+        <button @click="$emit('changeDisplay', index)">
+          <p>
+            {{
+              component
+                .split(/(?=[A-Z])/)
+                .map((string) =>
+                  string.match(/cpu|ups/i)
+                    ? string.toUpperCase()
+                    : string[0].toUpperCase() + string.substring(1)
+                )
+                .join(' ')
+            }}
+          </p>
+          :
+          <p>{{ item.brand }} - ${{ item.price }}</p>
+        </button>
       </li>
     </ul>
     <h2>Total Price: ${{ totalPrice.toFixed(2) }}</h2>
@@ -28,39 +28,28 @@
 <script>
 export default {
   name: 'Build',
+  emits: ['changeDisplay'],
   props: {
-    components: {
-      type: Array,
-      required: true
-    },
     buildList: {
-      type: Array,
+      type: Object,
       required: true
-    }
-  },
-  methods: {
-    containsObj(component) {
-      return this.buildList.find((item) => item.type === component)
     }
   },
   computed: {
     totalPrice() {
-      return this.components.reduce((sum, component) => {
-        return sum + component.price
-      }, 0)
+      console.log(Object.values(this.buildList))
+      return Object.values(this.buildList).reduce(
+        (sum, component) => (component === '' ? sum : sum + component.price),
+        0
+      )
     },
     fullList() {
       console.log(this.components, this.buildList)
       return this.components
     }
   },
-  // watch: {
-  //   buildList(newVal, oldVal) {
-
-  //   }
-  // }
-  mounted() {
-    console.log(this.containsObj(this.components[0]))
+  watch: {
+    buildList(newVal, oldVal) {}
   }
 }
 </script>

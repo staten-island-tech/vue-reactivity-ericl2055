@@ -34,7 +34,7 @@
     </div>
     <ul class="main">
       <li v-for="component in filteredData.slice(0, currentCount)" :key="component">
-        <button @click="(event) => $emit('addBuild', { type: component, part: part })">
+        <button @click="(event) => $emit('addBuild', { item: component, part: part })">
           Add to Build
         </button>
         <div class="parent">
