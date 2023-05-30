@@ -19,9 +19,6 @@
         <p :key="containsObj(component)">
           {{ containsObj(component) }}
         </p>
-        <!-- {{ component.type }} : {{ component.brand }} {{ component.model }} - ${{
-          component.price.toFixed(2)
-        }} -->
       </li>
     </ul>
     <h2>Total Price: ${{ totalPrice.toFixed(2) }}</h2>
@@ -38,7 +35,7 @@ export default {
     },
     buildList: {
       type: Array,
-      required: false
+      required: true
     }
   },
   methods: {
@@ -63,18 +60,21 @@ export default {
 p {
   display: inline-block;
 }
+
 .build-container {
   font-size: 20px;
 }
+
 h2 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
+
 ul {
   list-style-type: none;
 }
+
 li {
   font-size: 15px;
-}
-</style>
+}</style>

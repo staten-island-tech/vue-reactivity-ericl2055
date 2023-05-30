@@ -4,12 +4,7 @@
     <div class="head">
       <div class="key keym">Add</div>
       <div class="head-container">
-        <div
-          v-for="(key, index) in keys"
-          :key="key"
-          class="key"
-          :style="'width: ' + 100 / keys.length + '%;'"
-        >
+        <div v-for="(key, index) in keys" :key="key" class="key" :style="'width: ' + 100 / keys.length + '%;'">
           <p class="key-text">
             {{
               key
@@ -26,11 +21,7 @@
       </div>
     </div>
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="component in filteredData.slice(0, currentCount)" :key="component">
@@ -38,13 +29,11 @@
           Add to Build
         </button>
         <div class="parent">
-          <p
-            v-for="(value, index) in keys"
-            class="subkey"
-            :style="'width: ' + 100 / keys.length + '%;'"
-          >
-            {{ component[value] }}
-          </p>
+          <div class="child-subkey">
+            <p v-for="(value, index) in keys" class="subkey" :style="'width: ' + 100 / keys.length + '%;'">
+              {{ component[value] }}
+            </p>
+          </div>
         </div>
       </li>
       <div class="showMore">
@@ -219,7 +208,7 @@ export default {
       }, {})
 
       this.keys = Object.keys(this.filtersList).filter((data) =>
-        Array.isArray(this.filtersList[data])
+        Array.isArray(this.filtersList[data]) && data.length < 17
       )
     }
   },
@@ -255,7 +244,7 @@ export default {
   grid-template:
     'build head'
     'filter list';
-  grid-template-rows: 7rem 1fr;
+  grid-template-rows: 8rem 1fr;
   grid-template-columns: 20rem 1fr;
   padding-top: 0;
 }
@@ -269,9 +258,11 @@ export default {
   padding-top: 0;
   display: flex;
   justify-content: space-around;
-  background-color: red;
+  background-color: #181818;
   z-index: 1;
-  height: 7rem;
+  height: 8rem;
+  border-top-left-radius: 20px;
+  border-bottom: solid 1px white
 }
 
 .head {
@@ -283,53 +274,57 @@ export default {
   left: 20rem;
   display: flex;
   justify-content: space-around;
-  background-color: red;
+  background-color: #181818;
   z-index: 1;
-  height: 7rem;
+  height: 8rem;
+  border-top-right-radius: 20px;
+  border-bottom: solid 1px white
 }
 
 .parent {
-  display: inline-block;
-  width: 86%;
+  width: 90%;
   height: 6rem;
-}
-.subkey {
   display: inline-block;
+}
+
+.child-subkey {
+  display: flex;
+}
+
+.subkey {
   top: 0;
   vertical-align: center;
   align-items: center;
   font-size: 1.5rem;
-  border-left: 1px solid rgb(255, 255, 255);
   text-align: center;
-  height: 6rem;
+  height: 7rem;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
+
 .head-container {
-  width: 86%;
+  width: 90%;
+  display: flex;
 }
 
 .key {
-  display: inline-block;
-  height: 7rem;
+  height: 8rem;
   align-items: center;
-  border-left: 1px solid rgb(255, 255, 255);
 }
 
 .keym {
-  width: 14%;
-  font-size: 2.5rem;
+  width: 10%;
+  font-size: 2rem;
   text-align: center;
 }
 
-.subkey0 {
-}
 
 .key-text {
   margin: auto;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
+  vertical-align: middle;
 }
 
 .filters {
@@ -366,7 +361,7 @@ li {
 }
 
 button {
-  width: 14%;
+  width: 10%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 1.5rem;
   color: rgb(175, 175, 175);
@@ -381,7 +376,6 @@ button:hover {
 .showMore {
   text-align: center;
 }
-.data {
-  display: inline-block;
-}
+
+.data {}
 </style>

@@ -3,45 +3,17 @@
     <div class="slider">
       <div class="progress" :style="progressWidth"></div>
     </div>
-    <div class="range-input" v-if="maxValue < 10">
-      <input
-        type="range"
-        class="range-min"
-        min="0"
-        :max="totalValue"
-        step="0.1"
-        v-model="minValue"
-      />
-      <input
-        type="range"
-        class="range-max"
-        min="0"
-        :max="totalValue"
-        step="0.1"
-        v-model="maxValue"
-      />
+    <div class="range-input" v-if="maxValue <= 10">
+      <input type="range" class="range-min" min="0" :max="totalValue" step="0.1" v-model="minValue" />
+      <input type="range" class="range-max" min="0" :max="totalValue" step="0.1" v-model="maxValue" />
       <div class="nums">
         <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(minValue) }}</p>
         <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(maxValue) }}</p>
       </div>
     </div>
     <div class="range-input" v-else>
-      <input
-        type="range"
-        class="range-min"
-        min="0"
-        :max="totalValue"
-        step="10"
-        v-model="minValue"
-      />
-      <input
-        type="range"
-        class="range-max"
-        min="0"
-        :max="totalValue"
-        step="10"
-        v-model="maxValue"
-      />
+      <input type="range" class="range-min" min="0" :max="totalValue" step="10" v-model="minValue" />
+      <input type="range" class="range-max" min="0" :max="totalValue" step="10" v-model="maxValue" />
       <div class="nums">
         <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(minValue) }}</p>
         <p>{{ !tempSymbol ? symbol : tempSymbol }}{{ genValue(maxValue) }}</p>
@@ -86,9 +58,8 @@ export default {
   },
   computed: {
     progressWidth() {
-      return `left: ${(this.minValue / this.totalValue) * 100}%; right: ${
-        100 - (this.maxValue / this.totalValue) * 100
-      }%;`
+      return `left: ${(this.minValue / this.totalValue) * 100}%; right: ${100 - (this.maxValue / this.totalValue) * 100
+        }%;`
     },
     greatestValue() {
       this.minValue = 0
@@ -97,7 +68,7 @@ export default {
         this.valueGap = Math.round(this.totalValue * 10) / 100
         this.maxValue = this.totalValue
         return
-      } else if (Math.max(...this.valueList) < 10) {
+      } else if (Math.max(...this.valueList) <= 10) {
         this.totalValue = Math.ceil(Math.max(...this.valueList) / 10) * 10
       } else if (Math.max(...this.valueList) < 800) {
         this.totalValue = Math.ceil(Math.max(...this.valueList) / 100) * 100

@@ -20,12 +20,8 @@
     </div>
     <div class="main">
       <div class="display">
-        <ComponentDisplay
-          @addBuild="updateBuild"
-          class="display"
-          :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters"
-        />
+        <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
+          :filters="this.activeFilters" />
       </div>
       <div class="build-display">
         <BuildComp :components="dataList" :buildList="computerBuild" />
@@ -120,7 +116,7 @@ export default {
   align-items: center;
 }
 
-.filters > * {
+.filters>* {
   margin-right: 10px;
 }
 
@@ -129,7 +125,7 @@ export default {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
-  width: 110rem;
+  width: 130rem;
 }
 
 .header h2 {
