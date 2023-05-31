@@ -4,12 +4,7 @@
     <div class="head">
       <div class="key keym">Add</div>
       <div class="head-container">
-        <div
-          v-for="(key, index) in keys"
-          :key="key"
-          class="key"
-          :style="'width: ' + 100 / keys.length + '%;'"
-        >
+        <div v-for="(key, index) in keys" :key="key" class="key" :style="'width: ' + 100 / keys.length + '%;'">
           <p class="key-text">
             {{
               key
@@ -26,11 +21,7 @@
       </div>
     </div>
     <div class="filters">
-      <FilterComponent
-        :list="filtersList"
-        @filterControl="manageFilters"
-        @valueChange="filterValue"
-      />
+      <FilterComponent :list="filtersList" @filterControl="manageFilters" @valueChange="filterValue" />
     </div>
     <ul class="main">
       <li v-for="component in filteredData.slice(0, currentCount)" :key="component">
@@ -39,12 +30,8 @@
         </button>
         <div class="parent">
           <div class="child-subkey">
-            <p
-              v-for="(value, index) in keys"
-              class="subkey"
-              :style="'width: ' + 100 / keys.length + '%;'"
-            >
-              {{ component[value] }}
+            <p v-for="(value, index) in keys" class="subkey" :style="'width: ' + 100 / keys.length + '%;'">
+              {{ JSON.stringify(component[value]) !== "{}" ? component[value] : "None" }}
             </p>
           </div>
         </div>
@@ -389,6 +376,5 @@ button:hover {
   text-align: center;
 }
 
-.data {
-}
+.data {}
 </style>

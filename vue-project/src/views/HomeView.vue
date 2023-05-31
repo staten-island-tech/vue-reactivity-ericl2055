@@ -25,8 +25,12 @@ export default {
       builds: JSON.parse(localStorage.getItem('builds'))
     }
   },
-  methods: {
-    addbuild: function () { }
+  mounted() {
+    let getBuilds = JSON.parse(localStorage.getItem('builds'))
+    if (getBuilds === undefined) {
+      getBuilds = []
+      localStorage.setItem("builds", getBuilds)
+    }
   }
 }
 </script>
@@ -117,7 +121,6 @@ h1 {
 .child:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
-  /* move the element up by 5px */
 }
 
 .child:hover:before,
@@ -126,7 +129,6 @@ h1 {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
 .name {

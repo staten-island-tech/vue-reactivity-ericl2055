@@ -1,6 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+let getBuilds = localStorage.getItem('builds')
+if (getBuilds === undefined || getBuilds === '' || getBuilds === null) {
+  getBuilds = []
+  localStorage.setItem('builds', JSON.stringify(getBuilds))
+}
+
 let activeRoutes = [
   {
     path: '/',
@@ -10,9 +16,6 @@ let activeRoutes = [
   {
     path: '/new',
     name: 'new',
-    // route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import('../views/SavedBuilds.vue')
   }
 ]
@@ -20,7 +23,7 @@ let activeRoutes = [
 JSON.parse(localStorage.getItem('builds')).forEach((build) =>
   activeRoutes.push({
     path: `/${build.name}`,
-    name: build.name,
+    name: `${build.name}|custom`,
     component: () => import('../views/SavedBuilds.vue')
   })
 )

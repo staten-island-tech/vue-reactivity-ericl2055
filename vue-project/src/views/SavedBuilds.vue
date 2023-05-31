@@ -18,18 +18,13 @@
       </h2>
       <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
-    <div class="main">
-      <div class="display">
-        <ComponentDisplay
-          @addBuild="updateBuild"
-          class="display"
-          :part="this.dataList[this.selectedValue]"
-          :filters="this.activeFilters"
-        />
-      </div>
-      <div class="build-display">
-        <BuildComp :buildList="computerBuild" @changeDisplay="(event) => (selectedValue = event)" />
-      </div>
+    <div class="display">
+      <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
+        :filters="this.activeFilters" />
+    </div>
+    <div class="build-display">
+      <BuildComp :buildList="computerBuild" :current="selectedValue"
+        @changeDisplay="(event) => (selectedValue = event)" />
     </div>
   </div>
 </template>
@@ -103,29 +98,22 @@ export default {
   font-size: 16px;
 }
 
-.main {
-  display: flex;
-}
-
-.display {
-  position: static;
-}
-
-.filters {
-  display: flex;
-  align-items: center;
-}
-
-.filters > * {
-  margin-right: 10px;
+.new {
+  display: grid;
+  grid-template:
+    "header build"
+    "display build";
+  margin: 10px;
 }
 
 .header {
+  grid-area: header;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
   width: 130rem;
+  height: 2rem;
 }
 
 .header h2 {
@@ -133,21 +121,6 @@ export default {
   margin: 0;
   width: 50rem;
   text-align: center;
-}
-
-.header label {
-  margin-right: 0.5rem;
-}
-
-.header input[type='text'] {
-  width: 200px;
-  padding: 0.25rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-}
-
-.new {
-  margin: 10px;
 }
 
 .arrow {
@@ -166,5 +139,14 @@ export default {
 #left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+.display {
+  grid-area: display;
+  position: static;
+}
+
+.build-display {
+  grid-area: build;
 }
 </style>

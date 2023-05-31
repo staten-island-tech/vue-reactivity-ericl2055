@@ -9,13 +9,12 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/" class="home">Home</RouterLink>
       </nav>
     </header>
-    <RouterView class="view"/>
+    <RouterView class="view" />
   </div>
 </template>
 
 <style scoped>
 .container {
-  /* width: 100vw; */
   height: 98.55vh;
   vertical-align: top;
 }
@@ -30,7 +29,7 @@ header {
 }
 
 .home {
-  font-size:2rem;
+  font-size: 2rem;
   height: 2.5rem;
 }
 </style>
