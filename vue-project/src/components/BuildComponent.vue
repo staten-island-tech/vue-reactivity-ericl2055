@@ -5,7 +5,10 @@
 
     <ul>
       <li v-for="([component, item], index) in Object.entries(buildList)" :key="component">
-        <button @click="$emit('changeDisplay', index)" :class="current === index ? 'selected' : 'none'">
+        <button
+          @click="$emit('changeDisplay', index)"
+          :class="current === index ? 'selected' : 'none'"
+        >
           <p class="component">
             {{
               component
@@ -24,20 +27,21 @@
       </li>
     </ul>
     <div class="name" v-if="$route.name === 'new'">
-      <p class="save-text">Save As: </p>
+      <p class="save-text">Save As:</p>
       <input placeholder="Name of Build" v-model="input" />
     </div>
     <button class="commit" @click="commit">{{ save }}</button>
   </div>
 </template>
 <script>
+import router from '../router'
 export default {
   name: 'Build',
   emits: ['changeDisplay'],
   data() {
     return {
-      save: "Save Build",
-      input: ""
+      save: 'Save Build',
+      input: ''
     }
   },
   props: {
@@ -61,33 +65,29 @@ export default {
       return this.components
     },
     commit() {
-      let current = JSON.parse(localStorage.getItem("builds"));
-      localStorage.removeItem("builds")
-      if (this.$route.name === "new") {
+      let current = JSON.parse(localStorage.getItem('builds'))
+      localStorage.removeItem('builds')
+      if (this.$route.name === 'new') {
+        if (this.input === '') {
+          this.input = Math.round(Math.random() * 999999).toString()
+        }
         current.push({ name: this.input, build: this.buildList })
-        this.$router.matcher = new VueRouter().matcher;
-
-        this.$router.addRoutes({
+        window.location.href = window.location.href.split('/new')[0]
+        router.addRoute({
           path: `/${this.input}`,
           name: `${this.input}|custom`,
           component: () => import('../views/SavedBuilds.vue')
-        });
+        })
       } else {
-        let name = this.$route.name.split("|")[0]
-        current = current.filter(obj => obj.name !== name)
+        let name = this.$route.name.split('|')[0]
+        current = current.filter((obj) => obj.name !== name)
         current.push({ name: name, build: this.buildList })
       }
-      localStorage.setItem("builds", JSON.stringify(current))
-      // const routeData = JSON.parse(localStorage.getItem('routeData'));
-      // const updatedRoutes = generateRoutesFromData(routeData);
-
-      // // Update the routes in Vue Router
-      // this.$router.matcher = new VueRouter().matcher;
-
+      localStorage.setItem('builds', JSON.stringify(current))
     }
   },
   watch: {
-    buildList(newVal, oldVal) { }
+    buildList(newVal, oldVal) {}
   }
 }
 </script>
@@ -97,12 +97,11 @@ p {
   display: inline-block;
 }
 
-
 h2 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-left: 1rem
+  margin-left: 1rem;
 }
 
 ul {
@@ -114,24 +113,24 @@ button {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  width: 45rem;
+  width: 50rem;
   text-align: left;
 }
 
 .selected {
-  background-color: rgba(100, 100, 100, 0.2)
+  background-color: rgba(100, 100, 100, 0.2);
 }
 
 button:hover {
-  background-color: rgba(100, 100, 100, 0.2)
+  background-color: rgba(100, 100, 100, 0.2);
 }
 
 p {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .component {
-  width: 22.3rem;
+  width: 16.5rem;
 }
 
 .commit {
@@ -155,7 +154,7 @@ p {
 
 .save-text {
   margin: 0;
-  margin-right: 0.5rem
+  margin-right: 0.5rem;
 }
 
 input {

@@ -19,12 +19,19 @@
       <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
     <div class="display">
-      <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
-        :filters="this.activeFilters" />
+      <ComponentDisplay
+        @addBuild="updateBuild"
+        class="display"
+        :part="this.dataList[this.selectedValue]"
+        :filters="this.activeFilters"
+      />
     </div>
     <div class="build-display">
-      <BuildComp :buildList="computerBuild" :current="selectedValue"
-        @changeDisplay="(event) => (selectedValue = event)" />
+      <BuildComp
+        :buildList="computerBuild"
+        :current="selectedValue"
+        @changeDisplay="(event) => (selectedValue = event)"
+      />
     </div>
   </div>
 </template>
@@ -89,6 +96,11 @@ export default {
       acc[item] = ''
       return acc
     }, {})
+    if (this.$route.name !== 'new') {
+      this.computerBuild = JSON.parse(localStorage.getItem('builds')).filter(
+        (obj) => obj.name === this.$route.name.split('|')[0]
+      )[0].build
+    }
   }
 }
 </script>
@@ -101,8 +113,8 @@ export default {
 .new {
   display: grid;
   grid-template:
-    "header build"
-    "display build";
+    'header build'
+    'display build';
   margin: 10px;
 }
 
