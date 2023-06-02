@@ -17,6 +17,11 @@ let activeRoutes = [
     path: '/new',
     name: 'new',
     component: () => import('../views/SavedBuilds.vue')
+  },
+  {
+    path: '/build/:id',
+    name: 'build',
+    component: () => import('../views/SavedBuilds.vue')
   }
 ]
 

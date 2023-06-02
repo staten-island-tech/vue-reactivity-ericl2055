@@ -31,6 +31,7 @@
       <input placeholder="Name of Build" v-model="input" />
     </div>
     <button class="commit" @click="commit">{{ save }}</button>
+    <button @click="remove">Remove</button>
   </div>
 </template>
 <script>
@@ -71,19 +72,25 @@ export default {
         if (this.input === '') {
           this.input = Math.round(Math.random() * 999999).toString()
         }
+        this.input = this.input.replaceAll(' ', '')
         current.push({ name: this.input, build: this.buildList })
-        window.location.href = window.location.href.split('/new')[0]
-        router.addRoute({
-          path: `/${this.input}`,
-          name: `${this.input}|custom`,
-          component: () => import('../views/SavedBuilds.vue')
-        })
       } else {
         let name = this.$route.name.split('|')[0]
         current = current.filter((obj) => obj.name !== name)
         current.push({ name: name, build: this.buildList })
       }
       localStorage.setItem('builds', JSON.stringify(current))
+    },
+    remove() {
+      let current = JSON.parse(localStorage.getItem('builds'))
+      localStorage.removeItem('builds')
+      if (window.confirm('Are you sure you want to delete this build?')) {
+        current = current.filter((value) => value.name !== this.$route.name)
+        localStorage.setItem('builds', JSON.stringify(current))
+        window.location.href = window.location.href.split('/')[0]
+      } else {
+        localStorage.setItem('builds', JSON.stringify(current))
+      }
     }
   },
   watch: {

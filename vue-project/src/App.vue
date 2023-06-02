@@ -27,7 +27,6 @@ header {
 .view {
   width: 100%;
 }
-
 .home {
   font-size: 2rem;
   height: 2.5rem;

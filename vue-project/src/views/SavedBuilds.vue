@@ -97,9 +97,9 @@ export default {
       return acc
     }, {})
     if (this.$route.name !== 'new') {
-      this.computerBuild = JSON.parse(localStorage.getItem('builds')).filter(
-        (obj) => obj.name === this.$route.name.split('|')[0]
-      )[0].build
+      // this.computerBuild = JSON.parse(localStorage.getItem('builds')).filter(
+      //   (obj) => obj.name === this.$route.name.split('|')[0]
+      // )[0].build
     }
   }
 }

@@ -3,7 +3,7 @@
     <nav>
       <h1 id="title">Builds</h1>
       <div class="parent">
-        <RouterLink :to="`/${build.name}`" class="child" v-for="build in builds">
+        <RouterLink :to="`/build/${build.name}`" class="child" v-for="build in builds">
           <p class="name">{{ build.name }}</p>
           <p class="description"></p>
         </RouterLink>
@@ -29,7 +29,7 @@ export default {
     let getBuilds = JSON.parse(localStorage.getItem('builds'))
     if (getBuilds === undefined) {
       getBuilds = []
-      localStorage.setItem("builds", getBuilds)
+      localStorage.setItem('builds', getBuilds)
     }
   }
 }
@@ -85,12 +85,15 @@ h1 {
 
 .parent {
   display: flex;
+  width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  margin: 0;
 }
 
 .child {
-  display: flex;
+  display: inline-block;
   width: 30rem;
   height: 15rem;
   color: green;
