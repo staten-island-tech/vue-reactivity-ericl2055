@@ -230,16 +230,18 @@ export default {
 }
 </script>
 <style scoped>
+@import "../assets/base.css";
+
 .parts-container {
   left: 20rem;
   top: 0rem;
   width: calc(100vw - 40rem);
   overflow-y: auto;
   padding: 1rem;
-  border: 1rem solid white;
+  border: 0.75rem solid var(--color-display);
   border-radius: 5rem;
   width: 130rem;
-  height: 85vh;
+  height: 85rem;
   overflow-y: auto;
   display: grid;
   grid-template:
@@ -259,11 +261,11 @@ export default {
   padding-top: 0;
   display: flex;
   justify-content: space-around;
-  background-color: #181818;
+  background-color: var(--color-background);
   z-index: 1;
   height: 8rem;
-  border-top-left-radius: 20px;
-  border-bottom: solid 1px white;
+  border-top-left-radius: 23px;
+  border-bottom: solid 1px var(--color-display);
 }
 
 .head {
@@ -275,11 +277,11 @@ export default {
   left: 20rem;
   display: flex;
   justify-content: space-around;
-  background-color: #181818;
+  background-color: var(--color-background);
   z-index: 1;
   height: 8rem;
   border-top-right-radius: 20px;
-  border-bottom: solid 1px white;
+  border-bottom: solid 1px var(--color-display);
 }
 
 .parent {
@@ -356,25 +358,23 @@ export default {
 li {
   margin-bottom: 0.5rem;
   font-size: 2rem;
-  color: rgb(175, 175, 175);
+  color: var(--color-text);
 }
 
 button {
   width: 10%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 1.5rem;
-  color: rgb(175, 175, 175);
-  border: 0.25rem solid rgb(175, 175, 175);
+  color: var(--color-text);
+  border: 0.25rem solid var(--color-text);
   border-radius: 1rem;
 }
 
 button:hover {
-  background-color: rgb(100, 100, 100);
+  background-color: var(--color-hover-1);
 }
 
 .showMore {
   text-align: center;
 }
-
-.data {}
 </style>

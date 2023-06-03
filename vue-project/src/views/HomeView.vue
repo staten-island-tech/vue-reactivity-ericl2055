@@ -7,7 +7,7 @@
           <p class="name">{{ build.name }}</p>
           <p class="description"></p>
         </RouterLink>
-        <RouterLink to="/new" class="child">
+        <RouterLink to="/new" class="child new">
           <p class="name">New</p>
           <p class="description"></p>
         </RouterLink>
@@ -25,6 +25,11 @@ export default {
       builds: JSON.parse(localStorage.getItem('builds'))
     }
   },
+  watch: {
+    $route(to, from) {
+      this.builds = JSON.parse(localStorage.getItem('builds'))
+    }
+  },
   mounted() {
     let getBuilds = JSON.parse(localStorage.getItem('builds'))
     if (getBuilds === undefined) {
@@ -35,6 +40,8 @@ export default {
 }
 </script>
 <style>
+@import "../assets/base.css";
+
 :root {
   --background-color: rgb(255, 255, 255);
   --hover-color: rgb(0, 0, 0);
@@ -97,8 +104,7 @@ h1 {
   width: 30rem;
   height: 15rem;
   color: green;
-  border-color: grey;
-  border: 1px solid #ddd;
+  border: 2px solid var(--color-border);
   padding: 10px;
   margin: 1rem;
   border-radius: 2rem;
@@ -144,5 +150,9 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.new {
+  border-color: rgb(212, 175, 55)
 }
 </style>

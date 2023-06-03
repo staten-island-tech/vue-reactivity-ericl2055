@@ -47,6 +47,7 @@ button {
   outline: none;
   background-color: #555;
   cursor: pointer;
+  color: #a7a7a7;
 }
 
 button.active {

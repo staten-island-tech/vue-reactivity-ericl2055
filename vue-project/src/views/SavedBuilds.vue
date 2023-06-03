@@ -19,19 +19,12 @@
       <button class="arrow" id="right" @click="changeValue(1)"></button>
     </div>
     <div class="display">
-      <ComponentDisplay
-        @addBuild="updateBuild"
-        class="display"
-        :part="this.dataList[this.selectedValue]"
-        :filters="this.activeFilters"
-      />
+      <ComponentDisplay @addBuild="updateBuild" class="display" :part="this.dataList[this.selectedValue]"
+        :filters="this.activeFilters" />
     </div>
     <div class="build-display">
-      <BuildComp
-        :buildList="computerBuild"
-        :current="selectedValue"
-        @changeDisplay="(event) => (selectedValue = event)"
-      />
+      <BuildComp :buildList="computerBuild" :current="selectedValue"
+        @changeDisplay="(event) => (selectedValue = event)" />
     </div>
   </div>
 </template>
@@ -106,6 +99,8 @@ export default {
 </script>
 
 <style scoped>
+@import "../assets/base.css";
+
 * {
   font-size: 16px;
 }
@@ -137,7 +132,7 @@ export default {
 
 .arrow {
   background-color: rgba(0, 0, 0, 0);
-  border: solid #ccc;
+  border: solid var(--color-arrow);
   border-width: 0 10px 10px 0;
   display: inline-block;
   padding: 3px;

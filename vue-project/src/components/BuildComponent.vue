@@ -1,14 +1,12 @@
 <template>
   <div class="build-container">
-    <h2>Build</h2>
+    <h2 v-if="$route.name === 'new'">New Build</h2>
+    <h2 v-else>Build: {{ $route.params.name }}</h2>
     <h2>Total Price: ${{ totalPrice.toFixed(2) }}</h2>
 
     <ul>
       <li v-for="([component, item], index) in Object.entries(buildList)" :key="component">
-        <button
-          @click="$emit('changeDisplay', index)"
-          :class="current === index ? 'selected' : 'none'"
-        >
+        <button @click="$emit('changeDisplay', index)" :class="current === index ? 'selected' : 'none'">
           <p class="component">
             {{
               component
@@ -26,23 +24,22 @@
         </button>
       </li>
     </ul>
-    <div class="name" v-if="$route.name === 'new'">
+    <div class="name extra" v-if="$route.name === 'new'">
       <p class="save-text">Save As:</p>
       <input placeholder="Name of Build" v-model="input" />
     </div>
-    <button class="commit" @click="commit">{{ save }}</button>
-    <button @click="remove">Remove</button>
+    <button class="commit extra" @click="commit">{{ save }}</button>
+    <button v-if="$route.name !== 'new'" class="remove extra" @click="remove">Remove</button>
   </div>
 </template>
 <script>
-import router from '../router'
 export default {
   name: 'Build',
   emits: ['changeDisplay'],
   data() {
     return {
       save: 'Save Build',
-      input: ''
+      input: '',
     }
   },
   props: {
@@ -66,6 +63,7 @@ export default {
       return this.components
     },
     commit() {
+      this.save = "Saved"
       let current = JSON.parse(localStorage.getItem('builds'))
       localStorage.removeItem('builds')
       if (this.$route.name === 'new') {
@@ -75,9 +73,8 @@ export default {
         this.input = this.input.replaceAll(' ', '')
         current.push({ name: this.input, build: this.buildList })
       } else {
-        let name = this.$route.name.split('|')[0]
-        current = current.filter((obj) => obj.name !== name)
-        current.push({ name: name, build: this.buildList })
+        current = current.filter((obj) => obj.name !== this.$route.params.name)
+        current.push({ name: this.$route.params.name, build: this.buildList })
       }
       localStorage.setItem('builds', JSON.stringify(current))
     },
@@ -85,21 +82,28 @@ export default {
       let current = JSON.parse(localStorage.getItem('builds'))
       localStorage.removeItem('builds')
       if (window.confirm('Are you sure you want to delete this build?')) {
-        current = current.filter((value) => value.name !== this.$route.name)
+        current = current.filter((value) => value.name !== this.$route.params.name)
         localStorage.setItem('builds', JSON.stringify(current))
-        window.location.href = window.location.href.split('/')[0]
+        window.location.href = window.location.href.split(/\/build|\/new/)[0]
       } else {
         localStorage.setItem('builds', JSON.stringify(current))
       }
     }
   },
   watch: {
-    buildList(newVal, oldVal) {}
+    buildList: {
+      handler(newVal, oldVal) {
+        this.save = "Save Build"
+      },
+      deep: true
+    }
   }
 }
 </script>
 
 <style scoped>
+@import "../assets/base.css";
+
 p {
   display: inline-block;
 }
@@ -117,7 +121,7 @@ ul {
 
 button {
   background-color: rgba(0, 0, 0, 0);
-  color: rgb(255, 255, 255);
+  color: var(--color-text);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
   width: 50rem;
@@ -125,11 +129,13 @@ button {
 }
 
 .selected {
-  background-color: rgba(100, 100, 100, 0.2);
+  background-color: var(--color-button-background);
+  color: rgb(255, 255, 255);
 }
 
 button:hover {
-  background-color: rgba(100, 100, 100, 0.2);
+  background-color: var(--color-button-background);
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -141,22 +147,36 @@ p {
 }
 
 .commit {
-  width: 45rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  background-color: var(--color-button-background);
+  color: rgb(255, 255, 255);
+}
+
+.commit:hover,
+.remove:hover {
+  background-color: var(--color-button-hover);
+}
+
+.extra {
   margin-left: 4rem;
   text-align: center;
 }
 
 .name {
   padding: 0;
-  margin: 0;
   font-size: 0;
-  width: 45rem;
-  margin-left: 4rem;
+  width: 50rem;
+  text-align: center;
   text-align: center;
   border: solid 2px rgb(0, 0, 0);
   margin-bottom: 0.5rem;
   padding-bottom: 4px;
+}
+
+.remove {
+  font-size: 2rem;
+  background-color: var(--color-button-background);
+  color: rgb(255, 255, 255);
 }
 
 .save-text {
