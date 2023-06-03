@@ -66,6 +66,9 @@ export default {
       this.save = "Saved"
       let current = JSON.parse(localStorage.getItem('builds'))
       localStorage.removeItem('builds')
+      if (current === undefined || current === null) {
+        current = []
+      }
       if (this.$route.name === 'new') {
         if (this.input === '') {
           this.input = Math.round(Math.random() * 999999).toString()
